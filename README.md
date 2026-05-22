@@ -2,7 +2,7 @@
 
 Chapter-by-chapter summaries of the Bible and the LDS Standard Works, informed by Hebrew, Greek, and multi-translation insight.
 
-**Live site:** _(to be filled in after the first Vercel deploy)_
+**Live site:** [sumbible.vercel.app](https://sumbible.vercel.app)
 
 ## What this is
 
