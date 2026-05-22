@@ -1,5 +1,6 @@
 ---
 import { canons, canonSlugs } from '../lib/canons';
+import ChiRho from './icons/ChiRho.astro';
 
 // Active-state highlighting: a nav link is "current" when the path starts
 // with its href (so /bible-ot/genesis still lights up the Old Testament tab).
@@ -18,10 +19,13 @@ function isActive(href: string): boolean {
 
 <header class="border-b border-stone-300">
   <div class="mx-auto flex max-w-4xl flex-wrap items-center justify-between gap-x-4 gap-y-3 px-4 py-5">
-    <a href="/" class="block">
-      <span class="text-2xl font-bold tracking-tight text-accent">SumBible</span>
-      <span class="block text-xs text-stone-500">
-        Chapter-by-chapter summaries, enriched by Hebrew, Greek, and many translations
+    <a href="/" class="flex items-center gap-2.5">
+      <ChiRho size={30} class="shrink-0 text-accent" />
+      <span class="block">
+        <span class="block text-2xl font-bold leading-none tracking-tight text-accent">SumBible</span>
+        <span class="mt-1 block text-xs text-stone-500">
+          Chapter-by-chapter summaries, enriched by Hebrew, Greek, and many translations
+        </span>
       </span>
     </a>
 
