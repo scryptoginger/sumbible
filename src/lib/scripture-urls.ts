@@ -14,11 +14,11 @@ export type Translation =
 
 const LDS_CANONS = ['book-of-mormon', 'doctrine-and-covenants', 'pearl-of-great-price'];
 
-/** First verse number of a verse value that may be a number, "5-7", or "5,7". */
-function firstVerse(verse: number | string | undefined): number {
-  if (verse === undefined) return NaN;
-  if (typeof verse === 'number') return verse;
-  return parseInt(String(verse), 10);
+/** First number of a value that may be a number, a range ("5-7"), or a list ("5,7"). */
+function firstNumber(value: number | string | undefined): number {
+  if (value === undefined) return NaN;
+  if (typeof value === 'number') return value;
+  return parseInt(String(value), 10);
 }
 
 /**
@@ -28,30 +28,31 @@ function firstVerse(verse: number | string | undefined): number {
  */
 export function buildScriptureUrl(
   book: BookMeta,
-  chapter: number,
+  chapter: number | string,
   verse?: number | string,
   translation: Translation = 'churchofjesuschrist',
 ): string {
   const isLds = LDS_CANONS.includes(book.canon);
   const effective: Translation = isLds ? 'churchofjesuschrist' : translation;
-  const v = firstVerse(verse);
+  const c = firstNumber(chapter); // first chapter, for chapter-range refs
+  const v = firstNumber(verse);
 
   switch (effective) {
     case 'biblegateway': {
-      const ref = verse ? `${book.name} ${chapter}:${verse}` : `${book.name} ${chapter}`;
+      const ref = verse ? `${book.name} ${c}:${verse}` : `${book.name} ${c}`;
       return `https://www.biblegateway.com/passage/?search=${encodeURIComponent(ref)}&version=NIV`;
     }
     case 'biblehub': {
       const slug = book.name.toLowerCase().replace(/\s+/g, '_');
       return Number.isFinite(v)
-        ? `https://biblehub.com/${slug}/${chapter}-${v}.htm`
-        : `https://biblehub.com/${slug}/${chapter}.htm`;
+        ? `https://biblehub.com/${slug}/${c}-${v}.htm`
+        : `https://biblehub.com/${slug}/${c}.htm`;
     }
     case 'netbible':
-      return `https://netbible.org/bible/${encodeURIComponent(`${book.name} ${chapter}`)}`;
+      return `https://netbible.org/bible/${encodeURIComponent(`${book.name} ${c}`)}`;
     case 'churchofjesuschrist':
     default: {
-      const base = `https://www.churchofjesuschrist.org/study/scriptures/${canonChurchPath[book.canon]}/${book.churchAbbr}/${chapter}`;
+      const base = `https://www.churchofjesuschrist.org/study/scriptures/${canonChurchPath[book.canon]}/${book.churchAbbr}/${c}`;
       return Number.isFinite(v) ? `${base}?lang=eng&id=p${v}#p${v}` : `${base}?lang=eng`;
     }
   }
@@ -60,9 +61,10 @@ export function buildScriptureUrl(
 /** Human-readable reference, e.g. "Isaiah 53:5–7" (range hyphens become en-dashes). */
 export function formatReference(
   book: BookMeta,
-  chapter: number,
+  chapter: number | string,
   verse?: number | string,
 ): string {
-  if (verse === undefined || verse === '') return `${book.name} ${chapter}`;
-  return `${book.name} ${chapter}:${String(verse).replace(/-/g, '–')}`;
+  const ch = String(chapter).replace(/-/g, '–');
+  if (verse === undefined || verse === '') return `${book.name} ${ch}`;
+  return `${book.name} ${ch}:${String(verse).replace(/-/g, '–')}`;
 }

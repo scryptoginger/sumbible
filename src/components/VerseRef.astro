@@ -16,8 +16,8 @@ import { buildScriptureUrl, formatReference, type Translation } from '../lib/scr
 
 interface Props {
   book: string;
-  chapter: number;
-  verse?: number | string;
+  chapter: number | string; // number, or a chapter range like "1-3"
+  verse?: number | string;  // verse, range ("5-7"), or omitted for chapter-level
   translation?: Translation;
 }
 
