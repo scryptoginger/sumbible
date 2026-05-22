@@ -1,8 +1,8 @@
 # SumBible
 
-Chapter-by-chapter summaries of the Bible and the LDS Standard Works, informed by Hebrew, Greek, and multi-translation insight.
+Chapter-by-chapter summaries of the Bible and the LDS Standard Works, informed by Hebrew, Greek, and multi-translation insight. (powered by AI)
 
-**Live site:** [sumbible.vercel.app](https://sumbible.vercel.app)
+**Live site:** [sumbible.vercel.app](https://sumbible.vercel.app) (note: link does NOT open in new tab automagically)
 
 ## What this is
 
