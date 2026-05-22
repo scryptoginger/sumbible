@@ -1,0 +1,14 @@
+---
+// Collapsible section that holds longer original-language commentary.
+// Place at the bottom of the deep summary in a chapter MDX file.
+// The slot accepts markdown/MDX content.
+---
+
+<details class="my-8 rounded border border-stone-300 bg-stone-50/60 p-4 open:bg-stone-50">
+  <summary class="cursor-pointer font-medium text-stone-700 select-none">
+    Language &amp; Translation Notes
+  </summary>
+  <div class="prose prose-stone mt-4 max-w-none">
+    <slot />
+  </div>
+</details>

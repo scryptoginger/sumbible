@@ -1,0 +1,32 @@
+---
+// Callout that surfaces a meaningful translation divergence at a specific verse.
+// Usage:
+//   <TranslationCompare verse={28}>
+//     <Fragment slot="translations">
+//       - **KJV:** "all things work together for good"
+//       - **NIV:** "in all things God works for the good"
+//       - **NRSV:** "all things work together for good"
+//     </Fragment>
+//     The fork here turns on whether the implicit subject is "all things"
+//     or "God" — a difference rooted in variant Greek manuscripts at this verse.
+//   </TranslationCompare>
+
+interface Props {
+  verse: number | string;
+  passage?: string;  // optional, e.g. "Romans 8:28"
+}
+
+const { verse, passage } = Astro.props;
+---
+
+<aside class="my-6 rounded border-l-4 border-amber-700 bg-amber-50/60 px-4 py-3">
+  <div class="mb-2 text-xs uppercase tracking-wider text-amber-800">
+    Translation Compare {passage ? `· ${passage}` : `· v.${verse}`}
+  </div>
+  <div class="prose prose-stone max-w-none prose-sm">
+    <slot name="translations" />
+  </div>
+  <div class="mt-3 prose prose-stone max-w-none prose-sm">
+    <slot />
+  </div>
+</aside>

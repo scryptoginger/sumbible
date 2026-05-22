@@ -1,0 +1,35 @@
+---
+// Inline footnote for an original-language term.
+// Usage:
+//   <LangNote
+//     term="Elohim"
+//     script="אֱלֹהִים"
+//     language="Hebrew"
+//     gloss="plural form often called the majestic plural; here singular in meaning"
+//   >
+//     Elohim
+//   </LangNote>
+//
+// Renders the children (the English term in the prose) with a subtle dotted
+// underline. On hover (desktop) or tap (mobile), a popover shows the script,
+// transliteration, language, and gloss.
+
+interface Props {
+  term: string;
+  script?: string;
+  language: 'Hebrew' | 'Aramaic' | 'Greek';
+  gloss: string;
+}
+
+const { term, script, language, gloss } = Astro.props;
+---
+
+<span class="lang-note group relative inline-block cursor-help underline decoration-dotted decoration-1 underline-offset-4">
+  <slot />
+  <span class="lang-note-popover absolute left-1/2 top-full z-20 mt-2 hidden w-72 -translate-x-1/2 rounded border border-stone-300 bg-stone-50 p-3 text-sm shadow-lg group-hover:block group-focus-within:block">
+    {script && <span class="block text-lg font-medium">{script}</span>}
+    <span class="block italic">{term}</span>
+    <span class="block text-xs text-stone-500">{language}</span>
+    <span class="mt-1 block">{gloss}</span>
+  </span>
+</span>

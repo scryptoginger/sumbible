@@ -1,0 +1,16 @@
+---
+interface Props {
+  status: 'draft' | 'review' | 'published';
+}
+const { status } = Astro.props;
+---
+
+{status !== 'published' && (
+  <span class={`ml-3 inline-block rounded-full px-2.5 py-0.5 text-xs font-medium ${
+    status === 'draft'
+      ? 'bg-amber-100 text-amber-800 ring-1 ring-amber-300'
+      : 'bg-blue-100 text-blue-800 ring-1 ring-blue-300'
+  }`}>
+    {status === 'draft' ? 'Draft — awaiting review' : 'In review'}
+  </span>
+)}
