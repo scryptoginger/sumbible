@@ -15,6 +15,7 @@
     "promote-chapter": "tsx scripts/promote-chapter.ts",
     "lint:content": "tsx scripts/lint-content.ts",
     "new-book": "tsx scripts/new-book.ts",
+    "new-canon": "tsx scripts/new-canon.ts",
     "build-favicons": "tsx scripts/build-favicons.ts",
     "postinstall": "simple-git-hooks"
   },
