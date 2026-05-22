@@ -1,0 +1,59 @@
+---
+import { canons, canonSlugs } from '../lib/canons';
+
+// Active-state highlighting: a nav link is "current" when the path starts
+// with its href (so /bible-ot/genesis still lights up the Old Testament tab).
+const path = Astro.url.pathname;
+const navLinks = [
+  ...canonSlugs.map((slug) => ({ href: `/${slug}`, label: canons[slug].name })),
+  { href: '/about', label: 'About' },
+];
+
+function isActive(href: string): boolean {
+  return path === href || path.startsWith(`${href}/`);
+}
+---
+
+<header class="border-b border-stone-300">
+  <div class="mx-auto flex max-w-4xl flex-wrap items-center justify-between gap-x-4 gap-y-3 px-4 py-5">
+    <a href="/" class="block">
+      <span class="text-2xl font-bold tracking-tight text-accent">SumBible</span>
+      <span class="block text-xs text-stone-500">
+        Chapter-by-chapter summaries, enriched by Hebrew, Greek, and many translations
+      </span>
+    </a>
+
+    {/* Checkbox-hack toggle — no JS needed for the basic mobile menu. */}
+    <input type="checkbox" id="nav-toggle" class="peer hidden" />
+    <label
+      for="nav-toggle"
+      class="cursor-pointer rounded p-2 text-stone-600 ring-1 ring-stone-300 select-none md:hidden"
+      aria-label="Toggle navigation menu"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6" />
+        <line x1="3" y1="12" x2="21" y2="12" />
+        <line x1="3" y1="18" x2="21" y2="18" />
+      </svg>
+    </label>
+
+    <nav class="hidden w-full peer-checked:block md:block md:w-auto" aria-label="Primary">
+      <ul class="flex flex-col gap-1 text-sm md:flex-row md:items-center md:gap-5">
+        {navLinks.map((link) => (
+          <li>
+            <a
+              href={link.href}
+              class:list={[
+                'block rounded px-2 py-1 hover:text-accent',
+                isActive(link.href) ? 'font-semibold text-accent' : 'text-stone-600',
+              ]}
+              aria-current={isActive(link.href) ? 'page' : undefined}
+            >
+              {link.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>

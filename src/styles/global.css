@@ -16,3 +16,13 @@ body {
   color: var(--color-ink);
   background: var(--color-parchment);
 }
+
+/*
+ * Mobile tap-to-toggle for <LangNote> popovers. The langnote-mobile.ts
+ * script toggles `.lang-note-active` on the <LangNote> wrapper; this
+ * descendant rule (specificity 0,2,0) reliably overrides the popover's
+ * `hidden` utility on touch devices, where :hover is unavailable.
+ */
+.lang-note-active .lang-note-popover {
+  display: block;
+}
