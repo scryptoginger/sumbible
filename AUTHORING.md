@@ -263,7 +263,23 @@ human review — never committed straight to `main`.
 
 ---
 
-## 12. Quick checklist before committing a draft
+## 12. Book and canon summaries
+
+Beyond per-chapter summaries, each book and each canon can carry a short
+overview, rendered on its index page (`/[canon]` and `/[canon]/[book]`). These
+live in `src/data/summaries.ts` — `bookSummaries` (keyed by book slug) and
+`canonSummaries` (keyed by canon slug) — currently empty scaffolds with the
+rendering already wired up.
+
+A book or canon summary is short prose that makes the same kind of sourceable
+claims a chapter summary does — authorship, date, place in the canon, dominant
+themes. It gets the same treatment: every non-obvious claim sourced (the
+`sources` field), no invented attributions, drafted then reviewed (the `status`
+field). Draft these in a dedicated content session, not casually.
+
+---
+
+## 13. Quick checklist before committing a draft
 
 - [ ] Skeleton generated with `npm run new-chapter`.
 - [ ] `status: draft`, `draftedBy: claude-code`, quoted `draftedOn`.

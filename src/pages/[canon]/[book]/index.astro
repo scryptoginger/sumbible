@@ -2,7 +2,9 @@
 import type { GetStaticPaths } from 'astro';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SummaryCard from '../../../components/SummaryCard.astro';
 import { canons, canonSlugs, type BookMeta, type CanonSlug } from '../../../lib/canons';
+import { bookSummaries } from '../../../data/summaries';
 
 export const getStaticPaths = (() => {
   const paths = [];
@@ -25,6 +27,7 @@ for (const e of all) {
   }
 }
 
+const bookSummary = bookSummaries[book.slug];
 const chapterNums = Array.from({ length: book.chapterCount }, (_, i) => i + 1);
 const summarizedCount = summaries.size;
 const unit = canon === 'doctrine-and-covenants' ? 'section' : 'chapter';
@@ -46,6 +49,8 @@ const unit = canon === 'doctrine-and-covenants' ? 'section' : 'chapter';
       ? `${summarizedCount} summarized`
       : 'no summaries yet'}
   </p>
+
+  {bookSummary && <SummaryCard summary={bookSummary} />}
 
   <ul class="mt-6 grid grid-cols-3 gap-2 sm:grid-cols-4 md:grid-cols-5">
     {

@@ -2,7 +2,9 @@
 import type { GetStaticPaths } from 'astro';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import SummaryCard from '../../components/SummaryCard.astro';
 import { canons, canonSlugs, type CanonSlug } from '../../lib/canons';
+import { canonSummaries } from '../../data/summaries';
 
 export const getStaticPaths = (() => {
   return canonSlugs.map((canon) => ({ params: { canon }, props: { canon } }));
@@ -10,6 +12,7 @@ export const getStaticPaths = (() => {
 
 const { canon } = Astro.props as { canon: CanonSlug };
 const canonData = canons[canon];
+const canonSummary = canonSummaries[canon];
 
 const all = await getCollection('chapters');
 const summaryCount = (bookSlug: string) =>
@@ -27,6 +30,8 @@ const summaryCount = (bookSlug: string) =>
   <p class="mt-2 text-stone-500">
     {canonData.books.length} book{canonData.books.length === 1 ? '' : 's'}
   </p>
+
+  {canonSummary && <SummaryCard summary={canonSummary} />}
 
   <ul class="mt-6 divide-y divide-stone-200 border-y border-stone-200">
     {

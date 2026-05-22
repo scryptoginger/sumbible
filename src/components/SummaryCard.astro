@@ -1,0 +1,39 @@
+---
+// Renders a book-level or canon-level summary (see src/data/summaries.ts).
+// Used by the canon and book index pages; nothing renders if no summary
+// has been drafted for that book/canon yet.
+import StatusBadge from './StatusBadge.astro';
+import type { Summary } from '../data/summaries';
+
+interface Props {
+  summary: Summary;
+}
+
+const { summary } = Astro.props;
+---
+
+<section class="mt-4 rounded-lg border border-stone-200 bg-stone-50/70 p-5">
+  <p class="leading-relaxed text-stone-700">
+    {summary.summary}<StatusBadge status={summary.status} />
+  </p>
+  {
+    summary.sources && summary.sources.length > 0 && (
+      <p class="mt-2 text-xs text-stone-500">
+        Sources:{' '}
+        {summary.sources.map((s, i) => (
+          <>
+            {i > 0 && '; '}
+            {s.author ? `${s.author}, ` : ''}
+            {s.url ? (
+              <a href={s.url} target="_blank" rel="noopener noreferrer" class="underline">
+                {s.title}
+              </a>
+            ) : (
+              s.title
+            )}
+          </>
+        ))}
+      </p>
+    )
+  }
+</section>
