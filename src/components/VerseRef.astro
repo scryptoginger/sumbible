@@ -1,0 +1,50 @@
+---
+// VerseRef — an inline, clickable scripture cross-reference.
+//
+//   <VerseRef book="isaiah" chapter={53} verse={5} />
+//   <VerseRef book="isaiah" chapter={53} verse="5-7" />
+//   <VerseRef book="3-nephi" chapter={11} verse="22-28" />
+//   <VerseRef book="matthew" chapter={28} verse="18-20" translation="biblegateway" />
+//   <VerseRef book="isaiah" chapter={6} />            {/* chapter-level, no verse */}
+//
+// `book` is a canon slug (see src/lib/canons.ts). The canon is looked up
+// from it; LDS-canon references always link to churchofjesuschrist.org.
+// An unknown slug renders as plain text and logs a build-time warning so
+// the build never breaks on a typo.
+import { findBookBySlug } from '../lib/canons';
+import { buildScriptureUrl, formatReference, type Translation } from '../lib/scripture-urls';
+
+interface Props {
+  book: string;
+  chapter: number;
+  verse?: number | string;
+  translation?: Translation;
+}
+
+const { book, chapter, verse, translation } = Astro.props;
+const meta = findBookBySlug(book);
+
+if (!meta) {
+  console.warn(
+    `[VerseRef] Unknown book slug "${book}" (${book} ${chapter}:${verse ?? ''}) — rendered as plain text.`,
+  );
+}
+---
+
+{
+  meta ? (
+    <a
+      href={buildScriptureUrl(meta, chapter, verse, translation)}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="verse-ref whitespace-nowrap text-accent underline decoration-stone-300 decoration-1 underline-offset-2 hover:decoration-accent"
+    >
+      {formatReference(meta, chapter, verse)}<span class="ml-0.5 align-super text-[0.6em] text-stone-400">↗</span>
+    </a>
+  ) : (
+    <span class="verse-ref-unknown">
+      {book} {chapter}
+      {verse !== undefined ? `:${verse}` : ''}
+    </span>
+  )
+}

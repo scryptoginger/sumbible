@@ -6,6 +6,7 @@ import { canons, type CanonSlug } from '../../../lib/canons';
 import LangNote from '../../../components/LangNote.astro';
 import LangNotes from '../../../components/LangNotes.astro';
 import TranslationCompare from '../../../components/TranslationCompare.astro';
+import VerseRef from '../../../components/VerseRef.astro';
 import Sources from '../../../components/Sources.astro';
 import StatusBadge from '../../../components/StatusBadge.astro';
 
@@ -122,7 +123,7 @@ const links = extLinkDefs
   <hr class="my-8 border-stone-300" />
 
   <article class="prose prose-stone max-w-none">
-    <Content components={{ LangNote, LangNotes, TranslationCompare }} />
+    <Content components={{ LangNote, LangNotes, TranslationCompare, VerseRef }} />
   </article>
 
   <Sources sources={data.sources} />
