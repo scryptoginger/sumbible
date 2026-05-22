@@ -1,0 +1,53 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const chapters = await getCollection('chapters');
+const themeSet = new Set<string>();
+for (const chapter of chapters) {
+  for (const theme of chapter.data.themes) themeSet.add(theme);
+}
+const themes = [...themeSet].sort((a, b) => a.localeCompare(b));
+
+function humanize(theme: string): string {
+  const spaced = theme.replace(/-/g, ' ');
+  return spaced.charAt(0).toUpperCase() + spaced.slice(1);
+}
+function countFor(theme: string): number {
+  return chapters.filter((c) => c.data.themes.includes(theme)).length;
+}
+---
+
+<BaseLayout
+  title="Themes"
+  description="Browse SumBible chapter summaries by theme."
+>
+  <h1 class="text-3xl font-bold text-ink">Themes</h1>
+  <p class="mt-3 text-stone-600">
+    Themes are thematic threads — creation, covenant, messianic prophecy, and
+    the like — that run across the chapters SumBible has summarized. They
+    accrete as chapters are drafted and tagged.
+  </p>
+
+  {
+    themes.length === 0 ? (
+      <p class="mt-8 text-stone-400 italic">
+        Themes will appear here as chapters are drafted with thematic tags.
+      </p>
+    ) : (
+      <ul class="mt-6 flex flex-wrap gap-2">
+        {themes.map((theme) => (
+          <li>
+            <a
+              href={`/themes/${theme}`}
+              class="inline-block rounded-full border border-stone-300 bg-stone-50 px-3 py-1 text-sm text-accent hover:border-accent"
+            >
+              {humanize(theme)}
+              <span class="ml-1 text-stone-400">{countFor(theme)}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</BaseLayout>

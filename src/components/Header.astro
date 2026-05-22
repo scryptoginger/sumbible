@@ -7,6 +7,7 @@ const path = Astro.url.pathname;
 const navLinks = [
   ...canonSlugs.map((slug) => ({ href: `/${slug}`, label: canons[slug].name, feature: false })),
   { href: '/christ', label: 'Christ', feature: true },
+  { href: '/themes', label: 'Themes', feature: true },
   { href: '/about', label: 'About', feature: false },
 ];
 
