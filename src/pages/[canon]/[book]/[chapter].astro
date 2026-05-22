@@ -163,6 +163,21 @@ const jsonLd =
 
   <Sources sources={data.sources} />
 
+  <p class="mt-8 text-sm">
+    <a
+      href={`https://github.com/scryptoginger/sumbible/issues/new?title=${encodeURIComponent(
+        `Correction: ${heading}`,
+      )}&body=${encodeURIComponent(
+        `Chapter: ${pageUrl}\n\nCorrection:\n\n`,
+      )}&labels=correction`}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="text-stone-500 underline decoration-dotted hover:text-stone-700"
+    >
+      Suggest a correction
+    </a>
+  </p>
+
   {
     data.christReferences.length > 0 && (
       <section class="mt-12 border-t border-stone-300 pt-6">
