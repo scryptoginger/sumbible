@@ -67,8 +67,8 @@ const extLinkDefs = [
   { key: 'netBible', label: 'NET Bible' },
 ] as const;
 const links = extLinkDefs
-  .map((d) => ({ label: d.label, url: data.externalLinks[d.key] }))
-  .filter((l): l is { label: string; url: string } => Boolean(l.url));
+  .filter((d) => Boolean(data.externalLinks[d.key]))
+  .map((d) => ({ label: d.label, url: data.externalLinks[d.key]! }));
 ---
 
 <BaseLayout title={heading} description={data.highlightSummary}>
