@@ -71,9 +71,38 @@ const extLinkDefs = [
 const links = extLinkDefs
   .filter((d) => Boolean(data.externalLinks[d.key]))
   .map((d) => ({ label: d.label, url: data.externalLinks[d.key]! }));
+
+const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
+
+// Structured data — emitted only for published chapters, so draft summaries
+// are not advertised to search engines as authoritative.
+const jsonLd =
+  data.status === 'published'
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: data.title ? `${heading} — ${data.title}` : heading,
+        datePublished: data.reviewedOn ?? data.draftedOn,
+        dateModified: data.reviewedOn ?? data.draftedOn,
+        author: { '@type': 'Person', name: 'Keith Lutes' },
+        publisher: { '@type': 'Organization', name: 'SumBible' },
+        mainEntityOfPage: pageUrl,
+        about: `${data.book} chapter ${data.chapter}, scripture summary`,
+      }
+    : null;
 ---
 
-<BaseLayout title={heading} description={data.highlightSummary}>
+<BaseLayout
+  title={heading}
+  description={data.highlightSummary}
+  noindex={data.status !== 'published'}
+  ogType="article"
+>
+  {
+    jsonLd && (
+      <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
+    )
+  }
   <nav class="text-sm text-stone-500" aria-label="Breadcrumb">
     <a href={`/${data.canon}`} class="hover:text-accent">{canonData.name}</a>
     <span class="mx-1.5 text-stone-400">&rsaquo;</span>
