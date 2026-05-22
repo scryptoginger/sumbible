@@ -1,10 +1,16 @@
 ---
 import type { GetStaticPaths } from 'astro';
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import SummaryCard from '../../../components/SummaryCard.astro';
+import SectionDivider from '../../../components/SectionDivider.astro';
+import StatusBadge from '../../../components/StatusBadge.astro';
+import Sources from '../../../components/Sources.astro';
+import LangNote from '../../../components/LangNote.astro';
+import LangNotes from '../../../components/LangNotes.astro';
+import TranslationCompare from '../../../components/TranslationCompare.astro';
+import VerseRef from '../../../components/VerseRef.astro';
+import ScriptureBlock from '../../../components/ScriptureBlock.astro';
 import { canons, canonSlugs, type BookMeta, type CanonSlug } from '../../../lib/canons';
-import { bookSummaries } from '../../../data/summaries';
 
 export const getStaticPaths = (() => {
   const paths = [];
@@ -27,10 +33,20 @@ for (const e of all) {
   }
 }
 
-const bookSummary = bookSummaries[book.slug];
+const bookEntry = (await getCollection('books')).find(
+  (e) => e.data.canon === canon && e.data.bookSlug === book.slug,
+);
+const Content = bookEntry ? (await render(bookEntry)).Content : null;
+const mdxComponents = { LangNote, LangNotes, TranslationCompare, VerseRef, ScriptureBlock };
+
 const chapterNums = Array.from({ length: book.chapterCount }, (_, i) => i + 1);
 const summarizedCount = summaries.size;
 const unit = canon === 'doctrine-and-covenants' ? 'section' : 'chapter';
+const hasMeta = Boolean(
+  bookEntry?.data.authorshipNote ||
+    bookEntry?.data.datingNote ||
+    bookEntry?.data.literaryGenre,
+);
 ---
 
 <BaseLayout title={book.name}>
@@ -42,17 +58,61 @@ const unit = canon === 'doctrine-and-covenants' ? 'section' : 'chapter';
     <span class="text-stone-700">{book.name}</span>
   </nav>
 
-  <h1 class="mt-3 text-3xl font-bold text-ink">{book.name}</h1>
+  <h1 class="mt-3 text-3xl font-bold text-ink">
+    {book.name}{bookEntry && <StatusBadge status={bookEntry.data.status} />}
+  </h1>
   <p class="mt-2 text-stone-500">
     {book.chapterCount} {unit}s ·{' '}
-    {summarizedCount > 0
-      ? `${summarizedCount} summarized`
-      : 'no summaries yet'}
+    {summarizedCount > 0 ? `${summarizedCount} summarized` : 'no summaries yet'}
   </p>
 
-  {bookSummary && <SummaryCard summary={bookSummary} />}
+  {
+    bookEntry && Content && (
+      <>
+        <section class="mt-6 rounded-lg border border-stone-200 bg-stone-50/70 p-5">
+          <p class="text-lg leading-relaxed text-ink">{bookEntry.data.highlightSummary}</p>
+        </section>
 
-  <ul class="mt-6 grid grid-cols-3 gap-2 sm:grid-cols-4 md:grid-cols-5">
+        {hasMeta && (
+          <aside class="mt-4 space-y-1 rounded border border-stone-200 bg-stone-50/40 p-4 text-sm">
+            {bookEntry.data.authorshipNote && (
+              <p>
+                <span class="font-semibold text-stone-600">Authorship:</span>{' '}
+                {bookEntry.data.authorshipNote}
+              </p>
+            )}
+            {bookEntry.data.datingNote && (
+              <p>
+                <span class="font-semibold text-stone-600">Dating:</span>{' '}
+                {bookEntry.data.datingNote}
+              </p>
+            )}
+            {bookEntry.data.literaryGenre && (
+              <p>
+                <span class="font-semibold text-stone-600">Genre:</span>{' '}
+                {bookEntry.data.literaryGenre}
+              </p>
+            )}
+          </aside>
+        )}
+
+        <SectionDivider />
+
+        <article class="prose prose-stone max-w-none">
+          <Content components={mdxComponents} />
+        </article>
+
+        {bookEntry.data.sources.length > 0 && <Sources sources={bookEntry.data.sources} />}
+
+        <SectionDivider />
+      </>
+    )
+  }
+
+  <h2 class="text-sm font-semibold tracking-wider text-stone-500 uppercase">
+    {unit === 'section' ? 'Sections' : 'Chapters'}
+  </h2>
+  <ul class="mt-3 grid grid-cols-3 gap-2 sm:grid-cols-4 md:grid-cols-5">
     {
       chapterNums.map((num) => {
         const status = summaries.get(num);
