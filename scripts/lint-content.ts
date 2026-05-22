@@ -1,5 +1,6 @@
 /**
- * lint:content — discipline checks for chapter MDX that Zod can't express.
+ * lint:content — discipline checks for the chapter, book, and canon MDX
+ * collections that Zod can't express.
  *
  *   npm run lint:content
  *
@@ -9,9 +10,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
 import { CONTENT_DIR } from './lib/paths';
-import { canons } from './lib/canons';
+import { canons, canonSlugs, type CanonSlug } from './lib/canons';
 
 type Severity = 'ERROR' | 'WARN';
+type Kind = 'chapter' | 'book' | 'canon';
 interface Issue {
   file: string;
   line?: number;
@@ -48,9 +50,7 @@ const refPattern = new RegExp(
   'g',
 );
 
-const files = fs.existsSync(CONTENT_DIR) ? walk(CONTENT_DIR).sort() : [];
-
-for (const file of files) {
+function checkFile(kind: Kind, file: string): void {
   const rel = path.relative(process.cwd(), file);
   const raw = fs.readFileSync(file, 'utf8');
   const parsed = matter(raw);
@@ -58,7 +58,7 @@ for (const file of files) {
   const body = parsed.content;
   const fileLines = raw.split('\n');
 
-  // 1 & 2 — highlight summary shape.
+  // 1 & 2 — highlight summary shape (all collections).
   const highlight = typeof data.highlightSummary === 'string' ? data.highlightSummary : '';
   if (highlight) {
     const sentences = highlight.trim().split(/[.!?]+\s+/).filter(Boolean).length;
@@ -71,12 +71,12 @@ for (const file of files) {
     }
   }
 
-  // 3 — long deep summary should cite something.
+  // 3 — long deep summary should cite something (all collections).
   if (body.length > 1500 && (!Array.isArray(data.sources) || data.sources.length === 0)) {
     report(rel, 'WARN', `deep summary is ${body.length} chars but cites no sources`);
   }
 
-  // 4 — frontmatter dates must be quoted strings (the session-01 YAML gotcha).
+  // 4 — frontmatter dates must be quoted strings (all collections).
   const fmEnd = fileLines.indexOf('---', 1);
   for (let i = 1; i < (fmEnd === -1 ? fileLines.length : fmEnd); i++) {
     if (/^\s*(draftedOn|reviewedOn):\s*\d{4}-\d{2}-\d{2}\s*$/.test(fileLines[i])) {
@@ -85,7 +85,7 @@ for (const file of files) {
     }
   }
 
-  // 5 — raw scripture references that should be <VerseRef /> (advisory).
+  // 5 — raw scripture references that should be <VerseRef /> (all collections).
   const prose = body.replace(/<[^>]*>/g, ' ');
   const seen = new Set<string>();
   for (const match of prose.matchAll(refPattern)) {
@@ -94,16 +94,7 @@ for (const file of files) {
     report(rel, 'WARN', `raw reference "${match[0]}" — consider wrapping it in <VerseRef />`);
   }
 
-  // 6 — christReferences verse bounds.
-  if (Array.isArray(data.christReferences)) {
-    for (const cr of data.christReferences) {
-      if (!Number.isInteger(cr?.verse) || cr.verse < 1) {
-        report(rel, 'ERROR', `christReferences entry has invalid verse: ${JSON.stringify(cr?.verse)}`);
-      }
-    }
-  }
-
-  // 7 — status workflow integrity.
+  // 6 — status workflow integrity (all collections).
   if (data.status === 'published' && (!data.draftedOn || !data.reviewedOn)) {
     report(rel, 'ERROR', 'status is published but draftedOn/reviewedOn is missing');
   }
@@ -111,16 +102,54 @@ for (const file of files) {
     report(rel, 'ERROR', 'status is review but reviewedOn is missing');
   }
 
-  // 8 — original-language sanity for the Bible canons.
-  if (
-    (data.canon === 'bible-ot' || data.canon === 'bible-nt') &&
-    ['none', 'modern-english'].includes(data.originalLanguage)
-  ) {
-    report(
-      rel,
-      'WARN',
-      `originalLanguage is "${data.originalLanguage}" for a Bible canon (Aramaic portions aside)`,
-    );
+  // 7 — chapter-only checks.
+  if (kind === 'chapter') {
+    if (Array.isArray(data.christReferences)) {
+      for (const cr of data.christReferences) {
+        if (!Number.isInteger(cr?.verse) || cr.verse < 1) {
+          report(rel, 'ERROR', `christReferences entry has invalid verse: ${JSON.stringify(cr?.verse)}`);
+        }
+      }
+    }
+    if (
+      (data.canon === 'bible-ot' || data.canon === 'bible-nt') &&
+      ['none', 'modern-english'].includes(data.originalLanguage)
+    ) {
+      report(rel, 'WARN', `originalLanguage is "${data.originalLanguage}" for a Bible canon`);
+    }
+  }
+
+  // 8 — book-only checks: canon + bookSlug must resolve in canons.ts.
+  if (kind === 'book') {
+    const canon = data.canon as CanonSlug;
+    if (!canonSlugs.includes(canon)) {
+      report(rel, 'ERROR', `unknown canon "${data.canon}"`);
+    } else if (!canons[canon].books.some((b) => b.slug === data.bookSlug)) {
+      report(rel, 'ERROR', `bookSlug "${data.bookSlug}" not found in canon ${canon}`);
+    }
+  }
+
+  // 9 — canon-only checks: slug must match the filename.
+  if (kind === 'canon') {
+    const expected = path.basename(file, '.mdx');
+    if (data.slug !== expected) {
+      report(rel, 'ERROR', `slug "${data.slug}" does not match filename "${expected}.mdx"`);
+    }
+  }
+}
+
+const collections: { kind: Kind; dir: string }[] = [
+  { kind: 'chapter', dir: CONTENT_DIR },
+  { kind: 'book', dir: path.join(CONTENT_DIR, '..', 'books') },
+  { kind: 'canon', dir: path.join(CONTENT_DIR, '..', 'canons') },
+];
+
+let fileCount = 0;
+for (const { kind, dir } of collections) {
+  if (!fs.existsSync(dir)) continue;
+  for (const file of walk(dir).sort()) {
+    fileCount++;
+    checkFile(kind, file);
   }
 }
 
@@ -133,6 +162,6 @@ for (const issue of issues) {
 }
 
 console.log(
-  `\nlint:content — ${files.length} file(s): ${errors.length} error(s), ${warns.length} warning(s)`,
+  `\nlint:content — ${fileCount} file(s): ${errors.length} error(s), ${warns.length} warning(s)`,
 );
 process.exit(errors.length > 0 ? 1 : 0);
