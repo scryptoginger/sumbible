@@ -13,7 +13,11 @@
     "astro": "astro",
     "new-chapter": "tsx scripts/new-chapter.ts",
     "promote-chapter": "tsx scripts/promote-chapter.ts",
-    "lint:content": "tsx scripts/lint-content.ts"
+    "lint:content": "tsx scripts/lint-content.ts",
+    "postinstall": "simple-git-hooks"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx astro check && npm run lint:content"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.6",
@@ -31,6 +35,7 @@
     "canvaskit-wasm": "^0.41.1",
     "gray-matter": "^4.0.3",
     "pagefind": "^1.5.2",
+    "simple-git-hooks": "^2.13.1",
     "tsx": "^4.22.3",
     "typescript": "^6.0.3",
     "yaml": "^2.9.0"
