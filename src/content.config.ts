@@ -104,6 +104,35 @@ const bookSchema = z.object({
   reviewedOn: z.string().optional(),
 });
 
+// Canon-level summaries — one MDX file per canon, named by slug.
+const canonSchema = z.object({
+  slug: canonEnum,
+  name: z.string(),
+
+  // Canon summaries can run slightly longer than book/chapter highlights
+  highlightSummary: z.string().min(40).max(700),
+
+  // Optional metadata
+  spanNote: z.string().optional(),
+  languageNote: z.string().optional(),
+  bookCount: z.number().int().optional(),
+
+  themes: z.array(z.string()).default([]),
+
+  sources: z.array(z.object({
+    title: z.string(),
+    author: z.string().optional(),
+    url: z.string().url().optional(),
+    note: z.string().optional(),
+  })).default([]),
+
+  status: statusEnum.default('draft'),
+  draftedBy: z.string().optional(),
+  draftedOn: z.string().optional(),
+  reviewedBy: z.string().optional(),
+  reviewedOn: z.string().optional(),
+});
+
 export const collections = {
   chapters: defineCollection({
     loader: glob({ pattern: '**/*.mdx', base: './src/content/chapters' }),
@@ -112,5 +141,9 @@ export const collections = {
   books: defineCollection({
     loader: glob({ pattern: '**/*.mdx', base: './src/content/books' }),
     schema: bookSchema,
+  }),
+  canons: defineCollection({
+    loader: glob({ pattern: '*.mdx', base: './src/content/canons' }),
+    schema: canonSchema,
   }),
 };
