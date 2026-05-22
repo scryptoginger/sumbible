@@ -133,6 +133,33 @@ const links = extLinkDefs
 
   <Sources sources={data.sources} />
 
+  {
+    data.christReferences.length > 0 && (
+      <section class="mt-12 border-t border-stone-300 pt-6">
+        <h2 class="text-sm font-semibold tracking-wider text-stone-500 uppercase">
+          Names &amp; Titles of Christ in This Chapter
+        </h2>
+        <ul class="mt-3 space-y-4">
+          {data.christReferences.map((ref) => (
+            <li id={`v-${ref.verse}`} class="scroll-mt-24">
+              <div class="flex flex-wrap items-baseline gap-x-3">
+                <span class="font-medium text-accent">{ref.name}</span>
+                <span class="text-xs text-stone-400">
+                  verse {ref.verse} ·{' '}
+                  <VerseRef book={data.bookSlug} chapter={data.chapter} verse={ref.verse} />
+                </span>
+              </div>
+              {ref.note && <p class="mt-0.5 text-sm text-stone-600">{ref.note}</p>}
+            </li>
+          ))}
+        </ul>
+        <p class="mt-4 text-xs text-stone-400">
+          Part of the cross-corpus <a href="/christ" class="underline hover:text-accent">references to Christ</a> index.
+        </p>
+      </section>
+    )
+  }
+
   <nav class="mt-12 flex flex-wrap items-center justify-between gap-3 border-t border-stone-300 pt-6 text-sm">
     <span>
       {

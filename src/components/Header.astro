@@ -5,8 +5,9 @@ import { canons, canonSlugs } from '../lib/canons';
 // with its href (so /bible-ot/genesis still lights up the Old Testament tab).
 const path = Astro.url.pathname;
 const navLinks = [
-  ...canonSlugs.map((slug) => ({ href: `/${slug}`, label: canons[slug].name })),
-  { href: '/about', label: 'About' },
+  ...canonSlugs.map((slug) => ({ href: `/${slug}`, label: canons[slug].name, feature: false })),
+  { href: '/christ', label: 'Christ', feature: true },
+  { href: '/about', label: 'About', feature: false },
 ];
 
 function isActive(href: string): boolean {
@@ -59,7 +60,11 @@ function isActive(href: string): boolean {
               href={link.href}
               class:list={[
                 'block rounded px-2 py-1 hover:text-accent',
-                isActive(link.href) ? 'font-semibold text-accent' : 'text-stone-600',
+                isActive(link.href)
+                  ? 'font-semibold text-accent'
+                  : link.feature
+                    ? 'text-accent/80'
+                    : 'text-stone-600',
               ]}
               aria-current={isActive(link.href) ? 'page' : undefined}
             >

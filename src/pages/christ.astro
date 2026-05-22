@@ -1,0 +1,92 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import VerseRef from '../components/VerseRef.astro';
+
+interface Ref {
+  name: string;
+  verse: number;
+  note?: string;
+  chapter: CollectionEntry<'chapters'>;
+}
+
+const chapters = await getCollection('chapters');
+const refs: Ref[] = [];
+for (const chapter of chapters) {
+  for (const cr of chapter.data.christReferences) {
+    refs.push({ name: cr.name, verse: cr.verse, note: cr.note, chapter });
+  }
+}
+
+// Group by name, alphabetically.
+const byName = new Map<string, Ref[]>();
+for (const ref of refs) {
+  const list = byName.get(ref.name) ?? [];
+  list.push(ref);
+  byName.set(ref.name, list);
+}
+const names = [...byName.keys()].sort((a, b) => a.localeCompare(b));
+const chapterCount = new Set(refs.map((r) => r.chapter.id)).size;
+
+function chapterLabel(c: CollectionEntry<'chapters'>): string {
+  const book = c.data.canon === 'doctrine-and-covenants' ? 'D&C' : c.data.book;
+  return `${book} ${c.data.chapter}`;
+}
+---
+
+<BaseLayout
+  title="References to Christ"
+  description="An index of the names and titles of Christ across the chapters SumBible has summarized."
+>
+  <h1 class="text-3xl font-bold text-ink">References to Christ Across Scripture</h1>
+  <p class="mt-3 text-stone-600">
+    This index gathers every name and title of Christ flagged in a SumBible
+    chapter summary. It is built up organically: as new chapters are drafted
+    with <code class="text-sm">christReferences</code> entries, they appear here
+    automatically.
+  </p>
+  <p class="mt-2 text-sm text-stone-500">
+    Currently indexed: <strong>{refs.length}</strong>
+    {refs.length === 1 ? 'reference' : 'references'} across
+    <strong>{chapterCount}</strong> {chapterCount === 1 ? 'chapter' : 'chapters'}.
+  </p>
+
+  {
+    refs.length === 0 ? (
+      <p class="mt-8 text-stone-400 italic">
+        No references have been indexed yet — they will appear here as chapters
+        are drafted.
+      </p>
+    ) : (
+      <div class="mt-8 space-y-8">
+        {names.map((name) => (
+          <section>
+            <h2 class="text-xl font-semibold text-accent">{name}</h2>
+            <ul class="mt-2 divide-y divide-stone-200 border-y border-stone-200">
+              {byName.get(name)!.map((ref) => (
+                <li class="py-3">
+                  <div class="flex flex-wrap items-baseline gap-x-3">
+                    <a
+                      href={`/${ref.chapter.data.canon}/${ref.chapter.data.bookSlug}/${ref.chapter.data.chapter}#v-${ref.verse}`}
+                      class="font-medium text-accent hover:underline"
+                    >
+                      {chapterLabel(ref.chapter)}:{ref.verse}
+                    </a>
+                    <span class="text-xs text-stone-400">
+                      <VerseRef
+                        book={ref.chapter.data.bookSlug}
+                        chapter={ref.chapter.data.chapter}
+                        verse={ref.verse}
+                      />
+                    </span>
+                  </div>
+                  {ref.note && <p class="mt-1 text-sm text-stone-600">{ref.note}</p>}
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </div>
+    )
+  }
+</BaseLayout>
