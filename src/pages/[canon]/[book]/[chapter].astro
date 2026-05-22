@@ -82,6 +82,7 @@ const links = extLinkDefs
     <span class="text-stone-700">{unit} {data.chapter}</span>
   </nav>
 
+  <div data-pagefind-body data-pagefind-meta={`canon:${canonData.name}`}>
   <header class="mt-4">
     <h1 class="text-3xl font-bold text-ink sm:text-4xl">
       {heading}<StatusBadge status={data.status} />
@@ -95,7 +96,7 @@ const links = extLinkDefs
 
   {
     links.length > 0 && (
-      <div class="mt-5 text-sm">
+      <div class="mt-5 text-sm" data-pagefind-ignore>
         <span class="text-stone-500">Read this {unit.toLowerCase()} on: </span>
         {links.map((l, i) => (
           <>
@@ -128,6 +129,7 @@ const links = extLinkDefs
       components={{ LangNote, LangNotes, TranslationCompare, VerseRef, ScriptureBlock }}
     />
   </article>
+  </div>
 
   <Sources sources={data.sources} />
 
