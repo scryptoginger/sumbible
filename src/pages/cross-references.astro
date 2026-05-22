@@ -1,0 +1,97 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import VerseRef from '../components/VerseRef.astro';
+import crossRefsData from '../data/cross-references.json';
+
+interface IndexEntry {
+  target: {
+    book: string;
+    bookSlug: string;
+    canon: string | null;
+    chapter: string;
+    verse: string | null;
+  };
+  citedBy: { canon: string; book: string; chapter: number; url: string }[];
+}
+
+const crossRefs = crossRefsData as Record<string, IndexEntry>;
+const entries = Object.values(crossRefs);
+
+// Group by the target book, sort books alphabetically and verses numerically.
+const byBook = new Map<string, IndexEntry[]>();
+for (const entry of entries) {
+  const list = byBook.get(entry.target.book) ?? [];
+  list.push(entry);
+  byBook.set(entry.target.book, list);
+}
+const books = [...byBook.keys()].sort((a, b) => a.localeCompare(b));
+for (const list of byBook.values()) {
+  list.sort((a, b) => {
+    const ca = parseInt(a.target.chapter, 10);
+    const cb = parseInt(b.target.chapter, 10);
+    if (ca !== cb) return ca - cb;
+    return parseInt(a.target.verse ?? '0', 10) - parseInt(b.target.verse ?? '0', 10);
+  });
+}
+const totalCitations = entries.reduce((n, e) => n + e.citedBy.length, 0);
+---
+
+<BaseLayout
+  title="Cross-References"
+  description="Every scripture passage cited across SumBible chapter summaries, and the chapters that cite it."
+>
+  <div data-pagefind-body>
+    <h1 class="text-3xl font-bold text-ink">Cross-References</h1>
+    <p class="mt-3 text-stone-600">
+      A reverse index of every scripture passage cited in a SumBible deep
+      summary — and the chapters that cite it. It is regenerated from the
+      <code class="text-sm">&lt;VerseRef /&gt;</code> links at every build.
+    </p>
+    <p class="mt-2 text-sm text-stone-500">
+      <strong>{entries.length}</strong> passage{entries.length === 1 ? '' : 's'} cited,
+      <strong>{totalCitations}</strong> citation{totalCitations === 1 ? '' : 's'} in all.
+    </p>
+
+    {
+      entries.length === 0 ? (
+        <p class="mt-8 text-stone-400 italic">
+          No cross-references have been indexed yet.
+        </p>
+      ) : (
+        <div class="mt-8 space-y-8">
+          {books.map((book) => (
+            <section>
+              <h2 class="text-sm font-semibold tracking-wider text-stone-500 uppercase">
+                {book}
+              </h2>
+              <ul class="mt-2 divide-y divide-stone-200 border-y border-stone-200">
+                {byBook.get(book)!.map((entry) => (
+                  <li class="py-3">
+                    <span class="font-medium">
+                      <VerseRef
+                        book={entry.target.bookSlug}
+                        chapter={entry.target.chapter}
+                        verse={entry.target.verse ?? undefined}
+                      />
+                    </span>
+                    <span class="mt-1 block text-sm text-stone-500">
+                      Cited by:{' '}
+                      {entry.citedBy.map((c, i) => (
+                        <>
+                          {i > 0 && <span class="text-stone-300">, </span>}
+                          <a href={c.url} class="text-accent hover:underline">
+                            {c.book} {c.chapter}
+                          </a>
+                        </>
+                      ))}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
+        </div>
+      )
+    }
+  </div>
+</BaseLayout>
