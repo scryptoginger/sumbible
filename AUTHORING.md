@@ -237,9 +237,12 @@ christReferences:
 
 | Command | What it does |
 | :-- | :-- |
-| `npm run new-chapter -- --canon <c> --book <slug> --chapter <n> [--title "..."]` | Scaffolds a schema-correct MDX skeleton (dates quoted, `status: draft`). |
-| `npm run promote-chapter -- --canon <c> --book <slug> --chapter <n> --to <status> [--reviewed-by <name>]` | Flips workflow status; stamps `reviewedOn`/`reviewedBy`. Never hand-edit status. |
-| `npm run lint:content` | Runs the discipline checks Zod can't (highlight length, date quoting, raw references, status integrity, …). |
+| `npm run new-chapter -- --canon <c> --book <slug> --chapter <n> [--title "..."]` | Scaffolds a schema-correct chapter MDX skeleton (dates quoted, `status: draft`). |
+| `npm run new-book -- --canon <c> --book <slug>` | Scaffolds a book-summary MDX skeleton. |
+| `npm run new-canon -- --canon <c>` | Scaffolds a canon-summary MDX skeleton. |
+| `npm run promote-chapter -- --canon <c> --book <slug> --chapter <n> --to <status> [--reviewed-by <name>]` | Flips a chapter's workflow status; stamps `reviewedOn`/`reviewedBy`. Never hand-edit status. |
+| `npm run lint:content` | Runs the discipline checks Zod can't, across the chapter, book, and canon collections. |
+| `npm run build-favicons` | Rasterizes `public/favicon.svg` to the PNG favicon set. |
 
 ---
 
@@ -263,23 +266,68 @@ human review — never committed straight to `main`.
 
 ---
 
-## 12. Book and canon summaries
+## 12. Drafting canon and book summaries
 
-Beyond per-chapter summaries, each book and each canon can carry a short
-overview, rendered on its index page (`/[canon]` and `/[canon]/[book]`). These
-live in `src/data/summaries.ts` — `bookSummaries` (keyed by book slug) and
-`canonSummaries` (keyed by canon slug) — currently empty scaffolds with the
-rendering already wired up.
+Canon and book summaries are full content, drafted under the same hallucination
+guardrail as chapters and committed as `status: draft`. They live in two
+collections: `src/content/canons/<slug>.mdx` and
+`src/content/books/<canon>/<book-slug>.mdx`. Scaffold with `npm run new-canon`
+and `npm run new-book`.
 
-A book or canon summary is short prose that makes the same kind of sourceable
-claims a chapter summary does — authorship, date, place in the canon, dominant
-themes. It gets the same treatment: every non-obvious claim sourced (the
-`sources` field), no invented attributions, drafted then reviewed (the `status`
-field). Draft these in a dedicated content session, not casually.
+**Canon summaries** — highlight ≤ 3 sentences (60–120 words); deep summary
+400–600 words. Structure: what the canon is; its major structural divisions;
+its principal theological arcs; its overall orientation. Optional frontmatter:
+`spanNote`, `languageNote`, `bookCount` (these render as a metadata aside).
+
+**Book summaries** — highlight ≤ 3 sentences (60–120 words); deep summary
+300–500 words. Structure: the book's place in its canon; its major structural
+divisions; its distinctive theology; how it points beyond itself. Optional
+frontmatter `authorshipNote`, `datingNote`, `literaryGenre` render as a metadata
+aside — keep each to a sentence or two.
+
+**The contested-attribution discipline.** Authorship and dating are contested
+for most biblical books. State BOTH the traditional attribution AND the
+critical-scholarship range; never flatten to one. For the Latter-day Saint
+Standard Works, report the tradition's claims about origin together with the
+historical and scholarly context, and do not adjudicate questions of historical
+authenticity. Verify every structural claim against a published source.
+
+**Themes.** Prefer the controlled vocabulary: `creation`, `covenant`,
+`messianic-prophecy`, `divine-name`, `theophany`, `wisdom`, `prophetic-call`,
+`atonement`, `restoration`, `temple`, `exile-and-return`, `kingdom-of-god`,
+`discipleship`, `eschatology`. Add a new theme only when none truly fits.
+
+Use `<VerseRef />` for cross-references. `<LangNote>` and `<TranslationCompare>`
+are rarely needed at this level — canon and book prose is mostly expository.
 
 ---
 
-## 13. Quick checklist before committing a draft
+## 13. The Christ iconography
+
+SumBible's visual identity is built from **symbolic** Christian iconography,
+never figurative imagery. There is a firm rule: **no generated or embedded
+image depicting Christ, a prophet, or any divine figure as a person** — not in
+favicons, OG images, decoration, or anywhere else. The symbolic approach is a
+deliberate theological choice, not a workaround.
+
+The icon components live in `src/components/icons/`:
+
+- **ChiRho** — the Christogram (Χ + Ρ). The favicon, the header mark, the
+  anchor of the `/christ` page; the emblem of the New Testament and Book of
+  Mormon canons.
+- **AlphaOmega** — Revelation 1:8. The centerpiece of `<SectionDivider />`.
+- **Ichthys** — the early-Christian fish. Footer decoration.
+- **Cross** — a plain Latin cross. The emblem of the Doctrine and Covenants
+  and the Pearl of Great Price.
+- **Aleph** — the Hebrew letter א. The emblem of the Old Testament, which
+  predates the Christian christogram.
+
+`<CanonIcon canon={...} />` maps each canon to its emblem. All icons render in
+`currentColor`, inheriting theme color from their context.
+
+---
+
+## 14. Quick checklist before committing a draft
 
 - [ ] Skeleton generated with `npm run new-chapter`.
 - [ ] `status: draft`, `draftedBy: claude-code`, quoted `draftedOn`.
