@@ -1,0 +1,163 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { canons, type CanonSlug } from '../../../lib/canons';
+import LangNote from '../../../components/LangNote.astro';
+import LangNotes from '../../../components/LangNotes.astro';
+import TranslationCompare from '../../../components/TranslationCompare.astro';
+import Sources from '../../../components/Sources.astro';
+import StatusBadge from '../../../components/StatusBadge.astro';
+
+export const getStaticPaths = (async () => {
+  const all = await getCollection('chapters');
+
+  // Group entries by book so each chapter knows its in-book neighbours.
+  const byBook = new Map<string, CollectionEntry<'chapters'>[]>();
+  for (const e of all) {
+    const key = `${e.data.canon}/${e.data.bookSlug}`;
+    const list = byBook.get(key) ?? [];
+    list.push(e);
+    byBook.set(key, list);
+  }
+  for (const list of byBook.values()) {
+    list.sort((a, b) => a.data.chapter - b.data.chapter);
+  }
+
+  return all.map((entry) => {
+    const list = byBook.get(`${entry.data.canon}/${entry.data.bookSlug}`)!;
+    const idx = list.findIndex((e) => e.id === entry.id);
+    return {
+      params: {
+        canon: entry.data.canon,
+        book: entry.data.bookSlug,
+        chapter: String(entry.data.chapter),
+      },
+      props: {
+        entry,
+        prevChapter: idx > 0 ? list[idx - 1].data.chapter : null,
+        nextChapter: idx < list.length - 1 ? list[idx + 1].data.chapter : null,
+      },
+    };
+  });
+}) satisfies GetStaticPaths;
+
+type Props = {
+  entry: CollectionEntry<'chapters'>;
+  prevChapter: number | null;
+  nextChapter: number | null;
+};
+
+const { entry, prevChapter, nextChapter } = Astro.props as Props;
+const data = entry.data;
+const { Content } = await render(entry);
+
+const canonData = canons[data.canon as CanonSlug];
+const unit = data.canon === 'doctrine-and-covenants' ? 'Section' : 'Chapter';
+const bookLabel =
+  data.canon === 'doctrine-and-covenants' ? 'Doctrine and Covenants' : data.book;
+const heading = `${bookLabel} ${data.chapter}`;
+const bookHref = `/${data.canon}/${data.bookSlug}`;
+
+const extLinkDefs = [
+  { key: 'churchofjesuschrist', label: 'ChurchofJesusChrist.org' },
+  { key: 'biblegateway', label: 'Bible Gateway' },
+  { key: 'bibleHub', label: 'Bible Hub' },
+  { key: 'blueLetterBible', label: 'Blue Letter Bible' },
+  { key: 'netBible', label: 'NET Bible' },
+] as const;
+const links = extLinkDefs
+  .map((d) => ({ label: d.label, url: data.externalLinks[d.key] }))
+  .filter((l): l is { label: string; url: string } => Boolean(l.url));
+---
+
+<BaseLayout title={heading} description={data.highlightSummary}>
+  <nav class="text-sm text-stone-500" aria-label="Breadcrumb">
+    <a href={`/${data.canon}`} class="hover:text-accent">{canonData.name}</a>
+    <span class="mx-1.5 text-stone-400">&rsaquo;</span>
+    <a href={bookHref} class="hover:text-accent">{data.book}</a>
+    <span class="mx-1.5 text-stone-400">&rsaquo;</span>
+    <span class="text-stone-700">{unit} {data.chapter}</span>
+  </nav>
+
+  <header class="mt-4">
+    <h1 class="text-3xl font-bold text-ink sm:text-4xl">
+      {heading}<StatusBadge status={data.status} />
+    </h1>
+    {
+      data.title && (
+        <p class="mt-1 text-xl text-accent italic">{data.title}</p>
+      )
+    }
+  </header>
+
+  {
+    links.length > 0 && (
+      <div class="mt-5 text-sm">
+        <span class="text-stone-500">Read this {unit.toLowerCase()} on: </span>
+        {links.map((l, i) => (
+          <>
+            {i > 0 && <span class="mx-1 text-stone-300">·</span>}
+            <a
+              href={l.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-accent underline decoration-stone-300 underline-offset-2 hover:decoration-accent"
+            >
+              {l.label}
+            </a>
+          </>
+        ))}
+      </div>
+    )
+  }
+
+  <section class="mt-6 rounded-lg border border-stone-200 bg-stone-50/70 p-5">
+    <h2 class="text-xs font-semibold uppercase tracking-wider text-stone-500">
+      Highlight
+    </h2>
+    <p class="mt-2 text-lg leading-relaxed text-ink">{data.highlightSummary}</p>
+  </section>
+
+  <hr class="my-8 border-stone-300" />
+
+  <article class="prose prose-stone max-w-none">
+    <Content components={{ LangNote, LangNotes, TranslationCompare }} />
+  </article>
+
+  <Sources sources={data.sources} />
+
+  <nav class="mt-12 flex flex-wrap items-center justify-between gap-3 border-t border-stone-300 pt-6 text-sm">
+    <span>
+      {
+        prevChapter !== null && (
+          <a
+            href={`${bookHref}/${prevChapter}`}
+            class="text-accent hover:underline"
+          >
+            &larr; {bookLabel} {prevChapter}
+          </a>
+        )
+      }
+    </span>
+    <a href={bookHref} class="text-stone-500 hover:text-accent">
+      &larr; Back to {data.book}
+    </a>
+    <span>
+      {
+        nextChapter !== null && (
+          <a
+            href={`${bookHref}/${nextChapter}`}
+            class="text-accent hover:underline"
+          >
+            {bookLabel} {nextChapter} &rarr;
+          </a>
+        )
+      }
+    </span>
+  </nav>
+</BaseLayout>
+
+<script>
+  import '../../../scripts/langnote-mobile.ts';
+</script>

@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Page not found">
+  <div class="py-12 text-center">
+    <p class="text-sm font-semibold uppercase tracking-wider text-stone-400">404</p>
+    <h1 class="mt-2 text-3xl font-bold text-ink">This page isn't here.</h1>
+    <p class="mx-auto mt-4 max-w-md text-stone-600">
+      The chapter or page you were looking for doesn't exist yet — SumBible is
+      growing one carefully sourced chapter at a time.
+    </p>
+    <p class="mt-6">
+      <a
+        href="/"
+        class="font-medium text-accent underline decoration-stone-400 underline-offset-2 hover:decoration-accent"
+      >
+        &larr; Back to the home page
+      </a>
+    </p>
+  </div>
+</BaseLayout>

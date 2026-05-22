@@ -1,17 +1,78 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { canons, canonSlugs } from '../lib/canons';
+import { getCollection } from 'astro:content';
 
+const chapters = await getCollection('chapters');
+const summaryCount = (slug: string) =>
+  chapters.filter((c) => c.data.canon === slug).length;
+const totalSummaries = chapters.length;
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout>
+  <section class="border-b border-stone-300 pb-10 text-center">
+    <h1 class="text-3xl font-bold text-ink sm:text-4xl">
+      Two summaries for every chapter of scripture.
+    </h1>
+    <p class="mx-auto mt-4 max-w-xl text-stone-600">
+      A short highlight reel for what the chapter is really doing, and a deeper
+      summary enriched by Hebrew, Greek, and the places where translations and
+      traditions read a passage differently.
+    </p>
+    <p class="mt-4 text-sm text-stone-500">
+      Covering the Protestant Bible and the LDS Standard Works ·
+      {' '}{totalSummaries} chapter{totalSummaries === 1 ? '' : 's'} summarized so far.
+    </p>
+  </section>
+
+  <section class="mt-10">
+    <h2 class="text-sm font-semibold uppercase tracking-wider text-stone-500">
+      Browse by canon
+    </h2>
+    <div class="mt-4 grid gap-3 sm:grid-cols-2">
+      {
+        canonSlugs.map((slug) => {
+          const c = canons[slug];
+          const n = summaryCount(slug);
+          return (
+            <a
+              href={`/${slug}`}
+              class="block rounded-lg border border-stone-300 bg-stone-50/50 p-5 transition hover:border-accent hover:bg-stone-50"
+            >
+              <span class="block text-lg font-semibold text-accent">{c.name}</span>
+              <span class="mt-1 block text-sm text-stone-500">
+                {c.books.length} book{c.books.length === 1 ? '' : 's'} ·{' '}
+                {n} summar{n === 1 ? 'y' : 'ies'}
+              </span>
+            </a>
+          );
+        })
+      }
+    </div>
+  </section>
+
+  <section class="mt-12">
+    <h2 class="text-xl font-semibold text-ink">About the project</h2>
+    <p class="mt-3 text-stone-700">
+      SumBible is a reference and study aid. It does not reproduce the text of
+      scripture — every chapter links out to canonical online editions so you
+      read the passage itself in full. What SumBible adds is careful,
+      well-sourced commentary: the structure of a chapter, the weight of its key
+      words in the original language, the cross-references that illuminate it,
+      and the points where honest translations diverge.
+    </p>
+    <p class="mt-3 text-stone-700">
+      Summaries are drafted with AI assistance and reviewed before publication.
+      Chapters still marked <em>Draft — awaiting review</em> have not yet been
+      checked and should be read as work in progress.
+    </p>
+    <p class="mt-4">
+      <a
+        href="/about"
+        class="font-medium text-accent underline decoration-stone-400 underline-offset-2 hover:decoration-accent"
+      >
+        Read more about how these summaries are written &rarr;
+      </a>
+    </p>
+  </section>
+</BaseLayout>
