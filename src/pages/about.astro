@@ -1,11 +1,119 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const repoIssues = 'https://github.com/scryptoginger/sumbible/issues';
 ---
 
-<BaseLayout title="About">
-  <h1 class="text-3xl font-bold text-ink">About SumBible</h1>
-  <p class="mt-4 text-stone-600">
-    The full About page — including the methodology and AI-transparency
-    disclosure — is coming soon.
-  </p>
+<BaseLayout
+  title="About"
+  description="How SumBible works, how its summaries are written, and the part AI plays in drafting them."
+>
+  <article class="prose prose-stone max-w-none">
+    <h1>About SumBible</h1>
+
+    <h2>What SumBible Is</h2>
+    <p>
+      SumBible is a reference site that offers two summaries for every chapter
+      of scripture it covers: a short <em>highlight</em> that captures what the
+      chapter is really doing, and a deeper summary that draws on the original
+      languages, the structure of the text, and the places where translations
+      and traditions read a passage differently. It covers the Protestant
+      Bible — Old and New Testament — and the Latter-day Saint Standard Works:
+      the Book of Mormon, the Doctrine and Covenants, and the Pearl of Great
+      Price.
+    </p>
+    <p>
+      SumBible does not reproduce the text of scripture. Every chapter links
+      out to canonical online editions so you can read the passage itself, in
+      full, somewhere it is properly presented. What SumBible adds is
+      commentary — and commentary is meant to be read alongside the text, not
+      instead of it.
+    </p>
+
+    <h2>What You'll Find Here</h2>
+    <p>
+      Each chapter page carries a highlight summary and a longer deep summary.
+      Where they earn their place, the deep summary uses three kinds of note:
+    </p>
+    <ul>
+      <li>
+        <strong>Inline language notes</strong> — a dotted-underlined word you
+        can hover or tap to see the underlying Hebrew or Greek term, its
+        script, and a short gloss.
+      </li>
+      <li>
+        <strong>A "Language &amp; Translation Notes" section</strong> — a
+        collapsible block at the foot of the summary, for longer observations
+        about structure, word study, and links to other passages.
+      </li>
+      <li>
+        <strong>Translation Compare callouts</strong> — short panels that
+        surface a specific verse where honest translations meaningfully
+        diverge, and explain what is at stake in the difference.
+      </li>
+    </ul>
+    <p>
+      Not every chapter needs all three. A chapter with no surviving
+      original-language text, for instance, will not have inline language
+      notes — and that is by design.
+    </p>
+
+    <h2>How These Summaries Are Written</h2>
+    <p>This is the part to read carefully.</p>
+    <p>
+      The summaries on SumBible are drafted with AI assistance — at present,
+      with Claude, via Anthropic's Claude Code — and are then reviewed and
+      edited by Keith Lutes before they are marked as published.
+    </p>
+    <p>
+      The drafting process is held to a few firm rules. Every non-obvious
+      claim must be traceable to a real, published source. Any claim about an
+      original-language word requires consulting an actual lexicon or a set of
+      translator's notes — not guesswork. And inventing word etymologies,
+      cross-references, or scholarly attributions is treated as a serious
+      failure, worse than simply leaving a claim out.
+    </p>
+    <p>
+      Even with those rules, AI-assisted drafts can be wrong. Any chapter
+      still marked <em>Draft — awaiting review</em> has been drafted but not
+      yet checked by a human, and should be read as work in progress. A
+      chapter loses that badge only after review. The goal here is slow,
+      careful, accurate enrichment of personal scripture study — not a fast or
+      comprehensive replacement for it.
+    </p>
+
+    <h2>What SumBible Is Not</h2>
+    <p>
+      SumBible is <strong>not a substitute for reading scripture</strong>; it
+      is a study aid meant to send you back to the text. It is
+      <strong>not a denominational position paper</strong> — where traditions
+      read a passage differently, the aim is to name the disagreement, not to
+      settle it. And it is <strong>not a verse-by-verse commentary</strong>;
+      the deep summaries are short essays about a chapter, not annotations of
+      every line.
+    </p>
+
+    <h2>Sources &amp; Methodology</h2>
+    <p>
+      Original-language claims lean on standard reference works — among them
+      the Brown-Driver-Briggs and HALOT Hebrew lexicons, the BDAG Greek
+      lexicon, Strong's, and the translators' notes of the NET Bible —
+      together with peer-reviewed commentaries and reputable academic
+      scholarship. For the Latter-day Saint Standard Works, SumBible also
+      draws on the Church's own reference works, such as the Bible Dictionary
+      and the Guide to the Scriptures, and on published Latter-day Saint
+      scholarship. Each chapter lists the specific sources behind it in a
+      "Sources" block at the foot of the page.
+    </p>
+
+    <h2>Contact &amp; Feedback</h2>
+    <p>
+      SumBible will contain mistakes, especially while chapters are in draft.
+      If you find an error — a misquoted verse, a questionable claim, a broken
+      link — please
+      <a href={repoIssues} target="_blank" rel="noopener noreferrer">
+        open an issue on the project's GitHub repository</a>. Corrections are
+      genuinely welcome.
+    </p>
+  </article>
 </BaseLayout>
