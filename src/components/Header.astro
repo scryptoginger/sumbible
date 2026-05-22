@@ -1,15 +1,26 @@
 ---
-import { canons, canonSlugs } from '../lib/canons';
+import { canons, canonSlugs, type CanonSlug } from '../lib/canons';
 import ChiRho from './icons/ChiRho.astro';
+import CanonIcon from './CanonIcon.astro';
 
 // Active-state highlighting: a nav link is "current" when the path starts
 // with its href (so /bible-ot/genesis still lights up the Old Testament tab).
 const path = Astro.url.pathname;
-const navLinks = [
-  ...canonSlugs.map((slug) => ({ href: `/${slug}`, label: canons[slug].name, feature: false })),
-  { href: '/christ', label: 'Christ', feature: true },
-  { href: '/themes', label: 'Themes', feature: true },
-  { href: '/about', label: 'About', feature: false },
+const navLinks: {
+  href: string;
+  label: string;
+  feature: boolean;
+  canon: CanonSlug | null;
+}[] = [
+  ...canonSlugs.map((slug) => ({
+    href: `/${slug}`,
+    label: canons[slug].name,
+    feature: false,
+    canon: slug,
+  })),
+  { href: '/christ', label: 'Christ', feature: true, canon: null },
+  { href: '/themes', label: 'Themes', feature: true, canon: null },
+  { href: '/about', label: 'About', feature: false, canon: null },
 ];
 
 function isActive(href: string): boolean {
@@ -64,7 +75,7 @@ function isActive(href: string): boolean {
             <a
               href={link.href}
               class:list={[
-                'block rounded px-2 py-1 hover:text-accent',
+                'flex items-center gap-1.5 rounded px-2 py-1 hover:text-accent',
                 isActive(link.href)
                   ? 'font-semibold text-accent'
                   : link.feature
@@ -73,6 +84,7 @@ function isActive(href: string): boolean {
               ]}
               aria-current={isActive(link.href) ? 'page' : undefined}
             >
+              {link.canon && <CanonIcon canon={link.canon} size={15} />}
               {link.label}
             </a>
           </li>

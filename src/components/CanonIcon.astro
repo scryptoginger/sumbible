@@ -1,0 +1,24 @@
+---
+// Renders the emblem for a canon:
+//   Old Testament      → Aleph   (predates the christogram)
+//   New Testament      → Chi-Rho (its native context)
+//   Book of Mormon     → Chi-Rho ("Another Testament of Jesus Christ")
+//   Doctrine & Covenants, Pearl of Great Price → Cross
+import ChiRho from './icons/ChiRho.astro';
+import Cross from './icons/Cross.astro';
+import Aleph from './icons/Aleph.astro';
+import type { CanonSlug } from '../lib/canons';
+
+interface Props {
+  canon: CanonSlug;
+  size?: number;
+  class?: string;
+}
+const { canon, size = 20, class: className = '' } = Astro.props;
+---
+
+{canon === 'bible-ot' && <Aleph size={size} class={className} />}
+{canon === 'bible-nt' && <ChiRho size={size} class={className} />}
+{canon === 'book-of-mormon' && <ChiRho size={size} class={className} />}
+{canon === 'doctrine-and-covenants' && <Cross size={size} class={className} />}
+{canon === 'pearl-of-great-price' && <Cross size={size} class={className} />}
