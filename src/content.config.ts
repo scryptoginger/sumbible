@@ -63,8 +63,9 @@ const chapterSchema = z.object({
   // Workflow status
   status: statusEnum.default('draft'),
   draftedBy: z.string().optional(),
-  draftedOn: z.string().optional(),   // ISO date
-  reviewedOn: z.string().optional(),
+  draftedOn: z.string().optional(),   // ISO date (quoted string — see AUTHORING.md)
+  reviewedBy: z.string().optional(),
+  reviewedOn: z.string().optional(),  // ISO date (quoted string — see AUTHORING.md)
 });
 
 export const collections = {

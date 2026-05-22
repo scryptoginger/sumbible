@@ -10,7 +10,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "new-chapter": "tsx scripts/new-chapter.ts"
+    "new-chapter": "tsx scripts/new-chapter.ts",
+    "promote-chapter": "tsx scripts/promote-chapter.ts"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.6",
