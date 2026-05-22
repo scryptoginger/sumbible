@@ -1,0 +1,37 @@
+---
+// Chi-Rho — the Christogram formed from chi (Χ) and rho (Ρ), the first two
+// letters of Χριστός. A symbol of Christ since at least the 4th century.
+interface Props {
+  size?: number;
+  class?: string;
+  title?: string;
+}
+const {
+  size = 24,
+  class: className = '',
+  title = 'Chi-Rho — Christogram for Christ',
+} = Astro.props;
+---
+
+<svg
+  width={size}
+  height={size}
+  viewBox="0 0 100 100"
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="7"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  role="img"
+  aria-label={title}
+  class={className}
+>
+  <title>{title}</title>
+  {/* Rho: vertical stem with a circular bowl forming a "P" */}
+  <path d="M 45 93 L 45 20" />
+  <circle cx="57" cy="30" r="18" />
+  {/* Chi: X crossing the rho's stem */}
+  <line x1="17" y1="40" x2="73" y2="90" />
+  <line x1="73" y1="40" x2="17" y2="90" />
+</svg>

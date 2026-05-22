@@ -1,0 +1,25 @@
+---
+// Alpha and Omega — Revelation 1:8, "I am the Alpha and the Omega."
+interface Props {
+  size?: number;
+  class?: string;
+  title?: string;
+}
+const { size = 32, class: className = '', title = 'Alpha and Omega' } = Astro.props;
+---
+
+<svg
+  width={size * 2}
+  height={size}
+  viewBox="0 0 100 50"
+  xmlns="http://www.w3.org/2000/svg"
+  fill="currentColor"
+  role="img"
+  aria-label={title}
+  class={className}
+>
+  <title>{title}</title>
+  <text x="8" y="38" font-family="serif" font-size="40" font-weight="400">Α</text>
+  <text x="44" y="36" font-family="serif" font-size="18">·</text>
+  <text x="55" y="38" font-family="serif" font-size="40" font-weight="400">Ω</text>
+</svg>
