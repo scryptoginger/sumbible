@@ -2,6 +2,7 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import VerseRef from '../components/VerseRef.astro';
+import ChiRho from '../components/icons/ChiRho.astro';
 
 interface Ref {
   name: string;
@@ -38,7 +39,12 @@ function chapterLabel(c: CollectionEntry<'chapters'>): string {
   title="References to Christ"
   description="An index of the names and titles of Christ across the chapters SumBible has summarized."
 >
-  <h1 class="text-3xl font-bold text-ink">References to Christ Across Scripture</h1>
+  <div class="flex justify-center">
+    <ChiRho size={64} class="text-accent" />
+  </div>
+  <h1 class="mt-4 text-center text-3xl font-bold text-ink">
+    References to Christ Across Scripture
+  </h1>
   <p class="mt-3 text-stone-600">
     This index gathers every name and title of Christ flagged in a SumBible
     chapter summary. It is built up organically: as new chapters are drafted

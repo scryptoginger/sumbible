@@ -10,6 +10,7 @@ import VerseRef from '../../../components/VerseRef.astro';
 import ScriptureBlock from '../../../components/ScriptureBlock.astro';
 import Sources from '../../../components/Sources.astro';
 import StatusBadge from '../../../components/StatusBadge.astro';
+import SectionDivider from '../../../components/SectionDivider.astro';
 
 export const getStaticPaths = (async () => {
   const all = await getCollection('chapters');
@@ -145,14 +146,16 @@ const jsonLd =
     )
   }
 
-  <section class="mt-6 rounded-lg border border-stone-200 bg-stone-50/70 p-5">
+  <SectionDivider />
+
+  <section class="rounded-lg border border-stone-200 bg-stone-50/70 p-5">
     <h2 class="text-xs font-semibold uppercase tracking-wider text-stone-500">
       Highlight
     </h2>
     <p class="mt-2 text-lg leading-relaxed text-ink">{data.highlightSummary}</p>
   </section>
 
-  <hr class="my-8 border-stone-300" />
+  <SectionDivider />
 
   <article class="prose prose-stone max-w-none">
     <Content
@@ -160,6 +163,8 @@ const jsonLd =
     />
   </article>
   </div>
+
+  {data.sources.length > 0 && <SectionDivider />}
 
   <Sources sources={data.sources} />
 
