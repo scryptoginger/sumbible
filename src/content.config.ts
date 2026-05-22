@@ -73,9 +73,44 @@ const chapterSchema = z.object({
   reviewedOn: z.string().optional(),  // ISO date (quoted string — see AUTHORING.md)
 });
 
+// Book-level summaries — one MDX file per book, the body being the deep summary.
+const bookSchema = z.object({
+  // Identity (refs into src/lib/canons.ts)
+  canon: canonEnum,
+  bookSlug: z.string(),
+  name: z.string(),
+
+  // Content — highlight in frontmatter, deep summary (300-500 words) in the body
+  highlightSummary: z.string().min(40).max(600),
+
+  // Optional scholarly metadata
+  authorshipNote: z.string().optional(),
+  datingNote: z.string().optional(),
+  literaryGenre: z.string().optional(),
+
+  themes: z.array(z.string()).default([]),
+
+  sources: z.array(z.object({
+    title: z.string(),
+    author: z.string().optional(),
+    url: z.string().url().optional(),
+    note: z.string().optional(),
+  })).default([]),
+
+  status: statusEnum.default('draft'),
+  draftedBy: z.string().optional(),
+  draftedOn: z.string().optional(),
+  reviewedBy: z.string().optional(),
+  reviewedOn: z.string().optional(),
+});
+
 export const collections = {
   chapters: defineCollection({
     loader: glob({ pattern: '**/*.mdx', base: './src/content/chapters' }),
     schema: chapterSchema,
+  }),
+  books: defineCollection({
+    loader: glob({ pattern: '**/*.mdx', base: './src/content/books' }),
+    schema: bookSchema,
   }),
 };
