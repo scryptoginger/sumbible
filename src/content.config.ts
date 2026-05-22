@@ -60,6 +60,11 @@ const chapterSchema = z.object({
     note: z.string().optional(),
   })).default([]),
 
+  // Free-form thematic tags (lowercase, hyphenated — see AUTHORING.md).
+  // No controlled vocabulary in v1; themes accrete organically and the
+  // /themes index renders them. Drives /themes and /themes/[theme].
+  themes: z.array(z.string()).default([]),
+
   // Workflow status
   status: statusEnum.default('draft'),
   draftedBy: z.string().optional(),
