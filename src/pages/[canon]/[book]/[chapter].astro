@@ -97,6 +97,7 @@ const jsonLd =
   description={data.highlightSummary}
   noindex={data.status !== 'published'}
   ogType="article"
+  ogImage={`/og/${data.canon}/${data.bookSlug}/${data.chapter}.png`}
 >
   {
     jsonLd && (
