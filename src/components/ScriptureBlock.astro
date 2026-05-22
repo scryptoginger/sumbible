@@ -1,0 +1,30 @@
+---
+// ScriptureBlock — a short, fair-use quotation of a single scripture rendering,
+// used as a textual anchor inside a deep summary.
+//
+//   <ScriptureBlock reference="Romans 8:1" translation="ESV">
+//     There is therefore now no condemnation for those who are in Christ Jesus.
+//   </ScriptureBlock>
+//
+// HARD RULE: never quote more than 2 verses with this component, and never
+// chain several ScriptureBlocks so they aggregate into a long passage.
+// SumBible's commitment not to reproduce scripture is real — link out with
+// <VerseRef /> for anything longer. (Use <TranslationCompare> instead when the
+// point is to COMPARE renderings; ScriptureBlock cites a single one.)
+
+interface Props {
+  reference: string;   // e.g. "Romans 8:1"
+  translation: string; // e.g. "ESV", "KJV"
+}
+
+const { reference, translation } = Astro.props;
+---
+
+<blockquote class="my-6 border-l-4 border-stone-400 bg-stone-50/50 py-3 pr-4 pl-5">
+  <p class="text-lg leading-relaxed text-ink italic">
+    <slot />
+  </p>
+  <footer class="mt-2 text-xs tracking-wider text-stone-500 uppercase">
+    {reference} &middot; {translation}
+  </footer>
+</blockquote>
