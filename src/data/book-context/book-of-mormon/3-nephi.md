@@ -9,7 +9,9 @@ Chapters covered: 1 of 30 (all statuses)
 
 ## Themes established across drafted chapters
 
-*(none yet)*
+- **theophany** — chapter 11
+- **atonement** — chapter 11
+- **restoration** — chapter 11
 
 ## Christ references across drafted chapters
 
@@ -24,5 +26,6 @@ Chapters covered: 1 of 30 (all statuses)
 ### Chapter 11 — The Risen Christ Appears at Bountiful
 
 *status:* draft
+*themes:* theophany, atonement, restoration
 
 3 Nephi 11 is the climax of the Book of Mormon: the resurrected Christ descends to a multitude gathered at the temple in the land Bountiful. A voice from heaven introduces him; he descends, identifies himself as Jesus Christ, and invites the people, one by one, to feel the wounds in his hands, feet, and side. He then calls and authorizes disciples, gives the exact words of baptism, and lays out his doctrine — faith, baptism, and becoming as a child — warning sharply against the contention that fractures it.

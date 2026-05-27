@@ -9,7 +9,9 @@ Chapters covered: 1 of 50 (all statuses)
 
 ## Themes established across drafted chapters
 
-*(none yet)*
+- **creation** — chapter 1
+- **divine-name** — chapter 1
+- **imago-dei** — chapter 1
 
 ## Christ references across drafted chapters
 
@@ -20,5 +22,6 @@ Chapters covered: 1 of 50 (all statuses)
 ### Chapter 1 — The Beginning
 
 *status:* draft
+*themes:* creation, divine-name, imago-dei
 
 Genesis 1 is the patterned, liturgical opening of Scripture — God speaks order out of formlessness across six days, each shaped by the rhythm "And God said... and it was so... and God saw that it was good." Humanity arrives last, made in God's image and given dominion, before the whole movement comes to rest on the seventh day.

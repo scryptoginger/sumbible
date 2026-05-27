@@ -9,7 +9,9 @@ Chapters covered: 1 of 22 (all statuses)
 
 ## Themes established across drafted chapters
 
-*(none yet)*
+- **prophetic-call** — chapter 1
+- **theophany** — chapter 1
+- **messianic-prophecy** — chapter 1
 
 ## Christ references across drafted chapters
 
@@ -20,5 +22,6 @@ Chapters covered: 1 of 22 (all statuses)
 ### Chapter 1 — Lehi's Call
 
 *status:* draft
+*themes:* prophetic-call, theophany, messianic-prophecy
 
 The Book of Mormon opens by introducing its narrator, Nephi, and then his father, Lehi — a prophet in Jerusalem during the reign of Zedekiah, the last years before the city fell to Babylon. Lehi prays for his people, receives a pillar-of-fire vision and then a fuller vision of God enthroned among angels, in which a heavenly book is given him to read. He emerges proclaiming both a coming Messiah and Jerusalem's destruction, is mocked and threatened, and the exodus that drives the rest of the book begins.
