@@ -61,7 +61,11 @@ function isActive(href: string): boolean {
 
 <header class="border-b border-stone-300">
   <div class="mx-auto flex max-w-4xl flex-wrap items-center justify-between gap-x-4 gap-y-3 px-4 py-5">
-    <a href="/" class="flex items-center gap-2.5">
+    {/* Icon and wordmark are siblings, not nested in one <a>: HTML5 forbids
+        nested anchors, and IconTooltip's "Learn more →" link inside the
+        popover would otherwise be extracted by the browser's auto-fixup
+        and rendered as a visible standalone link outside the tooltip. */}
+    <div class="flex items-center gap-2.5">
       <IconTooltip
         title="Chi-Rho"
         description="An early Christian Christogram from the first two Greek letters of Christ's name (Χριστός). SumBible's mark."
@@ -69,13 +73,13 @@ function isActive(href: string): boolean {
       >
         <ChiRho size={30} class="shrink-0 text-accent" />
       </IconTooltip>
-      <span class="block">
+      <a href="/" class="block">
         <span class="block text-2xl font-bold leading-none tracking-tight text-accent">SumBible</span>
         <span class="mt-1 block text-xs text-stone-500">
           Chapter-by-chapter summaries, enriched by Hebrew, Greek, and many translations
         </span>
-      </span>
-    </a>
+      </a>
+    </div>
 
     <div class="flex items-center gap-2">
       <button
@@ -107,20 +111,18 @@ function isActive(href: string): boolean {
 
     <nav class="hidden w-full peer-checked:block md:block md:w-auto" aria-label="Primary">
       <ul class="flex flex-col gap-1 text-sm md:flex-row md:items-center md:gap-5">
-        {navLinks.map((link) => (
-          <li>
-            <a
-              href={link.href}
-              class:list={[
-                'flex items-center gap-1.5 rounded px-2 py-1 hover:text-accent',
-                isActive(link.href)
-                  ? 'font-semibold text-accent'
-                  : link.feature
-                    ? 'text-accent/80'
-                    : 'text-stone-600',
-              ]}
-              aria-current={isActive(link.href) ? 'page' : undefined}
-            >
+        {navLinks.map((link) => {
+          const stateClass = isActive(link.href)
+            ? 'font-semibold text-accent'
+            : link.feature
+              ? 'text-accent/80'
+              : 'text-stone-600';
+          return (
+            <li class:list={['flex items-center gap-1.5 rounded px-2 py-1', stateClass]}>
+              {/* Icon and link text are siblings — not nested in one <a> — so
+                  the IconTooltip popover's "Learn more →" link stays inside
+                  the popover instead of being lifted out by HTML5 nested-
+                  anchor auto-fixup. */}
               {link.canon && (
                 <IconTooltip
                   title={canonTooltips[link.canon].title}
@@ -130,10 +132,16 @@ function isActive(href: string): boolean {
                   <CanonIcon canon={link.canon} size={15} />
                 </IconTooltip>
               )}
-              {link.label}
-            </a>
-          </li>
-        ))}
+              <a
+                href={link.href}
+                class="hover:text-accent"
+                aria-current={isActive(link.href) ? 'page' : undefined}
+              >
+                {link.label}
+              </a>
+            </li>
+          );
+        })}
       </ul>
     </nav>
   </div>

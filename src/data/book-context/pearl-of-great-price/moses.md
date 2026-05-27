@@ -24,4 +24,4 @@ Chapters covered: 1 of 8 (all statuses)
 *status:* draft
 *themes:* theophany, creation, prophetic-call
 
-Moses 1 is the Book of Moses' opening vision — a chapter with no parallel in the Hebrew Bible's Genesis. Caught up to a high mountain, Moses sees God face to face, is shown the whole creation, and learns that he is a son of God. When the divine presence withdraws, Satan appears and demands worship; Moses, measuring the two glories against each other, refuses and commands him away. A renewed vision follows, in which God reveals his purpose — "to bring to pass the immortality and eternal life of man" — and commissions Moses to write.
+Moses 1 is the Book of Moses' opening vision — a chapter with no parallel in the Hebrew Bible's Genesis. Caught up to a high mountain, Moses sees God face to face, is shown the whole creation, learns that he is a son of God, withstands Satan's demand for worship, and receives a renewed vision in which God reveals His purpose — "to bring to pass the immortality and eternal life of man" — and commissions him to write.
