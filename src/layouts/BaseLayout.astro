@@ -9,6 +9,7 @@ interface Props {
   noindex?: boolean;
   ogType?: 'website' | 'article';
   ogImage?: string; // site-relative or absolute URL
+  wide?: boolean; // canon/book index pages get a wider container for column-split layout
 }
 
 const {
@@ -17,6 +18,7 @@ const {
   noindex = false,
   ogType = 'website',
   ogImage,
+  wide = false,
 } = Astro.props;
 
 const siteName = 'SumBible';
@@ -65,7 +67,7 @@ const ogImageUrl = ogImage ? new URL(ogImage, Astro.site).href : undefined;
   </head>
   <body class="flex min-h-screen flex-col">
     <Header />
-    <main class="mx-auto w-full max-w-3xl flex-1 px-4 py-10">
+    <main class:list={['mx-auto w-full flex-1 px-4 py-10', wide ? 'max-w-6xl' : 'max-w-3xl']}>
       <slot />
     </main>
     <Footer />
