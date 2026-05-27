@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Cross from '../../../components/icons/Cross.astro';
+import SectionDivider from '../../../components/SectionDivider.astro';
+---
+
+<BaseLayout title="Cross">
+  <nav class="text-sm text-stone-500" aria-label="Breadcrumb">
+    <a href="/about" class="hover:text-accent">About</a>
+    <span class="mx-1.5 text-stone-400">&rsaquo;</span>
+    <a href="/about/iconography" class="hover:text-accent">Iconography</a>
+    <span class="mx-1.5 text-stone-400">&rsaquo;</span>
+    <span class="text-stone-700">Cross</span>
+  </nav>
+
+  <div class="mt-6 flex justify-center text-accent">
+    <Cross size={120} />
+  </div>
+  <h1 class="mt-4 text-center text-3xl font-bold text-ink sm:text-4xl">Cross</h1>
+  <p class="mt-2 text-center font-serif text-lg text-stone-600 italic">
+    The instrument and emblem of Christ's atoning sacrifice
+  </p>
+
+  <SectionDivider />
+
+  <article class="prose prose-stone max-w-none">
+    <h2>What it is</h2>
+    <p>
+      The cross is the most universally recognized symbol of Christianity. It
+      comes in many forms — the Latin cross with its longer lower beam, the
+      equal-armed Greek cross, the Celtic cross with its ring, the crucifix
+      bearing the figure of Christ — but in every form it points to the same
+      central event: Christ's atoning sacrifice.
+    </p>
+
+    <h2>Where it comes from</h2>
+    <p>
+      The cross was first a Roman instrument of execution. Crucifixion was
+      brutal and humiliating, reserved for slaves, rebels, and the lowest
+      classes; the cross was not an emblem anyone would have wished to
+      display. For the first three centuries of the Church, the cross
+      appears only rarely in Christian visual art — earlier Christians
+      preferred symbols like the ichthys, the anchor, or the chi-rho. The
+      cross began to be displayed openly as Christianity gained legal
+      standing under Constantine in the fourth century, and grew over the
+      following centuries into the central symbol of Christian art and
+      devotion.
+    </p>
+
+    <h2>Theological weight</h2>
+    <p>
+      Whatever its visual form, the cross represents Christ's death on behalf
+      of humanity — the central act of the Atonement, on which the whole of
+      Christian theology rests. For most of the Christian world it is the
+      mark of identification and remembrance.
+    </p>
+
+    <h2>The Latter-day Saint perspective</h2>
+    <p>
+      Latter-day Saints reverence the Atonement of Christ as the center of
+      Christian faith, but generally do not display the cross prominently in
+      worship spaces or personal devotion. The focus is on the resurrected
+      and living Christ — the empty tomb rather than the cross is the
+      primary symbol of Latter-day Saint Christology. This is a difference
+      of emphasis rather than a denial of the cross's meaning; the
+      Atonement, completed on the cross and finished in the resurrection,
+      is everywhere central to Latter-day Saint teaching.
+    </p>
+
+    <h2>Why it's the SumBible mark for the D&amp;C and Pearl of Great Price</h2>
+    <p>
+      The Doctrine and Covenants and the Pearl of Great Price are
+      distinctively Latter-day Saint scriptures; their canonical reach is
+      Restoration-era rather than ancient. The cross is the clearest
+      universally-recognized Christian mark; using it for these volumes
+      visually connects the Restoration canon to the broader Christian
+      heritage in which it stands.
+    </p>
+  </article>
+</BaseLayout>
