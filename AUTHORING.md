@@ -520,3 +520,45 @@ cat src/data/book-context/<canon>/<book-slug>.md
 
 The script lives at `scripts/build-book-context.ts` and is wired into
 the `prebuild` npm script alongside `build-cross-reference-index.ts`.
+
+---
+
+## 22. Chapter-Drafting Session Discipline (Small Batches)
+
+Chapter-drafting sessions follow a small-batch rhythm to protect against
+context fatigue and cross-chapter contradiction.
+
+**Batch size.** 5–7 chapters per session, maximum 10. Batches are scoped to
+coherent narrative units where possible — e.g. "Genesis primeval history,
+chapters 2–11" (chapter 1 is already drafted, so the actual batch covers 10
+chapters in one coherent unit).
+
+**Session structure.** Phase 0 includes reading the book-context file (§21)
+and the prior chapter's draft (the one immediately preceding the batch). One
+phase per chapter follows. Each chapter commit pushes to the feature branch.
+After every commit, the agent reads its own freshly-committed chapter before
+drafting the next — using its own published-and-committed work as the
+authoritative reference rather than holding the entire batch in working
+memory.
+
+**Per-chapter discipline.** The verificationLog (§20) is populated during
+research, before drafting the prose. The pre-commit audit checklist (§18,
+extended by §20's item 11) runs before every chapter commit. The agent does
+NOT batch chapters in working memory — each chapter is drafted, audited,
+committed, pushed, and the agent re-orients to the next chapter from a
+refreshed context.
+
+**Session boundary.** At the end of every chapter-drafting session, the
+book-context file is regenerated automatically on the next build (via the
+prebuild hook). Subsequent sessions for the same book consume the updated
+context.
+
+**Branch and PR workflow.** Each batch is its own feature branch (typical
+naming: `content/<book>-batch-<N>`) and its own PR. Keith reviews each batch
+on Vercel preview before merging. No batch is merged autonomously; the
+small-batch discipline includes a human review gate at every batch boundary.
+
+A starting-point task-file template lives at
+`templates/chapter-batch-task-file.md` — the structure encodes the
+discipline above. The template is a *starting point*, not run directly;
+it's the skeleton for hand-customizing each batch task file.
