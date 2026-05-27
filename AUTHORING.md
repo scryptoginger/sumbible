@@ -488,3 +488,35 @@ block — readers can expand it to see what the drafter consulted.
 
 The pre-commit audit checklist (§18) is extended by item 11: verification
 log populated for the work claimed in the chapter.
+
+---
+
+## 21. Book Context Discipline
+
+Every book with at least one drafted chapter has a context file at
+`src/data/book-context/<canon>/<book-slug>.md`, regenerated at every build
+from the chapters of that book (any status — draft, review, or published).
+The context file is a running summary of what's been established across
+already-drafted chapters: themes, Christ references, per-chapter highlights.
+
+**When dispatching a chapter-drafting session for a book that has prior
+chapters, the session task file MUST instruct the agent to read the relevant
+book-context file in its Phase 0 before drafting.** The file appears in the
+agent's context, ensuring cross-chapter consistency: themes already
+established, characters already introduced, cross-references already cited,
+key narrative facts already covered.
+
+For example: drafting Genesis 2 with Genesis 1 already in the corpus, the
+agent reads `src/data/book-context/bible-ot/genesis.md` and knows what
+Genesis 1's deep summary established about *Elohim*, *bara*, the seven-day
+pattern, the imago Dei — and can build on rather than re-establish those
+points.
+
+The standard Phase 0 line for a chapter-drafting session:
+
+```bash
+cat src/data/book-context/<canon>/<book-slug>.md
+```
+
+The script lives at `scripts/build-book-context.ts` and is wired into
+the `prebuild` npm script alongside `build-cross-reference-index.ts`.
