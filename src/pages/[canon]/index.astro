@@ -43,6 +43,11 @@ const mdxComponents = { LangNote, LangNotes, TranslationCompare, VerseRef, Scrip
         canonEntry && <StatusBadge status={canonEntry.data.status} />
       }
     </h1>
+    {canonEntry?.data.subtitle && (
+      <p class="mt-2 font-serif text-xl text-stone-600 italic sm:text-2xl">
+        {canonEntry.data.subtitle}
+      </p>
+    )}
     <p class="mt-2 text-sm text-stone-500">
       {canonData.books.length} book{canonData.books.length === 1 ? '' : 's'}
     </p>
