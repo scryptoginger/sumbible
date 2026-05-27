@@ -20,8 +20,12 @@ const { title, description, learnMoreHref } = Astro.props;
   tabindex="0"
 >
   <slot />
+  {/* Show/hide handled by .icon-tooltip-popover rules in global.css —
+      visibility / opacity / pointer-events with a 1.5s sticky delay on
+      hover-out so the mouse can travel from the icon to the popover
+      (e.g. to click "Learn more →") without it vanishing. */}
   <span
-    class="icon-tooltip-popover absolute left-1/2 top-full z-30 mt-2 hidden w-64 -translate-x-1/2 rounded border border-stone-300 bg-stone-50 p-3 text-left text-sm shadow-lg group-hover:block group-focus-within:block"
+    class="icon-tooltip-popover absolute left-1/2 top-full z-30 mt-2 w-64 -translate-x-1/2 rounded border border-stone-300 bg-stone-50 p-3 text-left text-sm shadow-lg"
   >
     <span class="block font-semibold text-stone-800">{title}</span>
     <span class="mt-1 block text-stone-700">{description}</span>

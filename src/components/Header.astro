@@ -1,57 +1,22 @@
 ---
-import { canons, canonSlugs, type CanonSlug } from '../lib/canons';
+import { canons, canonSlugs } from '../lib/canons';
 import ChiRho from './icons/ChiRho.astro';
-import CanonIcon from './CanonIcon.astro';
 import IconTooltip from './IconTooltip.astro';
 
-// Per-canon icon tooltip content — keyed to which icon CanonIcon resolves to.
-const canonTooltips: Record<CanonSlug, { title: string; description: string; learnMoreHref: string }> = {
-  'bible-ot': {
-    title: 'Aleph',
-    description: "The first letter of the Hebrew alphabet, theologically resonant for the foundation of Scripture ('In the beginning...').",
-    learnMoreHref: '/about/iconography/aleph',
-  },
-  'bible-nt': {
-    title: 'Chi-Rho',
-    description: "An early Christian Christogram from the first two Greek letters of Christ's name (Χριστός).",
-    learnMoreHref: '/about/iconography/chi-rho',
-  },
-  'book-of-mormon': {
-    title: 'Chi-Rho',
-    description: "An early Christian Christogram from the first two Greek letters of Christ's name (Χριστός).",
-    learnMoreHref: '/about/iconography/chi-rho',
-  },
-  'doctrine-and-covenants': {
-    title: 'Cross',
-    description: "The most widely recognized symbol of Christianity, representing Christ's atoning sacrifice.",
-    learnMoreHref: '/about/iconography/cross',
-  },
-  'pearl-of-great-price': {
-    title: 'Cross',
-    description: "The most widely recognized symbol of Christianity, representing Christ's atoning sacrifice.",
-    learnMoreHref: '/about/iconography/cross',
-  },
-};
-
-// Active-state highlighting: a nav link is "current" when the path starts
-// with its href (so /bible-ot/genesis still lights up the Old Testament tab).
 const path = Astro.url.pathname;
-const navLinks: {
-  href: string;
-  label: string;
-  feature: boolean;
-  canon: CanonSlug | null;
-}[] = [
-  ...canonSlugs.map((slug) => ({
-    href: `/${slug}`,
-    label: canons[slug].name,
-    feature: false,
-    canon: slug,
-  })),
-  { href: '/christ', label: 'Christ', feature: true, canon: null },
-  { href: '/themes', label: 'Themes', feature: true, canon: null },
-  { href: '/related-texts', label: 'Related Texts', feature: false, canon: null },
-  { href: '/about', label: 'About', feature: false, canon: null },
+
+// Primary nav: the five canons get their own (larger) row.
+const canonLinks = canonSlugs.map((slug) => ({
+  href: `/${slug}`,
+  label: canons[slug].name,
+}));
+
+// Secondary nav: everything else, slightly smaller, on its own row beneath.
+const otherLinks: { href: string; label: string; feature: boolean }[] = [
+  { href: '/christ', label: 'Christ', feature: true },
+  { href: '/themes', label: 'Themes', feature: true },
+  { href: '/related-texts', label: 'Related Texts', feature: false },
+  { href: '/about', label: 'About', feature: false },
 ];
 
 function isActive(href: string): boolean {
@@ -63,8 +28,7 @@ function isActive(href: string): boolean {
   <div class="mx-auto flex max-w-4xl flex-wrap items-center justify-between gap-x-4 gap-y-3 px-4 py-5">
     {/* Icon and wordmark are siblings, not nested in one <a>: HTML5 forbids
         nested anchors, and IconTooltip's "Learn more →" link inside the
-        popover would otherwise be extracted by the browser's auto-fixup
-        and rendered as a visible standalone link outside the tooltip. */}
+        popover would otherwise be extracted by the browser's auto-fixup. */}
     <div class="flex items-center gap-2.5">
       <IconTooltip
         title="Chi-Rho"
@@ -110,39 +74,50 @@ function isActive(href: string): boolean {
     </div>
 
     <nav class="hidden w-full peer-checked:block md:block md:w-auto" aria-label="Primary">
-      <ul class="flex flex-col gap-1 text-sm md:flex-row md:items-center md:gap-5">
-        {navLinks.map((link) => {
-          const stateClass = isActive(link.href)
-            ? 'font-semibold text-accent'
-            : link.feature
-              ? 'text-accent/80'
-              : 'text-stone-600';
-          return (
-            <li class:list={['flex items-center gap-1.5 rounded px-2 py-1', stateClass]}>
-              {/* Icon and link text are siblings — not nested in one <a> — so
-                  the IconTooltip popover's "Learn more →" link stays inside
-                  the popover instead of being lifted out by HTML5 nested-
-                  anchor auto-fixup. */}
-              {link.canon && (
-                <IconTooltip
-                  title={canonTooltips[link.canon].title}
-                  description={canonTooltips[link.canon].description}
-                  learnMoreHref={canonTooltips[link.canon].learnMoreHref}
-                >
-                  <CanonIcon canon={link.canon} size={15} />
-                </IconTooltip>
-              )}
+      {/* Desktop: two stacked rows on the right (canons primary, others
+          secondary). Mobile (peer-checked hamburger menu): single vertical
+          list with the canons grouped first, then the other links. */}
+      <div class="flex flex-col gap-1.5 md:items-end">
+        {/* Row 1 — Canons (primary) */}
+        <ul class="flex flex-col gap-1 text-sm md:flex-row md:items-center md:gap-5">
+          {canonLinks.map((link) => (
+            <li>
               <a
                 href={link.href}
-                class="hover:text-accent"
+                class:list={[
+                  'rounded px-2 py-1 hover:text-accent',
+                  isActive(link.href) ? 'font-semibold text-accent' : 'text-stone-700',
+                ]}
                 aria-current={isActive(link.href) ? 'page' : undefined}
               >
                 {link.label}
               </a>
             </li>
-          );
-        })}
-      </ul>
+          ))}
+        </ul>
+
+        {/* Row 2 — Other links (secondary, slightly smaller on desktop) */}
+        <ul class="flex flex-col gap-1 text-sm md:flex-row md:items-center md:gap-4 md:text-xs">
+          {otherLinks.map((link) => (
+            <li>
+              <a
+                href={link.href}
+                class:list={[
+                  'rounded px-2 py-1 hover:text-accent',
+                  isActive(link.href)
+                    ? 'font-semibold text-accent'
+                    : link.feature
+                      ? 'text-accent/80'
+                      : 'text-stone-500',
+                ]}
+                aria-current={isActive(link.href) ? 'page' : undefined}
+              >
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
     </nav>
   </div>
 

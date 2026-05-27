@@ -27,7 +27,44 @@ body {
   display: block;
 }
 
-/* Mobile tap-to-toggle for <IconTooltip> popovers — same pattern as LangNote. */
+/*
+ * IconTooltip popover behavior — pure CSS, no JS for hover.
+ *
+ * Hidden by default (visibility + opacity + pointer-events). Becomes
+ * visible while the icon is hovered or focused, OR while the popover
+ * itself is hovered — so the mouse can travel from the icon down to
+ * the popover (e.g. to click the "Learn more →" link) without the
+ * popover vanishing.
+ *
+ * When neither the icon nor the popover is hovered/focused any longer,
+ * a 1.5s "stickiness" delay runs before the popover disappears. During
+ * that window pointer-events stays auto, so the user can still move
+ * the mouse into the popover to keep it open. After 1.5s of no
+ * interaction the popover fades out (200ms) and visibility flips
+ * to hidden.
+ *
+ * .icon-tooltip-active is added by icon-tooltip-mobile.ts on touch tap;
+ * it forces the popover open regardless of hover state.
+ */
+.icon-tooltip-popover {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    visibility 0s linear 1.5s,
+    opacity 200ms ease 1.3s,
+    pointer-events 0s linear 1.5s;
+}
+
+.icon-tooltip:hover .icon-tooltip-popover,
+.icon-tooltip:focus-within .icon-tooltip-popover,
+.icon-tooltip-popover:hover,
 .icon-tooltip-active .icon-tooltip-popover {
-  display: block;
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  transition:
+    visibility 0s,
+    opacity 200ms ease,
+    pointer-events 0s;
 }
