@@ -136,7 +136,105 @@ function checkFile(kind: Kind, file: string): void {
       report(rel, 'ERROR', `slug "${data.slug}" does not match filename "${expected}.mdx"`);
     }
   }
+
+  // 10 — deity capitalization. Scan body prose (with JSX tags stripped so
+  // attribute values like gloss="..." aren't scanned) for lowercase
+  // occurrences of always-capitalized deity terms.
+  // ERROR list: unambiguous proper nouns and exclusive theological titles.
+  // WARN list: context-dependent (could be earthly father/lord/etc).
+  for (let i = fmEnd + 1; i < fileLines.length; i++) {
+    const line = fileLines[i];
+    const stripped = line.replace(/<[^>]*>/g, ' ');
+    for (const term of DEITY_ERROR_TERMS) {
+      const re = new RegExp(`\\b${escapeRegex(term)}\\b`, 'g');
+      for (const m of stripped.matchAll(re)) {
+        report(
+          rel,
+          'ERROR',
+          `deity term "${m[0]}" appears lowercase — capitalize when referring to Deity. Line: ${line.trim().slice(0, 120)}`,
+          i + 1,
+        );
+      }
+    }
+    for (const term of DEITY_WARN_TERMS) {
+      const re = new RegExp(`\\b${escapeRegex(term)}\\b`, 'g');
+      for (const m of stripped.matchAll(re)) {
+        report(
+          rel,
+          'WARN',
+          `possible deity term "${m[0]}" lowercase — capitalize if referring to Deity. Line: ${line.trim().slice(0, 120)}`,
+          i + 1,
+        );
+      }
+    }
+
+    // 11 — evaluative-adjective discipline. Hedge words that smuggle an
+    // argument about the text's uniqueness or precision.
+    for (const term of EVAL_HEDGES) {
+      const re = new RegExp(`\\b${escapeRegex(term)}\\b`, 'gi');
+      for (const m of stripped.matchAll(re)) {
+        report(
+          rel,
+          'WARN',
+          `"${m[0]}" may editorialize. Confirm this describes the content's effect (allowed) rather than arguing for its uniqueness or precision (not allowed).`,
+          i + 1,
+        );
+      }
+    }
+  }
+
+  // 12 — no-original-language repetition (WARN). Meta-claims about source
+  // language availability belong in the canon summary, not every chapter.
+  if (
+    kind === 'chapter' &&
+    ['book-of-mormon', 'doctrine-and-covenants', 'pearl-of-great-price'].includes(data.canon)
+  ) {
+    for (let i = fmEnd + 1; i < fileLines.length; i++) {
+      const lowered = fileLines[i].toLowerCase();
+      for (const phrase of NO_ORIG_PHRASES) {
+        if (lowered.includes(phrase)) {
+          report(
+            rel,
+            'WARN',
+            `meta-claims about source-language availability belong in the canon summary, not every chapter. Consider removing: "${phrase}"`,
+            i + 1,
+          );
+        }
+      }
+    }
+  }
 }
+
+// Deity-cap and editorial discipline term lists — see AUTHORING.md §3, §4.
+const DEITY_ERROR_TERMS = [
+  'christ',
+  'jesus',
+  'messiah',
+  'yahweh',
+  'jehovah',
+  'almighty',
+  'most high',
+  'ancient of days',
+  'holy ghost',
+  'holy spirit',
+];
+const DEITY_WARN_TERMS = ['god', 'lord', 'savior', 'redeemer'];
+const EVAL_HEDGES = [
+  'unusually',
+  'remarkably',
+  'surprisingly',
+  'extraordinarily',
+  'uniquely',
+  'improbably',
+  'particularly precise',
+  'exceptionally accurate',
+];
+const NO_ORIG_PHRASES = [
+  'no original-language manuscript',
+  'no extant original',
+  'no original-language source',
+  'without an extant source language',
+];
 
 const collections: { kind: Kind; dir: string }[] = [
   { kind: 'chapter', dir: CONTENT_DIR },
