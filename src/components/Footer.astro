@@ -1,5 +1,6 @@
 ---
 import Ichthys from './icons/Ichthys.astro';
+import IconTooltip from './IconTooltip.astro';
 
 const repoUrl = 'https://github.com/scryptoginger/sumbible';
 const year = new Date().getFullYear();
@@ -25,7 +26,13 @@ const year = new Date().getFullYear();
         <span class="text-stone-400">© {year}</span>
       </div>
       <div class="flex items-center justify-center self-center md:px-4">
-        <Ichthys size={48} class="text-stone-300" />
+        <IconTooltip
+          title="Ichthys"
+          description="Greek for 'fish' (ΙΧΘΥΣ); an early Christian acronym for Iēsous Christos Theou Hyios Sōtēr (Jesus Christ, Son of God, Savior)."
+          learnMoreHref="/about/iconography/ichthys"
+        >
+          <Ichthys size={48} class="text-stone-300" />
+        </IconTooltip>
       </div>
       <aside class="self-center">
         <p class="text-base leading-relaxed text-stone-700">

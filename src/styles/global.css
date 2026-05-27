@@ -26,3 +26,8 @@ body {
 .lang-note-active .lang-note-popover {
   display: block;
 }
+
+/* Mobile tap-to-toggle for <IconTooltip> popovers — same pattern as LangNote. */
+.icon-tooltip-active .icon-tooltip-popover {
+  display: block;
+}

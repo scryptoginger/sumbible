@@ -1,0 +1,37 @@
+---
+// Wraps an icon so it carries a hover/tap tooltip with a short explanation
+// and an optional "Learn more →" link to the relevant iconography subpage.
+// Usage:
+//   <IconTooltip title="Chi-Rho" description="..." learnMoreHref="/about/iconography/chi-rho">
+//     <ChiRho size={28} />
+//   </IconTooltip>
+
+interface Props {
+  title: string;
+  description: string;
+  learnMoreHref?: string;
+}
+
+const { title, description, learnMoreHref } = Astro.props;
+---
+
+<span
+  class="icon-tooltip group relative inline-flex cursor-help items-center"
+  tabindex="0"
+>
+  <slot />
+  <span
+    class="icon-tooltip-popover absolute left-1/2 top-full z-30 mt-2 hidden w-64 -translate-x-1/2 rounded border border-stone-300 bg-stone-50 p-3 text-left text-sm shadow-lg group-hover:block group-focus-within:block"
+  >
+    <span class="block font-semibold text-stone-800">{title}</span>
+    <span class="mt-1 block text-stone-700">{description}</span>
+    {learnMoreHref && (
+      <a
+        href={learnMoreHref}
+        class="mt-2 block text-stone-600 underline decoration-stone-400 hover:text-stone-900"
+      >
+        Learn more &rarr;
+      </a>
+    )}
+  </span>
+</span>

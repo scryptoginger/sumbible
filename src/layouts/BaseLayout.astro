@@ -71,5 +71,8 @@ const ogImageUrl = ogImage ? new URL(ogImage, Astro.site).href : undefined;
       <slot />
     </main>
     <Footer />
+    <script>
+      import '../scripts/icon-tooltip-mobile.ts';
+    </script>
   </body>
 </html>
