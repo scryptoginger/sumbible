@@ -1,0 +1,85 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ChiRho from '../../../components/icons/ChiRho.astro';
+import Aleph from '../../../components/icons/Aleph.astro';
+import AlphaOmega from '../../../components/icons/AlphaOmega.astro';
+import Ichthys from '../../../components/icons/Ichthys.astro';
+import Cross from '../../../components/icons/Cross.astro';
+
+const symbols = [
+  {
+    slug: 'chi-rho',
+    name: 'Chi-Rho',
+    Icon: ChiRho,
+    blurb:
+      "An early Christian Christogram formed from the first two Greek letters of Christ's name (Χριστός). The mark in the site header and the emblem of the New Testament and Book of Mormon — the canons that name Christ most directly.",
+  },
+  {
+    slug: 'aleph',
+    name: 'Aleph',
+    Icon: Aleph,
+    blurb:
+      "The first letter of the Hebrew alphabet (א). The emblem of the Old Testament, signaling that the foundation of the Christian and Latter-day Saint canon is Hebrew Scripture.",
+  },
+  {
+    slug: 'alpha-omega',
+    name: 'Alpha and Omega',
+    Icon: AlphaOmega,
+    blurb:
+      "The first and last letters of the Greek alphabet — Christ's self-declaration in Revelation 1:8 as the Beginning and the End. The centerpiece of SumBible's section divider.",
+  },
+  {
+    slug: 'ichthys',
+    name: 'Ichthys',
+    Icon: Ichthys,
+    blurb:
+      "Greek for 'fish' (ΙΧΘΥΣ); an early Christian acronym for Iēsous Christos Theou Hyios Sōtēr (Jesus Christ, Son of God, Savior). The quiet mark in the site footer.",
+  },
+  {
+    slug: 'cross',
+    name: 'Cross',
+    Icon: Cross,
+    blurb:
+      "The most widely recognized Christian symbol, representing Christ's atoning sacrifice. The emblem of the Doctrine and Covenants and the Pearl of Great Price on this site.",
+  },
+];
+---
+
+<BaseLayout title="Iconography">
+  <article class="prose prose-stone max-w-none">
+    <h1>Iconography on SumBible</h1>
+    <p>
+      SumBible's visual identity is built from <strong>symbolic</strong> Christian
+      iconography — letter-monograms, acronymic devices, and abstract emblems
+      drawn from the earliest Christian centuries — rather than figurative
+      imagery. There is a firm rule: no generated or embedded image depicts
+      Christ, a prophet, or any divine figure as a person. The symbolic
+      approach is a deliberate theological choice: a reverent reference site
+      should point at the text and at the One the text testifies of, not at a
+      modern artist's (or model's) imagining of the Person.
+    </p>
+    <p>
+      Five symbols carry the load. Each has its own short page below.
+    </p>
+
+    <div class="not-prose mt-8 space-y-6">
+      {symbols.map((s) => {
+        const Icon = s.Icon;
+        return (
+          <div class="flex items-start gap-5 rounded-lg border border-stone-200 bg-stone-50/60 p-5">
+            <div class="shrink-0 text-accent">
+              <Icon size={56} />
+            </div>
+            <div class="min-w-0 flex-1">
+              <h2 class="text-xl font-semibold text-ink">{s.name}</h2>
+              <p class="mt-1 text-stone-700">{s.blurb}</p>
+              <a href={`/about/iconography/${s.slug}`} class="mt-2 inline-block text-sm text-accent underline decoration-stone-300 hover:decoration-accent">
+                Read more &rarr;
+              </a>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </article>
+</BaseLayout>
