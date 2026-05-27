@@ -85,7 +85,7 @@ const jsonLd =
         headline: data.title ? `${heading} — ${data.title}` : heading,
         datePublished: data.reviewedOn ?? data.draftedOn,
         dateModified: data.reviewedOn ?? data.draftedOn,
-        author: { '@type': 'Person', name: 'Keith Lutes' },
+        author: { '@type': 'Organization', name: 'SumBible' },
         publisher: { '@type': 'Organization', name: 'SumBible' },
         mainEntityOfPage: pageUrl,
         about: `${data.book} chapter ${data.chapter}, scripture summary`,

@@ -23,3 +23,12 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 .vercel
+
+# session-04a working-memory files (not committed)
+KEITH_EDITS_BASELINE.diff
+KEITH_EDITS_FILES.txt
+KEITH_EDITS_FILELIST.txt
+KEITH_EDITS_BASELINE.md
+SESSION_04A_CONFLICTS.md
+AUDIT_FILES.txt
+SESSION_04A_PR_BODY.md

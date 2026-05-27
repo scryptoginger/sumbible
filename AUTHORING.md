@@ -1,160 +1,188 @@
-# Authoring a SumBible Chapter
+# Authoring SumBible Content
 
-This document is the **contract** for drafting any chapter summary on SumBible —
-whether the drafter is a future Claude Code session or a human contributor. Read
-it before drafting, and follow it.
+This document is the **contract** for drafting any scriptural content on
+SumBible — chapter summaries, book summaries, canon summaries, and (soon)
+related-text entries — whether the drafter is a future Claude Code session or
+a human contributor. Read it before drafting, and follow it.
 
 ---
 
-## 1. The hallucination guardrail — read this twice
+## 1. Purpose and Scope
 
-SumBible lives publicly under Keith Lutes's name. **Every non-obvious claim in a
-chapter summary must be traceable to a real, published source.**
+SumBible is a public scriptural-reference site. Its content is dual: a short
+*highlight* (the chapter / book / canon summary in three sentences or fewer)
+and a longer *deep summary* in the MDX body. The disciplines below govern
+both.
+
+The hard rules — hallucination guardrail (§2), LDS-canon believing voice (§3),
+deity capitalization (§4), editorial discipline (§5), quotation discipline
+(§6), repetition discipline (§7), cross-reference discipline (§8), and
+anonymity (§9) — apply to every piece of content. The mechanical guides
+(schema §10, dates §11, word counts §12, components §13) tell you how to
+realize those rules in practice. The Pre-Commit Audit Checklist (§18) is the
+final pass before any commit that touches content.
+
+---
+
+## 2. The Hallucination Guardrail — read this twice
+
+SumBible is a public reference site. **Every non-obvious claim in a summary
+must be traceable to a real, published source.**
 
 - If you write that a Hebrew or Greek word "means X," you must have actually
   consulted a lexicon (BDB, HALOT, BDAG, Strong's) or a set of translator's
-  notes (e.g. the NET Bible notes). Do not reconstruct an etymology from memory
-  and present it as fact.
-- If you cite a cross-reference, **verify the cited verse actually says what you
-  claim.** "This echoes Isaiah 53:5" requires checking Isaiah 53:5.
-- If you attribute a view to a scholar or a tradition, make sure that scholar or
-  tradition actually holds it. If a view is contested, say so.
+  notes (e.g. the NET Bible notes). Do not reconstruct an etymology from
+  memory and present it as fact.
+- If you cite a cross-reference, **verify the cited verse actually says what
+  you claim.** "This echoes Isaiah 53:5" requires checking Isaiah 53:5.
+- If you attribute a view to a scholar or a tradition, make sure that scholar
+  or tradition actually holds it. If a view is contested, say so.
 - If you cite a book or article, it must really exist, with the author, title,
   and venue stated correctly. Do not invent plausible-sounding citations.
 
 Inventing word etymologies, fabricating cross-references, or attributing views
 to people or traditions that do not hold them is a **project-killing failure
-mode** — worse than producing fewer chapters, and worse than leaving a claim
+mode** — worse than producing fewer summaries, and worse than leaving a claim
 out. **When in doubt, omit the claim.** A thin, accurate summary beats a rich,
 unreliable one every time.
+
+**Sources discipline.** List every source behind a deep summary in the
+`sources` frontmatter. Acceptable sources: published lexicons, peer-reviewed
+commentaries, the NET Bible notes, the LDS Bible Dictionary and Guide to the
+Scriptures, the Joseph Smith Papers, and reputable academic scholarship. Not
+acceptable: random blogs, AI summaries of other texts, or training-data
+confidence without verification. Only include a `url` you are confident
+resolves.
 
 Accuracy over coverage. Always.
 
 ---
 
-## 2. Frontmatter schema
+## 3. LDS-Canon Believing Voice
 
-Every chapter is one `.mdx` file. The frontmatter is validated by
-`src/content.config.ts` — a build will fail if it does not conform. Generate a
-fresh, schema-correct skeleton with `npm run new-chapter` (see §10); never
-freehand the frontmatter.
+SumBible writes from the perspective of a faithful Latter-day Saint who fully
+believes the Book of Mormon, Doctrine and Covenants, and Pearl of Great Price
+as scripture from the mouth of God.
 
-| Field | Type | Required | Notes |
-| :-- | :-- | :-- | :-- |
-| `canon` | enum | yes | `bible-ot`, `bible-nt`, `book-of-mormon`, `doctrine-and-covenants`, `pearl-of-great-price`. |
-| `book` | string | yes | Human-readable book name, e.g. `Genesis`, `1 Nephi`. |
-| `bookSlug` | string | yes | URL-safe slug, e.g. `genesis`, `1-nephi`. Must match `src/lib/canons.ts`. |
-| `bookOrder` | integer | yes | The book's order within its canon (Genesis = 1, John = 4, Romans = 6). |
-| `chapter` | positive integer | yes | The chapter (or D&C section) number. |
-| `originalLanguage` | enum | yes | `hebrew`, `aramaic`, `greek`, `mixed-hebrew-aramaic`, `modern-english`, or `none`. |
-| `title` | string | no | Optional thematic title, e.g. `The Word Made Flesh`. |
-| `highlightSummary` | string | yes | The highlight reel. 40–600 characters; aim for 60–120 words. |
-| `externalLinks` | object | no | Any of `churchofjesuschrist`, `biblegateway`, `bibleHub`, `blueLetterBible`, `netBible` — each a full URL. |
-| `sources` | array | no | `{ title, author?, url?, note? }`. List every source behind the deep summary. |
-| `christReferences` | array | no | `{ verse, name, note? }`. See §7. |
-| `themes` | array of string | no | Thematic tags. See §7. |
-| `status` | enum | no | `draft` (default), `review`, or `published`. See §11. |
-| `draftedBy` | string | no | Set to `claude-code` for AI drafts. |
-| `draftedOn` | string | no | ISO date — **quoted** (see §3). |
-| `reviewedBy` | string | no | Set by `promote-chapter` at review time. |
-| `reviewedOn` | string | no | ISO date — **quoted**. Set by `promote-chapter`. |
+**For Bible content** (Old Testament, New Testament), report the spectrum of
+scholarly views where genuine believer-level disagreement exists — Mosaic
+authorship of the Pentateuch, dating of John, the Pauline disputed letters.
+Bible-content discipline remains "report the spectrum, don't arbitrate."
 
-**Always set `status: draft`, `draftedBy: claude-code`, and a quoted
-`draftedOn` on a new AI-drafted chapter.** A human flips `status` after review.
+**For LDS-canon content** (BoM, D&C, PGP), **do not equivocate** about the
+text's canonical claims. The Book of Mormon *is* another testament of Jesus
+Christ, *was* translated by Joseph Smith through divine power, *records* the
+religious history of ancient American peoples. The Doctrine and Covenants
+*is* revelation. The Pearl of Great Price *is* scripture. Use the
+matter-of-fact voice the LDS Bible Dictionary or *Saints* would use — not
+"the text describes," "the Church teaches," "claims to be." Those hedges
+import outsider skepticism into a believer's reference.
+
+Where scholarly conversations exist (the Book of Abraham papyri question, BoM
+historicity debates, the dating of D&C revelations), report them with the
+believer's frame intact. "Scholars have raised questions about X; the
+canonical claim is Y" — not "X is contested, so Y is uncertain."
 
 ---
 
-## 3. The date-quoting rule
+## 4. Deity Capitalization
 
-**Every date in frontmatter MUST be a quoted string.** An unquoted ISO date is
-parsed by YAML as a date object, which fails the `z.string()` schema and breaks
-the build. This is enforced by `npm run lint:content` (a hard ERROR).
+**Every reference to Deity gets capitalized.** This is enforced by the lint
+rule (`lint:content` deity-cap check) and by the pre-commit audit checklist
+(§18). Before you commit, run your own eye through the new prose and verify.
 
-```yaml
-draftedOn: "2026-05-22"     # ✅ correct — quoted
-draftedOn: 2026-05-22       # ❌ wrong — parses as a YAML date, build fails
-```
+**Always-capitalized terms** (lowercase in Deity context = ERROR):
 
-`npm run new-chapter` already quotes dates; `npm run promote-chapter` keeps them
-quoted. You only need to think about this if you hand-edit frontmatter.
+- "God" (when referring to the Christian / LDS God)
+- "Lord" (when referring to Deity)
+- "Father" (when referring to God the Father)
+- "Son" (when referring to Christ)
+- "Holy Ghost", "Holy Spirit", "Spirit" (when referring to the Holy Spirit)
+- "Savior", "Redeemer", "Creator", "Author" (when referring to Deity)
+- "Almighty", "Most High", "Ancient of Days"
+- "Word" (when referring to Christ as Logos)
+- "Beloved" (when referring to Christ)
+- "Messiah", "Christ", "Jesus", "Yahweh", "Jehovah"
+- Pronouns referring to Deity: "He", "Him", "His", "Himself"
 
----
+**Context-dependent terms** (the lint warns; you verify):
 
-## 4. The two summaries
+- "spirit" — lowercase OK for mood / attitude / disposition; capital required
+  for the Holy Spirit
+- "father" — lowercase OK for an earthly father; capital for God the Father
+- "lord" — lowercase OK for an earthly noble; capital for Deity
+- "son" — lowercase OK in general; capital when referring to Christ
 
-### Highlight summary (frontmatter `highlightSummary`)
-
-≤ 3 sentences, **~60–120 words**. It captures the chapter's *load-bearing
-movement* — not merely "what happens" but *what matters* about what happens.
-
-### Deep summary (the MDX body)
-
-**400–700 words of prose** (aim 500–700 for richer chapters, 300–500 for short
-ones like D&C sections). Organized in clear paragraphs — **not** a verse-by-verse
-retelling. It surfaces structure, key terms, intertextual links, and theological
-weight. It should read like a knowledgeable friend talking: not a Sunday-school
-lesson, not a seminary textbook.
-
-The deep summary is **insight, not restatement**. If a sentence only retells the
-chapter, cut it.
+**Quoted scripture is exempt.** Capitalization in `<ScriptureBlock>` and
+quoted passages reflects the published text — do not alter quotations.
+Capitalization applies to SumBible's own prose.
 
 ---
 
-## 5. Content components
+## 5. Editorial Discipline
 
-Five components are available **globally** inside chapter MDX — do not `import`
-them. Use a component only where it earns its place; never shoehorn.
+There is a real distinction between:
 
-### `<LangNote>` — inline original-language term
+- *Describing the text's effect* (allowed): "Romans 8 is a profoundly moving
+  meditation on hope and suffering."
+- *Arguing for the text's uniqueness or precision* (not allowed): "Romans 8's
+  chiasm is unusually precise for Pauline epistolary work."
 
-For a short observation about one Hebrew, Aramaic, or Greek word.
+The first reports the experience of a reader. The second smuggles a
+comparative-uniqueness argument that the text — and the reader — has not
+earned. The same word can land either way; the lint rule warns on hedge words
+and you judge.
 
-```mdx
-<LangNote term="bara" script="בָּרָא" language="Hebrew"
-  gloss="to create. In the Hebrew Bible this verb in its basic (qal) form
-  takes only God as its subject.">Created</LangNote>
-```
+**Hedge words the lint warns on:** unusually, remarkably, surprisingly,
+extraordinarily, uniquely, improbably, "particularly precise", "exceptionally
+accurate".
 
-Use **double quotes** for attributes and avoid double quotes inside `gloss`.
-Skip `<LangNote>` entirely when there is no extant original-language text.
+**Words the lint does *not* flag** (legitimate descriptions of effect):
+powerful, notable, striking, profound, moving, memorable, significant.
 
-### `<LangNotes>` — collapsible notes section
-
-A collapsible block at the **foot of the deep summary** for longer commentary.
-For chapters with no original language, reframe it ("Structural Notes",
-"Intertextual Notes", etc.) rather than dropping it.
-
-### `<TranslationCompare>` — translation-divergence callout
-
-For a specific verse where honest translations meaningfully diverge. Skip it
-when the text exists in only one translation (Book of Mormon, D&C).
-
-### `<VerseRef>` — cross-reference link (see §6)
-
-### `<ScriptureBlock>` — short quotation
-
-```mdx
-<ScriptureBlock reference="Romans 8:1" translation="ESV">
-  There is therefore now no condemnation for those who are in Christ Jesus.
-</ScriptureBlock>
-```
-
-**HARD RULE: never quote more than 2 verses** with `<ScriptureBlock>`, and never
-chain several so they aggregate into a long passage. SumBible's commitment not
-to reproduce scripture is real — link out with `<VerseRef />` for anything
-longer. Use `<TranslationCompare>` (not `ScriptureBlock`) when the point is to
-*compare* renderings.
-
-**MDX formatting note:** keep component children **flush-left** with blank lines
-between blocks. Indenting Markdown four-plus spaces inside a component turns it
-into a code block.
+**Tone discipline.** Insight, not retelling. Faith-respecting, never
+tendentious. Reverent in spirit, academically honest in substance. No
+sermonizing for the Bible canons; no equivocating for the LDS canons (§3).
 
 ---
 
-## 6. The VerseRef discipline
+## 6. Quotation Discipline
 
-**Every cross-reference cited in a deep summary uses `<VerseRef />`** — so each
-becomes a clickable, verified outbound link. `npm run lint:content` warns on raw
+**Public-domain scripture** can be quoted at length with proper attribution.
+This covers the KJV, the ASV, the JPS 1917 Tanakh, the Geneva Bible, the
+Douay-Rheims, and **all of the LDS Standard Works**. The `<ScriptureBlock />`
+2-verse soft limit is **removed** for these sources.
+
+**Modern copyrighted translations** (NIV, ESV, NRSV, NLT, NASB, NABRE, and
+the like) follow their publisher licensing — typically 500 verses or 25% of a
+work, whichever is shorter, with required attribution. SumBible defaults to
+short quotation (one or two verses at a time) from copyrighted translations
+to stay comfortably within fair use.
+
+**Copyrighted commentary, books, articles, and websites:** paraphrase first.
+Short direct quotes (≤ 15 words) only when the exact wording is load-bearing.
+Always attribute inline and add to Sources.
+
+---
+
+## 7. Repetition Discipline
+
+Meta-claims about a canon — its origin language, translation provenance,
+manuscript history, the dating debates around it — belong in the **canon
+summary**, not in every chapter. State once at the highest applicable level
+and do not repeat.
+
+For example, the fact that the Book of Mormon has no extant source-language
+manuscript is a canon-level fact. It belongs in the BoM canon summary, not in
+every BoM chapter summary. The lint rule warns when these phrases reappear
+in a chapter under a canon that already carries them.
+
+---
+
+## 8. Cross-Reference Discipline
+
+**Every cross-reference cited in a deep summary uses `<VerseRef />`** — so
+each becomes a clickable, verified outbound link. `lint:content` warns on raw
 textual references (e.g. `Isaiah 53:5` written as plain prose).
 
 ```mdx
@@ -164,177 +192,264 @@ textual references (e.g. `Isaiah 53:5` written as plain prose).
 <VerseRef book="3-nephi" chapter={11} verse="22-28" />
 ```
 
-- `book` is the canon slug from `src/lib/canons.ts`; the canon is inferred.
-- `verse` is optional (omit for a chapter-level reference).
-- LDS-canon references always link to churchofjesuschrist.org.
-- Do **not** wrap a self-reference (a pointer to the current chapter) or a
-  reference trapped inside another component's attribute. When unsure whether a
-  mention is a real cross-reference, leave it as plain text — a false link is
-  worse than a missed one.
+`book` is the canon slug from `src/lib/canons.ts`; the canon is inferred.
+`verse` is optional (omit for a chapter-level reference). LDS-canon
+references always link to churchofjesuschrist.org.
+
+**Symmetric discipline.** Every reference to a Bible character, place, event,
+or passage in LDS-canon content gets a `<VerseRef />` to its Bible occurrence
+— a BoM mention of Zedekiah or Isaiah or the temple of Solomon becomes a
+link back to the Bible. Conversely, Bible-canon content with direct LDS
+parallel passages (Moses 2 paralleling Genesis 1, for example) gets
+`<VerseRef />` links to the LDS material.
+
+Do **not** wrap a self-reference (a pointer to the current chapter) or a
+reference trapped inside another component's attribute. When unsure whether a
+mention is a real cross-reference, leave it as plain text — a false link is
+worse than a missed one.
 
 ---
 
-## 7. Themes and christReferences
+## 9. Anonymity
 
-### `themes`
+The site does not name its author personally. **JSON-LD `author` is
+`{ "@type": "Organization", "name": "SumBible" }`**, not Person. The About
+page uses passive / organizational voice ("SumBible was built using...",
+not "I built SumBible..."). The repository link stays accessible — in the
+"Suggest a correction" GitHub URL, and in the HTML-comment build credit in
+every page's `<head>` — for anyone determined to find the builder. The site
+surface stays anonymous.
 
-Lowercase, hyphenated thematic tags. They drive the `/themes` index. There is no
-fixed vocabulary — themes accrete organically — but reuse existing tags rather
-than coining near-duplicates. Suggested starting vocabulary:
+---
 
-`creation`, `covenant`, `messianic-prophecy`, `divine-name`, `theophany`,
-`wisdom`, `prophetic-call`, `atonement`, `restoration`, `temple`.
+## 10. Frontmatter Schema
+
+Every piece of content is one `.mdx` file, validated by
+`src/content.config.ts`. Generate a fresh, schema-correct skeleton with
+`new-chapter` / `new-book` / `new-canon` (§16); never freehand the
+frontmatter.
+
+Common fields (chapters / books / canons):
+
+| Field | Type | Notes |
+| :-- | :-- | :-- |
+| `highlightSummary` | string (required) | ≤ 3 sentences, target word count per §12. |
+| `themes` | string[] | Thematic tags, lowercase-hyphenated. |
+| `sources` | array of `{title, author?, url?, note?}` | Every non-obvious claim cited. |
+| `status` | enum: `draft` / `review` / `published` | Defaults to `draft`. |
+| `draftedBy` | string | `claude-code` for AI drafts. |
+| `draftedOn` | quoted ISO date | See §11. |
+| `reviewedBy`, `reviewedOn` | string / quoted date | Set by `promote-content`. |
+
+Chapter-specific fields: `canon`, `book`, `bookSlug`, `bookOrder`, `chapter`,
+`originalLanguage`, `title` (optional, ≤ 80 chars ≈ 10 words),
+`externalLinks`, `christReferences`.
+
+Book-specific: `canon`, `bookSlug`, `name`, `subtitle` (optional, ≤ 80 chars),
+`authorshipNote`, `datingNote`, `literaryGenre`.
+
+Canon-specific: `slug`, `name`, `subtitle` (optional, ≤ 120 chars),
+`spanNote`, `languageNote`, `bookCount`.
+
+---
+
+## 11. The Date-Quoting Rule
+
+**Every date in frontmatter MUST be a quoted string.** An unquoted ISO date
+is parsed by YAML as a Date object, which fails the `z.string()` schema and
+breaks the build. `lint:content` enforces this as a hard ERROR.
 
 ```yaml
-themes: ["creation", "divine-name", "theophany"]
+draftedOn: "2026-05-27"     # ✅ correct — quoted
+draftedOn: 2026-05-27       # ❌ wrong — parses as a YAML date, build fails
 ```
 
-### `christReferences`
+The `new-*` scaffolds quote dates automatically; `promote-content` keeps them
+quoted. You only need to think about this if you hand-edit frontmatter.
 
-Populate this array whenever a name or title of Christ appears in the chapter.
-The `/christ` index page renders these, and each becomes a verse anchor on the
-chapter page. **Verify each verse number before listing it.**
+---
+
+## 12. Content Type Word-Count Targets
+
+**Chapter summaries.** Highlight ≤ 3 sentences, 60–120 words. Deep summary
+**500–700 words** of prose paragraphs — not a verse-by-verse retell. The
+deep summary is *insight, not restatement*. If a sentence only retells the
+chapter, cut it.
+
+**Book summaries.** Highlight ≤ 3 sentences, 60–120 words. Deep summary
+**150–250 words** (revised from 300–500). Voice: warm, knowledgeable friend
+— matching the chapter register scaled up to the book level. The book
+summary's job is orientation — what *is* this book, what's its shape, why
+does it matter — not comprehensive treatment. Avoid academic essay structure.
+
+**Canon summaries.** Highlight ≤ 3 sentences, 60–120 words. Deep summary
+**400–600 words**. Structure: what the canon is; its major structural
+divisions; its principal theological arcs; its overall orientation.
+
+**Related-texts entries.** Defined in session 04b.
+
+---
+
+## 13. Component Usage
+
+Six components are available **globally** inside chapter / book / canon MDX —
+do not `import` them. Use a component only where it earns its place.
+
+### `<LangNote>` — inline original-language term
+
+```mdx
+<LangNote term="bara" script="בָּרָא" language="Hebrew"
+  gloss="to create. In the Hebrew Bible this verb in its basic (qal) form
+  takes only God as its subject.">Created</LangNote>
+```
+
+Use double quotes for attributes; avoid double quotes inside `gloss`. Skip
+when there is no extant original-language text.
+
+### `<LangNotes>` — collapsible notes section
+
+A collapsible block at the foot of a deep summary for longer commentary. For
+chapters with no original language, reframe it ("Structural Notes",
+"Intertextual Notes", "Relationship to Genesis", etc.) rather than dropping.
+
+### `<TranslationCompare>` — translation-divergence callout
+
+For a specific verse where honest translations meaningfully diverge. Skip
+when the text exists in only one translation (Book of Mormon, D&C).
+
+### `<VerseRef>` — clickable cross-reference (see §8)
+
+### `<ScriptureBlock>` — quoted passage
+
+```mdx
+<ScriptureBlock reference="Romans 8:1" translation="ESV">
+  There is therefore now no condemnation for those who are in Christ Jesus.
+</ScriptureBlock>
+```
+
+Public-domain sources (KJV / ASV / JPS 1917 / LDS Standard Works): quote as
+much as serves. Copyrighted translations: 1–2 verses at a time. See §6.
+
+### MDX formatting note
+
+Keep component children **flush-left** with blank lines between blocks.
+Indenting Markdown four-plus spaces inside a component turns it into a code
+block.
+
+---
+
+## 14. Themes and christReferences
+
+`themes` are lowercase-hyphenated thematic tags. There is no fixed
+vocabulary — themes accrete organically — but reuse existing tags rather than
+coining near-duplicates. Suggested starting vocabulary:
+
+`creation`, `covenant`, `messianic-prophecy`, `divine-name`, `theophany`,
+`wisdom`, `prophetic-call`, `atonement`, `restoration`, `temple`,
+`exile-and-return`, `kingdom-of-god`, `discipleship`, `eschatology`.
+
+`christReferences` (chapters only) flags verses where a name or title of
+Christ appears. The `/christ` index renders these, and each becomes a verse
+anchor on the chapter page. **Verify each verse number.**
 
 ```yaml
 christReferences:
   - verse: 7
     name: Beloved Son
     note: "Spoken by the voice of the Father, introducing the Son."
-  - verse: 10
-    name: Jesus Christ
-    note: "Christ's own self-identification as he descends."
 ```
 
 ---
 
-## 8. Sources discipline
+## 15. Proper-Noun Consistency
 
-- List **every** source behind the deep summary in the `sources` frontmatter.
-- Acceptable: published lexicons (BDB, HALOT, BDAG, Strong's), peer-reviewed
-  commentaries, the NET Bible notes, the LDS Bible Dictionary and Guide to the
-  Scriptures, the Joseph Smith Papers, and reputable academic scholarship.
-- **Not** acceptable: random blogs, AI summaries of other texts, or training-data
-  confidence without verification.
-- Verify every cross-reference before citing it.
-- Where a scholarly view is contested, name the disagreement; do not pick a winner.
-- Only include a `url` you are confident resolves.
+A short list of terms whose capitalization SumBible standardizes:
 
----
-
-## 9. Tone discipline
-
-- **Insight, not retelling.** Commentary that helps a reader see something new.
-- **Enhance, never replace, personal study.** Quote no more than a verse or two.
-- **Multi-translation and multi-tradition.** Surface meaningful disagreement;
-  name divergent readings rather than flattening them.
-- **Faith-respecting but not tendentious.** Reverent in spirit, academically
-  honest in substance. No sermonizing. Never subtly argue that one tradition's
-  reading is obviously correct.
+- Tree of Life
+- Atonement (capital A, referring to Christ's atoning act)
+- Restoration (capital R, referring to the LDS Restoration)
+- First Vision (Joseph Smith's vision)
+- Standard Works (the LDS scriptural canon)
+- Gospel (capital G when referring to the Christian / LDS gospel; lowercase for
+  one of the four Gospel narratives — "the Gospel of John")
+- Plan of Salvation
+- Word of Wisdom
 
 ---
 
-## 10. The authoring scripts
+## 16. Authoring Scripts
 
 | Command | What it does |
 | :-- | :-- |
 | `npm run new-chapter -- --canon <c> --book <slug> --chapter <n> [--title "..."]` | Scaffolds a schema-correct chapter MDX skeleton (dates quoted, `status: draft`). |
 | `npm run new-book -- --canon <c> --book <slug>` | Scaffolds a book-summary MDX skeleton. |
 | `npm run new-canon -- --canon <c>` | Scaffolds a canon-summary MDX skeleton. |
-| `npm run promote-chapter -- --canon <c> --book <slug> --chapter <n> --to <status> [--reviewed-by <name>]` | Flips a chapter's workflow status; stamps `reviewedOn`/`reviewedBy`. Never hand-edit status. |
-| `npm run lint:content` | Runs the discipline checks Zod can't, across the chapter, book, and canon collections. |
+| `npm run promote-content -- --kind <chapter\|book\|canon> --canon <c> [--book <slug>] [--chapter <n>] --to <status> [--reviewed-by <name>]` | Flips status; stamps `reviewedOn` / `reviewedBy`. Never hand-edit status. |
+| `npm run promote-chapter -- ...` | Backward-compat alias for `promote-content --kind chapter`. |
+| `npm run lint:content` | Runs the discipline checks Zod can't, across the chapter / book / canon collections. |
 | `npm run build-favicons` | Rasterizes `public/favicon.svg` to the PNG favicon set. |
 
 ---
 
-## 11. The status workflow and CI
+## 17. Status Workflow and CI
 
-New chapters start at **`draft`**. After review, a human promotes them:
+New content starts at `draft`. After review, a human promotes it via
+`promote-content`:
 
 ```
-draft  ──promote-chapter──▶  review  ──promote-chapter──▶  published
+draft  ──promote-content──▶  review  ──promote-content──▶  published
 ```
 
-`draft` and `review` chapters show a badge, carry `<meta robots noindex>`, and
-are kept out of the sitemap and the JSON-LD. Only `published` chapters are
-advertised to search engines.
+`draft` and `review` content shows a badge, carries
+`<meta name="robots" content="noindex">`, and is kept out of the sitemap and
+the JSON-LD. Only `published` content is advertised to search engines.
 
-**CI:** every pull request to `main` runs `.github/workflows/validate.yml`
-(`lint:content`, `astro check`, `build`). A local **pre-commit hook**
-(`astro check` + `lint:content`) catches the same issues before you push.
-Content is drafted on a feature branch, opened as a PR, and merged only after
-human review — never committed straight to `main`.
+**CI.** Every pull request to `main` runs `.github/workflows/validate.yml`
+(`lint:content`, `astro check`, `build`). A local pre-commit hook (`astro
+check` + `lint:content`) catches the same issues earlier. Content is drafted
+on a feature branch, opened as a PR, and merged only after human review —
+never committed straight to `main`.
 
 ---
 
-## 12. Drafting canon and book summaries
+## 18. Pre-Commit Audit Checklist
 
-Canon and book summaries are full content, drafted under the same hallucination
-guardrail as chapters and committed as `status: draft`. They live in two
-collections: `src/content/canons/<slug>.mdx` and
-`src/content/books/<canon>/<book-slug>.mdx`. Scaffold with `npm run new-canon`
-and `npm run new-book`.
+Before every commit that touches content, run through this:
 
-**Canon summaries** — highlight ≤ 3 sentences (60–120 words); deep summary
-400–600 words. Structure: what the canon is; its major structural divisions;
-its principal theological arcs; its overall orientation. Optional frontmatter:
-`spanNote`, `languageNote`, `bookCount` (these render as a metadata aside).
-
-**Book summaries** — highlight ≤ 3 sentences (60–120 words); deep summary
-300–500 words. Structure: the book's place in its canon; its major structural
-divisions; its distinctive theology; how it points beyond itself. Optional
-frontmatter `authorshipNote`, `datingNote`, `literaryGenre` render as a metadata
-aside — keep each to a sentence or two.
-
-**The contested-attribution discipline.** Authorship and dating are contested
-for most biblical books. State BOTH the traditional attribution AND the
-critical-scholarship range; never flatten to one. For the Latter-day Saint
-Standard Works, report the tradition's claims about origin together with the
-historical and scholarly context, and do not adjudicate questions of historical
-authenticity. Verify every structural claim against a published source.
-
-**Themes.** Prefer the controlled vocabulary: `creation`, `covenant`,
-`messianic-prophecy`, `divine-name`, `theophany`, `wisdom`, `prophetic-call`,
-`atonement`, `restoration`, `temple`, `exile-and-return`, `kingdom-of-god`,
-`discipleship`, `eschatology`. Add a new theme only when none truly fits.
-
-Use `<VerseRef />` for cross-references. `<LangNote>` and `<TranslationCompare>`
-are rarely needed at this level — canon and book prose is mostly expository.
+1. Deity references all capitalized (see §4).
+2. No editorializing about content's uniqueness / precision / unlikelihood
+   (see §5).
+3. All Bible cross-references in LDS-canon content use `<VerseRef />` (see §8).
+4. All LDS-canon cross-references in Bible content use `<VerseRef />` (see §8).
+5. No repeated canon-level meta-claims in chapter content (see §7).
+6. Quotation discipline followed: public-domain vs copyrighted (see §6).
+7. Sources cited for all non-obvious claims (see §2).
+8. LDS-canon content uses believing voice; Bible content reports the
+   spectrum (see §3).
+9. For files in `KEITH_EDITS_BASELINE.md` (when present in a session):
+   Keith's prior edits preserved.
+10. Proper-noun consistency (Tree of Life, Atonement, Restoration, First
+    Vision, etc. — see §15).
 
 ---
 
-## 13. The Christ iconography
+## 19. Christ Iconography Reference
 
 SumBible's visual identity is built from **symbolic** Christian iconography,
-never figurative imagery. There is a firm rule: **no generated or embedded
-image depicting Christ, a prophet, or any divine figure as a person** — not in
-favicons, OG images, decoration, or anywhere else. The symbolic approach is a
-deliberate theological choice, not a workaround.
+never figurative imagery. Hard rule: **no generated or embedded image
+depicting Christ, a prophet, or any divine figure as a person** — not in
+favicons, OG images, decoration, or anywhere else.
 
-The icon components live in `src/components/icons/`:
+Icon components in `src/components/icons/`:
 
-- **ChiRho** — the Christogram (Χ + Ρ). The favicon, the header mark, the
-  anchor of the `/christ` page; the emblem of the New Testament and Book of
-  Mormon canons.
-- **AlphaOmega** — Revelation 1:8. The centerpiece of `<SectionDivider />`.
+- **ChiRho** — the Christogram (Χ + Ρ). Favicon, header mark, `/christ` page
+  anchor; emblem of the New Testament and Book of Mormon canons.
+- **AlphaOmega** — Revelation 1:8. Centerpiece of `<SectionDivider />`.
 - **Ichthys** — the early-Christian fish. Footer decoration.
-- **Cross** — a plain Latin cross. The emblem of the Doctrine and Covenants
-  and the Pearl of Great Price.
-- **Aleph** — the Hebrew letter א. The emblem of the Old Testament, which
+- **Cross** — a plain Latin cross. Emblem of the Doctrine and Covenants and
+  the Pearl of Great Price.
+- **Aleph** — the Hebrew letter א. Emblem of the Old Testament, which
   predates the Christian christogram.
 
-`<CanonIcon canon={...} />` maps each canon to its emblem. All icons render in
-`currentColor`, inheriting theme color from their context.
-
----
-
-## 14. Quick checklist before committing a draft
-
-- [ ] Skeleton generated with `npm run new-chapter`.
-- [ ] `status: draft`, `draftedBy: claude-code`, quoted `draftedOn`.
-- [ ] Highlight is ≤ 3 sentences, ~60–120 words.
-- [ ] Deep summary is 400–700 words, paragraphs, not a verse-by-verse retell.
-- [ ] Every non-obvious claim is sourced; every cross-reference verified.
-- [ ] Cross-references use `<VerseRef />`; quotations use `<ScriptureBlock>` (≤ 2 verses).
-- [ ] `themes` and `christReferences` populated where applicable.
-- [ ] `npm run build`, `npx astro check`, and `npm run lint:content` all pass.
-- [ ] No invented etymologies, citations, or scholarly attributions.
+`<CanonIcon canon={...} />` maps each canon to its emblem. All icons render
+in `currentColor`.

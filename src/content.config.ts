@@ -1,5 +1,6 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { z } from 'zod';
 
 const canonEnum = z.enum([
   'bible-ot',
@@ -31,7 +32,7 @@ const chapterSchema = z.object({
   // Content metadata
   originalLanguage: originalLanguageEnum,
   highlightSummary: z.string().min(40).max(600),  // ≤3 sentences, target 60-120 words
-  title: z.string().optional(),                   // optional thematic title for the chapter
+  title: z.string().max(80).optional(),           // optional thematic title (≤10 words ≈ 80 chars)
 
   // External resources
   externalLinks: z.object({
@@ -79,6 +80,7 @@ const bookSchema = z.object({
   canon: canonEnum,
   bookSlug: z.string(),
   name: z.string(),
+  subtitle: z.string().max(80).optional(),  // optional book subtitle (≤10 words ≈ 80 chars)
 
   // Content — highlight in frontmatter, deep summary (300-500 words) in the body
   highlightSummary: z.string().min(40).max(600),
@@ -108,6 +110,7 @@ const bookSchema = z.object({
 const canonSchema = z.object({
   slug: canonEnum,
   name: z.string(),
+  subtitle: z.string().max(120).optional(),  // optional canon subtitle (slightly longer cap)
 
   // Canon summaries can run slightly longer than book/chapter highlights
   highlightSummary: z.string().min(40).max(700),
