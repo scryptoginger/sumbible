@@ -80,6 +80,7 @@ const frontmatter = [
   'sources: [] # TODO: cite every non-obvious claim — see AUTHORING.md',
   'christReferences: [] # TODO: { verse, name, note } for each name/title of Christ in this chapter',
   'themes: [] # TODO: lowercase-hyphenated thematic tags — see AUTHORING.md',
+  'verificationLog: [] # TODO: populate during research — every non-obvious claim → { claim, source, url?, verifiedOn? }',
   'status: draft',
   `draftedBy: ${draftedBy}`,
   `draftedOn: "${today}"`,

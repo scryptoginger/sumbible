@@ -66,6 +66,18 @@ const chapterSchema = z.object({
   // /themes index renders them. Drives /themes and /themes/[theme].
   themes: z.array(z.string()).default([]),
 
+  // Verification log — every non-obvious claim in the deep summary or
+  // LangNotes section traces to one entry. Populated during research,
+  // before drafting the prose. See AUTHORING.md §Verification Log
+  // Discipline. Rendered on the chapter page in a collapsed details
+  // block ("Research sources").
+  verificationLog: z.array(z.object({
+    claim: z.string(),
+    source: z.string(),
+    url: z.string().url().optional(),
+    verifiedOn: z.string().optional(),
+  })).default([]),
+
   // Workflow status
   status: statusEnum.default('draft'),
   draftedBy: z.string().optional(),
