@@ -453,3 +453,38 @@ Icon components in `src/components/icons/`:
 
 `<CanonIcon canon={...} />` maps each canon to its emblem. All icons render
 in `currentColor`.
+
+---
+
+## 20. Verification Log Discipline
+
+Every chapter MDX file includes a `verificationLog` field in frontmatter. The
+drafting agent populates it **during research, before drafting the prose** —
+every non-obvious claim that appears in the deep summary or the LangNotes
+section traces to one entry in the log. The log is the *receipt* of the
+research: a permanent record of which sources the drafter actually consulted
+and verified.
+
+```yaml
+verificationLog:
+  - claim: "Hebrew bara takes only God as subject in the qal form"
+    source: "Brown-Driver-Briggs Hebrew and English Lexicon, entry on bara"
+    verifiedOn: "2026-05-27"
+  - claim: "Colwell's rule on definite predicate nouns lacking the article"
+    source: "E. C. Colwell, JBL 52 (1933): 12-21"
+    url: https://example.org/colwell-1933
+    verifiedOn: "2026-05-27"
+```
+
+The lint rule (`scripts/lint-content.ts` check #7) warns when a chapter at
+`status: review` or `status: published` has a substantial deep summary
+(>1,600 characters) and fewer than 3 verification-log entries. A near-empty
+log on substantial content indicates either (a) claims that weren't actually
+verified, or (b) verification work that wasn't recorded. Both are blockers.
+
+The verification log renders on the chapter page as a collapsed
+`<details>` block titled "Research sources" below the canonical Sources
+block — readers can expand it to see what the drafter consulted.
+
+The pre-commit audit checklist (§18) is extended by item 11: verification
+log populated for the work claimed in the chapter.
