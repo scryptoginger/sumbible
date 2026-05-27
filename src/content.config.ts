@@ -36,18 +36,18 @@ const chapterSchema = z.object({
 
   // External resources
   externalLinks: z.object({
-    churchofjesuschrist: z.string().url().optional(),
-    biblegateway: z.string().url().optional(),
-    bibleHub: z.string().url().optional(),
-    blueLetterBible: z.string().url().optional(),
-    netBible: z.string().url().optional(),
+    churchofjesuschrist: z.url().optional(),
+    biblegateway: z.url().optional(),
+    bibleHub: z.url().optional(),
+    blueLetterBible: z.url().optional(),
+    netBible: z.url().optional(),
   }).default({}),
 
   // Sources cited in the deep summary (renders as footer references)
   sources: z.array(z.object({
     title: z.string(),
     author: z.string().optional(),
-    url: z.string().url().optional(),
+    url: z.url().optional(),
     note: z.string().optional(),
   })).default([]),
 
@@ -74,7 +74,7 @@ const chapterSchema = z.object({
   verificationLog: z.array(z.object({
     claim: z.string(),
     source: z.string(),
-    url: z.string().url().optional(),
+    url: z.url().optional(),
     verifiedOn: z.string().optional(),
   })).default([]),
 
@@ -107,7 +107,7 @@ const bookSchema = z.object({
   sources: z.array(z.object({
     title: z.string(),
     author: z.string().optional(),
-    url: z.string().url().optional(),
+    url: z.url().optional(),
     note: z.string().optional(),
   })).default([]),
 
@@ -137,7 +137,7 @@ const canonSchema = z.object({
   sources: z.array(z.object({
     title: z.string(),
     author: z.string().optional(),
-    url: z.string().url().optional(),
+    url: z.url().optional(),
     note: z.string().optional(),
   })).default([]),
 
@@ -180,7 +180,7 @@ const relatedTextSchema = z.object({
   sources: z.array(z.object({
     title: z.string(),
     author: z.string().optional(),
-    url: z.string().url().optional(),
+    url: z.url().optional(),
     note: z.string().optional(),
   })).default([]),
 
