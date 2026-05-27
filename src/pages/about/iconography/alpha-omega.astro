@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import AlphaOmega from '../../../components/icons/AlphaOmega.astro';
+import SectionDivider from '../../../components/SectionDivider.astro';
+import VerseRef from '../../../components/VerseRef.astro';
+---
+
+<BaseLayout title="Alpha and Omega">
+  <nav class="text-sm text-stone-500" aria-label="Breadcrumb">
+    <a href="/about" class="hover:text-accent">About</a>
+    <span class="mx-1.5 text-stone-400">&rsaquo;</span>
+    <a href="/about/iconography" class="hover:text-accent">Iconography</a>
+    <span class="mx-1.5 text-stone-400">&rsaquo;</span>
+    <span class="text-stone-700">Alpha and Omega</span>
+  </nav>
+
+  <div class="mt-6 flex justify-center text-accent">
+    <AlphaOmega size={120} />
+  </div>
+  <h1 class="mt-4 text-center text-3xl font-bold text-ink sm:text-4xl">Alpha and Omega</h1>
+  <p class="mt-2 text-center font-serif text-lg text-stone-600 italic">
+    The first and last letters of the Greek alphabet &middot; Α &middot; Ω
+  </p>
+
+  <SectionDivider />
+
+  <article class="prose prose-stone max-w-none">
+    <h2>What it is</h2>
+    <p>
+      Alpha (Α) is the first letter of the Greek alphabet and omega (Ω) is the
+      last. Paired together, they stand for "from beginning to end" — a
+      typographic equivalent of "from A to Z" in English.
+    </p>
+
+    <h2>Where it comes from</h2>
+    <p>
+      The pair takes on theological weight from the book of Revelation, where
+      Christ declares Himself the Alpha and the Omega — the Beginning and the
+      End. The phrase appears three times: at the book's opening
+      (<VerseRef book="revelation" chapter={1} verse={8} />), at the throne
+      vision of the new creation (<VerseRef book="revelation" chapter={21} verse={6} />),
+      and at the book's close (<VerseRef book="revelation" chapter={22} verse={13} />).
+      In each, the title belongs to God or to Christ; the two are bound
+      together in the same self-revelation.
+    </p>
+
+    <h2>Where you'll see it</h2>
+    <p>
+      Christian art has paired alpha and omega with the chi-rho since late
+      antiquity — the two often appear together flanking the chi-rho mark in
+      mosaic, manuscript, and architectural settings. The pair appears
+      independently on church facades, in stained glass, on bishops' staves
+      and pectoral crosses, and in the liturgical traditions' calendars and
+      vestments.
+    </p>
+
+    <h2>Why it's the SumBible section-divider symbol</h2>
+    <p>
+      Every section of a scriptural reflection — every chapter, every book —
+      sits inside the larger arc that begins with creation and ends with the
+      consummation Christ Himself names in Revelation. Alpha and omega
+      between two horizontal lines is a quiet way of marking that arc at
+      every visual break on the page: a reminder that whatever this section
+      is about, it sits between two ends Christ Himself has named.
+    </p>
+  </article>
+</BaseLayout>

@@ -66,6 +66,18 @@ const chapterSchema = z.object({
   // /themes index renders them. Drives /themes and /themes/[theme].
   themes: z.array(z.string()).default([]),
 
+  // Verification log — every non-obvious claim in the deep summary or
+  // LangNotes section traces to one entry. Populated during research,
+  // before drafting the prose. See AUTHORING.md §Verification Log
+  // Discipline. Rendered on the chapter page in a collapsed details
+  // block ("Research sources").
+  verificationLog: z.array(z.object({
+    claim: z.string(),
+    source: z.string(),
+    url: z.string().url().optional(),
+    verifiedOn: z.string().optional(),
+  })).default([]),
+
   // Workflow status
   status: statusEnum.default('draft'),
   draftedBy: z.string().optional(),
@@ -136,6 +148,49 @@ const canonSchema = z.object({
   reviewedOn: z.string().optional(),
 });
 
+// Related-texts collection: extracanonical works (ancient + LDS) that
+// intersect with canonical scripture. One MDX file per entry.
+const relatedTextCategoryEnum = z.enum([
+  'ancient-extracanonical',
+  'lds-extracanonical',
+  'pseudepigrapha',
+  'historical-collection',
+]);
+
+const relatedTextSchema = z.object({
+  slug: z.string(),                     // url-safe, e.g. "book-of-enoch"
+  name: z.string(),                     // display, e.g. "The Book of Enoch"
+  category: relatedTextCategoryEnum,
+  approximateDate: z.string().optional(),  // e.g. "3rd c. BCE – 1st c. CE"
+  language: z.string().optional(),         // e.g. "Ge'ez; Aramaic fragments"
+  highlightSummary: z.string().min(40).max(600),
+
+  // Where this text intersects with canonical scripture (drives the
+  // canonical-references link block on the detail page).
+  canonicalReferences: z.array(z.object({
+    canon: canonEnum,
+    book: z.string(),                   // bookSlug from src/lib/canons.ts
+    chapter: z.number().int().positive(),
+    verse: z.string().optional(),       // e.g. "14-15" or "33"
+    note: z.string().optional(),
+  })).default([]),
+
+  themes: z.array(z.string()).default([]),
+
+  sources: z.array(z.object({
+    title: z.string(),
+    author: z.string().optional(),
+    url: z.string().url().optional(),
+    note: z.string().optional(),
+  })).default([]),
+
+  status: statusEnum.default('draft'),
+  draftedBy: z.string().optional(),
+  draftedOn: z.string().optional(),
+  reviewedBy: z.string().optional(),
+  reviewedOn: z.string().optional(),
+});
+
 export const collections = {
   chapters: defineCollection({
     loader: glob({ pattern: '**/*.mdx', base: './src/content/chapters' }),
@@ -148,5 +203,9 @@ export const collections = {
   canons: defineCollection({
     loader: glob({ pattern: '*.mdx', base: './src/content/canons' }),
     schema: canonSchema,
+  }),
+  relatedTexts: defineCollection({
+    loader: glob({ pattern: '*.mdx', base: './src/content/related-texts' }),
+    schema: relatedTextSchema,
   }),
 };

@@ -2,6 +2,36 @@
 import { canons, canonSlugs, type CanonSlug } from '../lib/canons';
 import ChiRho from './icons/ChiRho.astro';
 import CanonIcon from './CanonIcon.astro';
+import IconTooltip from './IconTooltip.astro';
+
+// Per-canon icon tooltip content — keyed to which icon CanonIcon resolves to.
+const canonTooltips: Record<CanonSlug, { title: string; description: string; learnMoreHref: string }> = {
+  'bible-ot': {
+    title: 'Aleph',
+    description: "The first letter of the Hebrew alphabet, theologically resonant for the foundation of Scripture ('In the beginning...').",
+    learnMoreHref: '/about/iconography/aleph',
+  },
+  'bible-nt': {
+    title: 'Chi-Rho',
+    description: "An early Christian Christogram from the first two Greek letters of Christ's name (Χριστός).",
+    learnMoreHref: '/about/iconography/chi-rho',
+  },
+  'book-of-mormon': {
+    title: 'Chi-Rho',
+    description: "An early Christian Christogram from the first two Greek letters of Christ's name (Χριστός).",
+    learnMoreHref: '/about/iconography/chi-rho',
+  },
+  'doctrine-and-covenants': {
+    title: 'Cross',
+    description: "The most widely recognized symbol of Christianity, representing Christ's atoning sacrifice.",
+    learnMoreHref: '/about/iconography/cross',
+  },
+  'pearl-of-great-price': {
+    title: 'Cross',
+    description: "The most widely recognized symbol of Christianity, representing Christ's atoning sacrifice.",
+    learnMoreHref: '/about/iconography/cross',
+  },
+};
 
 // Active-state highlighting: a nav link is "current" when the path starts
 // with its href (so /bible-ot/genesis still lights up the Old Testament tab).
@@ -20,6 +50,7 @@ const navLinks: {
   })),
   { href: '/christ', label: 'Christ', feature: true, canon: null },
   { href: '/themes', label: 'Themes', feature: true, canon: null },
+  { href: '/related-texts', label: 'Related Texts', feature: false, canon: null },
   { href: '/about', label: 'About', feature: false, canon: null },
 ];
 
@@ -31,7 +62,13 @@ function isActive(href: string): boolean {
 <header class="border-b border-stone-300">
   <div class="mx-auto flex max-w-4xl flex-wrap items-center justify-between gap-x-4 gap-y-3 px-4 py-5">
     <a href="/" class="flex items-center gap-2.5">
-      <ChiRho size={30} class="shrink-0 text-accent" />
+      <IconTooltip
+        title="Chi-Rho"
+        description="An early Christian Christogram from the first two Greek letters of Christ's name (Χριστός). SumBible's mark."
+        learnMoreHref="/about/iconography/chi-rho"
+      >
+        <ChiRho size={30} class="shrink-0 text-accent" />
+      </IconTooltip>
       <span class="block">
         <span class="block text-2xl font-bold leading-none tracking-tight text-accent">SumBible</span>
         <span class="mt-1 block text-xs text-stone-500">
@@ -84,7 +121,15 @@ function isActive(href: string): boolean {
               ]}
               aria-current={isActive(link.href) ? 'page' : undefined}
             >
-              {link.canon && <CanonIcon canon={link.canon} size={15} />}
+              {link.canon && (
+                <IconTooltip
+                  title={canonTooltips[link.canon].title}
+                  description={canonTooltips[link.canon].description}
+                  learnMoreHref={canonTooltips[link.canon].learnMoreHref}
+                >
+                  <CanonIcon canon={link.canon} size={15} />
+                </IconTooltip>
+              )}
               {link.label}
             </a>
           </li>

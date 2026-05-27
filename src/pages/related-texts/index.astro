@@ -1,0 +1,92 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+
+const all = await getCollection('relatedTexts');
+
+const groups: { key: string; label: string; description: string }[] = [
+  {
+    key: 'ancient-extracanonical',
+    label: 'Ancient Extracanonical',
+    description: 'Texts named in the Hebrew Bible or written in the Second Temple period that sit outside the Protestant and Latter-day Saint canons.',
+  },
+  {
+    key: 'pseudepigrapha',
+    label: 'Pseudepigrapha',
+    description: 'Jewish writings attributed to figures from the Hebrew Bible, composed in the Second Temple and early Roman periods.',
+  },
+  {
+    key: 'historical-collection',
+    label: 'Historical Collections',
+    description: 'Large archaeological discoveries — collections rather than single works — that bear on the canonical texts and on the broader religious world they belong to.',
+  },
+  {
+    key: 'lds-extracanonical',
+    label: 'Latter-day Saint Extracanonical',
+    description: 'Restoration-era texts and projects outside the Standard Works that nevertheless belong to the Latter-day Saint theological heritage.',
+  },
+];
+
+const byCategory = new Map<string, typeof all>();
+for (const entry of all) {
+  const arr = byCategory.get(entry.data.category) ?? [];
+  arr.push(entry);
+  byCategory.set(entry.data.category, arr);
+}
+for (const arr of byCategory.values()) {
+  arr.sort((a, b) => a.data.name.localeCompare(b.data.name));
+}
+---
+
+<BaseLayout title="Related Texts">
+  <article class="prose prose-stone max-w-none">
+    <h1>Related Texts</h1>
+    <p>
+      A curated reference to extracanonical works that intersect with
+      canonical scripture without being part of the standard canon. The
+      entries are short — reference-card length — and aimed at readers who
+      meet one of these texts in a footnote or a sermon and want quick,
+      reliable background.
+    </p>
+    <p class="text-sm text-stone-500">
+      These entries are not scripture and are not treated as such on SumBible.
+      They are background for the curious reader.
+    </p>
+  </article>
+
+  {groups.map((g) => {
+    const entries = byCategory.get(g.key) ?? [];
+    if (entries.length === 0) return null;
+    return (
+      <section class="mt-10">
+        <h2 class="text-sm font-semibold tracking-wider text-stone-500 uppercase">
+          {g.label}
+        </h2>
+        <p class="mt-1 text-sm text-stone-500">{g.description}</p>
+        <ul class="mt-4 divide-y divide-stone-200 border-y border-stone-200">
+          {entries.map((e) => (
+            <li>
+              <a
+                href={`/related-texts/${e.data.slug}`}
+                class="flex flex-col gap-1 py-3 transition hover:text-accent sm:flex-row sm:items-baseline sm:justify-between sm:gap-4"
+              >
+                <span class="font-medium text-ink">
+                  {e.data.name}
+                  <StatusBadge status={e.data.status} />
+                </span>
+                {e.data.approximateDate && (
+                  <span class="text-sm text-stone-500">{e.data.approximateDate}</span>
+                )}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    );
+  })}
+
+  {all.length === 0 && (
+    <p class="mt-10 text-sm text-stone-500">No related-text entries yet.</p>
+  )}
+</BaseLayout>

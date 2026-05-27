@@ -117,6 +117,20 @@ function checkFile(kind: Kind, file: string): void {
     ) {
       report(rel, 'WARN', `originalLanguage is "${data.originalLanguage}" for a Bible canon`);
     }
+    // Verification-log discipline (AUTHORING §Verification Log Discipline).
+    // Chapters in review/published with substantial deep summaries should
+    // carry at least 3 verification-log entries. Sparse logs on substantial
+    // content suggest claims that weren't actually verified — or work that
+    // was done but not recorded. Both are surfaced as warnings.
+    const log = Array.isArray(data.verificationLog) ? data.verificationLog : [];
+    const statusGated = data.status === 'review' || data.status === 'published';
+    if (statusGated && body.length > 1600 && log.length < 3) {
+      report(
+        rel,
+        'WARN',
+        `verificationLog has ${log.length} entry(ies) — chapter has a substantial body (${body.length} chars); status "${data.status}" expects at least 3 verified claims`,
+      );
+    }
   }
 
   // 8 — book-only checks: canon + bookSlug must resolve in canons.ts.

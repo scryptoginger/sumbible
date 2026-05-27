@@ -453,3 +453,112 @@ Icon components in `src/components/icons/`:
 
 `<CanonIcon canon={...} />` maps each canon to its emblem. All icons render
 in `currentColor`.
+
+---
+
+## 20. Verification Log Discipline
+
+Every chapter MDX file includes a `verificationLog` field in frontmatter. The
+drafting agent populates it **during research, before drafting the prose** —
+every non-obvious claim that appears in the deep summary or the LangNotes
+section traces to one entry in the log. The log is the *receipt* of the
+research: a permanent record of which sources the drafter actually consulted
+and verified.
+
+```yaml
+verificationLog:
+  - claim: "Hebrew bara takes only God as subject in the qal form"
+    source: "Brown-Driver-Briggs Hebrew and English Lexicon, entry on bara"
+    verifiedOn: "2026-05-27"
+  - claim: "Colwell's rule on definite predicate nouns lacking the article"
+    source: "E. C. Colwell, JBL 52 (1933): 12-21"
+    url: https://example.org/colwell-1933
+    verifiedOn: "2026-05-27"
+```
+
+The lint rule (`scripts/lint-content.ts` check #7) warns when a chapter at
+`status: review` or `status: published` has a substantial deep summary
+(>1,600 characters) and fewer than 3 verification-log entries. A near-empty
+log on substantial content indicates either (a) claims that weren't actually
+verified, or (b) verification work that wasn't recorded. Both are blockers.
+
+The verification log renders on the chapter page as a collapsed
+`<details>` block titled "Research sources" below the canonical Sources
+block — readers can expand it to see what the drafter consulted.
+
+The pre-commit audit checklist (§18) is extended by item 11: verification
+log populated for the work claimed in the chapter.
+
+---
+
+## 21. Book Context Discipline
+
+Every book with at least one drafted chapter has a context file at
+`src/data/book-context/<canon>/<book-slug>.md`, regenerated at every build
+from the chapters of that book (any status — draft, review, or published).
+The context file is a running summary of what's been established across
+already-drafted chapters: themes, Christ references, per-chapter highlights.
+
+**When dispatching a chapter-drafting session for a book that has prior
+chapters, the session task file MUST instruct the agent to read the relevant
+book-context file in its Phase 0 before drafting.** The file appears in the
+agent's context, ensuring cross-chapter consistency: themes already
+established, characters already introduced, cross-references already cited,
+key narrative facts already covered.
+
+For example: drafting Genesis 2 with Genesis 1 already in the corpus, the
+agent reads `src/data/book-context/bible-ot/genesis.md` and knows what
+Genesis 1's deep summary established about *Elohim*, *bara*, the seven-day
+pattern, the imago Dei — and can build on rather than re-establish those
+points.
+
+The standard Phase 0 line for a chapter-drafting session:
+
+```bash
+cat src/data/book-context/<canon>/<book-slug>.md
+```
+
+The script lives at `scripts/build-book-context.ts` and is wired into
+the `prebuild` npm script alongside `build-cross-reference-index.ts`.
+
+---
+
+## 22. Chapter-Drafting Session Discipline (Small Batches)
+
+Chapter-drafting sessions follow a small-batch rhythm to protect against
+context fatigue and cross-chapter contradiction.
+
+**Batch size.** 5–7 chapters per session, maximum 10. Batches are scoped to
+coherent narrative units where possible — e.g. "Genesis primeval history,
+chapters 2–11" (chapter 1 is already drafted, so the actual batch covers 10
+chapters in one coherent unit).
+
+**Session structure.** Phase 0 includes reading the book-context file (§21)
+and the prior chapter's draft (the one immediately preceding the batch). One
+phase per chapter follows. Each chapter commit pushes to the feature branch.
+After every commit, the agent reads its own freshly-committed chapter before
+drafting the next — using its own published-and-committed work as the
+authoritative reference rather than holding the entire batch in working
+memory.
+
+**Per-chapter discipline.** The verificationLog (§20) is populated during
+research, before drafting the prose. The pre-commit audit checklist (§18,
+extended by §20's item 11) runs before every chapter commit. The agent does
+NOT batch chapters in working memory — each chapter is drafted, audited,
+committed, pushed, and the agent re-orients to the next chapter from a
+refreshed context.
+
+**Session boundary.** At the end of every chapter-drafting session, the
+book-context file is regenerated automatically on the next build (via the
+prebuild hook). Subsequent sessions for the same book consume the updated
+context.
+
+**Branch and PR workflow.** Each batch is its own feature branch (typical
+naming: `content/<book>-batch-<N>`) and its own PR. Keith reviews each batch
+on Vercel preview before merging. No batch is merged autonomously; the
+small-batch discipline includes a human review gate at every batch boundary.
+
+A starting-point task-file template lives at
+`templates/chapter-batch-task-file.md` — the structure encodes the
+discipline above. The template is a *starting point*, not run directly;
+it's the skeleton for hand-customizing each batch task file.

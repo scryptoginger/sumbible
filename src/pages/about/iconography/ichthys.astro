@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Ichthys from '../../../components/icons/Ichthys.astro';
+import SectionDivider from '../../../components/SectionDivider.astro';
+---
+
+<BaseLayout title="Ichthys">
+  <nav class="text-sm text-stone-500" aria-label="Breadcrumb">
+    <a href="/about" class="hover:text-accent">About</a>
+    <span class="mx-1.5 text-stone-400">&rsaquo;</span>
+    <a href="/about/iconography" class="hover:text-accent">Iconography</a>
+    <span class="mx-1.5 text-stone-400">&rsaquo;</span>
+    <span class="text-stone-700">Ichthys</span>
+  </nav>
+
+  <div class="mt-6 flex justify-center text-accent">
+    <Ichthys size={120} />
+  </div>
+  <h1 class="mt-4 text-center text-3xl font-bold text-ink sm:text-4xl">Ichthys</h1>
+  <p class="mt-2 text-center font-serif text-lg text-stone-600 italic">
+    Greek for "fish" &middot; ΙΧΘΥΣ
+  </p>
+
+  <SectionDivider />
+
+  <article class="prose prose-stone max-w-none">
+    <h2>What it is</h2>
+    <p>
+      <em>Ichthys</em> (ΙΧΘΥΣ) is the Greek word for "fish." For early
+      Christians it carried a second life as an acrostic: the five letters
+      stood for <em>Iēsous Christos, Theou Hyios, Sōtēr</em> — "Jesus Christ,
+      Son of God, Savior." A name, a creed, and a memorable image packed
+      into a single five-letter word.
+    </p>
+
+    <h2>Where it comes from</h2>
+    <p>
+      The fish is one of the earliest Christian symbols. It appears on
+      gravestones, on the walls of catacombs, and on household objects from
+      the second and third centuries — the period when Christianity was
+      still an unauthorized religion in the Roman Empire. The acrostic
+      reading of the word is attested in early Christian writers; the simple
+      two-arc fish outline appears even earlier as a visual device. The
+      familiar story that early Christians used the fish as a discreet
+      recognition sign between believers is widely repeated in modern
+      retellings; the historical evidence for that specific practice is
+      mixed, and the more confident statement is simply that the fish was
+      among the earliest and most common Christian emblems.
+    </p>
+
+    <h2>The form</h2>
+    <p>
+      The simple outline — two intersecting arcs forming the silhouette of a
+      fish — is among the simplest religious emblems in the Christian
+      visual tradition. Drawn with a single continuous gesture, it can be
+      scratched into stone, traced in sand, or stamped on the seal of a
+      letter.
+    </p>
+
+    <h2>Where you'll see it today</h2>
+    <p>
+      The ichthys is widely recognized in modern American Christianity. It
+      appears on bookstore signage, on the back of cars, on t-shirts and
+      jewelry, and as a decorative motif on Bible covers. It carries less
+      liturgical weight than the chi-rho or the cross but more personal,
+      affectionate weight — a quiet sign of identification more than a
+      formal emblem.
+    </p>
+
+    <h2>Why it's the SumBible footer symbol</h2>
+    <p>
+      The footer wants a quiet, ancient mark of Christian identity — not a
+      formal emblem but a humble one, fitting for the part of the page that
+      sits below the substance. The ichthys is the right shape for that
+      register.
+    </p>
+  </article>
+</BaseLayout>
