@@ -1,0 +1,102 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Aleph from '../../../components/icons/Aleph.astro';
+import SectionDivider from '../../../components/SectionDivider.astro';
+---
+
+<BaseLayout title="Aleph">
+  <nav class="text-sm text-stone-500" aria-label="Breadcrumb">
+    <a href="/about" class="hover:text-accent">About</a>
+    <span class="mx-1.5 text-stone-400">&rsaquo;</span>
+    <a href="/about/iconography" class="hover:text-accent">Iconography</a>
+    <span class="mx-1.5 text-stone-400">&rsaquo;</span>
+    <span class="text-stone-700">Aleph</span>
+  </nav>
+
+  <div class="mt-6 flex justify-center text-accent">
+    <Aleph size={120} />
+  </div>
+  <h1 class="mt-4 text-center text-3xl font-bold text-ink sm:text-4xl">Aleph</h1>
+  <p class="mt-2 text-center font-serif text-lg text-stone-600 italic">
+    The first letter of the Hebrew alphabet &middot; א
+  </p>
+
+  <SectionDivider />
+
+  <article class="prose prose-stone max-w-none">
+    <h2>What it is</h2>
+    <p>
+      Aleph (א) is the first letter of the Hebrew alphabet. In modern Hebrew
+      it is silent — a placeholder for a vowel sound — but its name and
+      written form derive from the Proto-Sinaitic pictograph of an ox-head,
+      and its numerical value is one. The Greek letter alpha and the Latin
+      letter A are its descendants.
+    </p>
+
+    <h2>In Hebrew Scripture</h2>
+    <p>
+      The first word of the Hebrew Bible — <em>Bereshit</em>
+      (בְּרֵאשִׁית, "In the beginning") — does not begin with aleph. It begins
+      with <em>bet</em>. The aleph's near-absence from the opening of
+      Scripture has been noticed and discussed in Jewish commentary for
+      centuries. The midrashic tradition gathered in <em>Genesis Rabbah</em>
+      offers several explanations: that <em>bet</em> opens the word
+      <em>baruch</em> ("blessed") while aleph opens <em>arur</em> ("cursed");
+      that <em>bet</em>'s numerical value of two represents the duality
+      proper to a created world; and — most often quoted — that the aleph
+      was assigned a more honored place later, opening the first commandment
+      at Sinai with <em>Anokhi</em> ("I am the Lord your God").
+    </p>
+
+    <h2>In Jewish mystical tradition</h2>
+    <p>
+      Aleph carries unusual weight in the Jewish mystical tradition. In the
+      <em>Sefer Yetzirah</em> (an ancient cosmological text) and in later
+      Kabbalistic and Chasidic writings, the silent first letter is read as
+      a symbol of the unutterable Divine Unity that precedes all created
+      speech — the letter from which all other letters, and so all created
+      things, derive. The interpretive details differ from text to text and
+      teacher to teacher, but the general picture of aleph as the letter of
+      Divine origin is consistent across the tradition.
+    </p>
+
+    <h2>In Christian-Hebrew-letter usage</h2>
+    <p>
+      The aleph appears in Christian contexts as a way of evoking the Hebrew
+      foundation of Scripture — the Old Testament heritage that the New
+      Testament and the Latter-day Saint Standard Works both build on. Used
+      with care for the original tradition, the borrowing is respectful and
+      common.
+    </p>
+
+    <h2>Why it's the SumBible mark for the Old Testament</h2>
+    <p>
+      The Old Testament <em>is</em> Hebrew Scripture. Marking it with the
+      Hebrew first letter — rather than with a Christian symbol — honors the
+      OT as Scripture in its own right, before any later Christian or
+      Christological interpretation reaches back to it. The aleph signals
+      that what follows is rooted in the Hebrew tradition from which the
+      Christian and Latter-day Saint canons descend.
+    </p>
+
+    <h2>Sources</h2>
+    <ul>
+      <li>
+        Brown-Driver-Briggs and HALOT, the standard Hebrew lexicons, for the
+        linguistic content (form, numerical value, derivation).
+      </li>
+      <li>
+        <em>Genesis Rabbah</em> 1:10 (and surrounding sections) — the
+        midrashic discussion of why the Torah opens with bet rather than
+        aleph.
+      </li>
+      <li>
+        General Jewish mystical references (the Sefer Yetzirah and the Zohar)
+        for the broader tradition of aleph as the letter of Divine Unity;
+        readers interested in this body of thought are best served by
+        primary editions with scholarly introductions rather than secondary
+        summaries.
+      </li>
+    </ul>
+  </article>
+</BaseLayout>
