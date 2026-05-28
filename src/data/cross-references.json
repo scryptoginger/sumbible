@@ -62,6 +62,23 @@
       }
     ]
   },
+  "1-corinthians-10-3": {
+    "target": {
+      "book": "1 Corinthians",
+      "bookSlug": "1-corinthians",
+      "canon": "bible-nt",
+      "chapter": "10",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 16,
+        "url": "/bible-ot/exodus/16"
+      }
+    ]
+  },
   "1-corinthians-5-6-8": {
     "target": {
       "book": "1 Corinthians",
@@ -337,6 +354,23 @@
         "book": "Genesis",
         "chapter": 8,
         "url": "/bible-ot/genesis/8"
+      }
+    ]
+  },
+  "2-corinthians-8-14-15": {
+    "target": {
+      "book": "2 Corinthians",
+      "bookSlug": "2-corinthians",
+      "canon": "bible-nt",
+      "chapter": "8",
+      "verse": "14-15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 16,
+        "url": "/bible-ot/exodus/16"
       }
     ]
   },
@@ -1922,6 +1956,12 @@
         "book": "Exodus",
         "chapter": 14,
         "url": "/bible-ot/exodus/14"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 16,
+        "url": "/bible-ot/exodus/16"
       }
     ]
   },
@@ -1990,6 +2030,57 @@
         "book": "Exodus",
         "chapter": 2,
         "url": "/bible-ot/exodus/2"
+      }
+    ]
+  },
+  "exodus-15-22-26": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "15",
+      "verse": "22-26"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 16,
+        "url": "/bible-ot/exodus/16"
+      }
+    ]
+  },
+  "exodus-15-25": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "15",
+      "verse": "25"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 16,
+        "url": "/bible-ot/exodus/16"
+      }
+    ]
+  },
+  "exodus-16-10": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "16",
+      "verse": "10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 16,
+        "url": "/bible-ot/exodus/16"
       }
     ]
   },
@@ -2075,6 +2166,23 @@
         "book": "Exodus",
         "chapter": 3,
         "url": "/bible-ot/exodus/3"
+      }
+    ]
+  },
+  "exodus-20-8-11": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "20",
+      "verse": "8-11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 16,
+        "url": "/bible-ot/exodus/16"
       }
     ]
   },
@@ -2393,6 +2501,12 @@
         "book": "Exodus",
         "chapter": 13,
         "url": "/bible-ot/exodus/13"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 16,
+        "url": "/bible-ot/exodus/16"
       }
     ]
   },
@@ -3738,6 +3852,23 @@
         "book": "Genesis",
         "chapter": 18,
         "url": "/bible-ot/genesis/18"
+      }
+    ]
+  },
+  "genesis-2-2-3": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "2",
+      "verse": "2-3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 16,
+        "url": "/bible-ot/exodus/16"
       }
     ]
   },
@@ -6625,6 +6756,23 @@
       }
     ]
   },
+  "hebrews-9-4": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "9",
+      "verse": "4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 16,
+        "url": "/bible-ot/exodus/16"
+      }
+    ]
+  },
   "hosea-12-3-4": {
     "target": {
       "book": "Hosea",
@@ -7510,6 +7658,40 @@
       }
     ]
   },
+  "john-6-30-58": {
+    "target": {
+      "book": "John",
+      "bookSlug": "john",
+      "canon": "bible-nt",
+      "chapter": "6",
+      "verse": "30-58"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 16,
+        "url": "/bible-ot/exodus/16"
+      }
+    ]
+  },
+  "john-6-32": {
+    "target": {
+      "book": "John",
+      "bookSlug": "john",
+      "canon": "bible-nt",
+      "chapter": "6",
+      "verse": "32"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 16,
+        "url": "/bible-ot/exodus/16"
+      }
+    ]
+  },
   "john-6-35": {
     "target": {
       "book": "John",
@@ -7524,6 +7706,29 @@
         "book": "Exodus",
         "chapter": 3,
         "url": "/bible-ot/exodus/3"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 16,
+        "url": "/bible-ot/exodus/16"
+      }
+    ]
+  },
+  "john-6-51": {
+    "target": {
+      "book": "John",
+      "bookSlug": "john",
+      "canon": "bible-nt",
+      "chapter": "6",
+      "verse": "51"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 16,
+        "url": "/bible-ot/exodus/16"
       }
     ]
   },
@@ -7707,6 +7912,23 @@
         "book": "Exodus",
         "chapter": 13,
         "url": "/bible-ot/exodus/13"
+      }
+    ]
+  },
+  "joshua-5-12": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "5",
+      "verse": "12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 16,
+        "url": "/bible-ot/exodus/16"
       }
     ]
   },
