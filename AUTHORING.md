@@ -7,6 +7,31 @@ a human contributor. Read it before drafting, and follow it.
 
 ---
 
+## 0. Prime Directive
+
+These five principles outrank everything else in this document. When any
+other rule, instruction, or task-file directive appears to conflict with
+these, **these win**.
+
+1. **Quality and accuracy over speed and quantity. Always.** Fewer entries
+   at the correct quality bar is a better outcome than more entries with
+   cut corners. There is no deadline that overrides this.
+2. **Preserve the human's prior edits over any rule application.** When a
+   rule would override an edit Keith has made, the edit wins. Surface the
+   conflict; do not apply the rule.
+3. **No figurative imagery of Christ or biblical figures.** All Christ
+   iconography is symbolic (chi-rho, alpha-omega, ichthys, cross). Never
+   generate, embed, or commit AI-produced figurative depictions of Christ,
+   prophets, or divine figures.
+4. **Verify before citing.** Every non-obvious claim traces to a real,
+   locatable source. Open the source. Read it. If it cannot be verified,
+   the claim does not go in.
+5. **When uncertain, omit.** The default response to uncertainty is to
+   leave the claim out — not to include it with a hedge, and never to
+   invent a source.
+
+---
+
 ## 1. Purpose and Scope
 
 SumBible is a public scriptural-reference site. Its content is dual: a short
