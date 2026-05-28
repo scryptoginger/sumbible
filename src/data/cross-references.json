@@ -499,6 +499,40 @@
       }
     ]
   },
+  "abraham-2-11": {
+    "target": {
+      "book": "Abraham",
+      "bookSlug": "abraham",
+      "canon": "pearl-of-great-price",
+      "chapter": "2",
+      "verse": "11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 12,
+        "url": "/bible-ot/genesis/12"
+      }
+    ]
+  },
+  "abraham-2-3": {
+    "target": {
+      "book": "Abraham",
+      "bookSlug": "abraham",
+      "canon": "pearl-of-great-price",
+      "chapter": "2",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 12,
+        "url": "/bible-ot/genesis/12"
+      }
+    ]
+  },
   "abraham-2-9-11": {
     "target": {
       "book": "Abraham",
@@ -1024,6 +1058,23 @@
         "book": "Genesis",
         "chapter": 2,
         "url": "/bible-ot/genesis/2"
+      }
+    ]
+  },
+  "doctrine-and-covenants-107-1-4": {
+    "target": {
+      "book": "doctrine-and-covenants",
+      "bookSlug": "doctrine-and-covenants",
+      "canon": null,
+      "chapter": "107",
+      "verse": "1-4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 14,
+        "url": "/bible-ot/genesis/14"
       }
     ]
   },
@@ -6360,6 +6411,23 @@
       }
     ]
   },
+  "luke-20-37-38": {
+    "target": {
+      "book": "Luke",
+      "bookSlug": "luke",
+      "canon": "bible-nt",
+      "chapter": "20",
+      "verse": "37-38"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 3,
+        "url": "/bible-ot/exodus/3"
+      }
+    ]
+  },
   "luke-22-31": {
     "target": {
       "book": "Luke",
@@ -6442,6 +6510,23 @@
         "book": "Genesis",
         "chapter": 8,
         "url": "/bible-ot/genesis/8"
+      }
+    ]
+  },
+  "mark-12-26-27": {
+    "target": {
+      "book": "Mark",
+      "bookSlug": "mark",
+      "canon": "bible-nt",
+      "chapter": "12",
+      "verse": "26-27"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 3,
+        "url": "/bible-ot/exodus/3"
       }
     ]
   },
@@ -7543,23 +7628,6 @@
         "book": "Genesis",
         "chapter": 38,
         "url": "/bible-ot/genesis/38"
-      }
-    ]
-  },
-  "sections-107-1-4": {
-    "target": {
-      "book": "Sections",
-      "bookSlug": "sections",
-      "canon": "doctrine-and-covenants",
-      "chapter": "107",
-      "verse": "1-4"
-    },
-    "citedBy": [
-      {
-        "canon": "bible-ot",
-        "book": "Genesis",
-        "chapter": 14,
-        "url": "/bible-ot/genesis/14"
       }
     ]
   },
