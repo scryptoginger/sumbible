@@ -759,6 +759,23 @@
       }
     ]
   },
+  "exodus-3-13-14": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "3",
+      "verse": "13-14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 32,
+        "url": "/bible-ot/genesis/32"
+      }
+    ]
+  },
   "exodus-3-14": {
     "target": {
       "book": "Exodus",
@@ -807,6 +824,23 @@
         "book": "Genesis",
         "chapter": 6,
         "url": "/bible-ot/genesis/6"
+      }
+    ]
+  },
+  "exodus-33-20": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "33",
+      "verse": "20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 32,
+        "url": "/bible-ot/genesis/32"
       }
     ]
   },
@@ -2864,6 +2898,29 @@
         "book": "Genesis",
         "chapter": 27,
         "url": "/bible-ot/genesis/27"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 32,
+        "url": "/bible-ot/genesis/32"
+      }
+    ]
+  },
+  "hosea-12-4": {
+    "target": {
+      "book": "Hosea",
+      "bookSlug": "hosea",
+      "canon": "bible-ot",
+      "chapter": "12",
+      "verse": "4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 32,
+        "url": "/bible-ot/genesis/32"
       }
     ]
   },
@@ -3136,6 +3193,23 @@
         "book": "Genesis",
         "chapter": 24,
         "url": "/bible-ot/genesis/24"
+      }
+    ]
+  },
+  "john-1-18": {
+    "target": {
+      "book": "John",
+      "bookSlug": "john",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 32,
+        "url": "/bible-ot/genesis/32"
       }
     ]
   },
