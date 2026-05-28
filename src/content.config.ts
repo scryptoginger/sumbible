@@ -68,14 +68,26 @@ const chapterSchema = z.object({
 
   // Verification log — every non-obvious claim in the deep summary or
   // LangNotes section traces to one entry. Populated during research,
-  // before drafting the prose. See AUTHORING.md §Verification Log
-  // Discipline. Rendered on the chapter page in a collapsed details
-  // block ("Research sources").
+  // before drafting the prose. See AUTHORING.md §20 and §6.0.
+  //
+  // verifiedViaFetch (REQUIRED): true means the `url` was actually opened
+  // during this drafting session and any verbatim quotation in the chapter
+  // prose was diffed against the source text. false means the claim is
+  // from knowledge (paraphrase, interpretive, chapter self-quote, lexical).
+  // Per AUTHORING §6.0, every cross-reference verbatim quote >6 words
+  // requires a corresponding `verifiedViaFetch: true` entry; the
+  // lint:quotation-fidelity rule blocks violations.
+  //
+  // quoteText (optional): for verbatim cross-reference quotes, the exact
+  // text that was fetched and diffed. Records the audit trail in case the
+  // chapter prose later drifts.
   verificationLog: z.array(z.object({
     claim: z.string(),
     source: z.string(),
     url: z.url().optional(),
     verifiedOn: z.string().optional(),
+    verifiedViaFetch: z.boolean(),
+    quoteText: z.string().optional(),
   })).default([]),
 
   // Workflow status
