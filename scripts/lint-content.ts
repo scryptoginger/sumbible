@@ -239,12 +239,13 @@ function checkFile(kind: Kind, file: string): void {
  *
  * For each chapter body, find every substantial verbatim quotation (text
  * inside double-quotes, ≥7 words long). For each such quote, look at the
- * surrounding ±200 chars of the original (un-stripped) body for any
- * `<VerseRef book="..." />` that points to a book OTHER than the
- * chapter's own. If such a cross-reference is present, the quote is
- * treated as a cross-reference verbatim quote and MUST be covered by a
- * verificationLog entry with `verifiedViaFetch: true` and whose `url`
- * or `claim` references the same cross-reference book.
+ * SURROUNDING ±CITATION_WINDOW chars of the body in BOTH directions for
+ * any `<VerseRef book="..." />` that could be the structural "owner" of
+ * the quote. The nearest such VerseRef is treated as the owner; if it
+ * points to a book OTHER than the chapter's own, the quote is a cross-
+ * reference verbatim quote and MUST be covered by a verificationLog
+ * entry with `verifiedViaFetch: true` and whose `url` or `claim`
+ * references the same cross-reference book.
  *
  * Conservative — false positives are acceptable (resolve by rewording,
  * dropping the quote marks, or adding the vLog entry). The rule fails
@@ -253,6 +254,14 @@ function checkFile(kind: Kind, file: string): void {
  * Why this rule exists: PRs #13 + #14 found 11 cross-reference scripture
  * quotes pulled from memory and falsely certified as verified by the
  * verificationLog. See AUTHORING.md §6.0 and §6.2.
+ *
+ * v2 change over v1 (PR #17): symmetric proximity window. v1 searched
+ * forward only from a quote for its owning VerseRef. PR #18 documented a
+ * Gen 1:2 verbatim in Exod 10 whose owning VerseRef sat BEFORE the
+ * quote, slipping past v1 undetected. v2 searches both forward and
+ * backward within CITATION_WINDOW chars; the §6.0 discipline can no
+ * longer rely on authors happening to place the VerseRef after the
+ * quote.
  */
 interface VLogEntry {
   claim: string;
@@ -270,19 +279,23 @@ function checkQuotationFidelity(
   log: VLogEntry[],
   fidelityMode: 'enforced' | 'legacy',
 ): void {
-  // Step 1: catalogue all VerseRef components in the body with their positions
-  // and the book they point to.
+  // Step 1: catalogue all VerseRef components in the body with their
+  // positions (start AND end) and the book they point to. v2 tracks `end`
+  // so that backward-proximity to a preceding VerseRef is measured from
+  // VerseRef-end to quote-start (the natural citation distance), not
+  // from VerseRef-start.
   const verseRefPattern = /<VerseRef\s+book="([^"]+)"[^/]*?\/>/g;
-  const verseRefs: Array<{ book: string; pos: number }> = [];
+  const verseRefs: Array<{ book: string; pos: number; end: number }> = [];
   for (const m of body.matchAll(verseRefPattern)) {
-    verseRefs.push({ book: m[1], pos: m.index ?? 0 });
+    const start = m.index ?? 0;
+    verseRefs.push({ book: m[1], pos: start, end: start + m[0].length });
   }
 
   // Step 2: scan body for quoted strings of ≥7 words.
   // Match both straight double-quotes and curly typographic double-quotes.
   // We use the ORIGINAL body (not stripped) to preserve positions for
   // structural-citation matching.
-  const CITATION_WINDOW = 60; // chars after the quote to look for the "owning" VerseRef
+  const CITATION_WINDOW = 60; // chars around the quote to look for "owning" VerseRefs
   const MIN_WORDS = 7;
 
   const quotePattern = /"([^"\n]{20,500})"|“([^”\n]{20,500})”/g;
@@ -305,18 +318,37 @@ function checkQuotationFidelity(
     // a regex artifact from crossing a JSX boundary.
     if ((quote.match(/</g) ?? []).length > (quote.match(/>/g) ?? []).length) continue;
 
-    // Structural-citation matching: identify the FIRST VerseRef within
-    // CITATION_WINDOW chars AFTER the quote's closing mark. This is the
-    // VerseRef that structurally "owns" the quote (citation form: "quoted
-    // text" (<VerseRef ... />)). If no such VerseRef exists within the
-    // window, the quote has no structural citation and the rule does not
-    // fire on it (rule is conservative — we don't flag quotes without a
-    // clear citation pointer).
+    // Structural-citation matching (v2 — symmetric proximity).
+    //
+    // A VerseRef is a "candidate owner" of the quote if it sits within
+    // CITATION_WINDOW chars of the quote in EITHER direction. Forward:
+    // VerseRef-start within window after the quote's close (the "quoted
+    // text (<VerseRef ... />)" pattern). Backward: VerseRef-end within
+    // window before the quote's start (the "<VerseRef ... /> reads
+    // 'quoted text'" pattern, which v1's forward-only window missed).
+    //
+    // If no candidate owner exists, the quote has no structural citation
+    // pointer and the rule does not fire (rule is conservative — quotes
+    // without clear citation pointers are not flagged).
     const matchEnd = pos + m[0].length;
-    const owningRef = verseRefs.find(
-      (r) => r.pos >= matchEnd && r.pos <= matchEnd + CITATION_WINDOW,
-    );
-    if (!owningRef) continue; // unowned quote — no citation pointer
+    const candidateOwners = verseRefs.filter((r) => {
+      if (r.pos >= matchEnd && r.pos - matchEnd <= CITATION_WINDOW) return true; // following
+      if (r.end <= pos && pos - r.end <= CITATION_WINDOW) return true; // preceding
+      return false;
+    });
+    if (candidateOwners.length === 0) continue; // unowned quote — no citation pointer
+
+    // Pick the nearest candidate as the structural owner; on tie, prefer
+    // the preceding (the standard citation-then-quote prose pattern).
+    const owningRef = candidateOwners
+      .map((r) => {
+        const following = r.pos >= matchEnd;
+        const dist = following ? r.pos - matchEnd : pos - r.end;
+        const tiebreak = following ? 1 : 0; // preceding wins on tie
+        return { r, dist, tiebreak };
+      })
+      .sort((a, b) => a.dist - b.dist || a.tiebreak - b.tiebreak)[0].r;
+
     if (owningRef.book === ownBookSlug) continue; // self-quote — exempt
 
     // For coverage matching, accept BOTH the structurally-owning ref AND any
