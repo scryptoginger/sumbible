@@ -61,5 +61,5 @@ Status: ⬜ not started · 🔄 in progress · ✅ swept clean · ⚠️ swept w
 | Gen 50 | Exod 13:19, Acts 2:23, Exod 3:16 | ⬜ | |
 | Exod 01 | Acts 7:17-19, Heb 11:23 | ⬜ | |
 | Exod 02 | Heb 11:23, Acts 7:22 | ⬜ | |
-| Exod 03 | John 8:58, Matt 22:32 (priority 2) | ⬜ | |
+| Exod 03 | John 8:58, Matt 22:32 (priority 2) | ⚠️ | Matt 22:32 — ERROR (fixed): quoted phrase actually Mark 12:27; attribution corrected |
 | Exod 04 | Jer 1:6, Isa 6:5 | ⬜ | |
