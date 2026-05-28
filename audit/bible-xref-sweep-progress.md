@@ -56,7 +56,7 @@ Status: ⬜ not started · 🔄 in progress · ✅ swept clean · ⚠️ swept w
 | Gen 45 | Rom 8:28 | ⬜ | |
 | Gen 46 | Exod 3:4, Exod 3:8, Exod 1:1-5, Acts 7:14, Luke 2:29-30 | ⬜ | |
 | Gen 47 | Heb 7:7, Heb 11:21 | ⬜ | |
-| Gen 48 | 1 Chr 5:1-2, Rom 11:25 | ⬜ | |
+| Gen 48 | 1 Chr 5:1-2, Rom 11:25 | ⚠️ | 1 Chr 5:1 — ERROR (fixed): "when" substituted for KJV "forasmuch as"; Rom 11:25 — CLEAN |
 | Gen 49 | Rev 5:5, Ps 118:22 (priority 2) | ⬜ | |
 | Gen 50 | Exod 13:19, Acts 2:23, Exod 3:16 | ⬜ | |
 | Exod 01 | Acts 7:17-19, Heb 11:23 | ⬜ | |
