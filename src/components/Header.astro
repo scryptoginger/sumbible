@@ -58,22 +58,25 @@ function isActive(href: string): boolean {
         </svg>
       </button>
 
-      {/* Checkbox-hack toggle — no JS needed for the basic mobile menu. */}
-      <input type="checkbox" id="nav-toggle" class="peer hidden" />
-      <label
-        for="nav-toggle"
+      {/* Mobile nav toggle — JS-driven (the prior checkbox-hack relied on the
+          input and nav being siblings, which they're not in this layout). */}
+      <button
+        id="nav-toggle"
+        type="button"
         class="cursor-pointer rounded p-2 text-stone-600 ring-1 ring-stone-300 select-none md:hidden"
         aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="primary-nav"
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
           <line x1="3" y1="6" x2="21" y2="6" />
           <line x1="3" y1="12" x2="21" y2="12" />
           <line x1="3" y1="18" x2="21" y2="18" />
         </svg>
-      </label>
+      </button>
     </div>
 
-    <nav class="hidden w-full peer-checked:block md:block md:w-auto" aria-label="Primary">
+    <nav id="primary-nav" class="hidden w-full md:!block md:w-auto" aria-label="Primary">
       {/* Desktop: two stacked rows on the right (canons primary, others
           secondary). Mobile (peer-checked hamburger menu): single vertical
           list with the canons grouped first, then the other links. */}
@@ -142,6 +145,24 @@ function isActive(href: string): boolean {
 </header>
 
 <script>
+  // Mobile nav toggle. The desktop md:!block override keeps the nav visible
+  // at md+ regardless of the hidden class, so JS only manages mobile state.
+  const navToggle = document.getElementById('nav-toggle');
+  const nav = document.getElementById('primary-nav');
+  function setNavOpen(open: boolean) {
+    if (!nav || !navToggle) return;
+    nav.classList.toggle('hidden', !open);
+    navToggle.setAttribute('aria-expanded', String(open));
+  }
+  navToggle?.addEventListener('click', () => {
+    setNavOpen(nav?.classList.contains('hidden') ?? false);
+  });
+  // Tapping a nav link closes the menu (mobile-only matters; on desktop the
+  // nav is always visible and the click just follows the link).
+  nav?.querySelectorAll('a').forEach((a) => {
+    a.addEventListener('click', () => setNavOpen(false));
+  });
+
   // Pagefind search: the UI bundle and CSS live in /pagefind/, which only
   // exists after `pagefind` runs in the build — so they are loaded lazily,
   // at runtime, on the first time the modal is opened.
