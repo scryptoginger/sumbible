@@ -39,7 +39,7 @@ Status: ⬜ not started · 🔄 in progress · ✅ swept clean · ⚠️ swept w
 | Gen 21 | Heb 11:18, Gal 4:21-31 | ⬜ | |
 | Gen 22 | Heb 11:17-19, John 1:29, James 1:13, 2 Chr 3:1 (priority 2) | ⬜ | |
 | Gen 24 | John 1:14 | ⬜ | |
-| Gen 25 | Rom 9:10-13, Heb 12:16-17 | ⬜ | |
+| Gen 25 | Rom 9:10-13, Heb 12:16-17 | ⚠️ | Rom 9:11 — ERROR (fixed): "before they were born" should be KJV "the children being not yet born"; Heb 12:16-17 — CLEAN |
 | Gen 26 | Matt 5:5 | ⬜ | |
 | Gen 27 | Heb 11:20, Heb 12:16-17, Hos 12:3-4, 2 Kgs 8:20-22 | ⬜ | |
 | Gen 28 | John 1:51 | ⬜ | |

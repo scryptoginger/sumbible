@@ -30,3 +30,11 @@ OT chapters, OT in different-OT-book chapters).
 
 **Fix:** re-attributed the quoted phrase to Mark 12:27 in body prose; updated verificationLog to show the three-Synoptic wording side by side (Mark / Matt / Luke).
 
+
+### Genesis 25 — Romans 9:11 — ⚠️ ERROR (FIXED)
+
+**Quote in chapter (BEFORE fix):** `"before they were born, neither having done any good or evil"` attributed to Rom 9:10-13.
+**Source (Rom 9:11 KJV):** `"(For the children being not yet born, neither having done any good or evil, that the purpose of God according to election might stand, not of works, but of him that calleth;)"`
+**Diff:** chapter substituted `"before they were born"` for KJV's `"the children being not yet born"`. The chapter's phrasing matches modern translations (ESV, NIV) but was presented as KJV-verbatim.
+**Fix:** quoted v11 KJV verbatim with the full clause.
+
