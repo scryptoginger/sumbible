@@ -470,6 +470,23 @@
       }
     ]
   },
+  "deuteronomy-16-22": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "16",
+      "verse": "22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 28,
+        "url": "/bible-ot/genesis/28"
+      }
+    ]
+  },
   "deuteronomy-18-15-19": {
     "target": {
       "book": "Deuteronomy",
@@ -1171,6 +1188,12 @@
         "book": "Genesis",
         "chapter": 22,
         "url": "/bible-ot/genesis/22"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 28,
+        "url": "/bible-ot/genesis/28"
       }
     ]
   },
@@ -1273,6 +1296,12 @@
         "book": "Genesis",
         "chapter": 13,
         "url": "/bible-ot/genesis/13"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 28,
+        "url": "/bible-ot/genesis/28"
       }
     ]
   },
@@ -1307,6 +1336,29 @@
         "book": "Genesis",
         "chapter": 12,
         "url": "/bible-ot/genesis/12"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 28,
+        "url": "/bible-ot/genesis/28"
+      }
+    ]
+  },
+  "genesis-13-3": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "13",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 28,
+        "url": "/bible-ot/genesis/28"
       }
     ]
   },
@@ -1324,6 +1376,23 @@
         "book": "Genesis",
         "chapter": 13,
         "url": "/bible-ot/genesis/13"
+      }
+    ]
+  },
+  "genesis-14-20": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 28,
+        "url": "/bible-ot/genesis/28"
       }
     ]
   },
@@ -1686,6 +1755,23 @@
       }
     ]
   },
+  "genesis-22-17-18": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "17-18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 28,
+        "url": "/bible-ot/genesis/28"
+      }
+    ]
+  },
   "genesis-22-18": {
     "target": {
       "book": "Genesis",
@@ -2021,6 +2107,23 @@
       }
     ]
   },
+  "genesis-27-46": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "46"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 28,
+        "url": "/bible-ot/genesis/28"
+      }
+    ]
+  },
   "genesis-28-1-5": {
     "target": {
       "book": "Genesis",
@@ -2137,6 +2240,23 @@
         "book": "Genesis",
         "chapter": 17,
         "url": "/bible-ot/genesis/17"
+      }
+    ]
+  },
+  "genesis-35-1-15": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "35",
+      "verse": "1-15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 28,
+        "url": "/bible-ot/genesis/28"
       }
     ]
   },
@@ -2877,6 +2997,40 @@
       }
     ]
   },
+  "john-1-51": {
+    "target": {
+      "book": "John",
+      "bookSlug": "john",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "51"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 28,
+        "url": "/bible-ot/genesis/28"
+      }
+    ]
+  },
+  "john-14-6": {
+    "target": {
+      "book": "John",
+      "bookSlug": "john",
+      "canon": "bible-nt",
+      "chapter": "14",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 28,
+        "url": "/bible-ot/genesis/28"
+      }
+    ]
+  },
   "john-20-24-29": {
     "target": {
       "book": "John",
@@ -2993,6 +3147,23 @@
         "book": "Genesis",
         "chapter": 23,
         "url": "/bible-ot/genesis/23"
+      }
+    ]
+  },
+  "leviticus-26-1": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "26",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 28,
+        "url": "/bible-ot/genesis/28"
       }
     ]
   },
