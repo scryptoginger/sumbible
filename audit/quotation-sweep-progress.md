@@ -23,7 +23,7 @@ Status: ⬜ not started · 🔄 in progress · ✅ swept clean · ⚠️ swept w
 | Gen 10 | ⬜ | Ether 1 (bare cross-ref expected) |
 | Gen 11 | ⬜ | Ether 1:33-43, Abraham 1 |
 | Gen 12 | ⚠️ | Abr 2:3 — ERROR (fixed): fabricated "My son, my son" prefix; Abr 2:11 — ERROR (fixed): duplicated phrase with artificial ellipsis; 1 Ne 17:40 — CLEAN |
-| Gen 14 | ⬜ | Alma 13:14-19 (multiple quotes — incl. some that may actually be Heb 7) |
+| Gen 14 | ⚠️ | Alma 13:17, 18 — CLEAN; JST Gen 14:27, 33 — CLEAN; D&C 107:1-4 — CLEAN; JST Gen 14:28 — ERROR (fixed): "without/or" for "neither by/nor"; JST Gen 14:30-31 — ERROR (fixed): "to" inserted + verse-boundary elision; book="sections" — BUG (fixed): wrong book slug |
 | Gen 15 | ⬜ | Abraham 2:9-11 (full covenant quote); also priority 2 |
 | Gen 22 | ⬜ | Jacob 4:5 (full quote); also priority 2 |
 | Gen 41 | ⬜ | D&C 64:36, 86:8-11 (bare cross-refs expected) |

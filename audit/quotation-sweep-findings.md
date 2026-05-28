@@ -104,3 +104,27 @@ broader pattern.
 **Source (1 Nephi 17:40):** `"And he loveth those who will have him to be their God. Behold, he loved our fathers, and he covenanted with them, yea, even Abraham, Isaac, and Jacob; and he remembered the covenants which he had made; wherefore, he did bring them out of the land of Egypt."`
 **Classification:** CLEAN — partial-verse quote; quoted text character-exact within the marked portion.
 
+
+### Genesis 14 — JST Genesis 14:28 — ⚠️ ERROR (FIXED)
+
+**Quote in chapter (BEFORE fix):** `"without father or mother... without beginning of days or end of years"` (presented as JST verbatim)
+**Source (JST Gen 14:28):** `"It being after the order of the Son of God; which order came, not by man, nor the will of man; neither by father nor mother; neither by beginning of days nor end of years; but of God;"`
+**Diff:** chapter substituted `"without...or"` for source's `"neither by...nor"` in two parallel phrases. Two word-cluster substitutions materially changing the quote's construction.
+**Fix:** quoted v28 verbatim with the source's neither/nor construction.
+
+### Genesis 14 — JST Genesis 14:30-31 — ⚠️ ERROR (FIXED)
+
+**Quote in chapter (BEFORE fix):** `"to break mountains, to divide the seas... to subdue principalities and powers."`
+**Source (JST Gen 14:30):** `"power, by faith, to break mountains, to divide the seas, to dry up waters, to turn them out of their course;"`
+**Source (JST Gen 14:31):** `"...subdue principalities and powers..."` (no leading "to")
+**Diff:** (a) inserted "to" before "subdue" (source has no leading "to"); (b) joined material from v30 and v31 with artificial ellipsis as if one continuous quote.
+**Fix:** quoted v30 verbatim including the elided "to dry up waters"; separately quoted v31's "subdue principalities and powers" with the leading "to" removed; attributed each quote to its verse.
+
+### Genesis 14 — broken VerseRef book slug — ⚠️ BUG (FIXED)
+
+Two occurrences of `<VerseRef book="sections" chapter={107} verse="1-4" />` used the wrong book slug. `"sections"` is not a valid book in `src/lib/canons.ts`; the correct slug is `"doctrine-and-covenants"`. Produced a broken outbound link on the rendered page. **Fixed:** both occurrences corrected to `book="doctrine-and-covenants"`.
+
+### Genesis 14 — JST Genesis 14:27, 33; Alma 13:17, 18; D&C 107:1-4
+
+**Classification: CLEAN** — all five other Standard Works quotes in Gen 14 verified character-exact against the source.
+
