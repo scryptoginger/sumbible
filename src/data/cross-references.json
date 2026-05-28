@@ -53,6 +53,12 @@
         "book": "Exodus",
         "chapter": 13,
         "url": "/bible-ot/exodus/13"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 14,
+        "url": "/bible-ot/exodus/14"
       }
     ]
   },
@@ -263,6 +269,23 @@
         "book": "Exodus",
         "chapter": 3,
         "url": "/bible-ot/exodus/3"
+      }
+    ]
+  },
+  "2-chronicles-20-15-17": {
+    "target": {
+      "book": "2 Chronicles",
+      "bookSlug": "2-chronicles",
+      "canon": "bible-ot",
+      "chapter": "20",
+      "verse": "15-17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 14,
+        "url": "/bible-ot/exodus/14"
       }
     ]
   },
@@ -1561,6 +1584,40 @@
       }
     ]
   },
+  "exodus-10-13": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "10",
+      "verse": "13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 14,
+        "url": "/bible-ot/exodus/14"
+      }
+    ]
+  },
+  "exodus-10-19": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "10",
+      "verse": "19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 14,
+        "url": "/bible-ot/exodus/14"
+      }
+    ]
+  },
   "exodus-10-23": {
     "target": {
       "book": "Exodus",
@@ -1791,6 +1848,12 @@
         "book": "Genesis",
         "chapter": 15,
         "url": "/bible-ot/genesis/15"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 14,
+        "url": "/bible-ot/exodus/14"
       }
     ]
   },
@@ -2350,6 +2413,23 @@
       }
     ]
   },
+  "exodus-7-5": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 14,
+        "url": "/bible-ot/exodus/14"
+      }
+    ]
+  },
   "exodus-8-22": {
     "target": {
       "book": "Exodus",
@@ -2637,6 +2717,12 @@
         "book": "Genesis",
         "chapter": 15,
         "url": "/bible-ot/genesis/15"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 14,
+        "url": "/bible-ot/exodus/14"
       }
     ]
   },
@@ -3293,6 +3379,12 @@
         "book": "Genesis",
         "chapter": 17,
         "url": "/bible-ot/genesis/17"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 14,
+        "url": "/bible-ot/exodus/14"
       }
     ]
   },
@@ -3504,6 +3596,23 @@
         "book": "Genesis",
         "chapter": 21,
         "url": "/bible-ot/genesis/21"
+      }
+    ]
+  },
+  "genesis-18-2": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 14,
+        "url": "/bible-ot/exodus/14"
       }
     ]
   },
@@ -4760,6 +4869,23 @@
         "book": "Genesis",
         "chapter": 33,
         "url": "/bible-ot/genesis/33"
+      }
+    ]
+  },
+  "genesis-33-1": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "33",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 14,
+        "url": "/bible-ot/exodus/14"
       }
     ]
   },
@@ -6064,6 +6190,23 @@
         "book": "Exodus",
         "chapter": 12,
         "url": "/bible-ot/exodus/12"
+      }
+    ]
+  },
+  "hebrews-11-29": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "11",
+      "verse": "29"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 14,
+        "url": "/bible-ot/exodus/14"
       }
     ]
   },
@@ -9260,6 +9403,12 @@
         "book": "Genesis",
         "chapter": 15,
         "url": "/bible-ot/genesis/15"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 14,
+        "url": "/bible-ot/exodus/14"
       }
     ]
   },
