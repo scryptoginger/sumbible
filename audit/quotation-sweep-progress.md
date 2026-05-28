@@ -16,8 +16,8 @@ Status: ⬜ not started · 🔄 in progress · ✅ swept clean · ⚠️ swept w
 | Gen 02 | ✅ | Moses 3:5 — CLEAN |
 | Gen 03 | ✅ | 2 Nephi 2:22-25 — CLEAN; D&C 29:39 — CLEAN |
 | Gen 04 | ⚠️ | Moses 5:7 — ERROR (fixed): "in" → "a" substitution; Moses 5:31 — ERROR (fixed): conflation + "to" → "and" |
-| Gen 05 | ⬜ | Moses 7:18; ref to Moses 6, 7 |
-| Gen 06 | ⬜ | Moses 8:24; refs to Moses 8, 1 Ne 1:18-20 |
+| Gen 05 | ✅ | Moses 7:18 — CLEAN (leading clause omitted, body char-exact) |
+| Gen 06 | ✅ | Moses 8:24 — CLEAN (added serial commas, no word change); 1 Ne 1:18-20 — bare cross-ref |
 | Gen 07 | ⬜ | Moses 7:42-44 |
 | Gen 08 | ⬜ | Jacob 5 (bare cross-ref expected) |
 | Gen 10 | ⬜ | Ether 1 (bare cross-ref expected) |

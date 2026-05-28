@@ -64,3 +64,22 @@ broader pattern.
 
 **Pattern:** matches the D&C 110:4 failure mode — quotes reconstructed from memory with small word substitutions that alter meaning. The verificationLog had described the quote without ever fetching the source.
 
+
+### Genesis 05 — Moses 7:18
+
+**Quote in chapter:** `"they were of one heart and one mind, and dwelt in righteousness; and there was no poor among them"`
+**Source (Moses 7:18):** `"And the Lord called his people Zion, because they were of one heart and one mind, and dwelt in righteousness; and there was no poor among them."`
+**Classification:** CLEAN — leading "And the Lord called his people Zion, because" omitted (standard partial-verse citation); quoted phrase character-exact.
+
+### Genesis 06 — Moses 8:24
+
+**Quote in chapter:** `"Believe, and repent of your sins, and be baptized in the name of Jesus Christ, the Son of God"`
+**Source (Moses 8:24):** `"Believe and repent of your sins and be baptized in the name of Jesus Christ, the Son of God, even as our fathers..."`
+**Classification:** CLEAN (with punctuation drift) — chapter adds two serial commas (after "Believe" and after "your sins") that source does not have. Word-for-word identical; punctuation drift does not change meaning. Noted for the record.
+
+### Genesis 06 — Genesis 6:18 (KJV self-reference inside LangNote)
+
+**Quote in chapter:** `"But with thee will I establish my covenant."` (covenant wrapped in LangNote)
+**Source (KJV Gen 6:18):** `"But with thee will I establish my covenant; and thou shalt come into the ark..."`
+**Classification:** CLEAN — partial-verse quote ending at "covenant" with period (acceptable; source has semicolon and continues).
+
