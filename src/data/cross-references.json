@@ -1425,6 +1425,23 @@
       }
     ]
   },
+  "genesis-17-20": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 25,
+        "url": "/bible-ot/genesis/25"
+      }
+    ]
+  },
   "genesis-18": {
     "target": {
       "book": "Genesis",
@@ -1629,6 +1646,23 @@
       }
     ]
   },
+  "genesis-23-17-20": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "23",
+      "verse": "17-20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 25,
+        "url": "/bible-ot/genesis/25"
+      }
+    ]
+  },
   "genesis-24": {
     "target": {
       "book": "Genesis",
@@ -1791,6 +1825,23 @@
         "book": "Genesis",
         "chapter": 12,
         "url": "/bible-ot/genesis/12"
+      }
+    ]
+  },
+  "genesis-27-36": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "36"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 25,
+        "url": "/bible-ot/genesis/25"
       }
     ]
   },
@@ -2063,6 +2114,23 @@
         "book": "Genesis",
         "chapter": 13,
         "url": "/bible-ot/genesis/13"
+      }
+    ]
+  },
+  "hebrews-12-16-17": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "12",
+      "verse": "16-17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 25,
+        "url": "/bible-ot/genesis/25"
       }
     ]
   },
@@ -3480,6 +3548,23 @@
         "book": "Genesis",
         "chapter": 22,
         "url": "/bible-ot/genesis/22"
+      }
+    ]
+  },
+  "romans-9-10-13": {
+    "target": {
+      "book": "Romans",
+      "bookSlug": "romans",
+      "canon": "bible-nt",
+      "chapter": "9",
+      "verse": "10-13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 25,
+        "url": "/bible-ot/genesis/25"
       }
     ]
   },
