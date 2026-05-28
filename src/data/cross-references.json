@@ -680,6 +680,23 @@
       }
     ]
   },
+  "deuteronomy-25-5-10": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "25",
+      "verse": "5-10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 38,
+        "url": "/bible-ot/genesis/38"
+      }
+    ]
+  },
   "deuteronomy-30-6": {
     "target": {
       "book": "Deuteronomy",
@@ -2953,6 +2970,40 @@
       }
     ]
   },
+  "genesis-37": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "37",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 38,
+        "url": "/bible-ot/genesis/38"
+      }
+    ]
+  },
+  "genesis-37-32": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "37",
+      "verse": "32"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 38,
+        "url": "/bible-ot/genesis/38"
+      }
+    ]
+  },
   "genesis-39-2": {
     "target": {
       "book": "Genesis",
@@ -4206,6 +4257,23 @@
       }
     ]
   },
+  "matthew-1": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 38,
+        "url": "/bible-ot/genesis/38"
+      }
+    ]
+  },
   "matthew-1-2-3": {
     "target": {
       "book": "Matthew",
@@ -4220,6 +4288,23 @@
         "book": "Genesis",
         "chapter": 29,
         "url": "/bible-ot/genesis/29"
+      }
+    ]
+  },
+  "matthew-1-3": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 38,
+        "url": "/bible-ot/genesis/38"
       }
     ]
   },
@@ -5076,6 +5161,23 @@
         "book": "Genesis",
         "chapter": 19,
         "url": "/bible-ot/genesis/19"
+      }
+    ]
+  },
+  "ruth-4-18-22": {
+    "target": {
+      "book": "Ruth",
+      "bookSlug": "ruth",
+      "canon": "bible-ot",
+      "chapter": "4",
+      "verse": "18-22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 38,
+        "url": "/bible-ot/genesis/38"
       }
     ]
   },
