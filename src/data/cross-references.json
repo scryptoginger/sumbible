@@ -1789,6 +1789,23 @@
       }
     ]
   },
+  "genesis-22-2": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 29,
+        "url": "/bible-ot/genesis/29"
+      }
+    ]
+  },
   "genesis-22-20-23": {
     "target": {
       "book": "Genesis",
@@ -1854,6 +1871,12 @@
         "book": "Genesis",
         "chapter": 22,
         "url": "/bible-ot/genesis/22"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 29,
+        "url": "/bible-ot/genesis/29"
       }
     ]
   },
@@ -1888,6 +1911,23 @@
         "book": "Genesis",
         "chapter": 16,
         "url": "/bible-ot/genesis/16"
+      }
+    ]
+  },
+  "genesis-24-67": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": "67"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 29,
+        "url": "/bible-ot/genesis/29"
       }
     ]
   },
@@ -2325,6 +2365,23 @@
         "book": "Genesis",
         "chapter": 23,
         "url": "/bible-ot/genesis/23"
+      }
+    ]
+  },
+  "genesis-49-8-12": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "49",
+      "verse": "8-12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 29,
+        "url": "/bible-ot/genesis/29"
       }
     ]
   },
@@ -3300,6 +3357,23 @@
         "book": "Genesis",
         "chapter": 8,
         "url": "/bible-ot/genesis/8"
+      }
+    ]
+  },
+  "matthew-1-2-3": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "2-3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 29,
+        "url": "/bible-ot/genesis/29"
       }
     ]
   },
