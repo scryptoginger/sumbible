@@ -249,6 +249,23 @@
       }
     ]
   },
+  "1-samuel-2-1-10": {
+    "target": {
+      "book": "1 Samuel",
+      "bookSlug": "1-samuel",
+      "canon": "bible-ot",
+      "chapter": "2",
+      "verse": "1-10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
+      }
+    ]
+  },
   "1-samuel-3-10": {
     "target": {
       "book": "1 Samuel",
@@ -519,6 +536,23 @@
         "book": "Genesis",
         "chapter": 34,
         "url": "/bible-ot/genesis/34"
+      }
+    ]
+  },
+  "2-samuel-22": {
+    "target": {
+      "book": "2 Samuel",
+      "bookSlug": "2-samuel",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
       }
     ]
   },
@@ -871,6 +905,23 @@
         "book": "Exodus",
         "chapter": 2,
         "url": "/bible-ot/exodus/2"
+      }
+    ]
+  },
+  "acts-7-55-56": {
+    "target": {
+      "book": "Acts",
+      "bookSlug": "acts",
+      "canon": "bible-nt",
+      "chapter": "7",
+      "verse": "55-56"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
       }
     ]
   },
@@ -1319,6 +1370,23 @@
         "book": "Exodus",
         "chapter": 10,
         "url": "/bible-ot/exodus/10"
+      }
+    ]
+  },
+  "deuteronomy-8-2-3": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "2-3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
       }
     ]
   },
@@ -1891,6 +1959,23 @@
       }
     ]
   },
+  "exodus-14-21": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
+      }
+    ]
+  },
   "exodus-15-20": {
     "target": {
       "book": "Exodus",
@@ -2342,6 +2427,12 @@
         "book": "Genesis",
         "chapter": 17,
         "url": "/bible-ot/genesis/17"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
       }
     ]
   },
@@ -3812,6 +3903,23 @@
         "book": "Exodus",
         "chapter": 3,
         "url": "/bible-ot/exodus/3"
+      }
+    ]
+  },
+  "genesis-22-14": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
       }
     ]
   },
@@ -6068,6 +6176,40 @@
       }
     ]
   },
+  "hebrews-1-3": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
+      }
+    ]
+  },
+  "hebrews-10-12": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "10",
+      "verse": "12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
+      }
+    ]
+  },
   "hebrews-11-13-16": {
     "target": {
       "book": "Hebrews",
@@ -6537,6 +6679,23 @@
         "book": "Genesis",
         "chapter": 49,
         "url": "/bible-ot/genesis/49"
+      }
+    ]
+  },
+  "isaiah-12": {
+    "target": {
+      "book": "Isaiah",
+      "bookSlug": "isaiah",
+      "canon": "bible-ot",
+      "chapter": "12",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
       }
     ]
   },
@@ -7616,6 +7775,12 @@
         "book": "Genesis",
         "chapter": 49,
         "url": "/bible-ot/genesis/49"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
       }
     ]
   },
@@ -7752,6 +7917,23 @@
         "book": "Genesis",
         "chapter": 9,
         "url": "/bible-ot/genesis/9"
+      }
+    ]
+  },
+  "luke-1-46-55": {
+    "target": {
+      "book": "Luke",
+      "bookSlug": "luke",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "46-55"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
       }
     ]
   },
@@ -7976,6 +8158,23 @@
       }
     ]
   },
+  "malachi-4-2": {
+    "target": {
+      "book": "Malachi",
+      "bookSlug": "malachi",
+      "canon": "bible-ot",
+      "chapter": "4",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
+      }
+    ]
+  },
   "mark-1-10": {
     "target": {
       "book": "Mark",
@@ -8024,6 +8223,23 @@
         "book": "Exodus",
         "chapter": 12,
         "url": "/bible-ot/exodus/12"
+      }
+    ]
+  },
+  "mark-16-19": {
+    "target": {
+      "book": "Mark",
+      "bookSlug": "mark",
+      "canon": "bible-nt",
+      "chapter": "16",
+      "verse": "19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
       }
     ]
   },
@@ -8930,6 +9146,23 @@
       }
     ]
   },
+  "psalms-110-1": {
+    "target": {
+      "book": "Psalms",
+      "bookSlug": "psalms",
+      "canon": "bible-ot",
+      "chapter": "110",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
+      }
+    ]
+  },
   "psalms-110-4": {
     "target": {
       "book": "Psalms",
@@ -8944,6 +9177,23 @@
         "book": "Genesis",
         "chapter": 14,
         "url": "/bible-ot/genesis/14"
+      }
+    ]
+  },
+  "psalms-118-15-16": {
+    "target": {
+      "book": "Psalms",
+      "bookSlug": "psalms",
+      "canon": "bible-ot",
+      "chapter": "118",
+      "verse": "15-16"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
       }
     ]
   },
@@ -9012,6 +9262,23 @@
         "book": "Genesis",
         "chapter": 36,
         "url": "/bible-ot/genesis/36"
+      }
+    ]
+  },
+  "psalms-18": {
+    "target": {
+      "book": "Psalms",
+      "bookSlug": "psalms",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
       }
     ]
   },
@@ -9199,6 +9466,57 @@
         "book": "Exodus",
         "chapter": 5,
         "url": "/bible-ot/exodus/5"
+      }
+    ]
+  },
+  "psalms-98-1": {
+    "target": {
+      "book": "Psalms",
+      "bookSlug": "psalms",
+      "canon": "bible-ot",
+      "chapter": "98",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
+      }
+    ]
+  },
+  "revelation-11-15": {
+    "target": {
+      "book": "Revelation",
+      "bookSlug": "revelation",
+      "canon": "bible-nt",
+      "chapter": "11",
+      "verse": "15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
+      }
+    ]
+  },
+  "revelation-15-3": {
+    "target": {
+      "book": "Revelation",
+      "bookSlug": "revelation",
+      "canon": "bible-nt",
+      "chapter": "15",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 15,
+        "url": "/bible-ot/exodus/15"
       }
     ]
   },
