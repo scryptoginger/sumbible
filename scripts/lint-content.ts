@@ -235,17 +235,24 @@ function checkFile(kind: Kind, file: string): void {
 }
 
 /**
- * lint:quotation-fidelity rule.
+ * lint:quotation-fidelity rule (v2 — symmetric proximity + same-book
+ * disambiguation).
  *
  * For each chapter body, find every substantial verbatim quotation (text
  * inside double-quotes, ≥7 words long). For each such quote, look at the
  * SURROUNDING ±CITATION_WINDOW chars of the body in BOTH directions for
- * any `<VerseRef book="..." />` that could be the structural "owner" of
- * the quote. The nearest such VerseRef is treated as the owner; if it
- * points to a book OTHER than the chapter's own, the quote is a cross-
- * reference verbatim quote and MUST be covered by a verificationLog
- * entry with `verifiedViaFetch: true` and whose `url` or `claim`
- * references the same cross-reference book.
+ * any `<VerseRef book="..." />` candidate owners.
+ *
+ *   - If ANY candidate owner points to the chapter's own book, treat the
+ *     quote as a self-quote and exempt it (PRs #13 + #14 proved self-
+ *     quotes reliably accurate). Trade-off documented at the rule body.
+ *   - Else (all candidates cross-book), the quote MUST be covered by a
+ *     verificationLog entry with `verifiedViaFetch: true` and whose `url`
+ *     or `claim` references the same cross-reference book.
+ *   - If no candidate owner exists in the proximity window at all, the
+ *     quote has no structural citation pointer and the rule does not fire
+ *     (rule is conservative — quotes without clear citation pointers are
+ *     not flagged).
  *
  * Conservative — false positives are acceptable (resolve by rewording,
  * dropping the quote marks, or adding the vLog entry). The rule fails
@@ -255,13 +262,22 @@ function checkFile(kind: Kind, file: string): void {
  * quotes pulled from memory and falsely certified as verified by the
  * verificationLog. See AUTHORING.md §6.0 and §6.2.
  *
- * v2 change over v1 (PR #17): symmetric proximity window. v1 searched
- * forward only from a quote for its owning VerseRef. PR #18 documented a
- * Gen 1:2 verbatim in Exod 10 whose owning VerseRef sat BEFORE the
- * quote, slipping past v1 undetected. v2 searches both forward and
- * backward within CITATION_WINDOW chars; the §6.0 discipline can no
- * longer rely on authors happening to place the VerseRef after the
- * quote.
+ * v2 changes over v1 (PR #17):
+ *
+ *   1. Symmetric proximity window (previous commit) — v1 searched
+ *      forward only from a quote for its owning VerseRef. PR #18
+ *      documented a Gen 1:2 verbatim in Exod 10 whose owning VerseRef
+ *      sat BEFORE the quote, slipping past v1 undetected. v2 searches
+ *      both forward and backward within CITATION_WINDOW chars.
+ *
+ *   2. Same-book disambiguation (this commit) — v1 picked the single
+ *      nearest VerseRef as the structural owner. PR #18 documented an
+ *      Exod 13:14 verbatim in Exod 10 (same-book self-quote) whose
+ *      nearest-following VerseRef happened to be a Deuteronomy 6:7
+ *      reference, producing a false-positive ERROR. v2 considers ALL
+ *      VerseRefs within the proximity window as candidate owners and
+ *      exempts the quote if any one of them points to the chapter's
+ *      own book.
  */
 interface VLogEntry {
   claim: string;
@@ -338,8 +354,34 @@ function checkQuotationFidelity(
     });
     if (candidateOwners.length === 0) continue; // unowned quote — no citation pointer
 
-    // Pick the nearest candidate as the structural owner; on tie, prefer
-    // the preceding (the standard citation-then-quote prose pattern).
+    // Same-book disambiguation (v2 Fix 2). If ANY candidate owner points
+    // to the chapter's own book, treat the quote as a self-quote and
+    // exempt it.
+    //
+    // Trade-off, explicitly documented for future maintainers: a true
+    // cross-reference verbatim quote that happens to sit near a same-book
+    // VerseRef now slips through without verifiedViaFetch:true. We accept
+    // this for two reasons grounded in the PRs #13/#14/#17/#18 evidence:
+    //
+    //   (a) Self-quotes (a chapter quoting its own primary subject
+    //       material) are PR #13/#14-proven reliably accurate — zero
+    //       errors across both integrity sweeps. Cross-reference quotes
+    //       from memory are the well-characterized failure mode.
+    //
+    //   (b) The lint rule is the SAFETY NET, not the primary defense.
+    //       AUTHORING.md §6.0's paraphrase-by-default discipline is the
+    //       primary defense for cross-references; the lint catches the
+    //       unambiguous-cross-book case mechanically. PR #18's false
+    //       positive (an Exodus 13:14 quote misattributed to a nearby
+    //       Deut 6:7 VerseRef) forced a prose restructure around the
+    //       lint quirk; the v2 preference removes that distortion at
+    //       the cost of a narrow class of edge cases the human discipline
+    //       continues to cover.
+    if (candidateOwners.some((r) => r.book === ownBookSlug)) continue;
+
+    // All candidate owners are cross-book. Pick the nearest one to name
+    // in the ERROR message; on tie, prefer the preceding (the standard
+    // citation-then-quote prose pattern).
     const owningRef = candidateOwners
       .map((r) => {
         const following = r.pos >= matchEnd;
@@ -348,8 +390,6 @@ function checkQuotationFidelity(
         return { r, dist, tiebreak };
       })
       .sort((a, b) => a.dist - b.dist || a.tiebreak - b.tiebreak)[0].r;
-
-    if (owningRef.book === ownBookSlug) continue; // self-quote — exempt
 
     // For coverage matching, accept BOTH the structurally-owning ref AND any
     // other VerseRefs within a slightly wider window. A quote may have its
