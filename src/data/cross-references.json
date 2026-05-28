@@ -96,6 +96,23 @@
       }
     ]
   },
+  "1-corinthians-15-4": {
+    "target": {
+      "book": "1 Corinthians",
+      "bookSlug": "1-corinthians",
+      "canon": "bible-nt",
+      "chapter": "15",
+      "verse": "4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
   "1-corinthians-5-6-8": {
     "target": {
       "book": "1 Corinthians",
@@ -232,6 +249,23 @@
       }
     ]
   },
+  "1-peter-2-9": {
+    "target": {
+      "book": "1 Peter",
+      "bookSlug": "1-peter",
+      "canon": "bible-nt",
+      "chapter": "2",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
   "1-peter-3-20-21": {
     "target": {
       "book": "1 Peter",
@@ -303,6 +337,23 @@
         "book": "Exodus",
         "chapter": 15,
         "url": "/bible-ot/exodus/15"
+      }
+    ]
+  },
+  "1-samuel-21-4-5": {
+    "target": {
+      "book": "1 Samuel",
+      "bookSlug": "1-samuel",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "4-5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
       }
     ]
   },
@@ -1260,6 +1311,23 @@
       }
     ]
   },
+  "deuteronomy-14-2": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
   "deuteronomy-16-22": {
     "target": {
       "book": "Deuteronomy",
@@ -1436,6 +1504,23 @@
       }
     ]
   },
+  "deuteronomy-26-18-19": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "26",
+      "verse": "18-19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
   "deuteronomy-30-6": {
     "target": {
       "book": "Deuteronomy",
@@ -1535,6 +1620,23 @@
         "book": "Exodus",
         "chapter": 10,
         "url": "/bible-ot/exodus/10"
+      }
+    ]
+  },
+  "deuteronomy-7-6": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
       }
     ]
   },
@@ -1683,6 +1785,23 @@
         "book": "Exodus",
         "chapter": 17,
         "url": "/bible-ot/exodus/17"
+      }
+    ]
+  },
+  "esther-5-1": {
+    "target": {
+      "book": "Esther",
+      "bookSlug": "esther",
+      "canon": "bible-ot",
+      "chapter": "5",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
       }
     ]
   },
@@ -4304,6 +4423,23 @@
       }
     ]
   },
+  "genesis-22-4": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
   "genesis-22-8": {
     "target": {
       "book": "Genesis",
@@ -6472,6 +6608,23 @@
       }
     ]
   },
+  "habakkuk-3-3-6": {
+    "target": {
+      "book": "Habakkuk",
+      "bookSlug": "habakkuk",
+      "canon": "bible-ot",
+      "chapter": "3",
+      "verse": "3-6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
   "hebrews-1-3": {
     "target": {
       "book": "Hebrews",
@@ -6503,6 +6656,23 @@
         "book": "Exodus",
         "chapter": 15,
         "url": "/bible-ot/exodus/15"
+      }
+    ]
+  },
+  "hebrews-10-19-22": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "10",
+      "verse": "19-22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
       }
     ]
   },
@@ -6719,6 +6889,23 @@
         "book": "Genesis",
         "chapter": 27,
         "url": "/bible-ot/genesis/27"
+      }
+    ]
+  },
+  "hebrews-12-18-21": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "12",
+      "verse": "18-21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
       }
     ]
   },
@@ -6955,6 +7142,23 @@
       }
     ]
   },
+  "hebrews-9-6-8": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "9",
+      "verse": "6-8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
   "hosea-12-3-4": {
     "target": {
       "book": "Hosea",
@@ -6992,6 +7196,23 @@
         "book": "Genesis",
         "chapter": 32,
         "url": "/bible-ot/genesis/32"
+      }
+    ]
+  },
+  "hosea-6-2": {
+    "target": {
+      "book": "Hosea",
+      "bookSlug": "hosea",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
       }
     ]
   },
@@ -7162,6 +7383,23 @@
         "book": "Genesis",
         "chapter": 49,
         "url": "/bible-ot/genesis/49"
+      }
+    ]
+  },
+  "isaiah-61-6": {
+    "target": {
+      "book": "Isaiah",
+      "bookSlug": "isaiah",
+      "canon": "bible-ot",
+      "chapter": "61",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
       }
     ]
   },
@@ -7948,6 +8186,23 @@
       }
     ]
   },
+  "jonah-1-17": {
+    "target": {
+      "book": "Jonah",
+      "bookSlug": "jonah",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
   "joshua-1-10": {
     "target": {
       "book": "Joshua",
@@ -7962,6 +8217,23 @@
         "book": "Exodus",
         "chapter": 5,
         "url": "/bible-ot/exodus/5"
+      }
+    ]
+  },
+  "joshua-1-11": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
       }
     ]
   },
@@ -8205,6 +8477,23 @@
       }
     ]
   },
+  "judges-5-4-5": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "5",
+      "verse": "4-5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
   "leviticus-12-3": {
     "target": {
       "book": "Leviticus",
@@ -8219,6 +8508,23 @@
         "book": "Genesis",
         "chapter": 17,
         "url": "/bible-ot/genesis/17"
+      }
+    ]
+  },
+  "leviticus-16": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "16",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
       }
     ]
   },
@@ -8443,6 +8749,23 @@
       }
     ]
   },
+  "luke-18-33": {
+    "target": {
+      "book": "Luke",
+      "bookSlug": "luke",
+      "canon": "bible-nt",
+      "chapter": "18",
+      "verse": "33"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
   "luke-2-29-30": {
     "target": {
       "book": "Luke",
@@ -8511,6 +8834,23 @@
       }
     ]
   },
+  "luke-24-21": {
+    "target": {
+      "book": "Luke",
+      "bookSlug": "luke",
+      "canon": "bible-nt",
+      "chapter": "24",
+      "verse": "21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
   "luke-24-39": {
     "target": {
       "book": "Luke",
@@ -8525,6 +8865,23 @@
         "book": "3 Nephi",
         "chapter": 11,
         "url": "/book-of-mormon/3-nephi/11"
+      }
+    ]
+  },
+  "luke-24-46": {
+    "target": {
+      "book": "Luke",
+      "bookSlug": "luke",
+      "canon": "bible-nt",
+      "chapter": "24",
+      "verse": "46"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
       }
     ]
   },
@@ -8562,6 +8919,23 @@
       }
     ]
   },
+  "luke-9-22": {
+    "target": {
+      "book": "Luke",
+      "bookSlug": "luke",
+      "canon": "bible-nt",
+      "chapter": "9",
+      "verse": "22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
   "luke-9-34": {
     "target": {
       "book": "Luke",
@@ -8576,6 +8950,23 @@
         "book": "Exodus",
         "chapter": 13,
         "url": "/bible-ot/exodus/13"
+      }
+    ]
+  },
+  "malachi-3-17": {
+    "target": {
+      "book": "Malachi",
+      "bookSlug": "malachi",
+      "canon": "bible-ot",
+      "chapter": "3",
+      "verse": "17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
       }
     ]
   },
@@ -8661,6 +9052,23 @@
         "book": "Exodus",
         "chapter": 15,
         "url": "/bible-ot/exodus/15"
+      }
+    ]
+  },
+  "mark-8-31": {
+    "target": {
+      "book": "Mark",
+      "bookSlug": "mark",
+      "canon": "bible-nt",
+      "chapter": "8",
+      "verse": "31"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
       }
     ]
   },
@@ -8809,6 +9217,23 @@
         "book": "Exodus",
         "chapter": 8,
         "url": "/bible-ot/exodus/8"
+      }
+    ]
+  },
+  "matthew-16-21": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "16",
+      "verse": "21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
       }
     ]
   },
@@ -9873,6 +10298,23 @@
       }
     ]
   },
+  "psalms-68-7-8": {
+    "target": {
+      "book": "Psalms",
+      "bookSlug": "psalms",
+      "canon": "bible-ot",
+      "chapter": "68",
+      "verse": "7-8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
   "psalms-72": {
     "target": {
       "book": "Psalms",
@@ -9904,6 +10346,23 @@
         "book": "Genesis",
         "chapter": 14,
         "url": "/bible-ot/genesis/14"
+      }
+    ]
+  },
+  "psalms-77-16-18": {
+    "target": {
+      "book": "Psalms",
+      "bookSlug": "psalms",
+      "canon": "bible-ot",
+      "chapter": "77",
+      "verse": "16-18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
       }
     ]
   },
@@ -9972,6 +10431,23 @@
         "book": "Exodus",
         "chapter": 15,
         "url": "/bible-ot/exodus/15"
+      }
+    ]
+  },
+  "revelation-1-6": {
+    "target": {
+      "book": "Revelation",
+      "bookSlug": "revelation",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
       }
     ]
   },
@@ -10074,6 +10550,23 @@
         "book": "1 Nephi",
         "chapter": 1,
         "url": "/book-of-mormon/1-nephi/1"
+      }
+    ]
+  },
+  "revelation-5-10": {
+    "target": {
+      "book": "Revelation",
+      "bookSlug": "revelation",
+      "canon": "bible-nt",
+      "chapter": "5",
+      "verse": "10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 19,
+        "url": "/bible-ot/exodus/19"
       }
     ]
   },
