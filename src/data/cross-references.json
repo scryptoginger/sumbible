@@ -260,6 +260,23 @@
       }
     ]
   },
+  "2-samuel-13-12-13": {
+    "target": {
+      "book": "2 Samuel",
+      "bookSlug": "2-samuel",
+      "canon": "bible-ot",
+      "chapter": "13",
+      "verse": "12-13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 34,
+        "url": "/bible-ot/genesis/34"
+      }
+    ]
+  },
   "2-samuel-7": {
     "target": {
       "book": "2 Samuel",
@@ -501,6 +518,23 @@
         "book": "Genesis",
         "chapter": 20,
         "url": "/bible-ot/genesis/20"
+      }
+    ]
+  },
+  "deuteronomy-22-29": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "29"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 34,
+        "url": "/bible-ot/genesis/34"
       }
     ]
   },
@@ -1593,6 +1627,12 @@
         "book": "Genesis",
         "chapter": 22,
         "url": "/bible-ot/genesis/22"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 34,
+        "url": "/bible-ot/genesis/34"
       }
     ]
   },
@@ -2221,6 +2261,23 @@
       }
     ]
   },
+  "genesis-27-35": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "35"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 34,
+        "url": "/bible-ot/genesis/34"
+      }
+    ]
+  },
   "genesis-27-36": {
     "target": {
       "book": "Genesis",
@@ -2354,6 +2411,23 @@
         "book": "Genesis",
         "chapter": 4,
         "url": "/bible-ot/genesis/4"
+      }
+    ]
+  },
+  "genesis-30-21": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "30",
+      "verse": "21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 34,
+        "url": "/bible-ot/genesis/34"
       }
     ]
   },
@@ -2575,6 +2649,23 @@
         "book": "Genesis",
         "chapter": 23,
         "url": "/bible-ot/genesis/23"
+      }
+    ]
+  },
+  "genesis-49-5-7": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "49",
+      "verse": "5-7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 34,
+        "url": "/bible-ot/genesis/34"
       }
     ]
   },
@@ -3389,6 +3480,40 @@
       }
     ]
   },
+  "joshua-19-1--9": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "1, 9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 34,
+        "url": "/bible-ot/genesis/34"
+      }
+    ]
+  },
+  "joshua-21": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 34,
+        "url": "/bible-ot/genesis/34"
+      }
+    ]
+  },
   "joshua-24-2": {
     "target": {
       "book": "Joshua",
@@ -4075,6 +4200,23 @@
       }
     ]
   },
+  "numbers-18-20-24": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "20-24"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 34,
+        "url": "/bible-ot/genesis/34"
+      }
+    ]
+  },
   "numbers-3-7-8": {
     "target": {
       "book": "Numbers",
@@ -4089,6 +4231,23 @@
         "book": "Genesis",
         "chapter": 2,
         "url": "/bible-ot/genesis/2"
+      }
+    ]
+  },
+  "numbers-35-1-8": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "35",
+      "verse": "1-8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 34,
+        "url": "/bible-ot/genesis/34"
       }
     ]
   },
