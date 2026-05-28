@@ -685,6 +685,57 @@
       }
     ]
   },
+  "genesis-37-21-22": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "37",
+      "verse": "21-22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 42,
+        "url": "/bible-ot/genesis/42"
+      }
+    ]
+  },
+  "genesis-37-5-11": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "37",
+      "verse": "5-11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 42,
+        "url": "/bible-ot/genesis/42"
+      }
+    ]
+  },
+  "genesis-41-29-31": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "41",
+      "verse": "29-31"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 42,
+        "url": "/bible-ot/genesis/42"
+      }
+    ]
+  },
   "genesis-46-27": {
     "target": {
       "book": "Genesis",
