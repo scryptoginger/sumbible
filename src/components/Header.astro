@@ -180,10 +180,16 @@ function isActive(href: string): boolean {
     css.href = '/pagefind/pagefind-ui.css';
     document.head.appendChild(css);
     try {
+      // pagefind-ui.js is shipped as an IIFE that assigns to window.PagefindUI;
+      // it has no ES exports, so the dynamic import's namespace object is empty.
+      // We have to read the constructor off window after the import runs.
       const uiUrl = '/pagefind/pagefind-ui.js';
-      const mod: any = await import(/* @vite-ignore */ uiUrl);
-      new mod.PagefindUI({ element: '#search', showSubResults: true });
-    } catch {
+      await import(/* @vite-ignore */ uiUrl);
+      const PagefindUI = (window as any).PagefindUI;
+      if (!PagefindUI) throw new Error('PagefindUI not on window after load');
+      new PagefindUI({ element: '#search', showSubResults: true });
+    } catch (err) {
+      console.error('[search] failed to load Pagefind UI', err);
       const el = document.getElementById('search');
       if (el) el.textContent = 'Search is available on the built site.';
     }
