@@ -173,6 +173,32 @@ sermonizing for the Bible canons; no equivocating for the LDS canons (§3).
 
 ## 6. Quotation Discipline
 
+### 6.0 Cross-reference fetch-verification — the top-priority rule
+
+**Any verbatim quotation of scripture longer than approximately six words, drawn
+from a book OTHER than the chapter's own primary subject, MUST be re-verified
+by fetch against the actual source text at the time of writing, not from
+memory.** This applies equally to Bible cross-references (KJV) and to Standard
+Works cross-references (D&C, Book of Mormon, Pearl of Great Price, JST).
+
+The `verificationLog` entry recording such a quote must include the field
+`verifiedViaFetch: true` and the actual URL that was opened and compared
+against the quoted text. **An entry without `verifiedViaFetch: true` cannot
+be cited as evidence the quote was verified** — and the `lint:quotation-fidelity`
+rule will block a chapter that has a cross-reference verbatim quote >6 words
+without a corresponding `verifiedViaFetch: true` entry.
+
+**Chapter SELF-quotes** — a chapter quoting its own verses, where the
+chapter's primary subject material is in front of the author during drafting —
+do not require fetch-verification. Both integrity sweeps proved this class is
+reliably accurate. Self-quotes use `verifiedViaFetch: false` honestly.
+
+**When in doubt: paraphrase.** The preferred default for cross-references is
+paraphrase, with verbatim quotation reserved for cases where the exact wording
+carries the argument. In every such case, fetch-verify.
+
+### 6.1 Public-domain and copyrighted quotation limits
+
 **Public-domain scripture** can be quoted at length with proper attribution.
 This covers the KJV, the ASV, the JPS 1917 Tanakh, the Geneva Bible, the
 Douay-Rheims, and **all of the LDS Standard Works**. The `<ScriptureBlock />`
@@ -187,6 +213,28 @@ to stay comfortably within fair use.
 **Copyrighted commentary, books, articles, and websites:** paraphrase first.
 Short direct quotes (≤ 15 words) only when the exact wording is load-bearing.
 Always attribute inline and add to Sources.
+
+### 6.2 Why §6.0 exists — the evidentiary basis
+
+The fetch-verification rule was added after two integrity sweeps (PRs #13 and
+#14) found 11 memory-reconstruction errors in cross-reference scripture
+quotations across the existing corpus. In every error case, the chapter's
+`verificationLog` entry had recorded a `source` URL and `verifiedOn` date —
+for a URL that had never actually been opened and compared against the quoted
+text. The verification log was functioning as a self-issued certificate of
+authenticity for content that had not been verified.
+
+The failure pattern was identical across both sweeps: chapters reaching
+*outward* to quote a different book (Bible cross-reference or Standard-Works
+cross-reference) from memory, with the verificationLog falsely certifying the
+result. Chapter SELF-quotes, where the chapter's primary subject text was in
+front of the author, showed zero errors across the same checks.
+
+This rule is grounded in observed failure, not paranoia. It does not require
+extra discipline from honest drafters who already fetch — it requires only
+that the verificationLog distinguish *fetched* from *from-memory*, so that
+future readers and future agents can see at a glance which entries actually
+warrant the trust they would otherwise have implicitly carried.
 
 ---
 
@@ -435,6 +483,34 @@ check` + `lint:content`) catches the same issues earlier. Content is drafted
 on a feature branch, opened as a PR, and merged only after human review —
 never committed straight to `main`.
 
+**The `lint:content` rule set.** Each rule lives in `scripts/lint-content.ts`
+and runs against every chapter, book, and canon MDX file:
+
+1. Highlight summary shape (≤3 sentences, 40-200 words) — WARN
+2. Long deep summary should cite sources — WARN
+3. Frontmatter dates must be quoted strings — ERROR
+4. Raw scripture references should be wrapped in `<VerseRef />` — WARN
+5. Status workflow integrity (review/published requires reviewedOn) — ERROR
+6. Chapter-only: christReferences verse integrity — ERROR
+7. Chapter-only: sparse verificationLog on substantial chapters — WARN
+8. Book-only: canon + bookSlug resolves — ERROR
+9. Canon-only: slug matches filename — ERROR
+10. Deity capitalization scan — ERROR / WARN
+11. Editorial hedge-word scan — WARN
+12. No-original-language repetition scan — WARN
+13. **`lint:quotation-fidelity`** — cross-reference verbatim quotes >6 words
+    require a matching `verifiedViaFetch: true` entry in verificationLog
+    (see §6.0). The rule scans each chapter for quoted strings >6 words
+    adjacent (within ~200 chars) to a `<VerseRef />` pointing to a different
+    book than the chapter's own book. If such a quote exists without a
+    fetch-verified vLog entry, the rule fails with an ERROR. The rule is
+    conservative — false positives (paraphrase that looks like a quote,
+    self-references that the scanner can't disambiguate) are acceptable;
+    the resolution is to either reword the prose, drop the quotation marks,
+    or add the fetch-verified vLog entry. The rule cannot be silenced —
+    if you believe a flag is wrong, the resolution is to make the prose
+    unambiguous.
+
 ---
 
 ## 18. Pre-Commit Audit Checklist
@@ -447,13 +523,16 @@ Before every commit that touches content, run through this:
 3. All Bible cross-references in LDS-canon content use `<VerseRef />` (see §8).
 4. All LDS-canon cross-references in Bible content use `<VerseRef />` (see §8).
 5. No repeated canon-level meta-claims in chapter content (see §7).
-6. Quotation discipline followed: public-domain vs copyrighted (see §6).
-7. Sources cited for all non-obvious claims (see §2).
-8. LDS-canon content uses believing voice; Bible content reports the
+6. Quotation discipline followed: public-domain vs copyrighted (see §6.1).
+7. **Cross-reference verbatim quotes ≥7 words are fetch-verified, and the
+   corresponding verificationLog entry has `verifiedViaFetch: true` with the
+   actual URL opened (see §6.0). When in doubt, paraphrase.**
+8. Sources cited for all non-obvious claims (see §2).
+9. LDS-canon content uses believing voice; Bible content reports the
    spectrum (see §3).
-9. For files in `KEITH_EDITS_BASELINE.md` (when present in a session):
-   Keith's prior edits preserved.
-10. Proper-noun consistency (Tree of Life, Atonement, Restoration, First
+10. For files in `KEITH_EDITS_BASELINE.md` (when present in a session):
+    Keith's prior edits preserved.
+11. Proper-noun consistency (Tree of Life, Atonement, Restoration, First
     Vision, etc. — see §15).
 
 ---
@@ -495,17 +574,37 @@ verificationLog:
   - claim: "Hebrew bara takes only God as subject in the qal form"
     source: "Brown-Driver-Briggs Hebrew and English Lexicon, entry on bara"
     verifiedOn: "2026-05-27"
+    verifiedViaFetch: false   # lexical knowledge, not a verbatim cross-ref quote
   - claim: "Colwell's rule on definite predicate nouns lacking the article"
     source: "E. C. Colwell, JBL 52 (1933): 12-21"
     url: https://example.org/colwell-1933
     verifiedOn: "2026-05-27"
+    verifiedViaFetch: true    # the URL was actually opened and the claim verified
+    quoteText: ""              # optional — exact quoted text, when applicable
 ```
+
+**The `verifiedViaFetch` field is REQUIRED on every entry** (defaults to
+`false`). Setting it to `true` is a deliberate act that asserts: the `url`
+was actually opened during this drafting session, and any verbatim quotation
+in the corresponding chapter prose was diffed against the source text. Per
+§6.0, this is required for every cross-reference verbatim quotation longer
+than ~6 words. Honest defaults (`false`) for paraphrase / interpretive
+claims / self-quotes are correct and expected — the field exists to
+distinguish those from claims of actual fetch-verification.
+
+The `quoteText` field is optional. When present, it records the exact
+verbatim text that was fetched and diffed, making the audit trail
+reproducible if the chapter prose later drifts.
 
 The lint rule (`scripts/lint-content.ts` check #7) warns when a chapter at
 `status: review` or `status: published` has a substantial deep summary
 (>1,600 characters) and fewer than 3 verification-log entries. A near-empty
 log on substantial content indicates either (a) claims that weren't actually
 verified, or (b) verification work that wasn't recorded. Both are blockers.
+
+The lint rule `lint:quotation-fidelity` blocks cross-reference verbatim
+quotes >6 words that lack a corresponding `verifiedViaFetch: true` entry
+in the same chapter — see §17 below for the rule and §6.0 for the doctrine.
 
 The verification log renders on the chapter page as a collapsed
 `<details>` block titled "Research sources" below the canonical Sources
