@@ -1157,6 +1157,23 @@
       }
     ]
   },
+  "genesis-12-10": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "12",
+      "verse": "10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 26,
+        "url": "/bible-ot/genesis/26"
+      }
+    ]
+  },
   "genesis-12-10-20": {
     "target": {
       "book": "Genesis",
@@ -1541,6 +1558,12 @@
         "book": "Genesis",
         "chapter": 12,
         "url": "/bible-ot/genesis/12"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 26,
+        "url": "/bible-ot/genesis/26"
       }
     ]
   },
@@ -1575,6 +1598,40 @@
         "book": "Genesis",
         "chapter": 16,
         "url": "/bible-ot/genesis/16"
+      }
+    ]
+  },
+  "genesis-21-31": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "31"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 26,
+        "url": "/bible-ot/genesis/26"
+      }
+    ]
+  },
+  "genesis-21-9": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 26,
+        "url": "/bible-ot/genesis/26"
       }
     ]
   },
@@ -1677,6 +1734,23 @@
         "book": "Genesis",
         "chapter": 22,
         "url": "/bible-ot/genesis/22"
+      }
+    ]
+  },
+  "genesis-24-3-4": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": "3-4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 26,
+        "url": "/bible-ot/genesis/26"
       }
     ]
   },
@@ -2998,6 +3072,23 @@
         "book": "3 Nephi",
         "chapter": 11,
         "url": "/book-of-mormon/3-nephi/11"
+      }
+    ]
+  },
+  "matthew-5-5": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "5",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 26,
+        "url": "/bible-ot/genesis/26"
       }
     ]
   },
