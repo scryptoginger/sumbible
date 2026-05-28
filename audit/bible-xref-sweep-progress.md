@@ -46,7 +46,7 @@ Status: ⬜ not started · 🔄 in progress · ✅ swept clean · ⚠️ swept w
 | Gen 31 | Deut 24:14-15 | ⬜ | |
 | Gen 32 | Hos 12:3-4, Exod 33:20, John 1:18 (priority 2) | ⬜ | |
 | Gen 33 | Josh 24:32, John 4:5-6 | ⬜ | |
-| Gen 34 | Deut 22:29, 2 Sam 13:12-13 | ⬜ | |
+| Gen 34 | Deut 22:29, 2 Sam 13:12-13 | ⚠️ | 2 Sam 13:12 — ERROR (fixed): "do not so" should be KJV "do not force me" |
 | Gen 36 | Deut 23:7, Ps 137:7 | ⬜ | |
 | Gen 37 | Acts 7:9 | ⬜ | |
 | Gen 38 | Matt 1:3 (Tamar), Ruth 4:18-22 | ⬜ | |

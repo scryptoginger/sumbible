@@ -54,3 +54,11 @@ OT chapters, OT in different-OT-book chapters).
 **Diff:** chapter substituted `"when"` for KJV's `"forasmuch as"` (the connecting conjunction within the source's parenthetical). The phrase before-and-after matches verbatim, but the connector word is changed.
 **Fix:** quoted v1 verbatim including the full parenthetical clause.
 
+
+### Genesis 34 — 2 Samuel 13:12 — ⚠️ ERROR (FIXED)
+
+**Quote in chapter (BEFORE fix):** `Tamar to Amnon — "do not so... do not thou this folly"` attributed to 2 Sam 13:12-13.
+**Source (2 Sam 13:12 KJV):** `"And she answered him, Nay, my brother, do not force me; for no such thing ought to be done in Israel: do not thou this folly."`
+**Diff:** chapter's `"do not so"` does not appear in 2 Sam 13:12. Source has `"do not force me"`. The phrase `"do not so"` IS KJV-style and DOES appear elsewhere in the KJV (Lot to the Sodomites in Gen 19:7) — but not in Tamar's protest. Memory-reconstruction conflated KJV idiom with the specific verse cited.
+**Fix:** quoted Tamar's verse 12 verbatim including the full protest.
+
