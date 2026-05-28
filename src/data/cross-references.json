@@ -476,6 +476,23 @@
       }
     ]
   },
+  "acts-7-9": {
+    "target": {
+      "book": "Acts",
+      "bookSlug": "acts",
+      "canon": "bible-nt",
+      "chapter": "7",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 37,
+        "url": "/bible-ot/genesis/37"
+      }
+    ]
+  },
   "alma-13-14-19": {
     "target": {
       "book": "Alma",
@@ -2505,6 +2522,23 @@
       }
     ]
   },
+  "genesis-27-9-16": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "9-16"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 37,
+        "url": "/bible-ot/genesis/37"
+      }
+    ]
+  },
   "genesis-28-1-5": {
     "target": {
       "book": "Genesis",
@@ -2536,6 +2570,23 @@
         "book": "Genesis",
         "chapter": 35,
         "url": "/bible-ot/genesis/35"
+      }
+    ]
+  },
+  "genesis-28-12": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 37,
+        "url": "/bible-ot/genesis/37"
       }
     ]
   },
@@ -2899,6 +2950,23 @@
         "book": "Genesis",
         "chapter": 12,
         "url": "/bible-ot/genesis/12"
+      }
+    ]
+  },
+  "genesis-39-2": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "39",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 37,
+        "url": "/bible-ot/genesis/37"
       }
     ]
   },
