@@ -1476,6 +1476,23 @@
       }
     ]
   },
+  "genesis-16-1-4": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "16",
+      "verse": "1-4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 30,
+        "url": "/bible-ot/genesis/30"
+      }
+    ]
+  },
   "genesis-16-11": {
     "target": {
       "book": "Genesis",
@@ -2249,6 +2266,23 @@
       }
     ]
   },
+  "genesis-31-10-12": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "31",
+      "verse": "10-12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 30,
+        "url": "/bible-ot/genesis/30"
+      }
+    ]
+  },
   "genesis-31-38": {
     "target": {
       "book": "Genesis",
@@ -2297,6 +2331,23 @@
         "book": "Genesis",
         "chapter": 28,
         "url": "/bible-ot/genesis/28"
+      }
+    ]
+  },
+  "genesis-35-18": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "35",
+      "verse": "18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 30,
+        "url": "/bible-ot/genesis/30"
       }
     ]
   },
@@ -2399,6 +2450,23 @@
         "book": "Genesis",
         "chapter": 23,
         "url": "/bible-ot/genesis/23"
+      }
+    ]
+  },
+  "genesis-8-1": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 30,
+        "url": "/bible-ot/genesis/30"
       }
     ]
   },
