@@ -220,6 +220,23 @@
       }
     ]
   },
+  "acts-2-23": {
+    "target": {
+      "book": "Acts",
+      "bookSlug": "acts",
+      "canon": "bible-nt",
+      "chapter": "2",
+      "verse": "23"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 45,
+        "url": "/bible-ot/genesis/45"
+      }
+    ]
+  },
   "deuteronomy-32-8": {
     "target": {
       "book": "Deuteronomy",
@@ -765,6 +782,23 @@
       }
     ]
   },
+  "genesis-37-31-33": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "37",
+      "verse": "31-33"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 45,
+        "url": "/bible-ot/genesis/45"
+      }
+    ]
+  },
   "genesis-37-5-11": {
     "target": {
       "book": "Genesis",
@@ -779,6 +813,12 @@
         "book": "Genesis",
         "chapter": 42,
         "url": "/bible-ot/genesis/42"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 45,
+        "url": "/bible-ot/genesis/45"
       }
     ]
   },
@@ -816,6 +856,40 @@
       }
     ]
   },
+  "genesis-42": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "42",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 45,
+        "url": "/bible-ot/genesis/45"
+      }
+    ]
+  },
+  "genesis-42-24": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "42",
+      "verse": "24"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 45,
+        "url": "/bible-ot/genesis/45"
+      }
+    ]
+  },
   "genesis-42-37": {
     "target": {
       "book": "Genesis",
@@ -830,6 +904,23 @@
         "book": "Genesis",
         "chapter": 43,
         "url": "/bible-ot/genesis/43"
+      }
+    ]
+  },
+  "genesis-43-30": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "43",
+      "verse": "30"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 45,
+        "url": "/bible-ot/genesis/45"
       }
     ]
   },
@@ -867,6 +958,23 @@
       }
     ]
   },
+  "genesis-46-2-4": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "46",
+      "verse": "2-4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 45,
+        "url": "/bible-ot/genesis/45"
+      }
+    ]
+  },
   "genesis-46-27": {
     "target": {
       "book": "Genesis",
@@ -898,6 +1006,23 @@
         "book": "Genesis",
         "chapter": 43,
         "url": "/bible-ot/genesis/43"
+      }
+    ]
+  },
+  "genesis-50-20": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "50",
+      "verse": "20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 45,
+        "url": "/bible-ot/genesis/45"
       }
     ]
   },
@@ -1856,6 +1981,23 @@
         "book": "Genesis",
         "chapter": 8,
         "url": "/bible-ot/genesis/8"
+      }
+    ]
+  },
+  "romans-8-28": {
+    "target": {
+      "book": "Romans",
+      "bookSlug": "romans",
+      "canon": "bible-nt",
+      "chapter": "8",
+      "verse": "28"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 45,
+        "url": "/bible-ot/genesis/45"
       }
     ]
   },
