@@ -131,6 +131,21 @@ function checkFile(kind: Kind, file: string): void {
         `verificationLog has ${log.length} entry(ies) — chapter has a substantial body (${body.length} chars); status "${data.status}" expects at least 3 verified claims`,
       );
     }
+
+    // 13 — quotation fidelity (AUTHORING §6.0 + §17). Cross-reference
+    // verbatim quotes >6 words must have a corresponding verificationLog
+    // entry with `verifiedViaFetch: true` that points to the same book
+    // being cross-referenced. The two integrity sweeps (PRs #13 and #14)
+    // proved this discipline is necessary: 11 memory-reconstruction errors
+    // were found across both Standard Works and Bible cross-references.
+    //
+    // The `quotationFidelity` frontmatter field controls enforcement
+    // severity: 'enforced' (default for new chapters) produces ERROR;
+    // 'legacy' (grandfather for chapters drafted before the rule shipped)
+    // produces WARN. Legacy marking is HONEST about discipline-not-yet-
+    // applied; it is not a permanent exemption.
+    const fidelityMode = (data.quotationFidelity ?? 'enforced') as 'enforced' | 'legacy';
+    checkQuotationFidelity(rel, body, data.bookSlug as string, log, fidelityMode);
   }
 
   // 8 — book-only checks: canon + bookSlug must resolve in canons.ts.
@@ -215,6 +230,175 @@ function checkFile(kind: Kind, file: string): void {
           );
         }
       }
+    }
+  }
+}
+
+/**
+ * lint:quotation-fidelity rule.
+ *
+ * For each chapter body, find every substantial verbatim quotation (text
+ * inside double-quotes, ≥7 words long). For each such quote, look at the
+ * surrounding ±200 chars of the original (un-stripped) body for any
+ * `<VerseRef book="..." />` that points to a book OTHER than the
+ * chapter's own. If such a cross-reference is present, the quote is
+ * treated as a cross-reference verbatim quote and MUST be covered by a
+ * verificationLog entry with `verifiedViaFetch: true` and whose `url`
+ * or `claim` references the same cross-reference book.
+ *
+ * Conservative — false positives are acceptable (resolve by rewording,
+ * dropping the quote marks, or adding the vLog entry). The rule fails
+ * with ERROR; it cannot be silenced.
+ *
+ * Why this rule exists: PRs #13 + #14 found 11 cross-reference scripture
+ * quotes pulled from memory and falsely certified as verified by the
+ * verificationLog. See AUTHORING.md §6.0 and §6.2.
+ */
+interface VLogEntry {
+  claim: string;
+  source: string;
+  url?: string;
+  verifiedOn?: string;
+  verifiedViaFetch: boolean;
+  quoteText?: string;
+}
+
+function checkQuotationFidelity(
+  rel: string,
+  body: string,
+  ownBookSlug: string,
+  log: VLogEntry[],
+  fidelityMode: 'enforced' | 'legacy',
+): void {
+  // Step 1: catalogue all VerseRef components in the body with their positions
+  // and the book they point to.
+  const verseRefPattern = /<VerseRef\s+book="([^"]+)"[^/]*?\/>/g;
+  const verseRefs: Array<{ book: string; pos: number }> = [];
+  for (const m of body.matchAll(verseRefPattern)) {
+    verseRefs.push({ book: m[1], pos: m.index ?? 0 });
+  }
+
+  // Step 2: scan body for quoted strings of ≥7 words.
+  // Match both straight double-quotes and curly typographic double-quotes.
+  // We use the ORIGINAL body (not stripped) to preserve positions for
+  // structural-citation matching.
+  const CITATION_WINDOW = 60; // chars after the quote to look for the "owning" VerseRef
+  const MIN_WORDS = 7;
+
+  const quotePattern = /"([^"\n]{20,500})"|“([^”\n]{20,500})”/g;
+  for (const m of body.matchAll(quotePattern)) {
+    const quote = (m[1] ?? m[2] ?? '').trim();
+    if (!quote) continue;
+    // Skip if this match is inside a JSX tag attribute value.
+    const pos = m.index ?? 0;
+    const before = body.slice(0, pos);
+    const lastOpen = before.lastIndexOf('<');
+    const lastClose = before.lastIndexOf('>');
+    if (lastOpen > lastClose) continue; // inside a JSX tag
+
+    const wordCount = quote.split(/\s+/).filter(Boolean).length;
+    if (wordCount < MIN_WORDS) continue;
+
+    // Skip embedded HTML/JSX-tag content masquerading as a quote (e.g., the
+    // quote regex captured ``"http..." `` or text that's mostly JSX).
+    // Heuristic: if the quote contains an unmatched '<', skip — it's likely
+    // a regex artifact from crossing a JSX boundary.
+    if ((quote.match(/</g) ?? []).length > (quote.match(/>/g) ?? []).length) continue;
+
+    // Structural-citation matching: identify the FIRST VerseRef within
+    // CITATION_WINDOW chars AFTER the quote's closing mark. This is the
+    // VerseRef that structurally "owns" the quote (citation form: "quoted
+    // text" (<VerseRef ... />)). If no such VerseRef exists within the
+    // window, the quote has no structural citation and the rule does not
+    // fire on it (rule is conservative — we don't flag quotes without a
+    // clear citation pointer).
+    const matchEnd = pos + m[0].length;
+    const owningRef = verseRefs.find(
+      (r) => r.pos >= matchEnd && r.pos <= matchEnd + CITATION_WINDOW,
+    );
+    if (!owningRef) continue; // unowned quote — no citation pointer
+    if (owningRef.book === ownBookSlug) continue; // self-quote — exempt
+
+    // For coverage matching, accept BOTH the structurally-owning ref AND any
+    // other VerseRefs within a slightly wider window. A quote may have its
+    // attribution split across multiple nearby VerseRefs (e.g., the prose
+    // says "from JST: 'quote' (JST Gen 14:27)" inline and then "<VerseRef
+    // book=\"doctrine-and-covenants\" ... />" in the next sentence). Any of
+    // those nearby cross-references could carry a matching fetched entry.
+    const COVERAGE_WINDOW = 350;
+    const coverageRefs = verseRefs.filter(
+      (r) => r.pos >= pos - COVERAGE_WINDOW && r.pos <= matchEnd + COVERAGE_WINDOW
+    );
+    const crossRefs = coverageRefs.filter((r) => r.book !== ownBookSlug);
+    if (crossRefs.length === 0) {
+      // Owning ref was a cross-ref but no other cross-refs nearby — use owningRef alone
+      crossRefs.push(owningRef);
+    }
+
+    // Cross-reference quote present. Look for a verifiedViaFetch:true entry
+    // that covers it. Match by: (a) URL contains a cross-ref book slug,
+    // (b) claim text contains the cross-ref book name, OR (c) quoteText
+    // overlaps significantly with the quote.
+    const fetched = log.filter((e) => e.verifiedViaFetch === true);
+    const crossBooks = [...new Set(crossRefs.map((r) => r.book))];
+
+    const covered = fetched.some((e) => {
+      // (a) URL match — the URL should contain one of the cross-ref books
+      if (e.url) {
+        const urlLower = e.url.toLowerCase();
+        for (const cb of crossBooks) {
+          // Match common URL conventions: /book/, /book-slug/, ?search=Book+...
+          const cbVariants = [
+            cb, // raw slug
+            cb.replace(/-/g, '+'), // search-query form
+            cb.replace(/-/g, ' '), // space-separated
+            cb.replace(/^(\d+)-/, '$1 '), // "1-nephi" → "1 nephi"
+            // Common abbreviations
+            cb === '2-chronicles' ? '2-chr' : cb,
+            cb === '1-chronicles' ? '1-chr' : cb,
+            cb === '2-samuel' ? '2-sam' : cb,
+            cb === '1-samuel' ? '1-sam' : cb,
+            cb === '2-kings' ? '2-kgs' : cb,
+            cb === '1-kings' ? '1-kgs' : cb,
+            cb === 'doctrine-and-covenants' ? 'dc' : cb,
+            cb === 'doctrine-and-covenants' ? 'd&c' : cb,
+            cb === 'romans' ? 'rom' : cb,
+            cb === 'galatians' ? 'gal' : cb,
+            cb === 'hebrews' ? 'heb' : cb,
+            cb === 'matthew' ? 'matt' : cb,
+            cb === 'ephesians' ? 'eph' : cb,
+            cb === 'colossians' ? 'col' : cb,
+          ].map((s) => s.toLowerCase());
+          if (cbVariants.some((v) => urlLower.includes(v))) return true;
+        }
+      }
+      // (b) claim text contains cross-ref book name
+      const claimLower = (e.claim ?? '').toLowerCase();
+      for (const cb of crossBooks) {
+        const human = cb.replace(/-/g, ' ');
+        if (claimLower.includes(human)) return true;
+      }
+      // (c) quoteText overlap — first 25 chars of either
+      if (e.quoteText && quote.length >= 25) {
+        const qHead = quote.slice(0, 30);
+        const eHead = e.quoteText.slice(0, 30);
+        if (e.quoteText.includes(qHead) || quote.includes(eHead)) return true;
+      }
+      return false;
+    });
+
+    if (!covered) {
+      const crossLabel = crossBooks.join(', ');
+      const severity: Severity = fidelityMode === 'legacy' ? 'WARN' : 'ERROR';
+      const legacyNote =
+        fidelityMode === 'legacy'
+          ? ' [WARN-only because chapter is marked quotationFidelity: legacy; resolve by fetch-verifying and migrating to enforced.]'
+          : '';
+      report(
+        rel,
+        severity,
+        `lint:quotation-fidelity — cross-reference verbatim quote (${wordCount} words, near VerseRef → ${crossLabel}) lacks a matching verifiedViaFetch:true verificationLog entry. Either: (a) fetch-verify the quote and add a verificationLog entry with verifiedViaFetch:true and the source URL; (b) paraphrase; or (c) remove the quotation marks. See AUTHORING.md §6.0.${legacyNote} Quote: "${quote.slice(0, 120)}${quote.length > 120 ? '...' : ''}"`,
+      );
     }
   }
 }

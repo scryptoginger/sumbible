@@ -96,6 +96,22 @@ const chapterSchema = z.object({
   draftedOn: z.string().optional(),   // ISO date (quoted string — see AUTHORING.md)
   reviewedBy: z.string().optional(),
   reviewedOn: z.string().optional(),  // ISO date (quoted string — see AUTHORING.md)
+
+  // Quotation-fidelity discipline opt-in (AUTHORING §6.0).
+  //
+  // Drafted-after-the-rule-shipped chapters set this to true and accept full
+  // ERROR-level enforcement from lint:quotation-fidelity. Legacy chapters
+  // (drafted before the rule) explicitly mark `quotationFidelity: 'legacy'`
+  // to acknowledge the discipline applies but downgrade the rule to WARN
+  // for cross-reference quotes that lack fetch-verification.
+  //
+  // The grandfather state ('legacy') is honest: it says "these chapters
+  // predate the §6.0 discipline; their cross-reference quotes have NOT
+  // been mechanically fetch-verified; a follow-up sweep would need to
+  // either fetch-verify each or paraphrase." It is NOT a permanent
+  // exemption — chapters with active drafting work should be migrated
+  // to 'enforced' as their cross-reference quotes are fetch-verified.
+  quotationFidelity: z.enum(['legacy', 'enforced']).default('enforced'),
 });
 
 // Book-level summaries — one MDX file per book, the body being the deep summary.
