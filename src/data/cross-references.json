@@ -2153,6 +2153,23 @@
       }
     ]
   },
+  "genesis-25-9": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "25",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 35,
+        "url": "/bible-ot/genesis/35"
+      }
+    ]
+  },
   "genesis-25-9-10": {
     "target": {
       "book": "Genesis",
@@ -2329,6 +2346,23 @@
       }
     ]
   },
+  "genesis-28-10-22": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "10-22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 35,
+        "url": "/bible-ot/genesis/35"
+      }
+    ]
+  },
   "genesis-28-13-15": {
     "target": {
       "book": "Genesis",
@@ -2360,6 +2394,23 @@
         "book": "Genesis",
         "chapter": 31,
         "url": "/bible-ot/genesis/31"
+      }
+    ]
+  },
+  "genesis-28-18": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 35,
+        "url": "/bible-ot/genesis/35"
       }
     ]
   },
@@ -2431,6 +2482,23 @@
       }
     ]
   },
+  "genesis-30-24": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "30",
+      "verse": "24"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 35,
+        "url": "/bible-ot/genesis/35"
+      }
+    ]
+  },
   "genesis-30-37-43": {
     "target": {
       "book": "Genesis",
@@ -2465,6 +2533,23 @@
       }
     ]
   },
+  "genesis-31-19": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "31",
+      "verse": "19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 35,
+        "url": "/bible-ot/genesis/35"
+      }
+    ]
+  },
   "genesis-31-38": {
     "target": {
       "book": "Genesis",
@@ -2479,6 +2564,23 @@
         "book": "Genesis",
         "chapter": 27,
         "url": "/bible-ot/genesis/27"
+      }
+    ]
+  },
+  "genesis-31-45": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "31",
+      "verse": "45"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 35,
+        "url": "/bible-ot/genesis/35"
       }
     ]
   },
@@ -2513,6 +2615,12 @@
         "book": "Genesis",
         "chapter": 17,
         "url": "/bible-ot/genesis/17"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 35,
+        "url": "/bible-ot/genesis/35"
       }
     ]
   },
@@ -2649,6 +2757,23 @@
         "book": "Genesis",
         "chapter": 23,
         "url": "/bible-ot/genesis/23"
+      }
+    ]
+  },
+  "genesis-49-3-4": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "49",
+      "verse": "3-4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 35,
+        "url": "/bible-ot/genesis/35"
       }
     ]
   },
@@ -3239,6 +3364,23 @@
         "book": "1 Nephi",
         "chapter": 1,
         "url": "/book-of-mormon/1-nephi/1"
+      }
+    ]
+  },
+  "jeremiah-31-15": {
+    "target": {
+      "book": "Jeremiah",
+      "bookSlug": "jeremiah",
+      "canon": "bible-ot",
+      "chapter": "31",
+      "verse": "15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 35,
+        "url": "/bible-ot/genesis/35"
       }
     ]
   },
@@ -3868,6 +4010,23 @@
         "book": "Genesis",
         "chapter": 2,
         "url": "/bible-ot/genesis/2"
+      }
+    ]
+  },
+  "matthew-2-18": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "2",
+      "verse": "18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 35,
+        "url": "/bible-ot/genesis/35"
       }
     ]
   },
