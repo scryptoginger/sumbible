@@ -1,8 +1,15 @@
 ---
 // Wraps an icon so it carries a hover/tap tooltip with a short explanation
 // and an optional "Learn more →" link to the relevant iconography subpage.
+//
+// `align` controls horizontal anchoring of the popover relative to the icon,
+// to keep it from clipping at viewport edges:
+//   - "center" (default): popover centered under the icon (good for mid-row icons)
+//   - "start": popover's left edge anchored to the icon's left (use near left edge)
+//   - "end":   popover's right edge anchored to the icon's right (use near right edge)
+//
 // Usage:
-//   <IconTooltip title="Chi-Rho" description="..." learnMoreHref="/about/iconography/chi-rho">
+//   <IconTooltip title="Chi-Rho" description="..." learnMoreHref="..." align="start">
 //     <ChiRho size={28} />
 //   </IconTooltip>
 
@@ -10,9 +17,17 @@ interface Props {
   title: string;
   description: string;
   learnMoreHref?: string;
+  align?: 'start' | 'center' | 'end';
 }
 
-const { title, description, learnMoreHref } = Astro.props;
+const { title, description, learnMoreHref, align = 'center' } = Astro.props;
+
+const alignClass =
+  align === 'start'
+    ? 'left-0'
+    : align === 'end'
+      ? 'right-0'
+      : 'left-1/2 -translate-x-1/2';
 ---
 
 <span
@@ -25,7 +40,10 @@ const { title, description, learnMoreHref } = Astro.props;
       hover-out so the mouse can travel from the icon to the popover
       (e.g. to click "Learn more →") without it vanishing. */}
   <span
-    class="icon-tooltip-popover absolute left-1/2 top-full z-30 mt-2 w-64 -translate-x-1/2 rounded border border-stone-300 bg-stone-50 p-3 text-left text-sm shadow-lg"
+    class:list={[
+      'icon-tooltip-popover absolute top-full z-30 mt-2 w-64 rounded border border-stone-300 bg-stone-50 p-3 text-left text-sm shadow-lg',
+      alignClass,
+    ]}
   >
     <span class="block font-semibold text-stone-800">{title}</span>
     <span class="mt-1 block text-stone-700">{description}</span>
