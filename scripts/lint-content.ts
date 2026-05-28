@@ -235,16 +235,24 @@ function checkFile(kind: Kind, file: string): void {
 }
 
 /**
- * lint:quotation-fidelity rule.
+ * lint:quotation-fidelity rule (v2 — symmetric proximity + same-book
+ * disambiguation).
  *
  * For each chapter body, find every substantial verbatim quotation (text
  * inside double-quotes, ≥7 words long). For each such quote, look at the
- * surrounding ±200 chars of the original (un-stripped) body for any
- * `<VerseRef book="..." />` that points to a book OTHER than the
- * chapter's own. If such a cross-reference is present, the quote is
- * treated as a cross-reference verbatim quote and MUST be covered by a
- * verificationLog entry with `verifiedViaFetch: true` and whose `url`
- * or `claim` references the same cross-reference book.
+ * SURROUNDING ±CITATION_WINDOW chars of the body in BOTH directions for
+ * any `<VerseRef book="..." />` candidate owners.
+ *
+ *   - If ANY candidate owner points to the chapter's own book, treat the
+ *     quote as a self-quote and exempt it (PRs #13 + #14 proved self-
+ *     quotes reliably accurate). Trade-off documented at the rule body.
+ *   - Else (all candidates cross-book), the quote MUST be covered by a
+ *     verificationLog entry with `verifiedViaFetch: true` and whose `url`
+ *     or `claim` references the same cross-reference book.
+ *   - If no candidate owner exists in the proximity window at all, the
+ *     quote has no structural citation pointer and the rule does not fire
+ *     (rule is conservative — quotes without clear citation pointers are
+ *     not flagged).
  *
  * Conservative — false positives are acceptable (resolve by rewording,
  * dropping the quote marks, or adding the vLog entry). The rule fails
@@ -253,6 +261,23 @@ function checkFile(kind: Kind, file: string): void {
  * Why this rule exists: PRs #13 + #14 found 11 cross-reference scripture
  * quotes pulled from memory and falsely certified as verified by the
  * verificationLog. See AUTHORING.md §6.0 and §6.2.
+ *
+ * v2 changes over v1 (PR #17):
+ *
+ *   1. Symmetric proximity window (previous commit) — v1 searched
+ *      forward only from a quote for its owning VerseRef. PR #18
+ *      documented a Gen 1:2 verbatim in Exod 10 whose owning VerseRef
+ *      sat BEFORE the quote, slipping past v1 undetected. v2 searches
+ *      both forward and backward within CITATION_WINDOW chars.
+ *
+ *   2. Same-book disambiguation (this commit) — v1 picked the single
+ *      nearest VerseRef as the structural owner. PR #18 documented an
+ *      Exod 13:14 verbatim in Exod 10 (same-book self-quote) whose
+ *      nearest-following VerseRef happened to be a Deuteronomy 6:7
+ *      reference, producing a false-positive ERROR. v2 considers ALL
+ *      VerseRefs within the proximity window as candidate owners and
+ *      exempts the quote if any one of them points to the chapter's
+ *      own book.
  */
 interface VLogEntry {
   claim: string;
@@ -270,19 +295,23 @@ function checkQuotationFidelity(
   log: VLogEntry[],
   fidelityMode: 'enforced' | 'legacy',
 ): void {
-  // Step 1: catalogue all VerseRef components in the body with their positions
-  // and the book they point to.
+  // Step 1: catalogue all VerseRef components in the body with their
+  // positions (start AND end) and the book they point to. v2 tracks `end`
+  // so that backward-proximity to a preceding VerseRef is measured from
+  // VerseRef-end to quote-start (the natural citation distance), not
+  // from VerseRef-start.
   const verseRefPattern = /<VerseRef\s+book="([^"]+)"[^/]*?\/>/g;
-  const verseRefs: Array<{ book: string; pos: number }> = [];
+  const verseRefs: Array<{ book: string; pos: number; end: number }> = [];
   for (const m of body.matchAll(verseRefPattern)) {
-    verseRefs.push({ book: m[1], pos: m.index ?? 0 });
+    const start = m.index ?? 0;
+    verseRefs.push({ book: m[1], pos: start, end: start + m[0].length });
   }
 
   // Step 2: scan body for quoted strings of ≥7 words.
   // Match both straight double-quotes and curly typographic double-quotes.
   // We use the ORIGINAL body (not stripped) to preserve positions for
   // structural-citation matching.
-  const CITATION_WINDOW = 60; // chars after the quote to look for the "owning" VerseRef
+  const CITATION_WINDOW = 60; // chars around the quote to look for "owning" VerseRefs
   const MIN_WORDS = 7;
 
   const quotePattern = /"([^"\n]{20,500})"|“([^”\n]{20,500})”/g;
@@ -305,19 +334,62 @@ function checkQuotationFidelity(
     // a regex artifact from crossing a JSX boundary.
     if ((quote.match(/</g) ?? []).length > (quote.match(/>/g) ?? []).length) continue;
 
-    // Structural-citation matching: identify the FIRST VerseRef within
-    // CITATION_WINDOW chars AFTER the quote's closing mark. This is the
-    // VerseRef that structurally "owns" the quote (citation form: "quoted
-    // text" (<VerseRef ... />)). If no such VerseRef exists within the
-    // window, the quote has no structural citation and the rule does not
-    // fire on it (rule is conservative — we don't flag quotes without a
-    // clear citation pointer).
+    // Structural-citation matching (v2 — symmetric proximity).
+    //
+    // A VerseRef is a "candidate owner" of the quote if it sits within
+    // CITATION_WINDOW chars of the quote in EITHER direction. Forward:
+    // VerseRef-start within window after the quote's close (the "quoted
+    // text (<VerseRef ... />)" pattern). Backward: VerseRef-end within
+    // window before the quote's start (the "<VerseRef ... /> reads
+    // 'quoted text'" pattern, which v1's forward-only window missed).
+    //
+    // If no candidate owner exists, the quote has no structural citation
+    // pointer and the rule does not fire (rule is conservative — quotes
+    // without clear citation pointers are not flagged).
     const matchEnd = pos + m[0].length;
-    const owningRef = verseRefs.find(
-      (r) => r.pos >= matchEnd && r.pos <= matchEnd + CITATION_WINDOW,
-    );
-    if (!owningRef) continue; // unowned quote — no citation pointer
-    if (owningRef.book === ownBookSlug) continue; // self-quote — exempt
+    const candidateOwners = verseRefs.filter((r) => {
+      if (r.pos >= matchEnd && r.pos - matchEnd <= CITATION_WINDOW) return true; // following
+      if (r.end <= pos && pos - r.end <= CITATION_WINDOW) return true; // preceding
+      return false;
+    });
+    if (candidateOwners.length === 0) continue; // unowned quote — no citation pointer
+
+    // Same-book disambiguation (v2 Fix 2). If ANY candidate owner points
+    // to the chapter's own book, treat the quote as a self-quote and
+    // exempt it.
+    //
+    // Trade-off, explicitly documented for future maintainers: a true
+    // cross-reference verbatim quote that happens to sit near a same-book
+    // VerseRef now slips through without verifiedViaFetch:true. We accept
+    // this for two reasons grounded in the PRs #13/#14/#17/#18 evidence:
+    //
+    //   (a) Self-quotes (a chapter quoting its own primary subject
+    //       material) are PR #13/#14-proven reliably accurate — zero
+    //       errors across both integrity sweeps. Cross-reference quotes
+    //       from memory are the well-characterized failure mode.
+    //
+    //   (b) The lint rule is the SAFETY NET, not the primary defense.
+    //       AUTHORING.md §6.0's paraphrase-by-default discipline is the
+    //       primary defense for cross-references; the lint catches the
+    //       unambiguous-cross-book case mechanically. PR #18's false
+    //       positive (an Exodus 13:14 quote misattributed to a nearby
+    //       Deut 6:7 VerseRef) forced a prose restructure around the
+    //       lint quirk; the v2 preference removes that distortion at
+    //       the cost of a narrow class of edge cases the human discipline
+    //       continues to cover.
+    if (candidateOwners.some((r) => r.book === ownBookSlug)) continue;
+
+    // All candidate owners are cross-book. Pick the nearest one to name
+    // in the ERROR message; on tie, prefer the preceding (the standard
+    // citation-then-quote prose pattern).
+    const owningRef = candidateOwners
+      .map((r) => {
+        const following = r.pos >= matchEnd;
+        const dist = following ? r.pos - matchEnd : pos - r.end;
+        const tiebreak = following ? 1 : 0; // preceding wins on tie
+        return { r, dist, tiebreak };
+      })
+      .sort((a, b) => a.dist - b.dist || a.tiebreak - b.tiebreak)[0].r;
 
     // For coverage matching, accept BOTH the structurally-owning ref AND any
     // other VerseRefs within a slightly wider window. A quote may have its
