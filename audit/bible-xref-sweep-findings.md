@@ -46,3 +46,11 @@ OT chapters, OT in different-OT-book chapters).
 **Diff:** chapter substituted `"when"` for KJV's `"forasmuch as"` as the connecting conjunction inside the elided portion. The phrase before-and-after the "when/forasmuch as" matches verbatim, but the connector word is changed.
 **Fix:** quoted v1 verbatim including the full parenthetical clause.
 
+
+### Genesis 48 — 1 Chronicles 5:1 — ⚠️ ERROR (FIXED)
+
+**Quote in chapter (BEFORE fix):** `"Reuben... when he defiled his father's bed, his birthright was given unto the sons of Joseph"` attributed to 1 Chr 5:1-2.
+**Source (1 Chr 5:1 KJV):** `"Now the sons of Reuben the firstborn of Israel, (for he was the firstborn; but, forasmuch as he defiled his father's bed, his birthright was given unto the sons of Joseph the son of Israel..."`
+**Diff:** chapter substituted `"when"` for KJV's `"forasmuch as"` (the connecting conjunction within the source's parenthetical). The phrase before-and-after matches verbatim, but the connector word is changed.
+**Fix:** quoted v1 verbatim including the full parenthetical clause.
+
