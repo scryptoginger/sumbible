@@ -22,7 +22,7 @@ Status: ⬜ not started · 🔄 in progress · ✅ swept clean · ⚠️ swept w
 | Gen 08 | ⬜ | Jacob 5 (bare cross-ref expected) |
 | Gen 10 | ⬜ | Ether 1 (bare cross-ref expected) |
 | Gen 11 | ⬜ | Ether 1:33-43, Abraham 1 |
-| Gen 12 | ⬜ | Abraham 2 (My-son call), 1 Ne 17:40 (covenanted with Abraham/Isaac/Jacob), refs to Abr 2:9-11, 3 Ne 20:25 |
+| Gen 12 | ⚠️ | Abr 2:3 — ERROR (fixed): fabricated "My son, my son" prefix; Abr 2:11 — ERROR (fixed): duplicated phrase with artificial ellipsis; 1 Ne 17:40 — CLEAN |
 | Gen 14 | ⬜ | Alma 13:14-19 (multiple quotes — incl. some that may actually be Heb 7) |
 | Gen 15 | ⬜ | Abraham 2:9-11 (full covenant quote); also priority 2 |
 | Gen 22 | ⬜ | Jacob 4:5 (full quote); also priority 2 |

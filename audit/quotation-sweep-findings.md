@@ -83,3 +83,24 @@ broader pattern.
 **Source (KJV Gen 6:18):** `"But with thee will I establish my covenant; and thou shalt come into the ark..."`
 **Classification:** CLEAN — partial-verse quote ending at "covenant" with period (acceptable; source has semicolon and continues).
 
+
+### Genesis 12 — Abraham 2:3 — ⚠️ ERROR (FIXED)
+
+**Quote in chapter (BEFORE fix):** `Abraham records that the Lord "said unto me: My son, my son... get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will show thee"`
+**Source (Abraham 2:3):** `"Abraham, get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will show thee."`
+**Diff:** the leading `"said unto me: My son, my son... "` was confabulated. Source verse begins simply with `"Abraham,"` as the Lord's direct address. The phrase `"Abraham, my son"` appears once at Abraham 1:17 in a different context (the Lord speaking to the priest of Elkenah about Abraham), but the doubled `"My son, my son"` never appears as a prefix to the get-thee-out command — or anywhere in Abraham.
+**Fix:** quoted Abraham 2:3 verbatim with the source's `"Abraham,"` address; tightened citation from generic `chapter={2}` to specific `verse={3}`.
+
+### Genesis 12 — Abraham 2:11 — ⚠️ ERROR (FIXED)
+
+**Quote in chapter (BEFORE fix):** `"...and in thy seed after thee... and in thy seed after thee (that is to say, the literal seed, or the seed of the body) shall all the families..."`
+**Source (Abraham 2:11):** `"...and in thy seed after thee (that is to say, the literal seed, or the seed of the body) shall all the families..."`
+**Diff:** the chapter duplicated `"in thy seed after thee"` with an artificial ellipsis between, falsely suggesting that intervening material had been omitted. Source has only one occurrence, with the parenthetical clarification following immediately.
+**Fix:** removed the duplicate-and-ellipsis; quoted v11 with the single occurrence as the source has it. Also corrected the citation from `verse="9-11"` to `verse={11}` for precision.
+
+### Genesis 12 — 1 Nephi 17:40
+
+**Quote in chapter:** `"Behold, he loved our fathers, and he covenanted with them, yea, even Abraham, Isaac, and Jacob"`
+**Source (1 Nephi 17:40):** `"And he loveth those who will have him to be their God. Behold, he loved our fathers, and he covenanted with them, yea, even Abraham, Isaac, and Jacob; and he remembered the covenants which he had made; wherefore, he did bring them out of the land of Egypt."`
+**Classification:** CLEAN — partial-verse quote; quoted text character-exact within the marked portion.
+
