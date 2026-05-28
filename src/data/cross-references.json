@@ -67,6 +67,23 @@
       }
     ]
   },
+  "2-chronicles-3-1": {
+    "target": {
+      "book": "2 Chronicles",
+      "bookSlug": "2-chronicles",
+      "canon": "bible-ot",
+      "chapter": "3",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 22,
+        "url": "/bible-ot/genesis/22"
+      }
+    ]
+  },
   "2-corinthians-5-17": {
     "target": {
       "book": "2 Corinthians",
@@ -1097,6 +1114,12 @@
         "book": "Genesis",
         "chapter": 10,
         "url": "/bible-ot/genesis/10"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 22,
+        "url": "/bible-ot/genesis/22"
       }
     ]
   },
@@ -1239,6 +1262,12 @@
         "book": "Genesis",
         "chapter": 17,
         "url": "/bible-ot/genesis/17"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 22,
+        "url": "/bible-ot/genesis/22"
       }
     ]
   },
@@ -1319,6 +1348,12 @@
         "book": "Genesis",
         "chapter": 15,
         "url": "/bible-ot/genesis/15"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 22,
+        "url": "/bible-ot/genesis/22"
       }
     ]
   },
@@ -1506,6 +1541,23 @@
         "book": "Genesis",
         "chapter": 12,
         "url": "/bible-ot/genesis/12"
+      }
+    ]
+  },
+  "genesis-24": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 22,
+        "url": "/bible-ot/genesis/22"
       }
     ]
   },
@@ -1759,6 +1811,23 @@
       }
     ]
   },
+  "hebrews-11-17-19": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "11",
+      "verse": "17-19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 22,
+        "url": "/bible-ot/genesis/22"
+      }
+    ]
+  },
   "hebrews-11-18": {
     "target": {
       "book": "Hebrews",
@@ -1875,6 +1944,23 @@
         "book": "Genesis",
         "chapter": 14,
         "url": "/bible-ot/genesis/14"
+      }
+    ]
+  },
+  "hebrews-6-13-18": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "6",
+      "verse": "13-18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 22,
+        "url": "/bible-ot/genesis/22"
       }
     ]
   },
@@ -1997,6 +2083,23 @@
       }
     ]
   },
+  "jacob-4-5": {
+    "target": {
+      "book": "Jacob",
+      "bookSlug": "jacob",
+      "canon": "book-of-mormon",
+      "chapter": "4",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 22,
+        "url": "/bible-ot/genesis/22"
+      }
+    ]
+  },
   "jacob-5": {
     "target": {
       "book": "Jacob",
@@ -2011,6 +2114,40 @@
         "book": "Genesis",
         "chapter": 8,
         "url": "/bible-ot/genesis/8"
+      }
+    ]
+  },
+  "james-1-13": {
+    "target": {
+      "book": "James",
+      "bookSlug": "james",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 22,
+        "url": "/bible-ot/genesis/22"
+      }
+    ]
+  },
+  "james-2-21-23": {
+    "target": {
+      "book": "James",
+      "bookSlug": "james",
+      "canon": "bible-nt",
+      "chapter": "2",
+      "verse": "21-23"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 22,
+        "url": "/bible-ot/genesis/22"
       }
     ]
   },
@@ -2181,6 +2318,23 @@
         "book": "Genesis",
         "chapter": 6,
         "url": "/bible-ot/genesis/6"
+      }
+    ]
+  },
+  "john-1-29": {
+    "target": {
+      "book": "John",
+      "bookSlug": "john",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "29"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 22,
+        "url": "/bible-ot/genesis/22"
       }
     ]
   },
@@ -3105,6 +3259,23 @@
         "book": "Genesis",
         "chapter": 15,
         "url": "/bible-ot/genesis/15"
+      }
+    ]
+  },
+  "romans-8-32": {
+    "target": {
+      "book": "Romans",
+      "bookSlug": "romans",
+      "canon": "bible-nt",
+      "chapter": "8",
+      "verse": "32"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 22,
+        "url": "/bible-ot/genesis/22"
       }
     ]
   },
