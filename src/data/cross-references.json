@@ -5914,6 +5914,23 @@
       }
     ]
   },
+  "genesis-4-23-24": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "4",
+      "verse": "23-24"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 21,
+        "url": "/bible-ot/exodus/21"
+      }
+    ]
+  },
   "genesis-4-26": {
     "target": {
       "book": "Genesis",
@@ -7511,6 +7528,23 @@
       }
     ]
   },
+  "isaiah-61-1-2": {
+    "target": {
+      "book": "Isaiah",
+      "bookSlug": "isaiah",
+      "canon": "bible-ot",
+      "chapter": "61",
+      "verse": "1-2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 21,
+        "url": "/bible-ot/exodus/21"
+      }
+    ]
+  },
   "isaiah-61-6": {
     "target": {
       "book": "Isaiah",
@@ -7831,6 +7865,23 @@
         "book": "Genesis",
         "chapter": 15,
         "url": "/bible-ot/genesis/15"
+      }
+    ]
+  },
+  "jeremiah-34-8-22": {
+    "target": {
+      "book": "Jeremiah",
+      "bookSlug": "jeremiah",
+      "canon": "bible-ot",
+      "chapter": "34",
+      "verse": "8-22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 21,
+        "url": "/bible-ot/exodus/21"
       }
     ]
   },
@@ -9078,6 +9129,23 @@
       }
     ]
   },
+  "luke-4-18-19": {
+    "target": {
+      "book": "Luke",
+      "bookSlug": "luke",
+      "canon": "bible-nt",
+      "chapter": "4",
+      "verse": "18-19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 21,
+        "url": "/bible-ot/exodus/21"
+      }
+    ]
+  },
   "luke-9-22": {
     "target": {
       "book": "Luke",
@@ -9603,6 +9671,23 @@
         "book": "3 Nephi",
         "chapter": 11,
         "url": "/book-of-mormon/3-nephi/11"
+      }
+    ]
+  },
+  "matthew-5-38-42": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "5",
+      "verse": "38-42"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 21,
+        "url": "/bible-ot/exodus/21"
       }
     ]
   },
@@ -10845,6 +10930,23 @@
         "book": "Genesis",
         "chapter": 48,
         "url": "/bible-ot/genesis/48"
+      }
+    ]
+  },
+  "romans-12-19": {
+    "target": {
+      "book": "Romans",
+      "bookSlug": "romans",
+      "canon": "bible-nt",
+      "chapter": "12",
+      "verse": "19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 21,
+        "url": "/bible-ot/exodus/21"
       }
     ]
   },
