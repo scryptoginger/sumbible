@@ -716,6 +716,12 @@
         "book": "Genesis",
         "chapter": 43,
         "url": "/bible-ot/genesis/43"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 44,
+        "url": "/bible-ot/genesis/44"
       }
     ]
   },
@@ -750,6 +756,12 @@
         "book": "Genesis",
         "chapter": 43,
         "url": "/bible-ot/genesis/43"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 44,
+        "url": "/bible-ot/genesis/44"
       }
     ]
   },
@@ -818,6 +830,23 @@
         "book": "Genesis",
         "chapter": 43,
         "url": "/bible-ot/genesis/43"
+      }
+    ]
+  },
+  "genesis-43-34": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "43",
+      "verse": "34"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 44,
+        "url": "/bible-ot/genesis/44"
       }
     ]
   },
@@ -920,6 +949,23 @@
         "book": "Genesis",
         "chapter": 5,
         "url": "/bible-ot/genesis/5"
+      }
+    ]
+  },
+  "hebrews-7-14": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "7",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 44,
+        "url": "/bible-ot/genesis/44"
       }
     ]
   },
@@ -1260,6 +1306,23 @@
         "book": "Genesis",
         "chapter": 8,
         "url": "/bible-ot/genesis/8"
+      }
+    ]
+  },
+  "matthew-1-2-3": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "2-3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 44,
+        "url": "/bible-ot/genesis/44"
       }
     ]
   },
