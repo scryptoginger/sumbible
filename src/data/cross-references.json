@@ -2675,6 +2675,23 @@
       }
     ]
   },
+  "genesis-29-17": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "29",
+      "verse": "17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 39,
+        "url": "/bible-ot/genesis/39"
+      }
+    ]
+  },
   "genesis-29-25": {
     "target": {
       "book": "Genesis",
@@ -2987,6 +3004,23 @@
       }
     ]
   },
+  "genesis-37-23": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "37",
+      "verse": "23"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 39,
+        "url": "/bible-ot/genesis/39"
+      }
+    ]
+  },
   "genesis-37-32": {
     "target": {
       "book": "Genesis",
@@ -3018,6 +3052,57 @@
         "book": "Genesis",
         "chapter": 37,
         "url": "/bible-ot/genesis/37"
+      }
+    ]
+  },
+  "genesis-40": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "40",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 39,
+        "url": "/bible-ot/genesis/39"
+      }
+    ]
+  },
+  "genesis-41-14--42": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "41",
+      "verse": "14, 42"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 39,
+        "url": "/bible-ot/genesis/39"
+      }
+    ]
+  },
+  "genesis-41-38": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "41",
+      "verse": "38"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 39,
+        "url": "/bible-ot/genesis/39"
       }
     ]
   },
@@ -4923,6 +5008,23 @@
         "book": "John",
         "chapter": 1,
         "url": "/bible-nt/john/1"
+      }
+    ]
+  },
+  "psalms-51-4": {
+    "target": {
+      "book": "Psalms",
+      "bookSlug": "psalms",
+      "canon": "bible-ot",
+      "chapter": "51",
+      "verse": "4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 39,
+        "url": "/bible-ot/genesis/39"
       }
     ]
   },
