@@ -44,3 +44,23 @@ broader pattern.
 **Source (D&C 29:39):** `"And it must needs be that the devil should tempt the children of men, or they could not be agents unto themselves; for if they never should have bitter they could not know the sweet—"`
 **Classification:** CLEAN — leading "And" dropped (standard); closing period replaces source's semicolon-plus-continuation (acceptable partial quotation).
 
+
+### Genesis 04 — Moses 5:7 — ⚠️ ERROR (FIXED)
+
+**Quote in chapter (BEFORE fix):** `"in similitude of the sacrifice of the Only Begotten of the Father"`
+**Source (Moses 5:7):** `"This thing is a similitude of the sacrifice of the Only Begotten of the Father, which is full of grace and truth."`
+**Diff:** word substitution `"a"` → `"in"`. The chapter reframed the predicate nominative as a prepositional phrase to fit its grammar.
+**Fix:** restructured chapter prose to quote the source phrase exactly as `"a similitude of the sacrifice of the Only Begotten of the Father"`.
+
+### Genesis 04 — Moses 5:31 — ⚠️ ERROR (FIXED)
+
+**Quote in chapter (BEFORE fix):** `"Master Mahan, the master of this great secret, that I may murder to get gain"` — presented as Cain's self-naming.
+**Source (Moses 5:31a, Cain's own words):** `"Truly I am Mahan, the master of this great secret, that I may murder and get gain."`
+**Source (Moses 5:31b, narrator's epithet):** `"Wherefore Cain was called Master Mahan, and he gloried in his wickedness."`
+**Diff:**
+1. Cain's actual self-naming is `"Truly I am Mahan"`, NOT `"Master Mahan"` — the epithet `"Master Mahan"` is the narrator's, not Cain's
+2. word substitution `"and get gain"` → `"to get gain"`
+**Fix:** chapter prose now quotes Cain's words exactly per v31a and separately notes the narrator's `"Master Mahan"` epithet from v31b.
+
+**Pattern:** matches the D&C 110:4 failure mode — quotes reconstructed from memory with small word substitutions that alter meaning. The verificationLog had described the quote without ever fetching the source.
+
