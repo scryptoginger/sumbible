@@ -504,6 +504,23 @@
       }
     ]
   },
+  "deuteronomy-24-14-15": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": "14-15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 31,
+        "url": "/bible-ot/genesis/31"
+      }
+    ]
+  },
   "deuteronomy-30-6": {
     "target": {
       "book": "Deuteronomy",
@@ -2215,6 +2232,23 @@
       }
     ]
   },
+  "genesis-28-15": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 31,
+        "url": "/bible-ot/genesis/31"
+      }
+    ]
+  },
   "genesis-29-25": {
     "target": {
       "book": "Genesis",
@@ -2263,6 +2297,23 @@
         "book": "Genesis",
         "chapter": 4,
         "url": "/bible-ot/genesis/4"
+      }
+    ]
+  },
+  "genesis-30-37-43": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "30",
+      "verse": "37-43"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Genesis",
+        "chapter": 31,
+        "url": "/bible-ot/genesis/31"
       }
     ]
   },
