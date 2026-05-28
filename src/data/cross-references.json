@@ -346,6 +346,40 @@
       }
     ]
   },
+  "1-samuel-8-12": {
+    "target": {
+      "book": "1 Samuel",
+      "bookSlug": "1-samuel",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 18,
+        "url": "/bible-ot/exodus/18"
+      }
+    ]
+  },
+  "1-timothy-3-1-7": {
+    "target": {
+      "book": "1 Timothy",
+      "bookSlug": "1-timothy",
+      "canon": "bible-nt",
+      "chapter": "3",
+      "verse": "1-7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 18,
+        "url": "/bible-ot/exodus/18"
+      }
+    ]
+  },
   "2-chronicles-20-15-17": {
     "target": {
       "book": "2 Chronicles",
@@ -840,6 +874,23 @@
       }
     ]
   },
+  "acts-10": {
+    "target": {
+      "book": "Acts",
+      "bookSlug": "acts",
+      "canon": "bible-nt",
+      "chapter": "10",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 18,
+        "url": "/bible-ot/exodus/18"
+      }
+    ]
+  },
   "acts-15": {
     "target": {
       "book": "Acts",
@@ -1132,6 +1183,23 @@
         "book": "Exodus",
         "chapter": 13,
         "url": "/bible-ot/exodus/13"
+      }
+    ]
+  },
+  "deuteronomy-1-9-18": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "9-18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 18,
+        "url": "/bible-ot/exodus/18"
       }
     ]
   },
@@ -2195,6 +2263,23 @@
         "book": "Genesis",
         "chapter": 9,
         "url": "/bible-ot/genesis/9"
+      }
+    ]
+  },
+  "exodus-2-18": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "2",
+      "verse": "18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 18,
+        "url": "/bible-ot/exodus/18"
       }
     ]
   },
@@ -8937,6 +9022,23 @@
       }
     ]
   },
+  "matthew-8-5-13": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "8",
+      "verse": "5-13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 18,
+        "url": "/bible-ot/exodus/18"
+      }
+    ]
+  },
   "moroni-4": {
     "target": {
       "book": "Moroni",
@@ -9232,6 +9334,23 @@
       }
     ]
   },
+  "numbers-10-29": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "10",
+      "verse": "29"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 18,
+        "url": "/bible-ot/exodus/18"
+      }
+    ]
+  },
   "numbers-14-1-4": {
     "target": {
       "book": "Numbers",
@@ -9405,6 +9524,23 @@
         "book": "Genesis",
         "chapter": 2,
         "url": "/bible-ot/genesis/2"
+      }
+    ]
+  },
+  "numbers-31-14": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "31",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 18,
+        "url": "/bible-ot/exodus/18"
       }
     ]
   },
@@ -10256,6 +10392,23 @@
         "book": "Genesis",
         "chapter": 3,
         "url": "/bible-ot/genesis/3"
+      }
+    ]
+  },
+  "titus-1-5-9": {
+    "target": {
+      "book": "Titus",
+      "bookSlug": "titus",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "5-9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 18,
+        "url": "/bible-ot/exodus/18"
       }
     ]
   }
