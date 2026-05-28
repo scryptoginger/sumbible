@@ -577,6 +577,23 @@
       }
     ]
   },
+  "exodus-3-16": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "3",
+      "verse": "16"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 4,
+        "url": "/bible-ot/exodus/4"
+      }
+    ]
+  },
   "exodus-3-6": {
     "target": {
       "book": "Exodus",
@@ -625,6 +642,23 @@
         "book": "Exodus",
         "chapter": 2,
         "url": "/bible-ot/exodus/2"
+      }
+    ]
+  },
+  "exodus-7-14-25": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "14-25"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 4,
+        "url": "/bible-ot/exodus/4"
       }
     ]
   },
@@ -872,6 +906,23 @@
       }
     ]
   },
+  "genesis-17-9-14": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "9-14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 4,
+        "url": "/bible-ot/exodus/4"
+      }
+    ]
+  },
   "genesis-22-11": {
     "target": {
       "book": "Genesis",
@@ -1045,6 +1096,12 @@
         "book": "Exodus",
         "chapter": 3,
         "url": "/bible-ot/exodus/3"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 4,
+        "url": "/bible-ot/exodus/4"
       }
     ]
   },
@@ -1156,6 +1213,23 @@
       }
     ]
   },
+  "isaiah-6-5": {
+    "target": {
+      "book": "Isaiah",
+      "bookSlug": "isaiah",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 4,
+        "url": "/bible-ot/exodus/4"
+      }
+    ]
+  },
   "jacob-5": {
     "target": {
       "book": "Jacob",
@@ -1187,6 +1261,23 @@
         "book": "1 Nephi",
         "chapter": 1,
         "url": "/book-of-mormon/1-nephi/1"
+      }
+    ]
+  },
+  "jeremiah-1-6": {
+    "target": {
+      "book": "Jeremiah",
+      "bookSlug": "jeremiah",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 4,
+        "url": "/bible-ot/exodus/4"
       }
     ]
   },
