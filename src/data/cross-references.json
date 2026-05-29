@@ -491,6 +491,12 @@
         "book": "Deuteronomy",
         "chapter": 13,
         "url": "/bible-ot/deuteronomy/13"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
       }
     ]
   },
@@ -1546,6 +1552,23 @@
       }
     ]
   },
+  "1-samuel-28-7-8": {
+    "target": {
+      "book": "1 Samuel",
+      "bookSlug": "1-samuel",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "7-8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
+      }
+    ]
+  },
   "1-samuel-3-10": {
     "target": {
       "book": "1 Samuel",
@@ -1566,6 +1589,23 @@
         "book": "Exodus",
         "chapter": 3,
         "url": "/bible-ot/exodus/3"
+      }
+    ]
+  },
+  "1-samuel-3-19-21": {
+    "target": {
+      "book": "1 Samuel",
+      "bookSlug": "1-samuel",
+      "canon": "bible-ot",
+      "chapter": "3",
+      "verse": "19-21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
       }
     ]
   },
@@ -1668,6 +1708,23 @@
         "book": "Leviticus",
         "chapter": 23,
         "url": "/bible-ot/leviticus/23"
+      }
+    ]
+  },
+  "1-thessalonians-5-20-21": {
+    "target": {
+      "book": "1 Thessalonians",
+      "bookSlug": "1-thessalonians",
+      "canon": "bible-nt",
+      "chapter": "5",
+      "verse": "20-21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
       }
     ]
   },
@@ -2262,6 +2319,23 @@
       }
     ]
   },
+  "2-kings-21-6": {
+    "target": {
+      "book": "2 Kings",
+      "bookSlug": "2-kings",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
+      }
+    ]
+  },
   "2-kings-23-21-23": {
     "target": {
       "book": "2 Kings",
@@ -2282,6 +2356,23 @@
         "book": "Deuteronomy",
         "chapter": 16,
         "url": "/bible-ot/deuteronomy/16"
+      }
+    ]
+  },
+  "2-kings-23-24": {
+    "target": {
+      "book": "2 Kings",
+      "bookSlug": "2-kings",
+      "canon": "bible-ot",
+      "chapter": "23",
+      "verse": "24"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
       }
     ]
   },
@@ -2858,6 +2949,23 @@
       }
     ]
   },
+  "3-nephi-20-23": {
+    "target": {
+      "book": "3 Nephi",
+      "bookSlug": "3-nephi",
+      "canon": "book-of-mormon",
+      "chapter": "20",
+      "verse": "23"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
+      }
+    ]
+  },
   "3-nephi-20-25": {
     "target": {
       "book": "3 Nephi",
@@ -2872,6 +2980,23 @@
         "book": "Genesis",
         "chapter": 12,
         "url": "/bible-ot/genesis/12"
+      }
+    ]
+  },
+  "3-nephi-21-11": {
+    "target": {
+      "book": "3 Nephi",
+      "bookSlug": "3-nephi",
+      "canon": "book-of-mormon",
+      "chapter": "21",
+      "verse": "11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
       }
     ]
   },
@@ -3368,6 +3493,12 @@
         "book": "Deuteronomy",
         "chapter": 5,
         "url": "/bible-ot/deuteronomy/5"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
       }
     ]
   },
@@ -3510,6 +3641,12 @@
         "book": "Deuteronomy",
         "chapter": 5,
         "url": "/bible-ot/deuteronomy/5"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
       }
     ]
   },
@@ -4652,6 +4789,12 @@
         "book": "Deuteronomy",
         "chapter": 13,
         "url": "/bible-ot/deuteronomy/13"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
       }
     ]
   },
@@ -5325,6 +5468,23 @@
       }
     ]
   },
+  "deuteronomy-18-1": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
+      }
+    ]
+  },
   "deuteronomy-18-13": {
     "target": {
       "book": "Deuteronomy",
@@ -5379,6 +5539,23 @@
         "book": "Deuteronomy",
         "chapter": 13,
         "url": "/bible-ot/deuteronomy/13"
+      }
+    ]
+  },
+  "deuteronomy-18-22": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
       }
     ]
   },
@@ -6041,6 +6218,23 @@
       }
     ]
   },
+  "deuteronomy-31-14-23": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "31",
+      "verse": "14-23"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
+      }
+    ]
+  },
   "deuteronomy-31-2": {
     "target": {
       "book": "Deuteronomy",
@@ -6635,6 +6829,12 @@
         "book": "Deuteronomy",
         "chapter": 5,
         "url": "/bible-ot/deuteronomy/5"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
       }
     ]
   },
@@ -10941,6 +11141,23 @@
         "book": "Exodus",
         "chapter": 25,
         "url": "/bible-ot/exodus/25"
+      }
+    ]
+  },
+  "ezekiel-13-1-9": {
+    "target": {
+      "book": "Ezekiel",
+      "bookSlug": "ezekiel",
+      "canon": "bible-ot",
+      "chapter": "13",
+      "verse": "1-9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
       }
     ]
   },
@@ -17201,6 +17418,23 @@
       }
     ]
   },
+  "isaiah-8-19-20": {
+    "target": {
+      "book": "Isaiah",
+      "bookSlug": "isaiah",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "19-20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
+      }
+    ]
+  },
   "jacob-4-5": {
     "target": {
       "book": "Jacob",
@@ -17632,6 +17866,23 @@
       }
     ]
   },
+  "jeremiah-28-9": {
+    "target": {
+      "book": "Jeremiah",
+      "bookSlug": "jeremiah",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
+      }
+    ]
+  },
   "jeremiah-29-10": {
     "target": {
       "book": "Jeremiah",
@@ -18051,6 +18302,23 @@
         "book": "Exodus",
         "chapter": 33,
         "url": "/bible-ot/exodus/33"
+      }
+    ]
+  },
+  "john-1-21": {
+    "target": {
+      "book": "John",
+      "bookSlug": "john",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
       }
     ]
   },
@@ -18503,6 +18771,23 @@
       }
     ]
   },
+  "john-6-14": {
+    "target": {
+      "book": "John",
+      "bookSlug": "john",
+      "canon": "bible-nt",
+      "chapter": "6",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
+      }
+    ]
+  },
   "john-6-30-58": {
     "target": {
       "book": "John",
@@ -18631,6 +18916,23 @@
         "book": "Deuteronomy",
         "chapter": 16,
         "url": "/bible-ot/deuteronomy/16"
+      }
+    ]
+  },
+  "john-7-40": {
+    "target": {
+      "book": "John",
+      "bookSlug": "john",
+      "canon": "bible-nt",
+      "chapter": "7",
+      "verse": "40"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
       }
     ]
   },
@@ -18824,6 +19126,23 @@
         "book": "Deuteronomy",
         "chapter": 11,
         "url": "/bible-ot/deuteronomy/11"
+      }
+    ]
+  },
+  "joshua-1-5": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
       }
     ]
   },
@@ -22649,6 +22968,12 @@
         "url": "/bible-ot/numbers/9"
       },
       {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
+      },
+      {
         "canon": "book-of-mormon",
         "book": "3 Nephi",
         "chapter": 11,
@@ -25179,6 +25504,12 @@
         "book": "Numbers",
         "chapter": 35,
         "url": "/bible-ot/numbers/35"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "url": "/bible-ot/deuteronomy/18"
       }
     ]
   },
