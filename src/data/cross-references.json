@@ -14740,6 +14740,23 @@
       }
     ]
   },
+  "leviticus-5-14-19": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "5",
+      "verse": "14-19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 5,
+        "url": "/bible-ot/numbers/5"
+      }
+    ]
+  },
   "leviticus-6-2": {
     "target": {
       "book": "Leviticus",
@@ -17842,6 +17859,40 @@
         "book": "Exodus",
         "chapter": 32,
         "url": "/bible-ot/exodus/32"
+      }
+    ]
+  },
+  "numbers-5-3": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "5",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 5,
+        "url": "/bible-ot/numbers/5"
+      }
+    ]
+  },
+  "numbers-5-8": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "5",
+      "verse": "8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 5,
+        "url": "/bible-ot/numbers/5"
       }
     ]
   },
