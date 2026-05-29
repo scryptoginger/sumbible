@@ -975,6 +975,23 @@
       }
     ]
   },
+  "2-corinthians-3-7-18": {
+    "target": {
+      "book": "2 Corinthians",
+      "bookSlug": "2-corinthians",
+      "canon": "bible-nt",
+      "chapter": "3",
+      "verse": "7-18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 34,
+        "url": "/bible-ot/exodus/34"
+      }
+    ]
+  },
   "2-corinthians-5-17": {
     "target": {
       "book": "2 Corinthians",
@@ -2073,6 +2090,12 @@
         "book": "Exodus",
         "chapter": 23,
         "url": "/bible-ot/exodus/23"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 34,
+        "url": "/bible-ot/exodus/34"
       }
     ]
   },
@@ -2663,6 +2686,23 @@
         "book": "Exodus",
         "chapter": 8,
         "url": "/bible-ot/exodus/8"
+      }
+    ]
+  },
+  "deuteronomy-9-18": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "9",
+      "verse": "18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 34,
+        "url": "/bible-ot/exodus/34"
       }
     ]
   },
@@ -3766,6 +3806,23 @@
         "book": "Exodus",
         "chapter": 23,
         "url": "/bible-ot/exodus/23"
+      }
+    ]
+  },
+  "exodus-23-19": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "23",
+      "verse": "19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 34,
+        "url": "/bible-ot/exodus/34"
       }
     ]
   },
@@ -10031,6 +10088,23 @@
       }
     ]
   },
+  "joel-2-13": {
+    "target": {
+      "book": "Joel",
+      "bookSlug": "joel",
+      "canon": "bible-ot",
+      "chapter": "2",
+      "verse": "13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 34,
+        "url": "/bible-ot/exodus/34"
+      }
+    ]
+  },
   "joel-2-25": {
     "target": {
       "book": "Joel",
@@ -10068,6 +10142,12 @@
         "book": "Exodus",
         "chapter": 25,
         "url": "/bible-ot/exodus/25"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 34,
+        "url": "/bible-ot/exodus/34"
       }
     ]
   },
@@ -10568,6 +10648,23 @@
         "book": "Exodus",
         "chapter": 24,
         "url": "/bible-ot/exodus/24"
+      }
+    ]
+  },
+  "jonah-4-2": {
+    "target": {
+      "book": "Jonah",
+      "bookSlug": "jonah",
+      "canon": "bible-ot",
+      "chapter": "4",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 34,
+        "url": "/bible-ot/exodus/34"
       }
     ]
   },
@@ -12854,6 +12951,23 @@
       }
     ]
   },
+  "nehemiah-9-17": {
+    "target": {
+      "book": "Nehemiah",
+      "bookSlug": "nehemiah",
+      "canon": "bible-ot",
+      "chapter": "9",
+      "verse": "17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 34,
+        "url": "/bible-ot/exodus/34"
+      }
+    ]
+  },
   "numbers-1-7": {
     "target": {
       "book": "Numbers",
@@ -12919,6 +13033,23 @@
         "book": "Exodus",
         "chapter": 13,
         "url": "/bible-ot/exodus/13"
+      }
+    ]
+  },
+  "numbers-14-18": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 34,
+        "url": "/bible-ot/exodus/34"
       }
     ]
   },
@@ -13308,6 +13439,23 @@
       }
     ]
   },
+  "psalms-103-8": {
+    "target": {
+      "book": "Psalms",
+      "bookSlug": "psalms",
+      "canon": "bible-ot",
+      "chapter": "103",
+      "verse": "8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 34,
+        "url": "/bible-ot/exodus/34"
+      }
+    ]
+  },
   "psalms-110-1": {
     "target": {
       "book": "Psalms",
@@ -13458,6 +13606,23 @@
         "book": "Exodus",
         "chapter": 30,
         "url": "/bible-ot/exodus/30"
+      }
+    ]
+  },
+  "psalms-145-8": {
+    "target": {
+      "book": "Psalms",
+      "bookSlug": "psalms",
+      "canon": "bible-ot",
+      "chapter": "145",
+      "verse": "8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 34,
+        "url": "/bible-ot/exodus/34"
       }
     ]
   },
@@ -13730,6 +13895,23 @@
         "book": "Exodus",
         "chapter": 25,
         "url": "/bible-ot/exodus/25"
+      }
+    ]
+  },
+  "psalms-86-15": {
+    "target": {
+      "book": "Psalms",
+      "bookSlug": "psalms",
+      "canon": "bible-ot",
+      "chapter": "86",
+      "verse": "15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 34,
+        "url": "/bible-ot/exodus/34"
       }
     ]
   },
