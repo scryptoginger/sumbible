@@ -1960,6 +1960,23 @@
       }
     ]
   },
+  "2-peter-2-15-16": {
+    "target": {
+      "book": "2 Peter",
+      "bookSlug": "2-peter",
+      "canon": "bible-nt",
+      "chapter": "2",
+      "verse": "15-16"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 22,
+        "url": "/bible-ot/numbers/22"
+      }
+    ]
+  },
   "2-peter-2-4": {
     "target": {
       "book": "2 Peter",
@@ -19951,6 +19968,91 @@
       }
     ]
   },
+  "numbers-22-22": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 22,
+        "url": "/bible-ot/numbers/22"
+      }
+    ]
+  },
+  "numbers-22-28": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "28"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 22,
+        "url": "/bible-ot/numbers/22"
+      }
+    ]
+  },
+  "numbers-22-3": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 22,
+        "url": "/bible-ot/numbers/22"
+      }
+    ]
+  },
+  "numbers-22-32": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "32"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 22,
+        "url": "/bible-ot/numbers/22"
+      }
+    ]
+  },
+  "numbers-22-6": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 22,
+        "url": "/bible-ot/numbers/22"
+      }
+    ]
+  },
   "numbers-25": {
     "target": {
       "book": "Numbers",
@@ -20237,6 +20339,23 @@
         "book": "Exodus",
         "chapter": 18,
         "url": "/bible-ot/exodus/18"
+      }
+    ]
+  },
+  "numbers-31-16": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "31",
+      "verse": "16"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 22,
+        "url": "/bible-ot/numbers/22"
       }
     ]
   },
