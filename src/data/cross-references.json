@@ -62,6 +62,23 @@
       }
     ]
   },
+  "1-corinthians-10-18": {
+    "target": {
+      "book": "1 Corinthians",
+      "bookSlug": "1-corinthians",
+      "canon": "bible-nt",
+      "chapter": "10",
+      "verse": "18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 3,
+        "url": "/bible-ot/leviticus/3"
+      }
+    ]
+  },
   "1-corinthians-10-3": {
     "target": {
       "book": "1 Corinthians",
@@ -218,6 +235,23 @@
         "book": "Exodus",
         "chapter": 25,
         "url": "/bible-ot/exodus/25"
+      }
+    ]
+  },
+  "1-john-1-7": {
+    "target": {
+      "book": "1 John",
+      "bookSlug": "1-john",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 4,
+        "url": "/bible-ot/leviticus/4"
       }
     ]
   },
@@ -1756,6 +1790,12 @@
         "book": "Genesis",
         "chapter": 9,
         "url": "/bible-ot/genesis/9"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 3,
+        "url": "/bible-ot/leviticus/3"
       }
     ]
   },
@@ -9222,6 +9262,23 @@
       }
     ]
   },
+  "genesis-9-4": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "9",
+      "verse": "4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 3,
+        "url": "/bible-ot/leviticus/3"
+      }
+    ]
+  },
   "habakkuk-1-2": {
     "target": {
       "book": "Habakkuk",
@@ -9632,6 +9689,23 @@
       }
     ]
   },
+  "hebrews-13-11-13": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "13",
+      "verse": "11-13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 4,
+        "url": "/bible-ot/leviticus/4"
+      }
+    ]
+  },
   "hebrews-13-2": {
     "target": {
       "book": "Hebrews",
@@ -9947,6 +10021,23 @@
         "book": "Exodus",
         "chapter": 29,
         "url": "/bible-ot/exodus/29"
+      }
+    ]
+  },
+  "hebrews-9-14": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "9",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 4,
+        "url": "/bible-ot/leviticus/4"
       }
     ]
   },
@@ -11995,6 +12086,23 @@
       }
     ]
   },
+  "leviticus-17-11": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 3,
+        "url": "/bible-ot/leviticus/3"
+      }
+    ]
+  },
   "leviticus-19-18": {
     "target": {
       "book": "Leviticus",
@@ -12208,6 +12316,40 @@
         "book": "Exodus",
         "chapter": 27,
         "url": "/bible-ot/exodus/27"
+      }
+    ]
+  },
+  "leviticus-6-26": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "26"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 4,
+        "url": "/bible-ot/leviticus/4"
+      }
+    ]
+  },
+  "leviticus-7-31-34": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "31-34"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 3,
+        "url": "/bible-ot/leviticus/3"
       }
     ]
   },
@@ -13984,6 +14126,23 @@
         "book": "Exodus",
         "chapter": 12,
         "url": "/bible-ot/exodus/12"
+      }
+    ]
+  },
+  "numbers-15-27-31": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "15",
+      "verse": "27-31"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 4,
+        "url": "/bible-ot/leviticus/4"
       }
     ]
   },
