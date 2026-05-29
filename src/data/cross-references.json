@@ -5544,6 +5544,12 @@
         "book": "Numbers",
         "chapter": 7,
         "url": "/bible-ot/numbers/7"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 17,
+        "url": "/bible-ot/numbers/17"
       }
     ]
   },
@@ -12080,6 +12086,12 @@
         "book": "Exodus",
         "chapter": 16,
         "url": "/bible-ot/exodus/16"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 17,
+        "url": "/bible-ot/numbers/17"
       }
     ]
   },
@@ -18927,6 +18939,12 @@
         "book": "Numbers",
         "chapter": 16,
         "url": "/bible-ot/numbers/16"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 17,
+        "url": "/bible-ot/numbers/17"
       }
     ]
   },
@@ -19015,6 +19033,57 @@
       }
     ]
   },
+  "numbers-17-10": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 17,
+        "url": "/bible-ot/numbers/17"
+      }
+    ]
+  },
+  "numbers-17-12-13": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "12-13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 17,
+        "url": "/bible-ot/numbers/17"
+      }
+    ]
+  },
+  "numbers-17-5": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 17,
+        "url": "/bible-ot/numbers/17"
+      }
+    ]
+  },
   "numbers-17-8": {
     "target": {
       "book": "Numbers",
@@ -19029,6 +19098,29 @@
         "book": "Exodus",
         "chapter": 25,
         "url": "/bible-ot/exodus/25"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 17,
+        "url": "/bible-ot/numbers/17"
+      }
+    ]
+  },
+  "numbers-18-1-32": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "1-32"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 17,
+        "url": "/bible-ot/numbers/17"
       }
     ]
   },
