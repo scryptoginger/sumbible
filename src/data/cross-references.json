@@ -562,6 +562,23 @@
       }
     ]
   },
+  "1-kings-17-1": {
+    "target": {
+      "book": "1 Kings",
+      "bookSlug": "1-kings",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
+      }
+    ]
+  },
   "1-kings-18-28": {
     "target": {
       "book": "1 Kings",
@@ -610,6 +627,23 @@
         "book": "Leviticus",
         "chapter": 9,
         "url": "/bible-ot/leviticus/9"
+      }
+    ]
+  },
+  "1-kings-18-41-46": {
+    "target": {
+      "book": "1 Kings",
+      "bookSlug": "1-kings",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "41-46"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
       }
     ]
   },
@@ -3358,6 +3392,23 @@
       }
     ]
   },
+  "amos-4-7-8": {
+    "target": {
+      "book": "Amos",
+      "bookSlug": "amos",
+      "canon": "bible-ot",
+      "chapter": "4",
+      "verse": "7-8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
+      }
+    ]
+  },
   "amos-9-7": {
     "target": {
       "book": "Amos",
@@ -3992,6 +4043,125 @@
         "book": "Deuteronomy",
         "chapter": 10,
         "url": "/bible-ot/deuteronomy/10"
+      }
+    ]
+  },
+  "deuteronomy-11-1": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "11",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
+      }
+    ]
+  },
+  "deuteronomy-11-10-12": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "11",
+      "verse": "10-12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
+      }
+    ]
+  },
+  "deuteronomy-11-13-14": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "11",
+      "verse": "13-14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
+      }
+    ]
+  },
+  "deuteronomy-11-16-17": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "11",
+      "verse": "16-17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
+      }
+    ]
+  },
+  "deuteronomy-11-18-21": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "11",
+      "verse": "18-21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
+      }
+    ]
+  },
+  "deuteronomy-11-24-25": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "11",
+      "verse": "24-25"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
+      }
+    ]
+  },
+  "deuteronomy-11-32": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "11",
+      "verse": "32"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
       }
     ]
   },
@@ -4717,6 +4887,23 @@
       }
     ]
   },
+  "deuteronomy-27-11-26": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "11-26"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
+      }
+    ]
+  },
   "deuteronomy-3-1-29": {
     "target": {
       "book": "Deuteronomy",
@@ -4799,6 +4986,23 @@
         "book": "Deuteronomy",
         "chapter": 3,
         "url": "/bible-ot/deuteronomy/3"
+      }
+    ]
+  },
+  "deuteronomy-30-15-20": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "30",
+      "verse": "15-20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
       }
     ]
   },
@@ -5669,6 +5873,23 @@
         "book": "Exodus",
         "chapter": 20,
         "url": "/bible-ot/exodus/20"
+      }
+    ]
+  },
+  "deuteronomy-6-6-9": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "6-9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
       }
     ]
   },
@@ -7053,6 +7274,23 @@
       }
     ]
   },
+  "exodus-13-16": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "13",
+      "verse": "16"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
+      }
+    ]
+  },
   "exodus-13-19": {
     "target": {
       "book": "Exodus",
@@ -7136,6 +7374,23 @@
         "book": "Exodus",
         "chapter": 10,
         "url": "/bible-ot/exodus/10"
+      }
+    ]
+  },
+  "exodus-13-9": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "13",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
       }
     ]
   },
@@ -10464,6 +10719,12 @@
         "book": "Genesis",
         "chapter": 13,
         "url": "/bible-ot/genesis/13"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
       }
     ]
   },
@@ -10744,6 +11005,12 @@
         "book": "Numbers",
         "chapter": 34,
         "url": "/bible-ot/numbers/34"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
       }
     ]
   },
@@ -12494,6 +12761,23 @@
       }
     ]
   },
+  "genesis-33-18-20": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "33",
+      "verse": "18-20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
+      }
+    ]
+  },
   "genesis-33-19": {
     "target": {
       "book": "Genesis",
@@ -13889,6 +14173,23 @@
       }
     ]
   },
+  "haggai-1-10-11": {
+    "target": {
+      "book": "Haggai",
+      "bookSlug": "haggai",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "10-11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
+      }
+    ]
+  },
   "hebrews-1-3": {
     "target": {
       "book": "Hebrews",
@@ -14000,6 +14301,23 @@
         "book": "Exodus",
         "chapter": 27,
         "url": "/bible-ot/exodus/27"
+      }
+    ]
+  },
+  "hebrews-10-26": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "10",
+      "verse": "26"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
       }
     ]
   },
@@ -14718,6 +15036,23 @@
         "book": "Numbers",
         "chapter": 15,
         "url": "/bible-ot/numbers/15"
+      }
+    ]
+  },
+  "hebrews-6-7": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "6",
+      "verse": "7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
       }
     ]
   },
@@ -15931,6 +16266,23 @@
       }
     ]
   },
+  "james-5-17-18": {
+    "target": {
+      "book": "James",
+      "bookSlug": "james",
+      "canon": "bible-nt",
+      "chapter": "5",
+      "verse": "17-18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
+      }
+    ]
+  },
   "jeremiah-1": {
     "target": {
       "book": "Jeremiah",
@@ -15996,6 +16348,23 @@
         "book": "Exodus",
         "chapter": 5,
         "url": "/bible-ot/exodus/5"
+      }
+    ]
+  },
+  "jeremiah-14-1-10": {
+    "target": {
+      "book": "Jeremiah",
+      "bookSlug": "jeremiah",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "1-10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
       }
     ]
   },
@@ -16870,6 +17239,23 @@
       }
     ]
   },
+  "john-4-19-26": {
+    "target": {
+      "book": "John",
+      "bookSlug": "john",
+      "canon": "bible-nt",
+      "chapter": "4",
+      "verse": "19-26"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
+      }
+    ]
+  },
   "john-4-5-6": {
     "target": {
       "book": "John",
@@ -17182,6 +17568,23 @@
       }
     ]
   },
+  "joshua-1-3": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
+      }
+    ]
+  },
   "joshua-10-21": {
     "target": {
       "book": "Joshua",
@@ -17398,6 +17801,23 @@
       }
     ]
   },
+  "joshua-24-1-28": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": "1-28"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
+      }
+    ]
+  },
   "joshua-24-14-15": {
     "target": {
       "book": "Joshua",
@@ -17481,6 +17901,12 @@
         "book": "Exodus",
         "chapter": 13,
         "url": "/bible-ot/exodus/13"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
       }
     ]
   },
@@ -17532,6 +17958,23 @@
         "book": "Leviticus",
         "chapter": 27,
         "url": "/bible-ot/leviticus/27"
+      }
+    ]
+  },
+  "joshua-8-30-35": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "30-35"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
       }
     ]
   },
@@ -23066,6 +23509,23 @@
         "book": "Numbers",
         "chapter": 16,
         "url": "/bible-ot/numbers/16"
+      }
+    ]
+  },
+  "numbers-16-31-34": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "16",
+      "verse": "31-34"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "url": "/bible-ot/deuteronomy/11"
       }
     ]
   },
