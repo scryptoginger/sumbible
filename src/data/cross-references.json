@@ -1753,6 +1753,23 @@
       }
     ]
   },
+  "3-nephi-9-19-20": {
+    "target": {
+      "book": "3 Nephi",
+      "bookSlug": "3-nephi",
+      "canon": "book-of-mormon",
+      "chapter": "9",
+      "verse": "19-20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 16,
+        "url": "/bible-ot/leviticus/16"
+      }
+    ]
+  },
   "abraham-1": {
     "target": {
       "book": "Abraham",
@@ -4438,6 +4455,23 @@
         "book": "Exodus",
         "chapter": 37,
         "url": "/bible-ot/exodus/37"
+      }
+    ]
+  },
+  "exodus-25-17-22": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "25",
+      "verse": "17-22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 16,
+        "url": "/bible-ot/leviticus/16"
       }
     ]
   },
@@ -9678,6 +9712,23 @@
       }
     ]
   },
+  "hebrews-10-11-22": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "10",
+      "verse": "11-22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 16,
+        "url": "/bible-ot/leviticus/16"
+      }
+    ]
+  },
   "hebrews-10-12": {
     "target": {
       "book": "Hebrews",
@@ -10389,6 +10440,23 @@
       }
     ]
   },
+  "hebrews-9-24-28": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "9",
+      "verse": "24-28"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 16,
+        "url": "/bible-ot/leviticus/16"
+      }
+    ]
+  },
   "hebrews-9-4": {
     "target": {
       "book": "Hebrews",
@@ -10406,6 +10474,23 @@
       }
     ]
   },
+  "hebrews-9-5": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "9",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 16,
+        "url": "/bible-ot/leviticus/16"
+      }
+    ]
+  },
   "hebrews-9-6-8": {
     "target": {
       "book": "Hebrews",
@@ -10420,6 +10505,23 @@
         "book": "Exodus",
         "chapter": 19,
         "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
+  "hebrews-9-7-12": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "9",
+      "verse": "7-12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 16,
+        "url": "/bible-ot/leviticus/16"
       }
     ]
   },
@@ -10477,6 +10579,23 @@
         "book": "Exodus",
         "chapter": 19,
         "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
+  "hosea-6-6": {
+    "target": {
+      "book": "Hosea",
+      "bookSlug": "hosea",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 16,
+        "url": "/bible-ot/leviticus/16"
       }
     ]
   },
@@ -12610,6 +12729,23 @@
       }
     ]
   },
+  "leviticus-16-1-2": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "16",
+      "verse": "1-2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 16,
+        "url": "/bible-ot/leviticus/16"
+      }
+    ]
+  },
   "leviticus-16-14-15": {
     "target": {
       "book": "Leviticus",
@@ -12658,6 +12794,23 @@
         "book": "Leviticus",
         "chapter": 14,
         "url": "/bible-ot/leviticus/14"
+      }
+    ]
+  },
+  "leviticus-16-29": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "16",
+      "verse": "29"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 16,
+        "url": "/bible-ot/leviticus/16"
       }
     ]
   },
@@ -14501,6 +14654,23 @@
       }
     ]
   },
+  "matthew-27-50-51": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "27",
+      "verse": "50-51"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 16,
+        "url": "/bible-ot/leviticus/16"
+      }
+    ]
+  },
   "matthew-27-51": {
     "target": {
       "book": "Matthew",
@@ -14742,6 +14912,23 @@
         "book": "Leviticus",
         "chapter": 15,
         "url": "/bible-ot/leviticus/15"
+      }
+    ]
+  },
+  "micah-6-6-8": {
+    "target": {
+      "book": "Micah",
+      "bookSlug": "micah",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "6-8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 16,
+        "url": "/bible-ot/leviticus/16"
       }
     ]
   },
@@ -15650,6 +15837,23 @@
         "book": "John",
         "chapter": 1,
         "url": "/bible-nt/john/1"
+      }
+    ]
+  },
+  "psalm-51-16-17": {
+    "target": {
+      "book": "psalm",
+      "bookSlug": "psalm",
+      "canon": null,
+      "chapter": "51",
+      "verse": "16-17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 16,
+        "url": "/bible-ot/leviticus/16"
       }
     ]
   },
@@ -16761,6 +16965,12 @@
         "book": "Exodus",
         "chapter": 25,
         "url": "/bible-ot/exodus/25"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 16,
+        "url": "/bible-ot/leviticus/16"
       }
     ]
   },
