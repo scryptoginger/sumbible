@@ -6390,6 +6390,23 @@
       }
     ]
   },
+  "ezekiel-1-10": {
+    "target": {
+      "book": "Ezekiel",
+      "bookSlug": "ezekiel",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 2,
+        "url": "/bible-ot/numbers/2"
+      }
+    ]
+  },
   "ezekiel-1-26": {
     "target": {
       "book": "Ezekiel",
@@ -6603,6 +6620,23 @@
         "book": "Genesis",
         "chapter": 2,
         "url": "/bible-ot/genesis/2"
+      }
+    ]
+  },
+  "ezekiel-48-30-35": {
+    "target": {
+      "book": "Ezekiel",
+      "bookSlug": "ezekiel",
+      "canon": "bible-ot",
+      "chapter": "48",
+      "verse": "30-35"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 2,
+        "url": "/bible-ot/numbers/2"
       }
     ]
   },
@@ -10166,6 +10200,12 @@
         "book": "Genesis",
         "chapter": 29,
         "url": "/bible-ot/genesis/29"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 2,
+        "url": "/bible-ot/numbers/2"
       }
     ]
   },
@@ -15810,6 +15850,12 @@
         "book": "Genesis",
         "chapter": 49,
         "url": "/bible-ot/genesis/49"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 2,
+        "url": "/bible-ot/numbers/2"
       }
     ]
   },
@@ -16990,6 +17036,12 @@
         "book": "Numbers",
         "chapter": 1,
         "url": "/bible-ot/numbers/1"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 2,
+        "url": "/bible-ot/numbers/2"
       }
     ]
   },
@@ -17024,6 +17076,23 @@
         "book": "Exodus",
         "chapter": 6,
         "url": "/bible-ot/exodus/6"
+      }
+    ]
+  },
+  "numbers-10-14": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "10",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 2,
+        "url": "/bible-ot/numbers/2"
       }
     ]
   },
@@ -17251,6 +17320,23 @@
         "book": "Leviticus",
         "chapter": 14,
         "url": "/bible-ot/leviticus/14"
+      }
+    ]
+  },
+  "numbers-2-17": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "2",
+      "verse": "17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 2,
+        "url": "/bible-ot/numbers/2"
       }
     ]
   },
@@ -17532,6 +17618,23 @@
       }
     ]
   },
+  "numbers-7-12-17": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "12-17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 2,
+        "url": "/bible-ot/numbers/2"
+      }
+    ]
+  },
   "numbers-9-15-23": {
     "target": {
       "book": "Numbers",
@@ -17552,6 +17655,12 @@
         "book": "Exodus",
         "chapter": 40,
         "url": "/bible-ot/exodus/40"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 2,
+        "url": "/bible-ot/numbers/2"
       }
     ]
   },
@@ -18508,6 +18617,23 @@
       }
     ]
   },
+  "revelation-21-9-21": {
+    "target": {
+      "book": "Revelation",
+      "bookSlug": "revelation",
+      "canon": "bible-nt",
+      "chapter": "21",
+      "verse": "9-21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 2,
+        "url": "/bible-ot/numbers/2"
+      }
+    ]
+  },
   "revelation-22-1-2": {
     "target": {
       "book": "Revelation",
@@ -18573,6 +18699,12 @@
         "book": "Exodus",
         "chapter": 25,
         "url": "/bible-ot/exodus/25"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 2,
+        "url": "/bible-ot/numbers/2"
       }
     ]
   },
