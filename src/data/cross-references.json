@@ -545,6 +545,23 @@
       }
     ]
   },
+  "1-kings-18-29": {
+    "target": {
+      "book": "1 Kings",
+      "bookSlug": "1-kings",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "29"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 28,
+        "url": "/bible-ot/numbers/28"
+      }
+    ]
+  },
   "1-kings-18-38": {
     "target": {
       "book": "1 Kings",
@@ -630,6 +647,23 @@
       }
     ]
   },
+  "1-kings-4-20-21": {
+    "target": {
+      "book": "1 Kings",
+      "bookSlug": "1-kings",
+      "canon": "bible-ot",
+      "chapter": "4",
+      "verse": "20-21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
   "1-kings-4-21": {
     "target": {
       "book": "1 Kings",
@@ -644,6 +678,12 @@
         "book": "Exodus",
         "chapter": 23,
         "url": "/bible-ot/exodus/23"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
       }
     ]
   },
@@ -1483,6 +1523,23 @@
       }
     ]
   },
+  "1-timothy-5-19": {
+    "target": {
+      "book": "1 Timothy",
+      "bookSlug": "1-timothy",
+      "canon": "bible-nt",
+      "chapter": "5",
+      "verse": "19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 35,
+        "url": "/bible-ot/numbers/35"
+      }
+    ]
+  },
   "2-chronicles-13-11": {
     "target": {
       "book": "2 Chronicles",
@@ -1730,6 +1787,23 @@
         "book": "Leviticus",
         "chapter": 21,
         "url": "/bible-ot/leviticus/21"
+      }
+    ]
+  },
+  "2-corinthians-13-1": {
+    "target": {
+      "book": "2 Corinthians",
+      "bookSlug": "2-corinthians",
+      "canon": "bible-nt",
+      "chapter": "13",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 35,
+        "url": "/bible-ot/numbers/35"
       }
     ]
   },
@@ -2008,6 +2082,23 @@
         "book": "Genesis",
         "chapter": 48,
         "url": "/bible-ot/genesis/48"
+      }
+    ]
+  },
+  "2-peter-2-15": {
+    "target": {
+      "book": "2 Peter",
+      "bookSlug": "2-peter",
+      "canon": "bible-nt",
+      "chapter": "2",
+      "verse": "15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 31,
+        "url": "/bible-ot/numbers/31"
       }
     ]
   },
@@ -2863,6 +2954,23 @@
       }
     ]
   },
+  "acts-7-45": {
+    "target": {
+      "book": "Acts",
+      "bookSlug": "acts",
+      "canon": "bible-nt",
+      "chapter": "7",
+      "verse": "45"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 27,
+        "url": "/bible-ot/numbers/27"
+      }
+    ]
+  },
   "acts-7-54-60": {
     "target": {
       "book": "Acts",
@@ -3115,6 +3223,23 @@
         "book": "Exodus",
         "chapter": 29,
         "url": "/bible-ot/exodus/29"
+      }
+    ]
+  },
+  "daniel-9-21": {
+    "target": {
+      "book": "Daniel",
+      "bookSlug": "daniel",
+      "canon": "bible-ot",
+      "chapter": "9",
+      "verse": "21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 28,
+        "url": "/bible-ot/numbers/28"
       }
     ]
   },
@@ -3448,6 +3573,23 @@
       }
     ]
   },
+  "deuteronomy-17-6": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 35,
+        "url": "/bible-ot/numbers/35"
+      }
+    ]
+  },
   "deuteronomy-18-13": {
     "target": {
       "book": "Deuteronomy",
@@ -3505,6 +3647,23 @@
       }
     ]
   },
+  "deuteronomy-19-15": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 35,
+        "url": "/bible-ot/numbers/35"
+      }
+    ]
+  },
   "deuteronomy-19-21": {
     "target": {
       "book": "Deuteronomy",
@@ -3536,6 +3695,23 @@
         "book": "Genesis",
         "chapter": 36,
         "url": "/bible-ot/genesis/36"
+      }
+    ]
+  },
+  "deuteronomy-20-10-15": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "20",
+      "verse": "10-15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 31,
+        "url": "/bible-ot/numbers/31"
       }
     ]
   },
@@ -3982,6 +4158,46 @@
       }
     ]
   },
+  "deuteronomy-34-5-8": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "34",
+      "verse": "5-8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 36,
+        "url": "/bible-ot/numbers/36"
+      }
+    ]
+  },
+  "deuteronomy-34-9": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "34",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 27,
+        "url": "/bible-ot/numbers/27"
+      }
+    ]
+  },
   "deuteronomy-5-12-15": {
     "target": {
       "book": "Deuteronomy",
@@ -4220,6 +4436,23 @@
       }
     ]
   },
+  "doctrine-and-covenants-107-65-67": {
+    "target": {
+      "book": "doctrine-and-covenants",
+      "bookSlug": "doctrine-and-covenants",
+      "canon": null,
+      "chapter": "107",
+      "verse": "65-67"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 27,
+        "url": "/bible-ot/numbers/27"
+      }
+    ]
+  },
   "doctrine-and-covenants-110": {
     "target": {
       "book": "doctrine-and-covenants",
@@ -4439,6 +4672,23 @@
         "book": "Exodus",
         "chapter": 31,
         "url": "/bible-ot/exodus/31"
+      }
+    ]
+  },
+  "ecclesiastes-5-4-5": {
+    "target": {
+      "book": "Ecclesiastes",
+      "bookSlug": "ecclesiastes",
+      "canon": "bible-ot",
+      "chapter": "5",
+      "verse": "4-5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 30,
+        "url": "/bible-ot/numbers/30"
       }
     ]
   },
@@ -6968,6 +7218,12 @@
         "book": "Numbers",
         "chapter": 9,
         "url": "/bible-ot/numbers/9"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 36,
+        "url": "/bible-ot/numbers/36"
       }
     ]
   },
@@ -7699,6 +7955,23 @@
       }
     ]
   },
+  "ezra-9-5": {
+    "target": {
+      "book": "Ezra",
+      "bookSlug": "ezra",
+      "canon": "bible-ot",
+      "chapter": "9",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 28,
+        "url": "/bible-ot/numbers/28"
+      }
+    ]
+  },
   "galatians-3": {
     "target": {
       "book": "Galatians",
@@ -8015,6 +8288,23 @@
         "book": "Genesis",
         "chapter": 11,
         "url": "/bible-ot/genesis/11"
+      }
+    ]
+  },
+  "genesis-10-1-32": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "10",
+      "verse": "1-32"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 29,
+        "url": "/bible-ot/numbers/29"
       }
     ]
   },
@@ -8455,6 +8745,40 @@
         "book": "Exodus",
         "chapter": 12,
         "url": "/bible-ot/exodus/12"
+      }
+    ]
+  },
+  "genesis-15-18": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "15",
+      "verse": "18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
+  "genesis-15-18-21": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "15",
+      "verse": "18-21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
       }
     ]
   },
@@ -11384,6 +11708,23 @@
       }
     ]
   },
+  "genesis-50-26": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "50",
+      "verse": "26"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 36,
+        "url": "/bible-ot/numbers/36"
+      }
+    ]
+  },
   "genesis-6-9": {
     "target": {
       "book": "Genesis",
@@ -11953,6 +12294,23 @@
       }
     ]
   },
+  "hebrews-12-24": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "12",
+      "verse": "24"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 35,
+        "url": "/bible-ot/numbers/35"
+      }
+    ]
+  },
   "hebrews-13-11-13": {
     "target": {
       "book": "Hebrews",
@@ -12018,6 +12376,12 @@
         "book": "Numbers",
         "chapter": 12,
         "url": "/bible-ot/numbers/12"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 27,
+        "url": "/bible-ot/numbers/27"
       }
     ]
   },
@@ -12121,6 +12485,29 @@
         "book": "Numbers",
         "chapter": 16,
         "url": "/bible-ot/numbers/16"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 35,
+        "url": "/bible-ot/numbers/35"
+      }
+    ]
+  },
+  "hebrews-4-8": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "4",
+      "verse": "8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 27,
+        "url": "/bible-ot/numbers/27"
       }
     ]
   },
@@ -12155,6 +12542,23 @@
         "book": "Genesis",
         "chapter": 14,
         "url": "/bible-ot/genesis/14"
+      }
+    ]
+  },
+  "hebrews-5-4": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "5",
+      "verse": "4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 27,
+        "url": "/bible-ot/numbers/27"
       }
     ]
   },
@@ -12653,6 +13057,23 @@
       }
     ]
   },
+  "hosea-4-1-3": {
+    "target": {
+      "book": "Hosea",
+      "bookSlug": "hosea",
+      "canon": "bible-ot",
+      "chapter": "4",
+      "verse": "1-3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 35,
+        "url": "/bible-ot/numbers/35"
+      }
+    ]
+  },
   "hosea-6-2": {
     "target": {
       "book": "Hosea",
@@ -12752,6 +13173,23 @@
         "book": "Exodus",
         "chapter": 15,
         "url": "/bible-ot/exodus/15"
+      }
+    ]
+  },
+  "isaiah-26-21": {
+    "target": {
+      "book": "Isaiah",
+      "bookSlug": "isaiah",
+      "canon": "bible-ot",
+      "chapter": "26",
+      "verse": "21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 35,
+        "url": "/bible-ot/numbers/35"
       }
     ]
   },
@@ -13285,6 +13723,23 @@
         "book": "Exodus",
         "chapter": 20,
         "url": "/bible-ot/exodus/20"
+      }
+    ]
+  },
+  "james-5-12": {
+    "target": {
+      "book": "James",
+      "bookSlug": "james",
+      "canon": "bible-nt",
+      "chapter": "5",
+      "verse": "12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 30,
+        "url": "/bible-ot/numbers/30"
       }
     ]
   },
@@ -14482,6 +14937,23 @@
       }
     ]
   },
+  "joshua-1-12-15": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "12-15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
   "joshua-10-21": {
     "target": {
       "book": "Joshua",
@@ -14496,6 +14968,91 @@
         "book": "Exodus",
         "chapter": 11,
         "url": "/bible-ot/exodus/11"
+      }
+    ]
+  },
+  "joshua-11-23": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "11",
+      "verse": "23"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
+  "joshua-13-1-7": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "13",
+      "verse": "1-7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
+  "joshua-14-1": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
+  "joshua-14-21": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "14-21",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
+      }
+    ]
+  },
+  "joshua-14-6-15": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "6-15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
       }
     ]
   },
@@ -14559,6 +15116,57 @@
         "book": "Genesis",
         "chapter": 49,
         "url": "/bible-ot/genesis/49"
+      }
+    ]
+  },
+  "joshua-22-1-9": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "1-9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
+  "joshua-22-10-34": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "10-34"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
+  "joshua-24-14-15": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": "14-15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 33,
+        "url": "/bible-ot/numbers/33"
       }
     ]
   },
@@ -14631,6 +15239,23 @@
       }
     ]
   },
+  "joshua-4-12-13": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "4",
+      "verse": "12-13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
   "joshua-5-12": {
     "target": {
       "book": "Joshua",
@@ -14679,6 +15304,12 @@
         "book": "Numbers",
         "chapter": 16,
         "url": "/bible-ot/numbers/16"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 31,
+        "url": "/bible-ot/numbers/31"
       }
     ]
   },
@@ -14784,6 +15415,23 @@
       }
     ]
   },
+  "judges-1-27-36": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "27-36"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
   "judges-13-4-5": {
     "target": {
       "book": "Judges",
@@ -14798,6 +15446,23 @@
         "book": "Numbers",
         "chapter": 6,
         "url": "/bible-ot/numbers/6"
+      }
+    ]
+  },
+  "judges-2-1-5": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "2",
+      "verse": "1-5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 33,
+        "url": "/bible-ot/numbers/33"
       }
     ]
   },
@@ -15267,6 +15932,23 @@
       }
     ]
   },
+  "leviticus-16-1-34": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "16",
+      "verse": "1-34"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 29,
+        "url": "/bible-ot/numbers/29"
+      }
+    ]
+  },
   "leviticus-16-14-15": {
     "target": {
       "book": "Leviticus",
@@ -15378,6 +16060,23 @@
         "book": "Leviticus",
         "chapter": 18,
         "url": "/bible-ot/leviticus/18"
+      }
+    ]
+  },
+  "leviticus-18-24-30": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "24-30"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 35,
+        "url": "/bible-ot/numbers/35"
       }
     ]
   },
@@ -15979,6 +16678,23 @@
       }
     ]
   },
+  "leviticus-25-23-34": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "25",
+      "verse": "23-34"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 36,
+        "url": "/bible-ot/numbers/36"
+      }
+    ]
+  },
   "leviticus-26-1": {
     "target": {
       "book": "Leviticus",
@@ -16095,6 +16811,12 @@
         "book": "Leviticus",
         "chapter": 27,
         "url": "/bible-ot/leviticus/27"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 36,
+        "url": "/bible-ot/numbers/36"
       }
     ]
   },
@@ -16328,6 +17050,23 @@
         "book": "Leviticus",
         "chapter": 14,
         "url": "/bible-ot/leviticus/14"
+      }
+    ]
+  },
+  "leviticus-8-3-5": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "3-5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 27,
+        "url": "/bible-ot/numbers/27"
       }
     ]
   },
@@ -17706,6 +18445,23 @@
       }
     ]
   },
+  "matthew-18-16": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "18",
+      "verse": "16"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 35,
+        "url": "/bible-ot/numbers/35"
+      }
+    ]
+  },
   "matthew-19-4-6": {
     "target": {
       "book": "Matthew",
@@ -18123,6 +18879,23 @@
         "book": "Leviticus",
         "chapter": 2,
         "url": "/bible-ot/leviticus/2"
+      }
+    ]
+  },
+  "matthew-5-33-37": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "5",
+      "verse": "33-37"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 30,
+        "url": "/bible-ot/numbers/30"
       }
     ]
   },
@@ -18770,6 +19543,12 @@
         "book": "Numbers",
         "chapter": 7,
         "url": "/bible-ot/numbers/7"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 36,
+        "url": "/bible-ot/numbers/36"
       }
     ]
   },
@@ -18787,6 +19566,23 @@
         "book": "Numbers",
         "chapter": 1,
         "url": "/bible-ot/numbers/1"
+      }
+    ]
+  },
+  "numbers-1-1-46": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "1-46"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
       }
     ]
   },
@@ -19168,6 +19964,12 @@
         "book": "Numbers",
         "chapter": 12,
         "url": "/bible-ot/numbers/12"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 27,
+        "url": "/bible-ot/numbers/27"
       }
     ]
   },
@@ -19387,6 +20189,23 @@
       }
     ]
   },
+  "numbers-14-29-34": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "29-34"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
+      }
+    ]
+  },
   "numbers-14-33-34": {
     "target": {
       "book": "Numbers",
@@ -19464,6 +20283,12 @@
         "book": "Numbers",
         "chapter": 13,
         "url": "/bible-ot/numbers/13"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
       }
     ]
   },
@@ -19868,6 +20693,18 @@
         "book": "Numbers",
         "chapter": 18,
         "url": "/bible-ot/numbers/18"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 35,
+        "url": "/bible-ot/numbers/35"
       }
     ]
   },
@@ -19931,6 +20768,12 @@
         "book": "Numbers",
         "chapter": 9,
         "url": "/bible-ot/numbers/9"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 31,
+        "url": "/bible-ot/numbers/31"
       }
     ]
   },
@@ -20073,6 +20916,12 @@
         "book": "Numbers",
         "chapter": 20,
         "url": "/bible-ot/numbers/20"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 27,
+        "url": "/bible-ot/numbers/27"
       }
     ]
   },
@@ -20113,6 +20962,23 @@
         "book": "Genesis",
         "chapter": 36,
         "url": "/bible-ot/genesis/36"
+      }
+    ]
+  },
+  "numbers-20-22-29": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "20",
+      "verse": "22-29"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
       }
     ]
   },
@@ -20661,6 +21527,40 @@
       }
     ]
   },
+  "numbers-25-14": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "25",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
+      }
+    ]
+  },
+  "numbers-25-16-18": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "25",
+      "verse": "16-18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 31,
+        "url": "/bible-ot/numbers/31"
+      }
+    ]
+  },
   "numbers-25-6-13": {
     "target": {
       "book": "Numbers",
@@ -20678,6 +21578,23 @@
       }
     ]
   },
+  "numbers-25-8-9": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "25",
+      "verse": "8-9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
+      }
+    ]
+  },
   "numbers-26-51": {
     "target": {
       "book": "Numbers",
@@ -20692,6 +21609,46 @@
         "book": "Numbers",
         "chapter": 1,
         "url": "/bible-ot/numbers/1"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
+      }
+    ]
+  },
+  "numbers-26-53-54": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "26",
+      "verse": "53-54"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
+      }
+    ]
+  },
+  "numbers-26-55-56": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "26",
+      "verse": "55-56"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
       }
     ]
   },
@@ -20712,6 +21669,23 @@
       }
     ]
   },
+  "numbers-26-62": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "26",
+      "verse": "62"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
+      }
+    ]
+  },
   "numbers-26-63-65": {
     "target": {
       "book": "Numbers",
@@ -20726,6 +21700,120 @@
         "book": "Numbers",
         "chapter": 25,
         "url": "/bible-ot/numbers/25"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
+      }
+    ]
+  },
+  "numbers-26-64": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "26",
+      "verse": "64"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
+      }
+    ]
+  },
+  "numbers-27-1": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 36,
+        "url": "/bible-ot/numbers/36"
+      }
+    ]
+  },
+  "numbers-27-1-11": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "1-11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 36,
+        "url": "/bible-ot/numbers/36"
+      }
+    ]
+  },
+  "numbers-27-12-23": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "12-23"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
+      }
+    ]
+  },
+  "numbers-27-15-17": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "15-17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 27,
+        "url": "/bible-ot/numbers/27"
+      }
+    ]
+  },
+  "numbers-27-18": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 27,
+        "url": "/bible-ot/numbers/27"
       }
     ]
   },
@@ -20746,6 +21834,108 @@
       }
     ]
   },
+  "numbers-27-3": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 27,
+        "url": "/bible-ot/numbers/27"
+      }
+    ]
+  },
+  "numbers-27-4": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 27,
+        "url": "/bible-ot/numbers/27"
+      }
+    ]
+  },
+  "numbers-27-7": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 27,
+        "url": "/bible-ot/numbers/27"
+      }
+    ]
+  },
+  "numbers-28-1-31": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "1-31"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 33,
+        "url": "/bible-ot/numbers/33"
+      }
+    ]
+  },
+  "numbers-28-16-17": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "16-17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 28,
+        "url": "/bible-ot/numbers/28"
+      }
+    ]
+  },
+  "numbers-28-2": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 28,
+        "url": "/bible-ot/numbers/28"
+      }
+    ]
+  },
   "numbers-28-29": {
     "target": {
       "book": "Numbers",
@@ -20760,6 +21950,23 @@
         "book": "Exodus",
         "chapter": 23,
         "url": "/bible-ot/exodus/23"
+      }
+    ]
+  },
+  "numbers-29-1-39": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "29",
+      "verse": "1-39"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 33,
+        "url": "/bible-ot/numbers/33"
       }
     ]
   },
@@ -20845,6 +22052,12 @@
         "book": "Numbers",
         "chapter": 4,
         "url": "/bible-ot/numbers/4"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 26,
+        "url": "/bible-ot/numbers/26"
       }
     ]
   },
@@ -20896,6 +22109,40 @@
         "book": "Genesis",
         "chapter": 2,
         "url": "/bible-ot/genesis/2"
+      }
+    ]
+  },
+  "numbers-30-2": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "30",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 30,
+        "url": "/bible-ot/numbers/30"
+      }
+    ]
+  },
+  "numbers-31-1-2": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "31",
+      "verse": "1-2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 31,
+        "url": "/bible-ot/numbers/31"
       }
     ]
   },
@@ -20953,6 +22200,12 @@
         "book": "Numbers",
         "chapter": 25,
         "url": "/bible-ot/numbers/25"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 31,
+        "url": "/bible-ot/numbers/31"
       }
     ]
   },
@@ -20973,6 +22226,40 @@
       }
     ]
   },
+  "numbers-31-8": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "31",
+      "verse": "8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 31,
+        "url": "/bible-ot/numbers/31"
+      }
+    ]
+  },
+  "numbers-32-1": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "32",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
   "numbers-32-1-42": {
     "target": {
       "book": "Numbers",
@@ -20987,6 +22274,176 @@
         "book": "Numbers",
         "chapter": 21,
         "url": "/bible-ot/numbers/21"
+      }
+    ]
+  },
+  "numbers-32-14": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "32",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
+  "numbers-32-16-18": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "32",
+      "verse": "16-18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
+  "numbers-32-33-42": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "32",
+      "verse": "33-42"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
+  "numbers-32-6": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "32",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
+  "numbers-32-8-9": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "32",
+      "verse": "8-9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
+  "numbers-33-1-2": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "33",
+      "verse": "1-2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 33,
+        "url": "/bible-ot/numbers/33"
+      }
+    ]
+  },
+  "numbers-33-51-53": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "33",
+      "verse": "51-53"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 33,
+        "url": "/bible-ot/numbers/33"
+      }
+    ]
+  },
+  "numbers-33-55-56": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "33",
+      "verse": "55-56"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 33,
+        "url": "/bible-ot/numbers/33"
+      }
+    ]
+  },
+  "numbers-34-13-15": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "34",
+      "verse": "13-15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
+  "numbers-34-17": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "34",
+      "verse": "17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
       }
     ]
   },
@@ -21027,6 +22484,159 @@
         "book": "Genesis",
         "chapter": 49,
         "url": "/bible-ot/genesis/49"
+      }
+    ]
+  },
+  "numbers-35-2": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "35",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 35,
+        "url": "/bible-ot/numbers/35"
+      }
+    ]
+  },
+  "numbers-35-25": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "35",
+      "verse": "25"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 35,
+        "url": "/bible-ot/numbers/35"
+      }
+    ]
+  },
+  "numbers-35-28": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "35",
+      "verse": "28"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 35,
+        "url": "/bible-ot/numbers/35"
+      }
+    ]
+  },
+  "numbers-35-33-34": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "35",
+      "verse": "33-34"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 35,
+        "url": "/bible-ot/numbers/35"
+      }
+    ]
+  },
+  "numbers-36-1-12": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "36",
+      "verse": "1-12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 27,
+        "url": "/bible-ot/numbers/27"
+      }
+    ]
+  },
+  "numbers-36-11": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "36",
+      "verse": "11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 36,
+        "url": "/bible-ot/numbers/36"
+      }
+    ]
+  },
+  "numbers-36-13": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "36",
+      "verse": "13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 36,
+        "url": "/bible-ot/numbers/36"
+      }
+    ]
+  },
+  "numbers-36-3": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "36",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 36,
+        "url": "/bible-ot/numbers/36"
+      }
+    ]
+  },
+  "numbers-36-7-9": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "36",
+      "verse": "7-9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 36,
+        "url": "/bible-ot/numbers/36"
       }
     ]
   },
@@ -21214,6 +22824,29 @@
         "book": "Numbers",
         "chapter": 6,
         "url": "/bible-ot/numbers/6"
+      }
+    ]
+  },
+  "numbers-7-1-89": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "1-89"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 28,
+        "url": "/bible-ot/numbers/28"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 33,
+        "url": "/bible-ot/numbers/33"
       }
     ]
   },
@@ -21677,6 +23310,23 @@
       }
     ]
   },
+  "psalm-104-1": {
+    "target": {
+      "book": "psalm",
+      "bookSlug": "psalm",
+      "canon": null,
+      "chapter": "104",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 27,
+        "url": "/bible-ot/numbers/27"
+      }
+    ]
+  },
   "psalm-105-39": {
     "target": {
       "book": "psalm",
@@ -21742,6 +23392,23 @@
         "book": "Numbers",
         "chapter": 18,
         "url": "/bible-ot/numbers/18"
+      }
+    ]
+  },
+  "psalm-145-5": {
+    "target": {
+      "book": "psalm",
+      "bookSlug": "psalm",
+      "canon": null,
+      "chapter": "145",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 27,
+        "url": "/bible-ot/numbers/27"
       }
     ]
   },
@@ -21895,6 +23562,23 @@
         "book": "Numbers",
         "chapter": 11,
         "url": "/bible-ot/numbers/11"
+      }
+    ]
+  },
+  "psalm-81-3": {
+    "target": {
+      "book": "psalm",
+      "bookSlug": "psalm",
+      "canon": null,
+      "chapter": "81",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 28,
+        "url": "/bible-ot/numbers/28"
       }
     ]
   },
@@ -22655,6 +24339,23 @@
         "book": "Exodus",
         "chapter": 24,
         "url": "/bible-ot/exodus/24"
+      }
+    ]
+  },
+  "revelation-2-14": {
+    "target": {
+      "book": "Revelation",
+      "bookSlug": "revelation",
+      "canon": "bible-nt",
+      "chapter": "2",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 31,
+        "url": "/bible-ot/numbers/31"
       }
     ]
   },
@@ -23423,6 +25124,12 @@
         "book": "Leviticus",
         "chapter": 23,
         "url": "/bible-ot/leviticus/23"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 29,
+        "url": "/bible-ot/numbers/29"
       }
     ]
   },
