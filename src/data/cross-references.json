@@ -164,6 +164,23 @@
       }
     ]
   },
+  "1-corinthians-10-5-13": {
+    "target": {
+      "book": "1 Corinthians",
+      "bookSlug": "1-corinthians",
+      "canon": "bible-nt",
+      "chapter": "10",
+      "verse": "5-13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
+      }
+    ]
+  },
   "1-corinthians-10-6-12": {
     "target": {
       "book": "1 Corinthians",
@@ -2854,6 +2871,23 @@
         "book": "Exodus",
         "chapter": 29,
         "url": "/bible-ot/exodus/29"
+      }
+    ]
+  },
+  "daniel-9-24-27": {
+    "target": {
+      "book": "Daniel",
+      "bookSlug": "daniel",
+      "canon": "bible-ot",
+      "chapter": "9",
+      "verse": "24-27"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
       }
     ]
   },
@@ -6038,6 +6072,23 @@
       }
     ]
   },
+  "exodus-32-10": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "32",
+      "verse": "10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
+      }
+    ]
+  },
   "exodus-32-11-14": {
     "target": {
       "book": "Exodus",
@@ -6211,6 +6262,23 @@
         "book": "Exodus",
         "chapter": 33,
         "url": "/bible-ot/exodus/33"
+      }
+    ]
+  },
+  "exodus-34-6-7": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "34",
+      "verse": "6-7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
       }
     ]
   },
@@ -6955,6 +7023,23 @@
       }
     ]
   },
+  "ezekiel-4-4-6": {
+    "target": {
+      "book": "Ezekiel",
+      "bookSlug": "ezekiel",
+      "canon": "bible-ot",
+      "chapter": "4",
+      "verse": "4-6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
+      }
+    ]
+  },
   "ezekiel-4-6": {
     "target": {
       "book": "Ezekiel",
@@ -6969,6 +7054,12 @@
         "book": "Exodus",
         "chapter": 24,
         "url": "/bible-ot/exodus/24"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
       }
     ]
   },
@@ -11338,6 +11429,23 @@
       }
     ]
   },
+  "hebrews-3-17-19": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "3",
+      "verse": "17-19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
+      }
+    ]
+  },
   "hebrews-3-7-11": {
     "target": {
       "book": "Hebrews",
@@ -11352,6 +11460,12 @@
         "book": "Exodus",
         "chapter": 17,
         "url": "/bible-ot/exodus/17"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
       }
     ]
   },
@@ -11392,6 +11506,12 @@
         "book": "Exodus",
         "chapter": 32,
         "url": "/bible-ot/exodus/32"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
       }
     ]
   },
@@ -18221,6 +18341,46 @@
         "book": "Exodus",
         "chapter": 13,
         "url": "/bible-ot/exodus/13"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
+      }
+    ]
+  },
+  "numbers-14-11": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
+      }
+    ]
+  },
+  "numbers-14-12": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
       }
     ]
   },
@@ -18238,6 +18398,46 @@
         "book": "Exodus",
         "chapter": 34,
         "url": "/bible-ot/exodus/34"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
+      }
+    ]
+  },
+  "numbers-14-19": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
+      }
+    ]
+  },
+  "numbers-14-20": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
       }
     ]
   },
@@ -18272,6 +18472,12 @@
         "book": "Numbers",
         "chapter": 13,
         "url": "/bible-ot/numbers/13"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
       }
     ]
   },
@@ -18289,6 +18495,23 @@
         "book": "Numbers",
         "chapter": 13,
         "url": "/bible-ot/numbers/13"
+      }
+    ]
+  },
+  "numbers-14-7-9": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "7-9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
       }
     ]
   },
@@ -19651,6 +19874,12 @@
         "book": "Numbers",
         "chapter": 13,
         "url": "/bible-ot/numbers/13"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 14,
+        "url": "/bible-ot/numbers/14"
       }
     ]
   },
