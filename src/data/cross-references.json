@@ -518,6 +518,12 @@
         "book": "Exodus",
         "chapter": 13,
         "url": "/bible-ot/exodus/13"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 40,
+        "url": "/bible-ot/exodus/40"
       }
     ]
   },
@@ -2893,6 +2899,23 @@
       }
     ]
   },
+  "doctrine-and-covenants-110": {
+    "target": {
+      "book": "doctrine-and-covenants",
+      "bookSlug": "doctrine-and-covenants",
+      "canon": null,
+      "chapter": "110",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 40,
+        "url": "/bible-ot/exodus/40"
+      }
+    ]
+  },
   "doctrine-and-covenants-110-4": {
     "target": {
       "book": "doctrine-and-covenants",
@@ -3439,6 +3462,23 @@
       }
     ]
   },
+  "exodus-12-2": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "12",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 40,
+        "url": "/bible-ot/exodus/40"
+      }
+    ]
+  },
   "exodus-12-26-27": {
     "target": {
       "book": "Exodus",
@@ -3607,6 +3647,12 @@
         "book": "Exodus",
         "chapter": 16,
         "url": "/bible-ot/exodus/16"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 40,
+        "url": "/bible-ot/exodus/40"
       }
     ]
   },
@@ -3726,6 +3772,12 @@
         "book": "Exodus",
         "chapter": 16,
         "url": "/bible-ot/exodus/16"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 40,
+        "url": "/bible-ot/exodus/40"
       }
     ]
   },
@@ -4019,6 +4071,23 @@
       }
     ]
   },
+  "exodus-24-16-17": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": "16-17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 40,
+        "url": "/bible-ot/exodus/40"
+      }
+    ]
+  },
   "exodus-24-9-11": {
     "target": {
       "book": "Exodus",
@@ -4158,6 +4227,12 @@
         "book": "Exodus",
         "chapter": 32,
         "url": "/bible-ot/exodus/32"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 40,
+        "url": "/bible-ot/exodus/40"
       }
     ]
   },
@@ -4707,6 +4782,23 @@
       }
     ]
   },
+  "exodus-33-9": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "33",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 40,
+        "url": "/bible-ot/exodus/40"
+      }
+    ]
+  },
   "exodus-34-26": {
     "target": {
       "book": "Exodus",
@@ -4894,6 +4986,23 @@
       }
     ]
   },
+  "exodus-40-34-35": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "40",
+      "verse": "34-35"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 40,
+        "url": "/bible-ot/exodus/40"
+      }
+    ]
+  },
   "exodus-40-34-38": {
     "target": {
       "book": "Exodus",
@@ -4914,6 +5023,23 @@
         "book": "Exodus",
         "chapter": 16,
         "url": "/bible-ot/exodus/16"
+      }
+    ]
+  },
+  "exodus-40-36-38": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "40",
+      "verse": "36-38"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 40,
+        "url": "/bible-ot/exodus/40"
       }
     ]
   },
@@ -13959,6 +14085,12 @@
         "book": "Exodus",
         "chapter": 13,
         "url": "/bible-ot/exodus/13"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 40,
+        "url": "/bible-ot/exodus/40"
       }
     ]
   },
@@ -14622,6 +14754,23 @@
         "book": "Exodus",
         "chapter": 15,
         "url": "/bible-ot/exodus/15"
+      }
+    ]
+  },
+  "revelation-15-8": {
+    "target": {
+      "book": "Revelation",
+      "bookSlug": "revelation",
+      "canon": "bible-nt",
+      "chapter": "15",
+      "verse": "8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 40,
+        "url": "/bible-ot/exodus/40"
       }
     ]
   },
