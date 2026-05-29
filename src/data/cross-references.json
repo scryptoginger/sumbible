@@ -12377,6 +12377,23 @@
       }
     ]
   },
+  "leviticus-13-45-46": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "13",
+      "verse": "45-46"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 13,
+        "url": "/bible-ot/leviticus/13"
+      }
+    ]
+  },
   "leviticus-14": {
     "target": {
       "book": "Leviticus",
@@ -12442,6 +12459,23 @@
         "book": "Exodus",
         "chapter": 29,
         "url": "/bible-ot/exodus/29"
+      }
+    ]
+  },
+  "leviticus-14-33-53": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "33-53"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 13,
+        "url": "/bible-ot/leviticus/13"
       }
     ]
   },
@@ -13206,6 +13240,23 @@
       }
     ]
   },
+  "luke-17-11-19": {
+    "target": {
+      "book": "Luke",
+      "bookSlug": "luke",
+      "canon": "bible-nt",
+      "chapter": "17",
+      "verse": "11-19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 13,
+        "url": "/bible-ot/leviticus/13"
+      }
+    ]
+  },
   "luke-17-26-27": {
     "target": {
       "book": "Luke",
@@ -13680,6 +13731,23 @@
         "book": "Exodus",
         "chapter": 24,
         "url": "/bible-ot/exodus/24"
+      }
+    ]
+  },
+  "mark-1-40-45": {
+    "target": {
+      "book": "Mark",
+      "bookSlug": "mark",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "40-45"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 13,
+        "url": "/bible-ot/leviticus/13"
       }
     ]
   },
@@ -14418,6 +14486,23 @@
         "book": "Genesis",
         "chapter": 26,
         "url": "/bible-ot/genesis/26"
+      }
+    ]
+  },
+  "matthew-8-1-4": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "8",
+      "verse": "1-4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 13,
+        "url": "/bible-ot/leviticus/13"
       }
     ]
   },
