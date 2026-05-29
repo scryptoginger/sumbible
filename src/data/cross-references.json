@@ -3911,6 +3911,23 @@
       }
     ]
   },
+  "exodus-25-3-7": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "25",
+      "verse": "3-7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 35,
+        "url": "/bible-ot/exodus/35"
+      }
+    ]
+  },
   "exodus-25-31-40": {
     "target": {
       "book": "Exodus",
@@ -4224,6 +4241,23 @@
       }
     ]
   },
+  "exodus-31-1-6": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "31",
+      "verse": "1-6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 35,
+        "url": "/bible-ot/exodus/35"
+      }
+    ]
+  },
   "exodus-31-18": {
     "target": {
       "book": "Exodus",
@@ -4255,6 +4289,23 @@
         "book": "Genesis",
         "chapter": 18,
         "url": "/bible-ot/genesis/18"
+      }
+    ]
+  },
+  "exodus-32-34": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "32-34",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 35,
+        "url": "/bible-ot/exodus/35"
       }
     ]
   },
@@ -4360,6 +4411,23 @@
       }
     ]
   },
+  "exodus-36-5-7": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "36",
+      "verse": "5-7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 35,
+        "url": "/bible-ot/exodus/35"
+      }
+    ]
+  },
   "exodus-38-25-28": {
     "target": {
       "book": "Exodus",
@@ -4377,6 +4445,23 @@
       }
     ]
   },
+  "exodus-39-42": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "39",
+      "verse": "42"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 35,
+        "url": "/bible-ot/exodus/35"
+      }
+    ]
+  },
   "exodus-4-31": {
     "target": {
       "book": "Exodus",
@@ -4391,6 +4476,23 @@
         "book": "Exodus",
         "chapter": 13,
         "url": "/bible-ot/exodus/13"
+      }
+    ]
+  },
+  "exodus-40-16": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "40",
+      "verse": "16"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 35,
+        "url": "/bible-ot/exodus/35"
       }
     ]
   },
