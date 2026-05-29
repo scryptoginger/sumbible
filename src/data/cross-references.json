@@ -3741,6 +3741,23 @@
       }
     ]
   },
+  "exodus-12-22": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "12",
+      "verse": "22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 14,
+        "url": "/bible-ot/leviticus/14"
+      }
+    ]
+  },
   "exodus-12-26-27": {
     "target": {
       "book": "Exodus",
@@ -10332,6 +10349,23 @@
       }
     ]
   },
+  "hebrews-9-19": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "9",
+      "verse": "19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 14,
+        "url": "/bible-ot/leviticus/14"
+      }
+    ]
+  },
   "hebrews-9-4": {
     "target": {
       "book": "Hebrews",
@@ -11564,6 +11598,23 @@
       }
     ]
   },
+  "john-19-29": {
+    "target": {
+      "book": "John",
+      "bookSlug": "john",
+      "canon": "bible-nt",
+      "chapter": "19",
+      "verse": "29"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 14,
+        "url": "/bible-ot/leviticus/14"
+      }
+    ]
+  },
   "john-19-36": {
     "target": {
       "book": "John",
@@ -12553,6 +12604,23 @@
       }
     ]
   },
+  "leviticus-16-20-22": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "16",
+      "verse": "20-22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 14,
+        "url": "/bible-ot/leviticus/14"
+      }
+    ]
+  },
   "leviticus-17-11": {
     "target": {
       "book": "Leviticus",
@@ -13013,6 +13081,23 @@
       }
     ]
   },
+  "leviticus-8-23-24": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "23-24"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 14,
+        "url": "/bible-ot/leviticus/14"
+      }
+    ]
+  },
   "leviticus-8-33": {
     "target": {
       "book": "Leviticus",
@@ -13254,6 +13339,12 @@
         "book": "Leviticus",
         "chapter": 13,
         "url": "/bible-ot/leviticus/13"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 14,
+        "url": "/bible-ot/leviticus/14"
       }
     ]
   },
@@ -14503,6 +14594,46 @@
         "book": "Leviticus",
         "chapter": 13,
         "url": "/bible-ot/leviticus/13"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 14,
+        "url": "/bible-ot/leviticus/14"
+      }
+    ]
+  },
+  "matthew-8-3": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "8",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 14,
+        "url": "/bible-ot/leviticus/14"
+      }
+    ]
+  },
+  "matthew-8-4": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "8",
+      "verse": "4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 14,
+        "url": "/bible-ot/leviticus/14"
       }
     ]
   },
@@ -15079,6 +15210,23 @@
       }
     ]
   },
+  "numbers-19-6": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 14,
+        "url": "/bible-ot/leviticus/14"
+      }
+    ]
+  },
   "numbers-20-14-21": {
     "target": {
       "book": "Numbers",
@@ -15411,6 +15559,23 @@
         "book": "John",
         "chapter": 1,
         "url": "/bible-nt/john/1"
+      }
+    ]
+  },
+  "psalm-51-7": {
+    "target": {
+      "book": "psalm",
+      "bookSlug": "psalm",
+      "canon": null,
+      "chapter": "51",
+      "verse": "7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 14,
+        "url": "/bible-ot/leviticus/14"
       }
     ]
   },
