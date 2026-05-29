@@ -915,6 +915,23 @@
       }
     ]
   },
+  "1-samuel-1-11": {
+    "target": {
+      "book": "1 Samuel",
+      "bookSlug": "1-samuel",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 6,
+        "url": "/bible-ot/numbers/6"
+      }
+    ]
+  },
   "1-samuel-1-3": {
     "target": {
       "book": "1 Samuel",
@@ -1531,6 +1548,23 @@
         "book": "Leviticus",
         "chapter": 21,
         "url": "/bible-ot/leviticus/21"
+      }
+    ]
+  },
+  "2-corinthians-13-14": {
+    "target": {
+      "book": "2 Corinthians",
+      "bookSlug": "2-corinthians",
+      "canon": "bible-nt",
+      "chapter": "13",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 6,
+        "url": "/bible-ot/numbers/6"
       }
     ]
   },
@@ -13461,6 +13495,23 @@
       }
     ]
   },
+  "judges-13-4-5": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "13",
+      "verse": "4-5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 6,
+        "url": "/bible-ot/numbers/6"
+      }
+    ]
+  },
   "judges-2-20-23": {
     "target": {
       "book": "Judges",
@@ -14292,6 +14343,23 @@
       }
     ]
   },
+  "leviticus-21-11": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 6,
+        "url": "/bible-ot/numbers/6"
+      }
+    ]
+  },
   "leviticus-21-5": {
     "target": {
       "book": "Leviticus",
@@ -14964,6 +15032,23 @@
         "book": "Leviticus",
         "chapter": 9,
         "url": "/bible-ot/leviticus/9"
+      }
+    ]
+  },
+  "luke-1-15": {
+    "target": {
+      "book": "Luke",
+      "bookSlug": "luke",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 6,
+        "url": "/bible-ot/numbers/6"
       }
     ]
   },
@@ -17910,6 +17995,57 @@
         "book": "Leviticus",
         "chapter": 9,
         "url": "/bible-ot/leviticus/9"
+      }
+    ]
+  },
+  "numbers-6-23": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "23"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 6,
+        "url": "/bible-ot/numbers/6"
+      }
+    ]
+  },
+  "numbers-6-27": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "27"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 6,
+        "url": "/bible-ot/numbers/6"
+      }
+    ]
+  },
+  "numbers-6-5": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 6,
+        "url": "/bible-ot/numbers/6"
       }
     ]
   },
