@@ -1345,6 +1345,23 @@
       }
     ]
   },
+  "2-kings-17-7-23": {
+    "target": {
+      "book": "2 Kings",
+      "bookSlug": "2-kings",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "7-23"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 18,
+        "url": "/bible-ot/leviticus/18"
+      }
+    ]
+  },
   "2-kings-19-15": {
     "target": {
       "book": "2 Kings",
@@ -5876,6 +5893,23 @@
       }
     ]
   },
+  "ezekiel-20-11-13": {
+    "target": {
+      "book": "Ezekiel",
+      "bookSlug": "ezekiel",
+      "canon": "bible-ot",
+      "chapter": "20",
+      "verse": "11-13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 18,
+        "url": "/bible-ot/leviticus/18"
+      }
+    ]
+  },
   "ezekiel-22-7": {
     "target": {
       "book": "Ezekiel",
@@ -6060,6 +6094,23 @@
         "book": "Genesis",
         "chapter": 15,
         "url": "/bible-ot/genesis/15"
+      }
+    ]
+  },
+  "galatians-3-12": {
+    "target": {
+      "book": "Galatians",
+      "bookSlug": "galatians",
+      "canon": "bible-nt",
+      "chapter": "3",
+      "verse": "12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 18,
+        "url": "/bible-ot/leviticus/18"
       }
     ]
   },
@@ -12900,6 +12951,57 @@
       }
     ]
   },
+  "leviticus-18-2": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 18,
+        "url": "/bible-ot/leviticus/18"
+      }
+    ]
+  },
+  "leviticus-18-25": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "25"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 18,
+        "url": "/bible-ot/leviticus/18"
+      }
+    ]
+  },
+  "leviticus-18-5": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 18,
+        "url": "/bible-ot/leviticus/18"
+      }
+    ]
+  },
   "leviticus-19-18": {
     "target": {
       "book": "Leviticus",
@@ -13533,6 +13635,23 @@
         "book": "Genesis",
         "chapter": 10,
         "url": "/bible-ot/genesis/10"
+      }
+    ]
+  },
+  "luke-10-28": {
+    "target": {
+      "book": "Luke",
+      "bookSlug": "luke",
+      "canon": "bible-nt",
+      "chapter": "10",
+      "verse": "28"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 18,
+        "url": "/bible-ot/leviticus/18"
       }
     ]
   },
@@ -16921,6 +17040,23 @@
         "book": "Exodus",
         "chapter": 10,
         "url": "/bible-ot/exodus/10"
+      }
+    ]
+  },
+  "romans-10-5": {
+    "target": {
+      "book": "Romans",
+      "bookSlug": "romans",
+      "canon": "bible-nt",
+      "chapter": "10",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 18,
+        "url": "/bible-ot/leviticus/18"
       }
     ]
   },
