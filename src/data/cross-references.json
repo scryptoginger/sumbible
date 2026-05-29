@@ -8126,6 +8126,23 @@
       }
     ]
   },
+  "genesis-10-1-32": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "10",
+      "verse": "1-32"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 29,
+        "url": "/bible-ot/numbers/29"
+      }
+    ]
+  },
   "genesis-11": {
     "target": {
       "book": "Genesis",
@@ -15446,6 +15463,23 @@
         "book": "Leviticus",
         "chapter": 16,
         "url": "/bible-ot/leviticus/16"
+      }
+    ]
+  },
+  "leviticus-16-1-34": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "16",
+      "verse": "1-34"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 29,
+        "url": "/bible-ot/numbers/29"
       }
     ]
   },
@@ -24038,6 +24072,12 @@
         "book": "Leviticus",
         "chapter": 23,
         "url": "/bible-ot/leviticus/23"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 29,
+        "url": "/bible-ot/numbers/29"
       }
     ]
   },
