@@ -2289,6 +2289,23 @@
       }
     ]
   },
+  "3-nephi-1-21": {
+    "target": {
+      "book": "3 Nephi",
+      "bookSlug": "3-nephi",
+      "canon": "book-of-mormon",
+      "chapter": "1",
+      "verse": "21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 24,
+        "url": "/bible-ot/numbers/24"
+      }
+    ]
+  },
   "3-nephi-18-1-12": {
     "target": {
       "book": "3 Nephi",
@@ -8050,6 +8067,12 @@
         "book": "Genesis",
         "chapter": 27,
         "url": "/bible-ot/genesis/27"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 24,
+        "url": "/bible-ot/numbers/24"
       }
     ]
   },
@@ -12462,6 +12485,23 @@
         "book": "Leviticus",
         "chapter": 16,
         "url": "/bible-ot/leviticus/16"
+      }
+    ]
+  },
+  "helaman-14-5": {
+    "target": {
+      "book": "Helaman",
+      "bookSlug": "helaman",
+      "canon": "book-of-mormon",
+      "chapter": "14",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 24,
+        "url": "/bible-ot/numbers/24"
       }
     ]
   },
@@ -17558,6 +17598,23 @@
       }
     ]
   },
+  "matthew-2-1-2": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "2",
+      "verse": "1-2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 24,
+        "url": "/bible-ot/numbers/24"
+      }
+    ]
+  },
   "matthew-2-18": {
     "target": {
       "book": "Matthew",
@@ -20152,6 +20209,12 @@
         "book": "Numbers",
         "chapter": 23,
         "url": "/bible-ot/numbers/23"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 24,
+        "url": "/bible-ot/numbers/24"
       }
     ]
   },
@@ -20237,6 +20300,108 @@
         "book": "Numbers",
         "chapter": 23,
         "url": "/bible-ot/numbers/23"
+      }
+    ]
+  },
+  "numbers-24-1-2": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": "1-2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 24,
+        "url": "/bible-ot/numbers/24"
+      }
+    ]
+  },
+  "numbers-24-17": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": "17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 24,
+        "url": "/bible-ot/numbers/24"
+      }
+    ]
+  },
+  "numbers-24-17a": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": "17a"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 24,
+        "url": "/bible-ot/numbers/24"
+      }
+    ]
+  },
+  "numbers-24-19": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": "19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 24,
+        "url": "/bible-ot/numbers/24"
+      }
+    ]
+  },
+  "numbers-24-5": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 24,
+        "url": "/bible-ot/numbers/24"
+      }
+    ]
+  },
+  "numbers-24-9": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 24,
+        "url": "/bible-ot/numbers/24"
       }
     ]
   },
