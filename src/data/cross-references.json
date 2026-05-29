@@ -635,6 +635,23 @@
       }
     ]
   },
+  "1-peter-1-15-16": {
+    "target": {
+      "book": "1 Peter",
+      "bookSlug": "1-peter",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "15-16"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 11,
+        "url": "/bible-ot/leviticus/11"
+      }
+    ]
+  },
   "1-peter-1-18-19": {
     "target": {
       "book": "1 Peter",
@@ -1041,6 +1058,23 @@
         "book": "Exodus",
         "chapter": 18,
         "url": "/bible-ot/exodus/18"
+      }
+    ]
+  },
+  "1-timothy-4-4": {
+    "target": {
+      "book": "1 Timothy",
+      "bookSlug": "1-timothy",
+      "canon": "bible-nt",
+      "chapter": "4",
+      "verse": "4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 11,
+        "url": "/bible-ot/leviticus/11"
       }
     ]
   },
@@ -12252,6 +12286,23 @@
       }
     ]
   },
+  "leviticus-10-10-11": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "10",
+      "verse": "10-11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 11,
+        "url": "/bible-ot/leviticus/11"
+      }
+    ]
+  },
   "leviticus-10-3": {
     "target": {
       "book": "Leviticus",
@@ -12283,6 +12334,23 @@
         "book": "Leviticus",
         "chapter": 10,
         "url": "/bible-ot/leviticus/10"
+      }
+    ]
+  },
+  "leviticus-11-44-45": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "11",
+      "verse": "44-45"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 11,
+        "url": "/bible-ot/leviticus/11"
       }
     ]
   },
@@ -12485,6 +12553,23 @@
       }
     ]
   },
+  "leviticus-19-2": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 11,
+        "url": "/bible-ot/leviticus/11"
+      }
+    ]
+  },
   "leviticus-19-33-34": {
     "target": {
       "book": "Leviticus",
@@ -12539,6 +12624,23 @@
         "book": "Leviticus",
         "chapter": 2,
         "url": "/bible-ot/leviticus/2"
+      }
+    ]
+  },
+  "leviticus-20-7": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "20",
+      "verse": "7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 11,
+        "url": "/bible-ot/leviticus/11"
       }
     ]
   },
@@ -13660,6 +13762,23 @@
       }
     ]
   },
+  "mark-7-19": {
+    "target": {
+      "book": "Mark",
+      "bookSlug": "mark",
+      "canon": "bible-nt",
+      "chapter": "7",
+      "verse": "19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 11,
+        "url": "/bible-ot/leviticus/11"
+      }
+    ]
+  },
   "mark-8-31": {
     "target": {
       "book": "Mark",
@@ -14191,6 +14310,23 @@
         "book": "3 Nephi",
         "chapter": 11,
         "url": "/book-of-mormon/3-nephi/11"
+      }
+    ]
+  },
+  "matthew-3-4": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "3",
+      "verse": "4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 11,
+        "url": "/bible-ot/leviticus/11"
       }
     ]
   },
@@ -16210,6 +16346,23 @@
         "book": "Exodus",
         "chapter": 20,
         "url": "/bible-ot/exodus/20"
+      }
+    ]
+  },
+  "romans-14-14": {
+    "target": {
+      "book": "Romans",
+      "bookSlug": "romans",
+      "canon": "bible-nt",
+      "chapter": "14",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 11,
+        "url": "/bible-ot/leviticus/11"
       }
     ]
   },
