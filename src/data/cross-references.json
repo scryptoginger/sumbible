@@ -14715,6 +14715,23 @@
       }
     ]
   },
+  "joshua-1-12-15": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "12-15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
   "joshua-10-21": {
     "target": {
       "book": "Joshua",
@@ -14829,6 +14846,40 @@
       }
     ]
   },
+  "joshua-22-1-9": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "1-9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
+  "joshua-22-10-34": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "10-34"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
   "joshua-24-2": {
     "target": {
       "book": "Joshua",
@@ -14895,6 +14946,23 @@
         "book": "Exodus",
         "chapter": 13,
         "url": "/bible-ot/exodus/13"
+      }
+    ]
+  },
+  "joshua-4-12-13": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "4",
+      "verse": "12-13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
       }
     ]
   },
@@ -21708,6 +21776,23 @@
       }
     ]
   },
+  "numbers-32-1": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "32",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
   "numbers-32-1-42": {
     "target": {
       "book": "Numbers",
@@ -21722,6 +21807,74 @@
         "book": "Numbers",
         "chapter": 21,
         "url": "/bible-ot/numbers/21"
+      }
+    ]
+  },
+  "numbers-32-14": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "32",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
+  "numbers-32-16-18": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "32",
+      "verse": "16-18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
+  "numbers-32-6": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "32",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
+  "numbers-32-8-9": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "32",
+      "verse": "8-9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 32,
+        "url": "/bible-ot/numbers/32"
       }
     ]
   },
