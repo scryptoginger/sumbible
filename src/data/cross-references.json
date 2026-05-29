@@ -232,6 +232,23 @@
       }
     ]
   },
+  "1-john-4-12": {
+    "target": {
+      "book": "1 John",
+      "bookSlug": "1-john",
+      "canon": "bible-nt",
+      "chapter": "4",
+      "verse": "12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 33,
+        "url": "/bible-ot/exodus/33"
+      }
+    ]
+  },
   "1-kings-1-39": {
     "target": {
       "book": "1 Kings",
@@ -677,6 +694,23 @@
         "book": "Exodus",
         "chapter": 15,
         "url": "/bible-ot/exodus/15"
+      }
+    ]
+  },
+  "1-samuel-2-2": {
+    "target": {
+      "book": "1 Samuel",
+      "bookSlug": "1-samuel",
+      "canon": "bible-ot",
+      "chapter": "2",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 33,
+        "url": "/bible-ot/exodus/33"
       }
     ]
   },
@@ -1205,6 +1239,23 @@
         "book": "Exodus",
         "chapter": 15,
         "url": "/bible-ot/exodus/15"
+      }
+    ]
+  },
+  "2-samuel-22-2": {
+    "target": {
+      "book": "2 Samuel",
+      "bookSlug": "2-samuel",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 33,
+        "url": "/bible-ot/exodus/33"
       }
     ]
   },
@@ -2377,6 +2428,40 @@
       }
     ]
   },
+  "deuteronomy-32-31": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "32",
+      "verse": "31"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 33,
+        "url": "/bible-ot/exodus/33"
+      }
+    ]
+  },
+  "deuteronomy-32-4": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "32",
+      "verse": "4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 33,
+        "url": "/bible-ot/exodus/33"
+      }
+    ]
+  },
   "deuteronomy-32-8": {
     "target": {
       "book": "Deuteronomy",
@@ -2425,6 +2510,23 @@
         "book": "Genesis",
         "chapter": 2,
         "url": "/bible-ot/genesis/2"
+      }
+    ]
+  },
+  "deuteronomy-34-10": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "34",
+      "verse": "10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 33,
+        "url": "/bible-ot/exodus/33"
       }
     ]
   },
@@ -2720,6 +2822,23 @@
         "book": "Exodus",
         "chapter": 32,
         "url": "/bible-ot/exodus/32"
+      }
+    ]
+  },
+  "doctrine-and-covenants-84-23-25": {
+    "target": {
+      "book": "doctrine-and-covenants",
+      "bookSlug": "doctrine-and-covenants",
+      "canon": null,
+      "chapter": "84",
+      "verse": "23-25"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 33,
+        "url": "/bible-ot/exodus/33"
       }
     ]
   },
@@ -4147,6 +4266,40 @@
         "book": "Exodus",
         "chapter": 24,
         "url": "/bible-ot/exodus/24"
+      }
+    ]
+  },
+  "exodus-34-5-7": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "34",
+      "verse": "5-7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 33,
+        "url": "/bible-ot/exodus/33"
+      }
+    ]
+  },
+  "exodus-35-22": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "35",
+      "verse": "22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 33,
+        "url": "/bible-ot/exodus/33"
       }
     ]
   },
@@ -7010,6 +7163,12 @@
         "book": "Genesis",
         "chapter": 33,
         "url": "/bible-ot/genesis/33"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 33,
+        "url": "/bible-ot/exodus/33"
       }
     ]
   },
@@ -9135,6 +9294,23 @@
       }
     ]
   },
+  "isaiah-32-2": {
+    "target": {
+      "book": "Isaiah",
+      "bookSlug": "isaiah",
+      "canon": "bible-ot",
+      "chapter": "32",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 33,
+        "url": "/bible-ot/exodus/33"
+      }
+    ]
+  },
   "isaiah-37-16": {
     "target": {
       "book": "Isaiah",
@@ -9909,6 +10085,12 @@
         "book": "Genesis",
         "chapter": 32,
         "url": "/bible-ot/genesis/32"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 33,
+        "url": "/bible-ot/exodus/33"
       }
     ]
   },
@@ -10386,6 +10568,23 @@
         "book": "Exodus",
         "chapter": 24,
         "url": "/bible-ot/exodus/24"
+      }
+    ]
+  },
+  "joseph-smith-history-1-17": {
+    "target": {
+      "book": "Joseph Smith—History",
+      "bookSlug": "joseph-smith-history",
+      "canon": "pearl-of-great-price",
+      "chapter": "1",
+      "verse": "17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 33,
+        "url": "/bible-ot/exodus/33"
       }
     ]
   },
@@ -12689,6 +12888,23 @@
       }
     ]
   },
+  "numbers-12-8": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "12",
+      "verse": "8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 33,
+        "url": "/bible-ot/exodus/33"
+      }
+    ]
+  },
   "numbers-14-1-4": {
     "target": {
       "book": "Numbers",
@@ -13262,6 +13478,23 @@
       }
     ]
   },
+  "psalms-18-2": {
+    "target": {
+      "book": "Psalms",
+      "bookSlug": "psalms",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 33,
+        "url": "/bible-ot/exodus/33"
+      }
+    ]
+  },
   "psalms-22": {
     "target": {
       "book": "Psalms",
@@ -13293,6 +13526,23 @@
         "book": "Genesis",
         "chapter": 48,
         "url": "/bible-ot/genesis/48"
+      }
+    ]
+  },
+  "psalms-27-5": {
+    "target": {
+      "book": "Psalms",
+      "bookSlug": "psalms",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 33,
+        "url": "/bible-ot/exodus/33"
       }
     ]
   },
