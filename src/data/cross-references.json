@@ -647,6 +647,23 @@
       }
     ]
   },
+  "1-kings-4-20-21": {
+    "target": {
+      "book": "1 Kings",
+      "bookSlug": "1-kings",
+      "canon": "bible-ot",
+      "chapter": "4",
+      "verse": "20-21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
   "1-kings-4-21": {
     "target": {
       "book": "1 Kings",
@@ -661,6 +678,12 @@
         "book": "Exodus",
         "chapter": 23,
         "url": "/bible-ot/exodus/23"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
       }
     ]
   },
@@ -8634,6 +8657,40 @@
       }
     ]
   },
+  "genesis-15-18": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "15",
+      "verse": "18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
+  "genesis-15-18-21": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "15",
+      "verse": "18-21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
   "genesis-15-2": {
     "target": {
       "book": "Genesis",
@@ -14749,6 +14806,57 @@
       }
     ]
   },
+  "joshua-11-23": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "11",
+      "verse": "23"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
+  "joshua-13-1-7": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "13",
+      "verse": "1-7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
+  "joshua-14-1": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
   "joshua-14-21": {
     "target": {
       "book": "Joshua",
@@ -15139,6 +15247,23 @@
         "book": "Numbers",
         "chapter": 10,
         "url": "/bible-ot/numbers/10"
+      }
+    ]
+  },
+  "judges-1-27-36": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "27-36"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
       }
     ]
   },
@@ -21276,6 +21401,23 @@
       }
     ]
   },
+  "numbers-26-55-56": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "26",
+      "verse": "55-56"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
   "numbers-26-57-62": {
     "target": {
       "book": "Numbers",
@@ -21912,6 +22054,23 @@
       }
     ]
   },
+  "numbers-32-33-42": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "32",
+      "verse": "33-42"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
   "numbers-32-6": {
     "target": {
       "book": "Numbers",
@@ -21994,6 +22153,40 @@
         "book": "Numbers",
         "chapter": 33,
         "url": "/bible-ot/numbers/33"
+      }
+    ]
+  },
+  "numbers-34-13-15": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "34",
+      "verse": "13-15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
+  "numbers-34-17": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "34",
+      "verse": "17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 34,
+        "url": "/bible-ot/numbers/34"
       }
     ]
   },
