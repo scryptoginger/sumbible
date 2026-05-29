@@ -164,6 +164,23 @@
       }
     ]
   },
+  "1-corinthians-15-20-23": {
+    "target": {
+      "book": "1 Corinthians",
+      "bookSlug": "1-corinthians",
+      "canon": "bible-nt",
+      "chapter": "15",
+      "verse": "20-23"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 23,
+        "url": "/bible-ot/leviticus/23"
+      }
+    ]
+  },
   "1-corinthians-15-4": {
     "target": {
       "book": "1 Corinthians",
@@ -235,6 +252,12 @@
         "book": "Exodus",
         "chapter": 12,
         "url": "/bible-ot/exodus/12"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 23,
+        "url": "/bible-ot/leviticus/23"
       }
     ]
   },
@@ -1116,6 +1139,23 @@
         "book": "Exodus",
         "chapter": 18,
         "url": "/bible-ot/exodus/18"
+      }
+    ]
+  },
+  "1-thessalonians-4-16": {
+    "target": {
+      "book": "1 Thessalonians",
+      "bookSlug": "1-thessalonians",
+      "canon": "bible-nt",
+      "chapter": "4",
+      "verse": "16"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 23,
+        "url": "/bible-ot/leviticus/23"
       }
     ]
   },
@@ -2143,6 +2183,12 @@
         "book": "Exodus",
         "chapter": 23,
         "url": "/bible-ot/exodus/23"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 23,
+        "url": "/bible-ot/leviticus/23"
       }
     ]
   },
@@ -2166,6 +2212,23 @@
         "book": "Genesis",
         "chapter": 50,
         "url": "/bible-ot/genesis/50"
+      }
+    ]
+  },
+  "acts-2-27": {
+    "target": {
+      "book": "Acts",
+      "bookSlug": "acts",
+      "canon": "bible-nt",
+      "chapter": "2",
+      "verse": "27"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 23,
+        "url": "/bible-ot/leviticus/23"
       }
     ]
   },
@@ -11989,6 +12052,12 @@
         "book": "Exodus",
         "chapter": 34,
         "url": "/bible-ot/exodus/34"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 23,
+        "url": "/bible-ot/leviticus/23"
       }
     ]
   },
@@ -12455,6 +12524,23 @@
         "book": "Exodus",
         "chapter": 23,
         "url": "/bible-ot/exodus/23"
+      }
+    ]
+  },
+  "john-7-37-39": {
+    "target": {
+      "book": "John",
+      "bookSlug": "john",
+      "canon": "bible-nt",
+      "chapter": "7",
+      "verse": "37-39"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 23,
+        "url": "/bible-ot/leviticus/23"
       }
     ]
   },
@@ -13534,6 +13620,23 @@
       }
     ]
   },
+  "leviticus-19-9-10": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "9-10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 23,
+        "url": "/bible-ot/leviticus/23"
+      }
+    ]
+  },
   "leviticus-2-13": {
     "target": {
       "book": "Leviticus",
@@ -13670,6 +13773,23 @@
       }
     ]
   },
+  "leviticus-23-23-25": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "23",
+      "verse": "23-25"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 23,
+        "url": "/bible-ot/leviticus/23"
+      }
+    ]
+  },
   "leviticus-23-33-43": {
     "target": {
       "book": "Leviticus",
@@ -13718,6 +13838,40 @@
         "book": "Leviticus",
         "chapter": 9,
         "url": "/bible-ot/leviticus/9"
+      }
+    ]
+  },
+  "leviticus-23-43": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "23",
+      "verse": "43"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 23,
+        "url": "/bible-ot/leviticus/23"
+      }
+    ]
+  },
+  "leviticus-23-5-8": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "23",
+      "verse": "5-8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 23,
+        "url": "/bible-ot/leviticus/23"
       }
     ]
   },
@@ -17611,6 +17765,12 @@
         "book": "Exodus",
         "chapter": 25,
         "url": "/bible-ot/exodus/25"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 23,
+        "url": "/bible-ot/leviticus/23"
       }
     ]
   },
@@ -18247,6 +18407,23 @@
         "book": "Exodus",
         "chapter": 18,
         "url": "/bible-ot/exodus/18"
+      }
+    ]
+  },
+  "zechariah-14-16-19": {
+    "target": {
+      "book": "Zechariah",
+      "bookSlug": "zechariah",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "16-19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 23,
+        "url": "/bible-ot/leviticus/23"
       }
     ]
   },
