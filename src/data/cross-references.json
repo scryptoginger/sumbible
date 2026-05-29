@@ -13280,6 +13280,23 @@
       }
     ]
   },
+  "luke-2-22-24": {
+    "target": {
+      "book": "Luke",
+      "bookSlug": "luke",
+      "canon": "bible-nt",
+      "chapter": "2",
+      "verse": "22-24"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 12,
+        "url": "/bible-ot/leviticus/12"
+      }
+    ]
+  },
   "luke-2-24": {
     "target": {
       "book": "Luke",
@@ -13294,6 +13311,12 @@
         "book": "Leviticus",
         "chapter": 1,
         "url": "/bible-ot/leviticus/1"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 12,
+        "url": "/bible-ot/leviticus/12"
       }
     ]
   },
