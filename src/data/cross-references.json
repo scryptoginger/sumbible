@@ -1169,6 +1169,23 @@
       }
     ]
   },
+  "amos-2-8": {
+    "target": {
+      "book": "Amos",
+      "bookSlug": "amos",
+      "canon": "bible-ot",
+      "chapter": "2",
+      "verse": "8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
+      }
+    ]
+  },
   "colossians-2-11": {
     "target": {
       "book": "Colossians",
@@ -1271,6 +1288,23 @@
       }
     ]
   },
+  "deuteronomy-10-18": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "10",
+      "verse": "18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
+      }
+    ]
+  },
   "deuteronomy-10-18-19": {
     "target": {
       "book": "Deuteronomy",
@@ -1285,6 +1319,23 @@
         "book": "Exodus",
         "chapter": 12,
         "url": "/bible-ot/exodus/12"
+      }
+    ]
+  },
+  "deuteronomy-10-19": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "10",
+      "verse": "19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
       }
     ]
   },
@@ -1413,6 +1464,23 @@
       }
     ]
   },
+  "deuteronomy-23-19-20": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "23",
+      "verse": "19-20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
+      }
+    ]
+  },
   "deuteronomy-23-7": {
     "target": {
       "book": "Deuteronomy",
@@ -1427,6 +1495,29 @@
         "book": "Genesis",
         "chapter": 36,
         "url": "/bible-ot/genesis/36"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
+      }
+    ]
+  },
+  "deuteronomy-24-10-13": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": "10-13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
       }
     ]
   },
@@ -1444,6 +1535,57 @@
         "book": "Genesis",
         "chapter": 31,
         "url": "/bible-ot/genesis/31"
+      }
+    ]
+  },
+  "deuteronomy-24-17-21": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": "17-21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
+      }
+    ]
+  },
+  "deuteronomy-24-18": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": "18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
+      }
+    ]
+  },
+  "deuteronomy-24-22": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": "22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
       }
     ]
   },
@@ -2271,6 +2413,23 @@
       }
     ]
   },
+  "exodus-13-2-15": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "13",
+      "verse": "2-15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
+      }
+    ]
+  },
   "exodus-13-21-22": {
     "target": {
       "book": "Exodus",
@@ -2586,6 +2745,23 @@
         "book": "Genesis",
         "chapter": 23,
         "url": "/bible-ot/genesis/23"
+      }
+    ]
+  },
+  "exodus-23-9": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "23",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
       }
     ]
   },
@@ -3206,6 +3382,23 @@
         "book": "1 Nephi",
         "chapter": 1,
         "url": "/book-of-mormon/1-nephi/1"
+      }
+    ]
+  },
+  "ezekiel-22-7": {
+    "target": {
+      "book": "Ezekiel",
+      "bookSlug": "ezekiel",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
       }
     ]
   },
@@ -7358,6 +7551,23 @@
       }
     ]
   },
+  "isaiah-1-17": {
+    "target": {
+      "book": "Isaiah",
+      "bookSlug": "isaiah",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
+      }
+    ]
+  },
   "isaiah-11-1--10": {
     "target": {
       "book": "Isaiah",
@@ -7627,6 +7837,23 @@
         "book": "Genesis",
         "chapter": 22,
         "url": "/bible-ot/genesis/22"
+      }
+    ]
+  },
+  "james-1-27": {
+    "target": {
+      "book": "James",
+      "bookSlug": "james",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "27"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
       }
     ]
   },
@@ -7916,6 +8143,23 @@
         "book": "Exodus",
         "chapter": 6,
         "url": "/bible-ot/exodus/6"
+      }
+    ]
+  },
+  "jeremiah-7-6": {
+    "target": {
+      "book": "Jeremiah",
+      "bookSlug": "jeremiah",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
       }
     ]
   },
@@ -8769,6 +9013,12 @@
         "book": "Exodus",
         "chapter": 12,
         "url": "/bible-ot/exodus/12"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
       }
     ]
   },
@@ -8973,6 +9223,23 @@
         "book": "Exodus",
         "chapter": 19,
         "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
+  "luke-19-8": {
+    "target": {
+      "book": "Luke",
+      "bookSlug": "luke",
+      "canon": "bible-nt",
+      "chapter": "19",
+      "verse": "8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
       }
     ]
   },
@@ -9194,6 +9461,23 @@
         "book": "Exodus",
         "chapter": 19,
         "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
+  "malachi-3-5": {
+    "target": {
+      "book": "Malachi",
+      "bookSlug": "malachi",
+      "canon": "bible-ot",
+      "chapter": "3",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
       }
     ]
   },
@@ -11231,6 +11515,23 @@
         "book": "Exodus",
         "chapter": 18,
         "url": "/bible-ot/exodus/18"
+      }
+    ]
+  },
+  "zechariah-7-10": {
+    "target": {
+      "book": "Zechariah",
+      "bookSlug": "zechariah",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 22,
+        "url": "/bible-ot/exodus/22"
       }
     ]
   }
