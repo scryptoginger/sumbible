@@ -545,6 +545,23 @@
       }
     ]
   },
+  "1-kings-18-29": {
+    "target": {
+      "book": "1 Kings",
+      "bookSlug": "1-kings",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "29"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 28,
+        "url": "/bible-ot/numbers/28"
+      }
+    ]
+  },
   "1-kings-18-38": {
     "target": {
       "book": "1 Kings",
@@ -3132,6 +3149,23 @@
         "book": "Exodus",
         "chapter": 29,
         "url": "/bible-ot/exodus/29"
+      }
+    ]
+  },
+  "daniel-9-21": {
+    "target": {
+      "book": "Daniel",
+      "bookSlug": "daniel",
+      "canon": "bible-ot",
+      "chapter": "9",
+      "verse": "21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 28,
+        "url": "/bible-ot/numbers/28"
       }
     ]
   },
@@ -7753,6 +7787,23 @@
         "book": "Leviticus",
         "chapter": 10,
         "url": "/bible-ot/leviticus/10"
+      }
+    ]
+  },
+  "ezra-9-5": {
+    "target": {
+      "book": "Ezra",
+      "bookSlug": "ezra",
+      "canon": "bible-ot",
+      "chapter": "9",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 28,
+        "url": "/bible-ot/numbers/28"
       }
     ]
   },
@@ -21185,6 +21236,40 @@
       }
     ]
   },
+  "numbers-28-16-17": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "16-17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 28,
+        "url": "/bible-ot/numbers/28"
+      }
+    ]
+  },
+  "numbers-28-2": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 28,
+        "url": "/bible-ot/numbers/28"
+      }
+    ]
+  },
   "numbers-28-29": {
     "target": {
       "book": "Numbers",
@@ -21676,6 +21761,23 @@
         "book": "Numbers",
         "chapter": 6,
         "url": "/bible-ot/numbers/6"
+      }
+    ]
+  },
+  "numbers-7-1-89": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "1-89"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 28,
+        "url": "/bible-ot/numbers/28"
       }
     ]
   },
@@ -22391,6 +22493,23 @@
         "book": "Numbers",
         "chapter": 11,
         "url": "/bible-ot/numbers/11"
+      }
+    ]
+  },
+  "psalm-81-3": {
+    "target": {
+      "book": "psalm",
+      "bookSlug": "psalm",
+      "canon": null,
+      "chapter": "81",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 28,
+        "url": "/bible-ot/numbers/28"
       }
     ]
   },
