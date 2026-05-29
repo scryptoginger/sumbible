@@ -703,6 +703,40 @@
       }
     ]
   },
+  "2-chronicles-13-11": {
+    "target": {
+      "book": "2 Chronicles",
+      "bookSlug": "2-chronicles",
+      "canon": "bible-ot",
+      "chapter": "13",
+      "verse": "11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 29,
+        "url": "/bible-ot/exodus/29"
+      }
+    ]
+  },
+  "2-chronicles-2-4": {
+    "target": {
+      "book": "2 Chronicles",
+      "bookSlug": "2-chronicles",
+      "canon": "bible-ot",
+      "chapter": "2",
+      "verse": "4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 29,
+        "url": "/bible-ot/exodus/29"
+      }
+    ]
+  },
   "2-chronicles-20-15-17": {
     "target": {
       "book": "2 Chronicles",
@@ -1577,6 +1611,23 @@
       }
     ]
   },
+  "daniel-12-11": {
+    "target": {
+      "book": "Daniel",
+      "bookSlug": "daniel",
+      "canon": "bible-ot",
+      "chapter": "12",
+      "verse": "11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 29,
+        "url": "/bible-ot/exodus/29"
+      }
+    ]
+  },
   "daniel-2-27-28": {
     "target": {
       "book": "Daniel",
@@ -1591,6 +1642,23 @@
         "book": "Genesis",
         "chapter": 40,
         "url": "/bible-ot/genesis/40"
+      }
+    ]
+  },
+  "daniel-8-11-13": {
+    "target": {
+      "book": "Daniel",
+      "bookSlug": "daniel",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "11-13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 29,
+        "url": "/bible-ot/exodus/29"
       }
     ]
   },
@@ -3383,6 +3451,23 @@
       }
     ]
   },
+  "exodus-25-8": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "25",
+      "verse": "8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 29,
+        "url": "/bible-ot/exodus/29"
+      }
+    ]
+  },
   "exodus-26-31": {
     "target": {
       "book": "Exodus",
@@ -4182,6 +4267,23 @@
         "book": "Exodus",
         "chapter": 28,
         "url": "/bible-ot/exodus/28"
+      }
+    ]
+  },
+  "ezra-3-3": {
+    "target": {
+      "book": "Ezra",
+      "bookSlug": "ezra",
+      "canon": "bible-ot",
+      "chapter": "3",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 29,
+        "url": "/bible-ot/exodus/29"
       }
     ]
   },
@@ -7720,6 +7822,23 @@
       }
     ]
   },
+  "hebrews-10-11": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "10",
+      "verse": "11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 29,
+        "url": "/bible-ot/exodus/29"
+      }
+    ]
+  },
   "hebrews-10-12": {
     "target": {
       "book": "Hebrews",
@@ -7774,6 +7893,23 @@
         "book": "Exodus",
         "chapter": 27,
         "url": "/bible-ot/exodus/27"
+      }
+    ]
+  },
+  "hebrews-10-5-10": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "10",
+      "verse": "5-10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 29,
+        "url": "/bible-ot/exodus/29"
       }
     ]
   },
@@ -8192,6 +8328,23 @@
       }
     ]
   },
+  "hebrews-7-23-28": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "7",
+      "verse": "23-28"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 29,
+        "url": "/bible-ot/exodus/29"
+      }
+    ]
+  },
   "hebrews-7-3": {
     "target": {
       "book": "Hebrews",
@@ -8263,6 +8416,23 @@
         "book": "Exodus",
         "chapter": 25,
         "url": "/bible-ot/exodus/25"
+      }
+    ]
+  },
+  "hebrews-9-13-14": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "9",
+      "verse": "13-14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 29,
+        "url": "/bible-ot/exodus/29"
       }
     ]
   },
@@ -10004,6 +10174,23 @@
       }
     ]
   },
+  "leviticus-1-7": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "1-7",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 29,
+        "url": "/bible-ot/exodus/29"
+      }
+    ]
+  },
   "leviticus-12-3": {
     "target": {
       "book": "Leviticus",
@@ -10018,6 +10205,40 @@
         "book": "Genesis",
         "chapter": 17,
         "url": "/bible-ot/genesis/17"
+      }
+    ]
+  },
+  "leviticus-14-14": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 29,
+        "url": "/bible-ot/exodus/29"
+      }
+    ]
+  },
+  "leviticus-14-14-18": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "14-18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 29,
+        "url": "/bible-ot/exodus/29"
       }
     ]
   },
@@ -10268,6 +10489,23 @@
         "book": "Exodus",
         "chapter": 27,
         "url": "/bible-ot/exodus/27"
+      }
+    ]
+  },
+  "leviticus-8": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 29,
+        "url": "/bible-ot/exodus/29"
       }
     ]
   },
