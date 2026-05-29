@@ -4117,6 +4117,23 @@
       }
     ]
   },
+  "exodus-22-1": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 5,
+        "url": "/bible-ot/leviticus/5"
+      }
+    ]
+  },
   "exodus-22-21": {
     "target": {
       "book": "Exodus",
@@ -10336,6 +10353,23 @@
       }
     ]
   },
+  "isaiah-53-10": {
+    "target": {
+      "book": "Isaiah",
+      "bookSlug": "isaiah",
+      "canon": "bible-ot",
+      "chapter": "53",
+      "verse": "10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 5,
+        "url": "/bible-ot/leviticus/5"
+      }
+    ]
+  },
   "isaiah-53-7": {
     "target": {
       "book": "Isaiah",
@@ -12336,6 +12370,23 @@
       }
     ]
   },
+  "leviticus-6-5": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 5,
+        "url": "/bible-ot/leviticus/5"
+      }
+    ]
+  },
   "leviticus-7-31-34": {
     "target": {
       "book": "Leviticus",
@@ -12577,6 +12628,12 @@
         "book": "Exodus",
         "chapter": 22,
         "url": "/bible-ot/exodus/22"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 5,
+        "url": "/bible-ot/leviticus/5"
       }
     ]
   },
