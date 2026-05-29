@@ -2420,6 +2420,23 @@
       }
     ]
   },
+  "acts-2-17-18": {
+    "target": {
+      "book": "Acts",
+      "bookSlug": "acts",
+      "canon": "bible-nt",
+      "chapter": "2",
+      "verse": "17-18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 11,
+        "url": "/bible-ot/numbers/11"
+      }
+    ]
+  },
   "acts-2-23": {
     "target": {
       "book": "Acts",
@@ -12762,6 +12779,23 @@
       }
     ]
   },
+  "joel-2-28-29": {
+    "target": {
+      "book": "Joel",
+      "bookSlug": "joel",
+      "canon": "bible-ot",
+      "chapter": "2",
+      "verse": "28-29"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 11,
+        "url": "/bible-ot/numbers/11"
+      }
+    ]
+  },
   "john-1-14": {
     "target": {
       "book": "John",
@@ -13164,6 +13198,23 @@
         "book": "3 Nephi",
         "chapter": 11,
         "url": "/book-of-mormon/3-nephi/11"
+      }
+    ]
+  },
+  "john-3-8": {
+    "target": {
+      "book": "John",
+      "bookSlug": "john",
+      "canon": "bible-nt",
+      "chapter": "3",
+      "verse": "8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 11,
+        "url": "/bible-ot/numbers/11"
       }
     ]
   },
@@ -17760,6 +17811,80 @@
         "book": "Numbers",
         "chapter": 10,
         "url": "/bible-ot/numbers/10"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 11,
+        "url": "/bible-ot/numbers/11"
+      }
+    ]
+  },
+  "numbers-11-11-15": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "11",
+      "verse": "11-15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 11,
+        "url": "/bible-ot/numbers/11"
+      }
+    ]
+  },
+  "numbers-11-17": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "11",
+      "verse": "17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 11,
+        "url": "/bible-ot/numbers/11"
+      }
+    ]
+  },
+  "numbers-11-33": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "11",
+      "verse": "33"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 11,
+        "url": "/bible-ot/numbers/11"
+      }
+    ]
+  },
+  "numbers-11-5": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "11",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 11,
+        "url": "/bible-ot/numbers/11"
       }
     ]
   },
@@ -18027,6 +18152,23 @@
         "book": "Numbers",
         "chapter": 2,
         "url": "/bible-ot/numbers/2"
+      }
+    ]
+  },
+  "numbers-20-13": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "20",
+      "verse": "13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 11,
+        "url": "/bible-ot/numbers/11"
       }
     ]
   },
@@ -19122,6 +19264,23 @@
         "book": "Numbers",
         "chapter": 9,
         "url": "/bible-ot/numbers/9"
+      }
+    ]
+  },
+  "psalm-78-29-31": {
+    "target": {
+      "book": "psalm",
+      "bookSlug": "psalm",
+      "canon": null,
+      "chapter": "78",
+      "verse": "29-31"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 11,
+        "url": "/bible-ot/numbers/11"
       }
     ]
   },
