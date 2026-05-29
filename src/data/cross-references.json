@@ -385,6 +385,40 @@
       }
     ]
   },
+  "1-kings-5": {
+    "target": {
+      "book": "1 Kings",
+      "bookSlug": "1-kings",
+      "canon": "bible-ot",
+      "chapter": "5",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 36,
+        "url": "/bible-ot/exodus/36"
+      }
+    ]
+  },
+  "1-kings-6": {
+    "target": {
+      "book": "1 Kings",
+      "bookSlug": "1-kings",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 36,
+        "url": "/bible-ot/exodus/36"
+      }
+    ]
+  },
   "1-kings-6-2": {
     "target": {
       "book": "1 Kings",
@@ -890,6 +924,23 @@
       }
     ]
   },
+  "2-chronicles-2": {
+    "target": {
+      "book": "2 Chronicles",
+      "bookSlug": "2-chronicles",
+      "canon": "bible-ot",
+      "chapter": "2",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 36,
+        "url": "/bible-ot/exodus/36"
+      }
+    ]
+  },
   "2-chronicles-2-4": {
     "target": {
       "book": "2 Chronicles",
@@ -972,6 +1023,23 @@
         "book": "Exodus",
         "chapter": 23,
         "url": "/bible-ot/exodus/23"
+      }
+    ]
+  },
+  "2-chronicles-4": {
+    "target": {
+      "book": "2 Chronicles",
+      "bookSlug": "2-chronicles",
+      "canon": "bible-ot",
+      "chapter": "4",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 36,
+        "url": "/bible-ot/exodus/36"
       }
     ]
   },
@@ -2788,6 +2856,29 @@
         "book": "Exodus",
         "chapter": 25,
         "url": "/bible-ot/exodus/25"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 36,
+        "url": "/bible-ot/exodus/36"
+      }
+    ]
+  },
+  "doctrine-and-covenants-124-22-44": {
+    "target": {
+      "book": "doctrine-and-covenants",
+      "bookSlug": "doctrine-and-covenants",
+      "canon": null,
+      "chapter": "124",
+      "verse": "22-44"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 36,
+        "url": "/bible-ot/exodus/36"
       }
     ]
   },
@@ -3968,6 +4059,23 @@
       }
     ]
   },
+  "exodus-26": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "26",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 36,
+        "url": "/bible-ot/exodus/36"
+      }
+    ]
+  },
   "exodus-26-31": {
     "target": {
       "book": "Exodus",
@@ -4292,6 +4400,23 @@
       }
     ]
   },
+  "exodus-32-2-4": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "32",
+      "verse": "2-4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 36,
+        "url": "/bible-ot/exodus/36"
+      }
+    ]
+  },
   "exodus-32-34": {
     "target": {
       "book": "Exodus",
@@ -4459,6 +4584,23 @@
         "book": "Exodus",
         "chapter": 35,
         "url": "/bible-ot/exodus/35"
+      }
+    ]
+  },
+  "exodus-39-42-43": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "39",
+      "verse": "42-43"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 36,
+        "url": "/bible-ot/exodus/36"
       }
     ]
   },
@@ -4980,6 +5122,23 @@
       }
     ]
   },
+  "ezra-3": {
+    "target": {
+      "book": "Ezra",
+      "bookSlug": "ezra",
+      "canon": "bible-ot",
+      "chapter": "3",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 36,
+        "url": "/bible-ot/exodus/36"
+      }
+    ]
+  },
   "ezra-3-3": {
     "target": {
       "book": "Ezra",
@@ -4994,6 +5153,23 @@
         "book": "Exodus",
         "chapter": 29,
         "url": "/bible-ot/exodus/29"
+      }
+    ]
+  },
+  "ezra-6": {
+    "target": {
+      "book": "Ezra",
+      "bookSlug": "ezra",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 36,
+        "url": "/bible-ot/exodus/36"
       }
     ]
   },
