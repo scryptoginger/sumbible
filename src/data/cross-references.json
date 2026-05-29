@@ -6105,6 +6105,40 @@
       }
     ]
   },
+  "deuteronomy-22-1-2": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "1-2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 22,
+        "url": "/bible-ot/deuteronomy/22"
+      }
+    ]
+  },
+  "deuteronomy-22-12": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 22,
+        "url": "/bible-ot/deuteronomy/22"
+      }
+    ]
+  },
   "deuteronomy-22-29": {
     "target": {
       "book": "Deuteronomy",
@@ -6136,6 +6170,23 @@
         "book": "Leviticus",
         "chapter": 22,
         "url": "/bible-ot/leviticus/22"
+      }
+    ]
+  },
+  "deuteronomy-22-8": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 22,
+        "url": "/bible-ot/deuteronomy/22"
       }
     ]
   },
@@ -7182,6 +7233,23 @@
         "book": "Deuteronomy",
         "chapter": 5,
         "url": "/bible-ot/deuteronomy/5"
+      }
+    ]
+  },
+  "deuteronomy-5-16": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "5",
+      "verse": "16"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 22,
+        "url": "/bible-ot/deuteronomy/22"
       }
     ]
   },
@@ -9526,6 +9594,12 @@
         "book": "Leviticus",
         "chapter": 20,
         "url": "/bible-ot/leviticus/20"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 22,
+        "url": "/bible-ot/deuteronomy/22"
       }
     ]
   },
@@ -9795,6 +9869,23 @@
         "book": "Deuteronomy",
         "chapter": 7,
         "url": "/bible-ot/deuteronomy/7"
+      }
+    ]
+  },
+  "exodus-23-4-5": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "23",
+      "verse": "4-5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 22,
+        "url": "/bible-ot/deuteronomy/22"
       }
     ]
   },
@@ -19483,6 +19574,23 @@
       }
     ]
   },
+  "john-8-1-11": {
+    "target": {
+      "book": "John",
+      "bookSlug": "john",
+      "canon": "bible-nt",
+      "chapter": "8",
+      "verse": "1-11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 22,
+        "url": "/bible-ot/deuteronomy/22"
+      }
+    ]
+  },
   "john-8-12": {
     "target": {
       "book": "John",
@@ -21078,6 +21186,29 @@
         "book": "Leviticus",
         "chapter": 19,
         "url": "/bible-ot/leviticus/19"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 22,
+        "url": "/bible-ot/deuteronomy/22"
+      }
+    ]
+  },
+  "leviticus-19-19": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 22,
+        "url": "/bible-ot/deuteronomy/22"
       }
     ]
   },
@@ -23855,6 +23986,12 @@
         "book": "Numbers",
         "chapter": 15,
         "url": "/bible-ot/numbers/15"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 22,
+        "url": "/bible-ot/deuteronomy/22"
       }
     ]
   },
@@ -24222,6 +24359,23 @@
       }
     ]
   },
+  "matthew-5-27-32": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "5",
+      "verse": "27-32"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 22,
+        "url": "/bible-ot/deuteronomy/22"
+      }
+    ]
+  },
   "matthew-5-33-37": {
     "target": {
       "book": "Matthew",
@@ -24418,6 +24572,12 @@
         "book": "Numbers",
         "chapter": 15,
         "url": "/bible-ot/numbers/15"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 22,
+        "url": "/bible-ot/deuteronomy/22"
       }
     ]
   },
@@ -25874,6 +26034,12 @@
         "book": "Numbers",
         "chapter": 15,
         "url": "/bible-ot/numbers/15"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 22,
+        "url": "/bible-ot/deuteronomy/22"
       }
     ]
   },
