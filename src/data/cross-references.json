@@ -402,6 +402,23 @@
       }
     ]
   },
+  "1-peter-2-24": {
+    "target": {
+      "book": "1 Peter",
+      "bookSlug": "1-peter",
+      "canon": "bible-nt",
+      "chapter": "2",
+      "verse": "24"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 28,
+        "url": "/bible-ot/exodus/28"
+      }
+    ]
+  },
   "1-peter-2-4-8": {
     "target": {
       "book": "1 Peter",
@@ -467,6 +484,23 @@
         "book": "Genesis",
         "chapter": 49,
         "url": "/bible-ot/genesis/49"
+      }
+    ]
+  },
+  "1-samuel-14-41": {
+    "target": {
+      "book": "1 Samuel",
+      "bookSlug": "1-samuel",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "41"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 28,
+        "url": "/bible-ot/exodus/28"
       }
     ]
   },
@@ -541,6 +575,23 @@
         "book": "Exodus",
         "chapter": 19,
         "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
+  "1-samuel-28-6": {
+    "target": {
+      "book": "1 Samuel",
+      "bookSlug": "1-samuel",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 28,
+        "url": "/bible-ot/exodus/28"
       }
     ]
   },
@@ -2326,6 +2377,23 @@
       }
     ]
   },
+  "doctrine-and-covenants-17-1": {
+    "target": {
+      "book": "doctrine-and-covenants",
+      "bookSlug": "doctrine-and-covenants",
+      "canon": null,
+      "chapter": "17",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 28,
+        "url": "/bible-ot/exodus/28"
+      }
+    ]
+  },
   "doctrine-and-covenants-42-18-29": {
     "target": {
       "book": "doctrine-and-covenants",
@@ -3332,6 +3400,23 @@
       }
     ]
   },
+  "exodus-29": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "29",
+      "verse": null
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 28,
+        "url": "/bible-ot/exodus/28"
+      }
+    ]
+  },
   "exodus-3-13-14": {
     "target": {
       "book": "Exodus",
@@ -4080,6 +4165,23 @@
         "book": "Genesis",
         "chapter": 2,
         "url": "/bible-ot/genesis/2"
+      }
+    ]
+  },
+  "ezra-2-63": {
+    "target": {
+      "book": "Ezra",
+      "bookSlug": "ezra",
+      "canon": "bible-ot",
+      "chapter": "2",
+      "verse": "63"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 28,
+        "url": "/bible-ot/exodus/28"
       }
     ]
   },
@@ -9543,6 +9645,23 @@
       }
     ]
   },
+  "joseph-smith-history-1-35": {
+    "target": {
+      "book": "Joseph Smith—History",
+      "bookSlug": "joseph-smith-history",
+      "canon": "pearl-of-great-price",
+      "chapter": "1",
+      "verse": "35"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 28,
+        "url": "/bible-ot/exodus/28"
+      }
+    ]
+  },
   "joshua-1-10": {
     "target": {
       "book": "Joshua",
@@ -11621,6 +11740,23 @@
       }
     ]
   },
+  "nehemiah-7-65": {
+    "target": {
+      "book": "Nehemiah",
+      "bookSlug": "nehemiah",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "65"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 28,
+        "url": "/bible-ot/exodus/28"
+      }
+    ]
+  },
   "numbers-1-7": {
     "target": {
       "book": "Numbers",
@@ -11811,6 +11947,23 @@
         "book": "Exodus",
         "chapter": 6,
         "url": "/bible-ot/exodus/6"
+      }
+    ]
+  },
+  "numbers-27-21": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 28,
+        "url": "/bible-ot/exodus/28"
       }
     ]
   },
@@ -13076,6 +13229,23 @@
         "book": "Exodus",
         "chapter": 18,
         "url": "/bible-ot/exodus/18"
+      }
+    ]
+  },
+  "zechariah-14-20-21": {
+    "target": {
+      "book": "Zechariah",
+      "bookSlug": "zechariah",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "20-21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 28,
+        "url": "/bible-ot/exodus/28"
       }
     ]
   },
