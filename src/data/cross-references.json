@@ -4419,6 +4419,23 @@
       }
     ]
   },
+  "exodus-20-12": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "20",
+      "verse": "12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 20,
+        "url": "/bible-ot/leviticus/20"
+      }
+    ]
+  },
   "exodus-20-2": {
     "target": {
       "book": "Exodus",
@@ -13294,6 +13311,57 @@
       }
     ]
   },
+  "leviticus-20-22": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "20",
+      "verse": "22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 20,
+        "url": "/bible-ot/leviticus/20"
+      }
+    ]
+  },
+  "leviticus-20-26": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "20",
+      "verse": "26"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 20,
+        "url": "/bible-ot/leviticus/20"
+      }
+    ]
+  },
+  "leviticus-20-6-8": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "20",
+      "verse": "6-8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 20,
+        "url": "/bible-ot/leviticus/20"
+      }
+    ]
+  },
   "leviticus-20-7": {
     "target": {
       "book": "Leviticus",
@@ -14591,6 +14659,23 @@
         "book": "Leviticus",
         "chapter": 11,
         "url": "/bible-ot/leviticus/11"
+      }
+    ]
+  },
+  "mark-7-9-13": {
+    "target": {
+      "book": "Mark",
+      "bookSlug": "mark",
+      "canon": "bible-nt",
+      "chapter": "7",
+      "verse": "9-13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 20,
+        "url": "/bible-ot/leviticus/20"
       }
     ]
   },
@@ -16260,6 +16345,40 @@
         "book": "Leviticus",
         "chapter": 1,
         "url": "/bible-ot/leviticus/1"
+      }
+    ]
+  },
+  "proverbs-20-20": {
+    "target": {
+      "book": "Proverbs",
+      "bookSlug": "proverbs",
+      "canon": "bible-ot",
+      "chapter": "20",
+      "verse": "20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 20,
+        "url": "/bible-ot/leviticus/20"
+      }
+    ]
+  },
+  "proverbs-30-17": {
+    "target": {
+      "book": "Proverbs",
+      "bookSlug": "proverbs",
+      "canon": "bible-ot",
+      "chapter": "30",
+      "verse": "17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 20,
+        "url": "/bible-ot/leviticus/20"
       }
     ]
   },
