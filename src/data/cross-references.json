@@ -470,6 +470,23 @@
       }
     ]
   },
+  "1-kings-7-13-14": {
+    "target": {
+      "book": "1 Kings",
+      "bookSlug": "1-kings",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "13-14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 37,
+        "url": "/bible-ot/exodus/37"
+      }
+    ]
+  },
   "1-kings-8-10": {
     "target": {
       "book": "1 Kings",
@@ -938,6 +955,23 @@
         "book": "Exodus",
         "chapter": 36,
         "url": "/bible-ot/exodus/36"
+      }
+    ]
+  },
+  "2-chronicles-2-13-14": {
+    "target": {
+      "book": "2 Chronicles",
+      "bookSlug": "2-chronicles",
+      "canon": "bible-ot",
+      "chapter": "2",
+      "verse": "13-14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 37,
+        "url": "/bible-ot/exodus/37"
       }
     ]
   },
@@ -3968,6 +4002,23 @@
       }
     ]
   },
+  "exodus-25-10-22": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "25",
+      "verse": "10-22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 37,
+        "url": "/bible-ot/exodus/37"
+      }
+    ]
+  },
   "exodus-25-18-22": {
     "target": {
       "book": "Exodus",
@@ -4016,6 +4067,23 @@
         "book": "Exodus",
         "chapter": 35,
         "url": "/bible-ot/exodus/35"
+      }
+    ]
+  },
+  "exodus-25-30": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "25",
+      "verse": "30"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 37,
+        "url": "/bible-ot/exodus/37"
       }
     ]
   },
@@ -4349,6 +4417,23 @@
       }
     ]
   },
+  "exodus-30-22-38": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "30",
+      "verse": "22-38"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 37,
+        "url": "/bible-ot/exodus/37"
+      }
+    ]
+  },
   "exodus-31-1-6": {
     "target": {
       "book": "Exodus",
@@ -4380,6 +4465,23 @@
         "book": "Exodus",
         "chapter": 8,
         "url": "/bible-ot/exodus/8"
+      }
+    ]
+  },
+  "exodus-31-2": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "31",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 37,
+        "url": "/bible-ot/exodus/37"
       }
     ]
   },
@@ -11569,6 +11671,12 @@
         "book": "Exodus",
         "chapter": 25,
         "url": "/bible-ot/exodus/25"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 37,
+        "url": "/bible-ot/exodus/37"
       }
     ]
   },
