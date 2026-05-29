@@ -698,6 +698,23 @@
       }
     ]
   },
+  "1-nephi-17-32-38": {
+    "target": {
+      "book": "1 Nephi",
+      "bookSlug": "1-nephi",
+      "canon": "book-of-mormon",
+      "chapter": "17",
+      "verse": "32-38"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
+      }
+    ]
+  },
   "1-nephi-17-35": {
     "target": {
       "book": "1 Nephi",
@@ -1383,6 +1400,12 @@
         "book": "Exodus",
         "chapter": 23,
         "url": "/bible-ot/exodus/23"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
       }
     ]
   },
@@ -1417,6 +1440,23 @@
         "book": "Leviticus",
         "chapter": 9,
         "url": "/bible-ot/leviticus/9"
+      }
+    ]
+  },
+  "2-corinthians-1-20": {
+    "target": {
+      "book": "2 Corinthians",
+      "bookSlug": "2-corinthians",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
       }
     ]
   },
@@ -1468,6 +1508,23 @@
         "book": "Genesis",
         "chapter": 8,
         "url": "/bible-ot/genesis/8"
+      }
+    ]
+  },
+  "2-corinthians-6-16": {
+    "target": {
+      "book": "2 Corinthians",
+      "bookSlug": "2-corinthians",
+      "canon": "bible-nt",
+      "chapter": "6",
+      "verse": "16"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
       }
     ]
   },
@@ -1576,6 +1633,23 @@
         "book": "Genesis",
         "chapter": 36,
         "url": "/bible-ot/genesis/36"
+      }
+    ]
+  },
+  "2-nephi-1-20": {
+    "target": {
+      "book": "2 Nephi",
+      "bookSlug": "2-nephi",
+      "canon": "book-of-mormon",
+      "chapter": "1",
+      "verse": "20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
       }
     ]
   },
@@ -2575,6 +2649,23 @@
         "book": "Exodus",
         "chapter": 29,
         "url": "/bible-ot/exodus/29"
+      }
+    ]
+  },
+  "daniel-9-3-19": {
+    "target": {
+      "book": "Daniel",
+      "bookSlug": "daniel",
+      "canon": "bible-ot",
+      "chapter": "9",
+      "verse": "3-19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
       }
     ]
   },
@@ -5997,6 +6088,23 @@
       }
     ]
   },
+  "exodus-6-7": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
+      }
+    ]
+  },
   "exodus-7": {
     "target": {
       "book": "Exodus",
@@ -6347,6 +6455,29 @@
         "book": "Exodus",
         "chapter": 6,
         "url": "/bible-ot/exodus/6"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
+      }
+    ]
+  },
+  "ezekiel-37-1-14": {
+    "target": {
+      "book": "Ezekiel",
+      "bookSlug": "ezekiel",
+      "canon": "bible-ot",
+      "chapter": "37",
+      "verse": "1-14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
       }
     ]
   },
@@ -11845,6 +11976,40 @@
       }
     ]
   },
+  "jeremiah-25-11-12": {
+    "target": {
+      "book": "Jeremiah",
+      "bookSlug": "jeremiah",
+      "canon": "bible-ot",
+      "chapter": "25",
+      "verse": "11-12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
+      }
+    ]
+  },
+  "jeremiah-29-10": {
+    "target": {
+      "book": "Jeremiah",
+      "bookSlug": "jeremiah",
+      "canon": "bible-ot",
+      "chapter": "29",
+      "verse": "10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
+      }
+    ]
+  },
   "jeremiah-31-15": {
     "target": {
       "book": "Jeremiah",
@@ -11882,6 +12047,12 @@
         "book": "Exodus",
         "chapter": 24,
         "url": "/bible-ot/exodus/24"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
       }
     ]
   },
@@ -11899,6 +12070,12 @@
         "book": "Exodus",
         "chapter": 6,
         "url": "/bible-ot/exodus/6"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
       }
     ]
   },
@@ -14120,6 +14297,23 @@
       }
     ]
   },
+  "leviticus-26-11-12": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "26",
+      "verse": "11-12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
+      }
+    ]
+  },
   "leviticus-26-12": {
     "target": {
       "book": "Leviticus",
@@ -14134,6 +14328,23 @@
         "book": "Exodus",
         "chapter": 6,
         "url": "/bible-ot/exodus/6"
+      }
+    ]
+  },
+  "leviticus-26-42-45": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "26",
+      "verse": "42-45"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
       }
     ]
   },
@@ -16487,6 +16698,23 @@
       }
     ]
   },
+  "mosiah-1-7": {
+    "target": {
+      "book": "Mosiah",
+      "bookSlug": "mosiah",
+      "canon": "book-of-mormon",
+      "chapter": "1",
+      "verse": "7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
+      }
+    ]
+  },
   "mosiah-12-33-37": {
     "target": {
       "book": "Mosiah",
@@ -18044,6 +18272,12 @@
         "book": "Leviticus",
         "chapter": 23,
         "url": "/bible-ot/leviticus/23"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
       }
     ]
   },
@@ -18282,6 +18516,23 @@
         "book": "Genesis",
         "chapter": 48,
         "url": "/bible-ot/genesis/48"
+      }
+    ]
+  },
+  "romans-11-29": {
+    "target": {
+      "book": "Romans",
+      "bookSlug": "romans",
+      "canon": "bible-nt",
+      "chapter": "11",
+      "verse": "29"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 26,
+        "url": "/bible-ot/leviticus/26"
       }
     ]
   },
