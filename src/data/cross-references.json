@@ -4238,6 +4238,23 @@
       }
     ]
   },
+  "ecclesiastes-7-23": {
+    "target": {
+      "book": "Ecclesiastes",
+      "bookSlug": "ecclesiastes",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "23"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 19,
+        "url": "/bible-ot/numbers/19"
+      }
+    ]
+  },
   "ephesians-1-11": {
     "target": {
       "book": "Ephesians",
@@ -12035,6 +12052,12 @@
         "book": "Exodus",
         "chapter": 29,
         "url": "/bible-ot/exodus/29"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 19,
+        "url": "/bible-ot/numbers/19"
       }
     ]
   },
@@ -19347,6 +19370,23 @@
       }
     ]
   },
+  "numbers-19-3": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 19,
+        "url": "/bible-ot/numbers/19"
+      }
+    ]
+  },
   "numbers-19-6": {
     "target": {
       "book": "Numbers",
@@ -19480,6 +19520,12 @@
         "book": "Numbers",
         "chapter": 3,
         "url": "/bible-ot/numbers/3"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 19,
+        "url": "/bible-ot/numbers/19"
       }
     ]
   },
