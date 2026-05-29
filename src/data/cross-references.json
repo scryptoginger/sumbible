@@ -3194,6 +3194,23 @@
       }
     ]
   },
+  "acts-6-1-7": {
+    "target": {
+      "book": "Acts",
+      "bookSlug": "acts",
+      "canon": "bible-nt",
+      "chapter": "6",
+      "verse": "1-7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 14,
+        "url": "/bible-ot/deuteronomy/14"
+      }
+    ]
+  },
   "acts-7-14": {
     "target": {
       "book": "Acts",
@@ -4538,6 +4555,46 @@
         "book": "Leviticus",
         "chapter": 22,
         "url": "/bible-ot/leviticus/22"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 14,
+        "url": "/bible-ot/deuteronomy/14"
+      }
+    ]
+  },
+  "deuteronomy-14-22-23": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "22-23"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 14,
+        "url": "/bible-ot/deuteronomy/14"
+      }
+    ]
+  },
+  "deuteronomy-14-24-26": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "24-26"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 14,
+        "url": "/bible-ot/deuteronomy/14"
       }
     ]
   },
@@ -5140,6 +5197,23 @@
         "book": "Genesis",
         "chapter": 38,
         "url": "/bible-ot/genesis/38"
+      }
+    ]
+  },
+  "deuteronomy-26-12-15": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "26",
+      "verse": "12-15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 14,
+        "url": "/bible-ot/deuteronomy/14"
       }
     ]
   },
@@ -8383,6 +8457,12 @@
         "book": "Leviticus",
         "chapter": 22,
         "url": "/bible-ot/leviticus/22"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 14,
+        "url": "/bible-ot/deuteronomy/14"
       }
     ]
   },
@@ -9426,6 +9506,12 @@
         "book": "Leviticus",
         "chapter": 22,
         "url": "/bible-ot/leviticus/22"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 14,
+        "url": "/bible-ot/deuteronomy/14"
       }
     ]
   },
@@ -16469,6 +16555,12 @@
         "book": "Exodus",
         "chapter": 22,
         "url": "/bible-ot/exodus/22"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 14,
+        "url": "/bible-ot/deuteronomy/14"
       }
     ]
   },
@@ -18737,6 +18829,23 @@
         "book": "Leviticus",
         "chapter": 10,
         "url": "/bible-ot/leviticus/10"
+      }
+    ]
+  },
+  "leviticus-11-1-47": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "11",
+      "verse": "1-47"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 14,
+        "url": "/bible-ot/deuteronomy/14"
       }
     ]
   },
@@ -21059,6 +21168,23 @@
         "book": "Exodus",
         "chapter": 22,
         "url": "/bible-ot/exodus/22"
+      }
+    ]
+  },
+  "malachi-3-8-10": {
+    "target": {
+      "book": "Malachi",
+      "bookSlug": "malachi",
+      "canon": "bible-ot",
+      "chapter": "3",
+      "verse": "8-10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 14,
+        "url": "/bible-ot/deuteronomy/14"
       }
     ]
   },
@@ -24182,6 +24308,23 @@
         "book": "Genesis",
         "chapter": 49,
         "url": "/bible-ot/genesis/49"
+      }
+    ]
+  },
+  "numbers-18-21-32": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "21-32"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 14,
+        "url": "/bible-ot/deuteronomy/14"
       }
     ]
   },
