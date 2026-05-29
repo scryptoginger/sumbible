@@ -178,6 +178,12 @@
         "book": "Exodus",
         "chapter": 12,
         "url": "/bible-ot/exodus/12"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 2,
+        "url": "/bible-ot/leviticus/2"
       }
     ]
   },
@@ -984,6 +990,23 @@
         "book": "Exodus",
         "chapter": 29,
         "url": "/bible-ot/exodus/29"
+      }
+    ]
+  },
+  "2-chronicles-13-5": {
+    "target": {
+      "book": "2 Chronicles",
+      "bookSlug": "2-chronicles",
+      "canon": "bible-ot",
+      "chapter": "13",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 2,
+        "url": "/bible-ot/leviticus/2"
       }
     ]
   },
@@ -3499,6 +3522,23 @@
         "book": "Exodus",
         "chapter": 8,
         "url": "/bible-ot/exodus/8"
+      }
+    ]
+  },
+  "exodus-12-15-20": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "12",
+      "verse": "15-20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 2,
+        "url": "/bible-ot/leviticus/2"
       }
     ]
   },
@@ -8386,6 +8426,23 @@
       }
     ]
   },
+  "genesis-4-3-5": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "4",
+      "verse": "3-5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 2,
+        "url": "/bible-ot/leviticus/2"
+      }
+    ]
+  },
   "genesis-4-4-5": {
     "target": {
       "book": "Genesis",
@@ -9486,6 +9543,12 @@
         "book": "Genesis",
         "chapter": 4,
         "url": "/bible-ot/genesis/4"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 2,
+        "url": "/bible-ot/leviticus/2"
       }
     ]
   },
@@ -11989,6 +12052,23 @@
       }
     ]
   },
+  "leviticus-2-13": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "2",
+      "verse": "13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 2,
+        "url": "/bible-ot/leviticus/2"
+      }
+    ]
+  },
   "leviticus-23": {
     "target": {
       "book": "Leviticus",
@@ -12840,6 +12920,23 @@
       }
     ]
   },
+  "mark-9-49": {
+    "target": {
+      "book": "Mark",
+      "bookSlug": "mark",
+      "canon": "bible-nt",
+      "chapter": "9",
+      "verse": "49"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 2,
+        "url": "/bible-ot/leviticus/2"
+      }
+    ]
+  },
   "mark-9-7": {
     "target": {
       "book": "Mark",
@@ -13025,6 +13122,23 @@
         "book": "Exodus",
         "chapter": 19,
         "url": "/bible-ot/exodus/19"
+      }
+    ]
+  },
+  "matthew-16-6": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "16",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 2,
+        "url": "/bible-ot/leviticus/2"
       }
     ]
   },
@@ -13337,6 +13451,23 @@
         "book": "Exodus",
         "chapter": 24,
         "url": "/bible-ot/exodus/24"
+      }
+    ]
+  },
+  "matthew-5-13": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "5",
+      "verse": "13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 2,
+        "url": "/bible-ot/leviticus/2"
       }
     ]
   },
@@ -13887,6 +14018,23 @@
         "book": "Exodus",
         "chapter": 13,
         "url": "/bible-ot/exodus/13"
+      }
+    ]
+  },
+  "numbers-18-19": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 2,
+        "url": "/bible-ot/leviticus/2"
       }
     ]
   },
