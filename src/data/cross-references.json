@@ -949,6 +949,23 @@
       }
     ]
   },
+  "1-samuel-15-1-23": {
+    "target": {
+      "book": "1 Samuel",
+      "bookSlug": "1-samuel",
+      "canon": "bible-ot",
+      "chapter": "15",
+      "verse": "1-23"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 27,
+        "url": "/bible-ot/leviticus/27"
+      }
+    ]
+  },
   "1-samuel-16-13": {
     "target": {
       "book": "1 Samuel",
@@ -3484,6 +3501,23 @@
         "book": "Exodus",
         "chapter": 10,
         "url": "/bible-ot/exodus/10"
+      }
+    ]
+  },
+  "deuteronomy-7-1-2": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "1-2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 27,
+        "url": "/bible-ot/leviticus/27"
       }
     ]
   },
@@ -13137,6 +13171,23 @@
       }
     ]
   },
+  "joshua-6-17-21": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "17-21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 27,
+        "url": "/bible-ot/leviticus/27"
+      }
+    ]
+  },
   "jude-1-14-15": {
     "target": {
       "book": "Jude",
@@ -13310,6 +13361,23 @@
         "book": "Leviticus",
         "chapter": 9,
         "url": "/bible-ot/leviticus/9"
+      }
+    ]
+  },
+  "leviticus-1-1": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 27,
+        "url": "/bible-ot/leviticus/27"
       }
     ]
   },
@@ -14362,6 +14430,57 @@
         "book": "Exodus",
         "chapter": 13,
         "url": "/bible-ot/exodus/13"
+      }
+    ]
+  },
+  "leviticus-27-30": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "30"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 27,
+        "url": "/bible-ot/leviticus/27"
+      }
+    ]
+  },
+  "leviticus-27-34": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "34"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 27,
+        "url": "/bible-ot/leviticus/27"
+      }
+    ]
+  },
+  "leviticus-27-8": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 27,
+        "url": "/bible-ot/leviticus/27"
       }
     ]
   },
