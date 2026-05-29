@@ -1617,6 +1617,23 @@
       }
     ]
   },
+  "2-timothy-2-2": {
+    "target": {
+      "book": "2 Timothy",
+      "bookSlug": "2-timothy",
+      "canon": "bible-nt",
+      "chapter": "2",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 10,
+        "url": "/bible-ot/leviticus/10"
+      }
+    ]
+  },
   "2-timothy-3-8": {
     "target": {
       "book": "2 Timothy",
@@ -5855,6 +5872,23 @@
         "book": "Exodus",
         "chapter": 36,
         "url": "/bible-ot/exodus/36"
+      }
+    ]
+  },
+  "ezra-7-10": {
+    "target": {
+      "book": "Ezra",
+      "bookSlug": "ezra",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 10,
+        "url": "/bible-ot/leviticus/10"
       }
     ]
   },
@@ -12218,6 +12252,40 @@
       }
     ]
   },
+  "leviticus-10-3": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "10",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 10,
+        "url": "/bible-ot/leviticus/10"
+      }
+    ]
+  },
+  "leviticus-10-9": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "10",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 10,
+        "url": "/bible-ot/leviticus/10"
+      }
+    ]
+  },
   "leviticus-12-3": {
     "target": {
       "book": "Leviticus",
@@ -13385,6 +13453,23 @@
         "book": "Exodus",
         "chapter": 13,
         "url": "/bible-ot/exodus/13"
+      }
+    ]
+  },
+  "malachi-2-7": {
+    "target": {
+      "book": "Malachi",
+      "bookSlug": "malachi",
+      "canon": "bible-ot",
+      "chapter": "2",
+      "verse": "7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 10,
+        "url": "/bible-ot/leviticus/10"
       }
     ]
   },
