@@ -1014,6 +1014,12 @@
         "book": "Exodus",
         "chapter": 25,
         "url": "/bible-ot/exodus/25"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 24,
+        "url": "/bible-ot/leviticus/24"
       }
     ]
   },
@@ -2368,6 +2374,23 @@
       }
     ]
   },
+  "acts-7-54-60": {
+    "target": {
+      "book": "Acts",
+      "bookSlug": "acts",
+      "canon": "bible-nt",
+      "chapter": "7",
+      "verse": "54-60"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 24,
+        "url": "/bible-ot/leviticus/24"
+      }
+    ]
+  },
   "acts-7-55-56": {
     "target": {
       "book": "Acts",
@@ -2882,6 +2905,23 @@
         "book": "Exodus",
         "chapter": 27,
         "url": "/bible-ot/exodus/27"
+      }
+    ]
+  },
+  "deuteronomy-19-21": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 24,
+        "url": "/bible-ot/leviticus/24"
       }
     ]
   },
@@ -4684,6 +4724,23 @@
         "book": "Exodus",
         "chapter": 31,
         "url": "/bible-ot/exodus/31"
+      }
+    ]
+  },
+  "exodus-21-23-25": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "23-25"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 24,
+        "url": "/bible-ot/leviticus/24"
       }
     ]
   },
@@ -12317,6 +12374,23 @@
       }
     ]
   },
+  "john-18-31": {
+    "target": {
+      "book": "John",
+      "bookSlug": "john",
+      "canon": "bible-nt",
+      "chapter": "18",
+      "verse": "31"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 24,
+        "url": "/bible-ot/leviticus/24"
+      }
+    ]
+  },
   "john-19-29": {
     "target": {
       "book": "John",
@@ -13722,6 +13796,23 @@
       }
     ]
   },
+  "leviticus-21-10": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 24,
+        "url": "/bible-ot/leviticus/24"
+      }
+    ]
+  },
   "leviticus-21-5": {
     "target": {
       "book": "Leviticus",
@@ -13889,6 +13980,23 @@
         "book": "Exodus",
         "chapter": 27,
         "url": "/bible-ot/exodus/27"
+      }
+    ]
+  },
+  "leviticus-24-16": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "24",
+      "verse": "16"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 24,
+        "url": "/bible-ot/leviticus/24"
       }
     ]
   },
@@ -15323,6 +15431,23 @@
       }
     ]
   },
+  "matthew-12-1-8": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "12",
+      "verse": "1-8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 24,
+        "url": "/bible-ot/leviticus/24"
+      }
+    ]
+  },
   "matthew-12-28": {
     "target": {
       "book": "Matthew",
@@ -15658,6 +15783,40 @@
       }
     ]
   },
+  "matthew-26-63-66": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "26",
+      "verse": "63-66"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 24,
+        "url": "/bible-ot/leviticus/24"
+      }
+    ]
+  },
+  "matthew-26-65-66": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "26",
+      "verse": "65-66"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 24,
+        "url": "/bible-ot/leviticus/24"
+      }
+    ]
+  },
   "matthew-27-50-51": {
     "target": {
       "book": "Matthew",
@@ -15791,6 +15950,23 @@
         "book": "Leviticus",
         "chapter": 2,
         "url": "/bible-ot/leviticus/2"
+      }
+    ]
+  },
+  "matthew-5-38-39": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "5",
+      "verse": "38-39"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 24,
+        "url": "/bible-ot/leviticus/24"
       }
     ]
   },
