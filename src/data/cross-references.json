@@ -4464,6 +4464,23 @@
       }
     ]
   },
+  "exodus-27-20-21": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "20-21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 6,
+        "url": "/bible-ot/leviticus/6"
+      }
+    ]
+  },
   "exodus-27-9-19": {
     "target": {
       "book": "Exodus",
@@ -4564,6 +4581,12 @@
         "book": "Exodus",
         "chapter": 38,
         "url": "/bible-ot/exodus/38"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 6,
+        "url": "/bible-ot/leviticus/6"
       }
     ]
   },
@@ -9378,6 +9401,12 @@
         "book": "Exodus",
         "chapter": 29,
         "url": "/bible-ot/exodus/29"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 6,
+        "url": "/bible-ot/leviticus/6"
       }
     ]
   },
@@ -12350,6 +12379,23 @@
         "book": "Exodus",
         "chapter": 27,
         "url": "/bible-ot/exodus/27"
+      }
+    ]
+  },
+  "leviticus-6-2": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 6,
+        "url": "/bible-ot/leviticus/6"
       }
     ]
   },
