@@ -765,6 +765,23 @@
       }
     ]
   },
+  "1-samuel-2-22": {
+    "target": {
+      "book": "1 Samuel",
+      "bookSlug": "1-samuel",
+      "canon": "bible-ot",
+      "chapter": "2",
+      "verse": "22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 38,
+        "url": "/bible-ot/exodus/38"
+      }
+    ]
+  },
   "1-samuel-21-1-6": {
     "target": {
       "book": "1 Samuel",
@@ -904,6 +921,23 @@
         "book": "Exodus",
         "chapter": 18,
         "url": "/bible-ot/exodus/18"
+      }
+    ]
+  },
+  "1-timothy-2-6": {
+    "target": {
+      "book": "1 Timothy",
+      "bookSlug": "1-timothy",
+      "canon": "bible-nt",
+      "chapter": "2",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 38,
+        "url": "/bible-ot/exodus/38"
       }
     ]
   },
@@ -4144,6 +4178,23 @@
       }
     ]
   },
+  "exodus-26-19-25": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "26",
+      "verse": "19-25"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 38,
+        "url": "/bible-ot/exodus/38"
+      }
+    ]
+  },
   "exodus-26-31": {
     "target": {
       "book": "Exodus",
@@ -4161,6 +4212,23 @@
       }
     ]
   },
+  "exodus-26-32": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "26",
+      "verse": "32"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 38,
+        "url": "/bible-ot/exodus/38"
+      }
+    ]
+  },
   "exodus-27-1-8": {
     "target": {
       "book": "Exodus",
@@ -4175,6 +4243,29 @@
         "book": "Exodus",
         "chapter": 30,
         "url": "/bible-ot/exodus/30"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 38,
+        "url": "/bible-ot/exodus/38"
+      }
+    ]
+  },
+  "exodus-27-9-19": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "9-19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 38,
+        "url": "/bible-ot/exodus/38"
       }
     ]
   },
@@ -4232,6 +4323,12 @@
         "book": "Exodus",
         "chapter": 30,
         "url": "/bible-ot/exodus/30"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 38,
+        "url": "/bible-ot/exodus/38"
       }
     ]
   },
@@ -4397,6 +4494,23 @@
         "book": "Genesis",
         "chapter": 46,
         "url": "/bible-ot/genesis/46"
+      }
+    ]
+  },
+  "exodus-30-11-16": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "30",
+      "verse": "11-16"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Exodus",
+        "chapter": 38,
+        "url": "/bible-ot/exodus/38"
       }
     ]
   },
