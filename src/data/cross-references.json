@@ -1225,6 +1225,12 @@
         "book": "Exodus",
         "chapter": 28,
         "url": "/bible-ot/exodus/28"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 21,
+        "url": "/bible-ot/deuteronomy/21"
       }
     ]
   },
@@ -3262,6 +3268,40 @@
       }
     ]
   },
+  "acts-10-39": {
+    "target": {
+      "book": "Acts",
+      "bookSlug": "acts",
+      "canon": "bible-nt",
+      "chapter": "10",
+      "verse": "39"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 21,
+        "url": "/bible-ot/deuteronomy/21"
+      }
+    ]
+  },
+  "acts-13-29": {
+    "target": {
+      "book": "Acts",
+      "bookSlug": "acts",
+      "canon": "bible-nt",
+      "chapter": "13",
+      "verse": "29"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 21,
+        "url": "/bible-ot/deuteronomy/21"
+      }
+    ]
+  },
   "acts-15": {
     "target": {
       "book": "Acts",
@@ -3579,6 +3619,23 @@
         "book": "Deuteronomy",
         "chapter": 15,
         "url": "/bible-ot/deuteronomy/15"
+      }
+    ]
+  },
+  "acts-5-30": {
+    "target": {
+      "book": "Acts",
+      "bookSlug": "acts",
+      "canon": "bible-nt",
+      "chapter": "5",
+      "verse": "30"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 21,
+        "url": "/bible-ot/deuteronomy/21"
       }
     ]
   },
@@ -5642,6 +5699,12 @@
         "book": "Deuteronomy",
         "chapter": 19,
         "url": "/bible-ot/deuteronomy/19"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 21,
+        "url": "/bible-ot/deuteronomy/21"
       }
     ]
   },
@@ -5954,6 +6017,91 @@
         "book": "Deuteronomy",
         "chapter": 20,
         "url": "/bible-ot/deuteronomy/20"
+      }
+    ]
+  },
+  "deuteronomy-21-1-2": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "1-2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 21,
+        "url": "/bible-ot/deuteronomy/21"
+      }
+    ]
+  },
+  "deuteronomy-21-11-13": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "11-13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 21,
+        "url": "/bible-ot/deuteronomy/21"
+      }
+    ]
+  },
+  "deuteronomy-21-14": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 21,
+        "url": "/bible-ot/deuteronomy/21"
+      }
+    ]
+  },
+  "deuteronomy-21-17": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 21,
+        "url": "/bible-ot/deuteronomy/21"
+      }
+    ]
+  },
+  "deuteronomy-21-3-9": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "3-9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 21,
+        "url": "/bible-ot/deuteronomy/21"
       }
     ]
   },
@@ -11840,6 +11988,12 @@
         "book": "Exodus",
         "chapter": 32,
         "url": "/bible-ot/exodus/32"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 21,
+        "url": "/bible-ot/deuteronomy/21"
       }
     ]
   },
@@ -17572,6 +17726,40 @@
       }
     ]
   },
+  "isaiah-53-5": {
+    "target": {
+      "book": "Isaiah",
+      "bookSlug": "isaiah",
+      "canon": "bible-ot",
+      "chapter": "53",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 21,
+        "url": "/bible-ot/deuteronomy/21"
+      }
+    ]
+  },
+  "isaiah-53-5-6": {
+    "target": {
+      "book": "Isaiah",
+      "bookSlug": "isaiah",
+      "canon": "bible-ot",
+      "chapter": "53",
+      "verse": "5-6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 21,
+        "url": "/bible-ot/deuteronomy/21"
+      }
+    ]
+  },
   "isaiah-53-7": {
     "target": {
       "book": "Isaiah",
@@ -18951,6 +19139,23 @@
         "book": "Leviticus",
         "chapter": 14,
         "url": "/bible-ot/leviticus/14"
+      }
+    ]
+  },
+  "john-19-31-42": {
+    "target": {
+      "book": "John",
+      "bookSlug": "john",
+      "canon": "bible-nt",
+      "chapter": "19",
+      "verse": "31-42"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 21,
+        "url": "/bible-ot/deuteronomy/21"
       }
     ]
   },
