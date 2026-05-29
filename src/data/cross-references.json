@@ -286,6 +286,12 @@
         "book": "Leviticus",
         "chapter": 4,
         "url": "/bible-ot/leviticus/4"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 17,
+        "url": "/bible-ot/leviticus/17"
       }
     ]
   },
@@ -666,6 +672,12 @@
         "book": "Leviticus",
         "chapter": 11,
         "url": "/bible-ot/leviticus/11"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 17,
+        "url": "/bible-ot/leviticus/17"
       }
     ]
   },
@@ -1952,6 +1964,23 @@
       }
     ]
   },
+  "acts-15-20-29": {
+    "target": {
+      "book": "Acts",
+      "bookSlug": "acts",
+      "canon": "bible-nt",
+      "chapter": "15",
+      "verse": "20-29"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 17,
+        "url": "/bible-ot/leviticus/17"
+      }
+    ]
+  },
   "acts-2-1-4": {
     "target": {
       "book": "Acts",
@@ -2454,6 +2483,23 @@
         "book": "Exodus",
         "chapter": 1,
         "url": "/bible-ot/exodus/1"
+      }
+    ]
+  },
+  "deuteronomy-12-15-25": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "12",
+      "verse": "15-25"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 17,
+        "url": "/bible-ot/leviticus/17"
       }
     ]
   },
@@ -10440,6 +10486,23 @@
       }
     ]
   },
+  "hebrews-9-22": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "9",
+      "verse": "22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 17,
+        "url": "/bible-ot/leviticus/17"
+      }
+    ]
+  },
   "hebrews-9-24-28": {
     "target": {
       "book": "Hebrews",
@@ -12828,6 +12891,12 @@
         "book": "Leviticus",
         "chapter": 3,
         "url": "/bible-ot/leviticus/3"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 17,
+        "url": "/bible-ot/leviticus/17"
       }
     ]
   },
@@ -12862,6 +12931,12 @@
         "book": "Leviticus",
         "chapter": 11,
         "url": "/bible-ot/leviticus/11"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 17,
+        "url": "/bible-ot/leviticus/17"
       }
     ]
   },
@@ -16795,6 +16870,23 @@
         "book": "Exodus",
         "chapter": 30,
         "url": "/bible-ot/exodus/30"
+      }
+    ]
+  },
+  "revelation-5-9": {
+    "target": {
+      "book": "Revelation",
+      "bookSlug": "revelation",
+      "canon": "bible-nt",
+      "chapter": "5",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 17,
+        "url": "/bible-ot/leviticus/17"
       }
     ]
   },
