@@ -5293,6 +5293,12 @@
         "book": "Exodus",
         "chapter": 27,
         "url": "/bible-ot/exodus/27"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 8,
+        "url": "/bible-ot/numbers/8"
       }
     ]
   },
@@ -6039,6 +6045,23 @@
         "book": "Exodus",
         "chapter": 35,
         "url": "/bible-ot/exodus/35"
+      }
+    ]
+  },
+  "exodus-37-17-24": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "37",
+      "verse": "17-24"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 8,
+        "url": "/bible-ot/numbers/8"
       }
     ]
   },
@@ -11745,6 +11768,23 @@
       }
     ]
   },
+  "isaiah-42-6": {
+    "target": {
+      "book": "Isaiah",
+      "bookSlug": "isaiah",
+      "canon": "bible-ot",
+      "chapter": "42",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 8,
+        "url": "/bible-ot/numbers/8"
+      }
+    ]
+  },
   "isaiah-43-25": {
     "target": {
       "book": "Isaiah",
@@ -11776,6 +11816,23 @@
         "book": "Genesis",
         "chapter": 49,
         "url": "/bible-ot/genesis/49"
+      }
+    ]
+  },
+  "isaiah-49-6": {
+    "target": {
+      "book": "Isaiah",
+      "bookSlug": "isaiah",
+      "canon": "bible-ot",
+      "chapter": "49",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 8,
+        "url": "/bible-ot/numbers/8"
       }
     ]
   },
@@ -14979,6 +15036,23 @@
       }
     ]
   },
+  "leviticus-8-1-36": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "1-36"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 8,
+        "url": "/bible-ot/numbers/8"
+      }
+    ]
+  },
   "leviticus-8-23-24": {
     "target": {
       "book": "Leviticus",
@@ -17613,6 +17687,23 @@
       }
     ]
   },
+  "numbers-19-9": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 8,
+        "url": "/bible-ot/numbers/8"
+      }
+    ]
+  },
   "numbers-2-17": {
     "target": {
       "book": "Numbers",
@@ -18248,6 +18339,57 @@
       }
     ]
   },
+  "numbers-8-11": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 8,
+        "url": "/bible-ot/numbers/8"
+      }
+    ]
+  },
+  "numbers-8-19": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 8,
+        "url": "/bible-ot/numbers/8"
+      }
+    ]
+  },
+  "numbers-8-2": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 8,
+        "url": "/bible-ot/numbers/8"
+      }
+    ]
+  },
   "numbers-8-24-25": {
     "target": {
       "book": "Numbers",
@@ -18262,6 +18404,46 @@
         "book": "Numbers",
         "chapter": 4,
         "url": "/bible-ot/numbers/4"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 8,
+        "url": "/bible-ot/numbers/8"
+      }
+    ]
+  },
+  "numbers-8-26": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "26"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 8,
+        "url": "/bible-ot/numbers/8"
+      }
+    ]
+  },
+  "numbers-8-4": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 8,
+        "url": "/bible-ot/numbers/8"
       }
     ]
   },
@@ -18396,6 +18578,23 @@
       }
     ]
   },
+  "psalm-119-105": {
+    "target": {
+      "book": "psalm",
+      "bookSlug": "psalm",
+      "canon": null,
+      "chapter": "119",
+      "verse": "105"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 8,
+        "url": "/bible-ot/numbers/8"
+      }
+    ]
+  },
   "psalm-15-1-2": {
     "target": {
       "book": "psalm",
@@ -18410,6 +18609,23 @@
         "book": "Leviticus",
         "chapter": 22,
         "url": "/bible-ot/leviticus/22"
+      }
+    ]
+  },
+  "psalm-27-1": {
+    "target": {
+      "book": "psalm",
+      "bookSlug": "psalm",
+      "canon": null,
+      "chapter": "27",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 8,
+        "url": "/bible-ot/numbers/8"
       }
     ]
   },
@@ -19056,6 +19272,12 @@
         "book": "Exodus",
         "chapter": 25,
         "url": "/bible-ot/exodus/25"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 8,
+        "url": "/bible-ot/numbers/8"
       }
     ]
   },
@@ -19539,6 +19761,12 @@
         "book": "Leviticus",
         "chapter": 1,
         "url": "/bible-ot/leviticus/1"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Numbers",
+        "chapter": 8,
+        "url": "/bible-ot/numbers/8"
       }
     ]
   },
