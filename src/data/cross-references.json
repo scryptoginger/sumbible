@@ -6554,6 +6554,23 @@
       }
     ]
   },
+  "galatians-3-28": {
+    "target": {
+      "book": "Galatians",
+      "bookSlug": "galatians",
+      "canon": "bible-nt",
+      "chapter": "3",
+      "verse": "28"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 25,
+        "url": "/bible-ot/leviticus/25"
+      }
+    ]
+  },
   "galatians-3-6": {
     "target": {
       "book": "Galatians",
@@ -11496,6 +11513,12 @@
         "book": "Exodus",
         "chapter": 21,
         "url": "/bible-ot/exodus/21"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 25,
+        "url": "/bible-ot/leviticus/25"
       }
     ]
   },
@@ -13479,6 +13502,12 @@
         "book": "Leviticus",
         "chapter": 16,
         "url": "/bible-ot/leviticus/16"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 25,
+        "url": "/bible-ot/leviticus/25"
       }
     ]
   },
@@ -14037,6 +14066,40 @@
         "book": "Exodus",
         "chapter": 23,
         "url": "/bible-ot/exodus/23"
+      }
+    ]
+  },
+  "leviticus-25-10": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "25",
+      "verse": "10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 25,
+        "url": "/bible-ot/leviticus/25"
+      }
+    ]
+  },
+  "leviticus-25-23": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "25",
+      "verse": "23"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 25,
+        "url": "/bible-ot/leviticus/25"
       }
     ]
   },
@@ -14849,6 +14912,23 @@
         "book": "Genesis",
         "chapter": 41,
         "url": "/bible-ot/genesis/41"
+      }
+    ]
+  },
+  "luke-4-16-21": {
+    "target": {
+      "book": "Luke",
+      "bookSlug": "luke",
+      "canon": "bible-nt",
+      "chapter": "4",
+      "verse": "16-21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 25,
+        "url": "/bible-ot/leviticus/25"
       }
     ]
   },
@@ -17034,6 +17114,23 @@
         "book": "Genesis",
         "chapter": 36,
         "url": "/bible-ot/genesis/36"
+      }
+    ]
+  },
+  "philemon-1-10-17": {
+    "target": {
+      "book": "Philemon",
+      "bookSlug": "philemon",
+      "canon": "bible-nt",
+      "chapter": "1",
+      "verse": "10-17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Leviticus",
+        "chapter": 25,
+        "url": "/bible-ot/leviticus/25"
       }
     ]
   },
