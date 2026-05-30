@@ -864,6 +864,23 @@
       }
     ]
   },
+  "1-kings-22-19": {
+    "target": {
+      "book": "1 Kings",
+      "bookSlug": "1-kings",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 5,
+        "url": "/bible-ot/joshua/5"
+      }
+    ]
+  },
   "1-kings-3-9-12": {
     "target": {
       "book": "1 Kings",
@@ -4469,6 +4486,12 @@
         "book": "Deuteronomy",
         "chapter": 30,
         "url": "/bible-ot/deuteronomy/30"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 5,
+        "url": "/bible-ot/joshua/5"
       }
     ]
   },
@@ -10452,6 +10475,12 @@
         "book": "Deuteronomy",
         "chapter": 16,
         "url": "/bible-ot/deuteronomy/16"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 5,
+        "url": "/bible-ot/joshua/5"
       }
     ]
   },
@@ -10959,6 +10988,23 @@
         "book": "Exodus",
         "chapter": 40,
         "url": "/bible-ot/exodus/40"
+      }
+    ]
+  },
+  "exodus-16-13-35": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "16",
+      "verse": "13-35"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 5,
+        "url": "/bible-ot/joshua/5"
       }
     ]
   },
@@ -12381,6 +12427,23 @@
         "book": "Genesis",
         "chapter": 46,
         "url": "/bible-ot/genesis/46"
+      }
+    ]
+  },
+  "exodus-3-5": {
+    "target": {
+      "book": "Exodus",
+      "bookSlug": "exodus",
+      "canon": "bible-ot",
+      "chapter": "3",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 5,
+        "url": "/bible-ot/joshua/5"
       }
     ]
   },
@@ -15142,6 +15205,12 @@
         "book": "Deuteronomy",
         "chapter": 10,
         "url": "/bible-ot/deuteronomy/10"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 5,
+        "url": "/bible-ot/joshua/5"
       }
     ]
   },
@@ -23040,6 +23109,40 @@
       }
     ]
   },
+  "joshua-5-1": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "5",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 5,
+        "url": "/bible-ot/joshua/5"
+      }
+    ]
+  },
+  "joshua-5-10-11": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "5",
+      "verse": "10-11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 5,
+        "url": "/bible-ot/joshua/5"
+      }
+    ]
+  },
   "joshua-5-12": {
     "target": {
       "book": "Joshua",
@@ -23054,6 +23157,46 @@
         "book": "Exodus",
         "chapter": 16,
         "url": "/bible-ot/exodus/16"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 5,
+        "url": "/bible-ot/joshua/5"
+      }
+    ]
+  },
+  "joshua-5-2-5": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "5",
+      "verse": "2-5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 5,
+        "url": "/bible-ot/joshua/5"
+      }
+    ]
+  },
+  "joshua-5-9": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "5",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 5,
+        "url": "/bible-ot/joshua/5"
       }
     ]
   },
@@ -23639,6 +23782,12 @@
         "book": "Leviticus",
         "chapter": 9,
         "url": "/bible-ot/leviticus/9"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 5,
+        "url": "/bible-ot/joshua/5"
       }
     ]
   },
@@ -32291,6 +32440,23 @@
       }
     ]
   },
+  "numbers-9-1-5": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "9",
+      "verse": "1-5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 5,
+        "url": "/bible-ot/joshua/5"
+      }
+    ]
+  },
   "numbers-9-10-11": {
     "target": {
       "book": "Numbers",
@@ -33128,6 +33294,23 @@
         "book": "Joshua",
         "chapter": 1,
         "url": "/bible-ot/joshua/1"
+      }
+    ]
+  },
+  "psalms-103-21": {
+    "target": {
+      "book": "Psalms",
+      "bookSlug": "psalms",
+      "canon": "bible-ot",
+      "chapter": "103",
+      "verse": "21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 5,
+        "url": "/bible-ot/joshua/5"
       }
     ]
   },
