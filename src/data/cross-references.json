@@ -1724,6 +1724,23 @@
       }
     ]
   },
+  "1-samuel-23-9-12": {
+    "target": {
+      "book": "1 Samuel",
+      "bookSlug": "1-samuel",
+      "canon": "bible-ot",
+      "chapter": "23",
+      "verse": "9-12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 9,
+        "url": "/bible-ot/joshua/9"
+      }
+    ]
+  },
   "1-samuel-28-6": {
     "target": {
       "book": "1 Samuel",
@@ -1829,6 +1846,23 @@
         "book": "Exodus",
         "chapter": 17,
         "url": "/bible-ot/exodus/17"
+      }
+    ]
+  },
+  "1-samuel-30-7-8": {
+    "target": {
+      "book": "1 Samuel",
+      "bookSlug": "1-samuel",
+      "canon": "bible-ot",
+      "chapter": "30",
+      "verse": "7-8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 9,
+        "url": "/bible-ot/joshua/9"
       }
     ]
   },
@@ -3108,6 +3142,23 @@
         "book": "Genesis",
         "chapter": 34,
         "url": "/bible-ot/genesis/34"
+      }
+    ]
+  },
+  "2-samuel-21-1-9": {
+    "target": {
+      "book": "2 Samuel",
+      "bookSlug": "2-samuel",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "1-9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 9,
+        "url": "/bible-ot/joshua/9"
       }
     ]
   },
@@ -23719,6 +23770,57 @@
       }
     ]
   },
+  "joshua-9-1-2": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "9",
+      "verse": "1-2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 9,
+        "url": "/bible-ot/joshua/9"
+      }
+    ]
+  },
+  "joshua-9-14": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "9",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 9,
+        "url": "/bible-ot/joshua/9"
+      }
+    ]
+  },
+  "joshua-9-15": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "9",
+      "verse": "15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 9,
+        "url": "/bible-ot/joshua/9"
+      }
+    ]
+  },
   "jude-1-11": {
     "target": {
       "book": "Jude",
@@ -31587,6 +31689,12 @@
         "book": "Exodus",
         "chapter": 28,
         "url": "/bible-ot/exodus/28"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 9,
+        "url": "/bible-ot/joshua/9"
       }
     ]
   },
