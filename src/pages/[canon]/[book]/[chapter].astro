@@ -9,7 +9,6 @@ import TranslationCompare from '../../../components/TranslationCompare.astro';
 import VerseRef from '../../../components/VerseRef.astro';
 import ScriptureBlock from '../../../components/ScriptureBlock.astro';
 import Sources from '../../../components/Sources.astro';
-import StatusBadge from '../../../components/StatusBadge.astro';
 import SectionDivider from '../../../components/SectionDivider.astro';
 
 export const getStaticPaths = (async () => {
@@ -116,7 +115,7 @@ const jsonLd =
   <div data-pagefind-body data-pagefind-meta={`canon:${canonData.name}`}>
   <header class="mt-4">
     <h1 class="text-3xl font-bold text-ink sm:text-4xl">
-      {heading}<StatusBadge status={data.status} />
+      {heading}
     </h1>
     {
       data.title && (

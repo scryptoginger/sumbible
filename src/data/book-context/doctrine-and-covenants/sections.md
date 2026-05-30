@@ -20,7 +20,7 @@ Chapters covered: 1 of 138 (all statuses)
 
 ### Chapter 1 — The Lord's Preface
 
-*status:* draft
+*status:* published
 *themes:* restoration, prophetic-call
 
 Doctrine and Covenants 1 was given as the Lord's own preface to the published revelations — placed first not because it was received first, but because it speaks for the collection as a whole. It announces a voice of warning to "all people," explains why the revelations are being sent out, and frames the work of the restoration as God's response to a world drawing toward calamity. It is, in effect, the volume introducing itself in the first person.
