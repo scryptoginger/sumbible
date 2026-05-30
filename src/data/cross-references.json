@@ -728,6 +728,23 @@
       }
     ]
   },
+  "1-kings-16-34": {
+    "target": {
+      "book": "1 Kings",
+      "bookSlug": "1-kings",
+      "canon": "bible-ot",
+      "chapter": "16",
+      "verse": "34"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 6,
+        "url": "/bible-ot/joshua/6"
+      }
+    ]
+  },
   "1-kings-17-1": {
     "target": {
       "book": "1 Kings",
@@ -6531,6 +6548,23 @@
       }
     ]
   },
+  "deuteronomy-20-16-18": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "20",
+      "verse": "16-18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 6,
+        "url": "/bible-ot/joshua/6"
+      }
+    ]
+  },
   "deuteronomy-20-2-4": {
     "target": {
       "book": "Deuteronomy",
@@ -9309,6 +9343,12 @@
         "book": "Deuteronomy",
         "chapter": 20,
         "url": "/bible-ot/deuteronomy/20"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 6,
+        "url": "/bible-ot/joshua/6"
       }
     ]
   },
@@ -15336,6 +15376,12 @@
         "book": "Deuteronomy",
         "chapter": 5,
         "url": "/bible-ot/deuteronomy/5"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 6,
+        "url": "/bible-ot/joshua/6"
       }
     ]
   },
@@ -18546,6 +18592,12 @@
         "book": "Joshua",
         "chapter": 2,
         "url": "/bible-ot/joshua/2"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 6,
+        "url": "/bible-ot/joshua/6"
       }
     ]
   },
@@ -18563,6 +18615,12 @@
         "book": "Joshua",
         "chapter": 2,
         "url": "/bible-ot/joshua/2"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 6,
+        "url": "/bible-ot/joshua/6"
       }
     ]
   },
@@ -23200,6 +23258,40 @@
       }
     ]
   },
+  "joshua-6-1": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 6,
+        "url": "/bible-ot/joshua/6"
+      }
+    ]
+  },
+  "joshua-6-10": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 6,
+        "url": "/bible-ot/joshua/6"
+      }
+    ]
+  },
   "joshua-6-17-21": {
     "target": {
       "book": "Joshua",
@@ -23214,6 +23306,57 @@
         "book": "Leviticus",
         "chapter": 27,
         "url": "/bible-ot/leviticus/27"
+      }
+    ]
+  },
+  "joshua-6-26": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "26"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 6,
+        "url": "/bible-ot/joshua/6"
+      }
+    ]
+  },
+  "joshua-6-27": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "27"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 6,
+        "url": "/bible-ot/joshua/6"
+      }
+    ]
+  },
+  "joshua-6-3-5": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "3-5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 6,
+        "url": "/bible-ot/joshua/6"
       }
     ]
   },
@@ -24797,6 +24940,23 @@
         "book": "Exodus",
         "chapter": 37,
         "url": "/bible-ot/exodus/37"
+      }
+    ]
+  },
+  "leviticus-25-1-12": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "25",
+      "verse": "1-12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 6,
+        "url": "/bible-ot/joshua/6"
       }
     ]
   },
@@ -27840,6 +28000,12 @@
         "book": "Deuteronomy",
         "chapter": 20,
         "url": "/bible-ot/deuteronomy/20"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 6,
+        "url": "/bible-ot/joshua/6"
       }
     ]
   },
