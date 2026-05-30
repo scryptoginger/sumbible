@@ -2377,6 +2377,23 @@
       }
     ]
   },
+  "2-kings-17-6-8": {
+    "target": {
+      "book": "2 Kings",
+      "bookSlug": "2-kings",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "6-8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 28,
+        "url": "/bible-ot/deuteronomy/28"
+      }
+    ]
+  },
   "2-kings-17-7-23": {
     "target": {
       "book": "2 Kings",
@@ -4244,6 +4261,23 @@
         "book": "Exodus",
         "chapter": 29,
         "url": "/bible-ot/exodus/29"
+      }
+    ]
+  },
+  "daniel-9-11-13": {
+    "target": {
+      "book": "Daniel",
+      "bookSlug": "daniel",
+      "canon": "bible-ot",
+      "chapter": "9",
+      "verse": "11-13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 28,
+        "url": "/bible-ot/deuteronomy/28"
       }
     ]
   },
@@ -7044,6 +7078,125 @@
       }
     ]
   },
+  "deuteronomy-28-1": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 28,
+        "url": "/bible-ot/deuteronomy/28"
+      }
+    ]
+  },
+  "deuteronomy-28-15": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 28,
+        "url": "/bible-ot/deuteronomy/28"
+      }
+    ]
+  },
+  "deuteronomy-28-3-6": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "3-6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 28,
+        "url": "/bible-ot/deuteronomy/28"
+      }
+    ]
+  },
+  "deuteronomy-28-43-44": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "43-44"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 28,
+        "url": "/bible-ot/deuteronomy/28"
+      }
+    ]
+  },
+  "deuteronomy-28-49-50": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "49-50"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 28,
+        "url": "/bible-ot/deuteronomy/28"
+      }
+    ]
+  },
+  "deuteronomy-28-58-59": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "58-59"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 28,
+        "url": "/bible-ot/deuteronomy/28"
+      }
+    ]
+  },
+  "deuteronomy-28-68": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "28",
+      "verse": "68"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 28,
+        "url": "/bible-ot/deuteronomy/28"
+      }
+    ]
+  },
   "deuteronomy-3-1-29": {
     "target": {
       "book": "Deuteronomy",
@@ -7126,6 +7279,40 @@
         "book": "Deuteronomy",
         "chapter": 3,
         "url": "/bible-ot/deuteronomy/3"
+      }
+    ]
+  },
+  "deuteronomy-30-1-10": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "30",
+      "verse": "1-10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 28,
+        "url": "/bible-ot/deuteronomy/28"
+      }
+    ]
+  },
+  "deuteronomy-30-1-4": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "30",
+      "verse": "1-4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 28,
+        "url": "/bible-ot/deuteronomy/28"
       }
     ]
   },
@@ -19161,6 +19348,23 @@
       }
     ]
   },
+  "jeremiah-11-8": {
+    "target": {
+      "book": "Jeremiah",
+      "bookSlug": "jeremiah",
+      "canon": "bible-ot",
+      "chapter": "11",
+      "verse": "8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 28,
+        "url": "/bible-ot/deuteronomy/28"
+      }
+    ]
+  },
   "jeremiah-12-1-4": {
     "target": {
       "book": "Jeremiah",
@@ -22713,6 +22917,23 @@
       }
     ]
   },
+  "leviticus-26-1-46": {
+    "target": {
+      "book": "Leviticus",
+      "bookSlug": "leviticus",
+      "canon": "bible-ot",
+      "chapter": "26",
+      "verse": "1-46"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 28,
+        "url": "/bible-ot/deuteronomy/28"
+      }
+    ]
+  },
   "leviticus-26-11-12": {
     "target": {
       "book": "Leviticus",
@@ -23591,6 +23812,23 @@
         "book": "Exodus",
         "chapter": 3,
         "url": "/bible-ot/exodus/3"
+      }
+    ]
+  },
+  "luke-21-24": {
+    "target": {
+      "book": "Luke",
+      "bookSlug": "luke",
+      "canon": "bible-nt",
+      "chapter": "21",
+      "verse": "24"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 28,
+        "url": "/bible-ot/deuteronomy/28"
       }
     ]
   },
@@ -26111,6 +26349,12 @@
         "book": "Deuteronomy",
         "chapter": 4,
         "url": "/bible-ot/deuteronomy/4"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 28,
+        "url": "/bible-ot/deuteronomy/28"
       }
     ]
   },
@@ -31954,6 +32198,23 @@
         "book": "Genesis",
         "chapter": 48,
         "url": "/bible-ot/genesis/48"
+      }
+    ]
+  },
+  "romans-11-25-26": {
+    "target": {
+      "book": "Romans",
+      "bookSlug": "romans",
+      "canon": "bible-nt",
+      "chapter": "11",
+      "verse": "25-26"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 28,
+        "url": "/bible-ot/deuteronomy/28"
       }
     ]
   },
