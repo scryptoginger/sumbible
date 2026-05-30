@@ -68,14 +68,26 @@ const chapterSchema = z.object({
 
   // Verification log — every non-obvious claim in the deep summary or
   // LangNotes section traces to one entry. Populated during research,
-  // before drafting the prose. See AUTHORING.md §Verification Log
-  // Discipline. Rendered on the chapter page in a collapsed details
-  // block ("Research sources").
+  // before drafting the prose. See AUTHORING.md §20 and §6.0.
+  //
+  // verifiedViaFetch (REQUIRED): true means the `url` was actually opened
+  // during this drafting session and any verbatim quotation in the chapter
+  // prose was diffed against the source text. false means the claim is
+  // from knowledge (paraphrase, interpretive, chapter self-quote, lexical).
+  // Per AUTHORING §6.0, every cross-reference verbatim quote >6 words
+  // requires a corresponding `verifiedViaFetch: true` entry; the
+  // lint:quotation-fidelity rule blocks violations.
+  //
+  // quoteText (optional): for verbatim cross-reference quotes, the exact
+  // text that was fetched and diffed. Records the audit trail in case the
+  // chapter prose later drifts.
   verificationLog: z.array(z.object({
     claim: z.string(),
     source: z.string(),
     url: z.url().optional(),
     verifiedOn: z.string().optional(),
+    verifiedViaFetch: z.boolean(),
+    quoteText: z.string().optional(),
   })).default([]),
 
   // Workflow status
@@ -84,6 +96,22 @@ const chapterSchema = z.object({
   draftedOn: z.string().optional(),   // ISO date (quoted string — see AUTHORING.md)
   reviewedBy: z.string().optional(),
   reviewedOn: z.string().optional(),  // ISO date (quoted string — see AUTHORING.md)
+
+  // Quotation-fidelity discipline opt-in (AUTHORING §6.0).
+  //
+  // Drafted-after-the-rule-shipped chapters set this to true and accept full
+  // ERROR-level enforcement from lint:quotation-fidelity. Legacy chapters
+  // (drafted before the rule) explicitly mark `quotationFidelity: 'legacy'`
+  // to acknowledge the discipline applies but downgrade the rule to WARN
+  // for cross-reference quotes that lack fetch-verification.
+  //
+  // The grandfather state ('legacy') is honest: it says "these chapters
+  // predate the §6.0 discipline; their cross-reference quotes have NOT
+  // been mechanically fetch-verified; a follow-up sweep would need to
+  // either fetch-verify each or paraphrase." It is NOT a permanent
+  // exemption — chapters with active drafting work should be migrated
+  // to 'enforced' as their cross-reference quotes are fetch-verified.
+  quotationFidelity: z.enum(['legacy', 'enforced']).default('enforced'),
 });
 
 // Book-level summaries — one MDX file per book, the body being the deep summary.
