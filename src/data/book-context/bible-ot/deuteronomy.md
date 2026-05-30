@@ -43,238 +43,238 @@ Chapters covered: 34 of 34 (all statuses)
 
 ### Chapter 1 — Moses' First Speech Opens: Horeb to Kadesh
 
-*status:* draft
+*status:* published
 *themes:* covenant, prophetic-call, rebellion
 
 "These be the words which Moses spake unto all Israel on this side Jordan in the wilderness." Moses opens his farewell to the new generation by retelling the journey from Horeb forward: the appointment of judges, the sending of the spies, the wilderness- generation's rebellion, and the forty-year sentence. The retrospective is not historical record but covenantal exhortation — Moses retells what the fathers did so the children can choose differently.
 
 ### Chapter 2 — Through Edom, Moab, Ammon; Sihon's Defeat
 
-*status:* draft
+*status:* published
 *themes:* covenant, wilderness, prophetic-call
 
 Moses continues the retrospective: the wilderness journey from Mount Seir northward. Israel is told three times — about Edom, Moab, and Ammon — not to contend, because YHWH has given those peoples their lands as their own possession. Sihon king of Heshbon refuses peaceful passage; YHWH hardens his spirit; Israel defeats him and possesses his territory.
 
 ### Chapter 3 — Og Defeated; Trans-Jordan Allocation; Moses' Grief
 
-*status:* draft
+*status:* published
 *themes:* covenant, prophetic-call, restoration
 
 Moses closes the historical retrospective: Og king of Bashan defeated; trans-Jordan territory assigned to Reuben, Gad, and half-Manasseh; Joshua encouraged to lead the conquest. The chapter's quiet center is Moses' personal prayer to cross the Jordan and his refused petition — "Let me go over, I pray thee, and see the good land" — and the LORD's terse reply: "Let it suffice thee; speak no more unto me of this matter."
 
 ### Chapter 4 — The Covenant Call: Hear, O Israel
 
-*status:* draft
+*status:* published
 *themes:* covenant, prophetic-call, holiness
 
 Moses pivots from historical retrospective to direct covenantal call. The chapter installs the do-not-add-or-diminish principle, the chapter's distinctive "what nation is there so great" wisdom claim, and the central anti-idolatry framework grounded in the Horeb voice-without-image revelation. The chapter closes with three trans-Jordan cities of refuge — Bezer, Ramoth, and Golan — and the formal opening of Moses' second speech.
 
 ### Chapter 5 — Decalogue Recapitulated: ‘The LORD Made Not This Covenant with Our Fathers’
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 Moses' second speech opens with the Decalogue recapitulated. The chapter installs the covenant-with-us-here-alive framework, lists the Ten Words in their Deuteronomic register, registers the Sabbath-rationale variant between Exodus 20:11's creation-rest framework and this chapter's Exodus-deliverance framework, and closes with Israel's request that Moses mediate. The chapter is the recapitulation-discipline test of the session.
 
 ### Chapter 6 — The Shema: ‘Hear, O Israel’
 
-*status:* draft
+*status:* published
 *themes:* covenant, prophetic-call, holiness
 
 The Shema. Moses installs the central confession of OT covenant faith — "Hear, O Israel: The LORD our God is one LORD" — with the with-all-thy-heart love command, the domestic-pedagogy framework, the warning against forgetting the LORD in the land, the Massah-temptation prohibition, and the catechism for children. The chapter is read across the canon: Jesus cites the Shema as the first commandment in all three Synoptic Gospels; Paul invokes its one-God framework; the temptation narratives cite its Massah text directly.
 
 ### Chapter 7 — Election and Herem: A Holy People, a Hard Charge
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 The chapter installs Deuteronomy's election theology — Israel as a holy people chosen not for greatness but out of the LORD's love and oath-keeping — alongside its hardest single charge: the herem against the seven nations of Canaan. 1 Peter 2:9 picks up the chapter's "holy people / peculiar people" framework Christologically, applying it to the church. SumBible reports the scholarly spectrum on the herem material without arbitration.
 
 ### Chapter 8 — Wilderness Pedagogy: ‘Man Doth Not Live by Bread Only’
 
-*status:* draft
+*status:* published
 *themes:* covenant, prophetic-call, holiness
 
 Moses installs Deuteronomy's wilderness-pedagogy framework — the forty years' humbling, proving, and feeding-with-manna read as the LORD's educational discipline preparing Israel for the land. The chapter's central confession at 8:3 — "man doth not live by bread only, but by every word that proceedeth out of the mouth of the LORD" — is cited at Matt 4:4 and Luke 4:4 in the first wilderness temptation. The chapter closes with the structural warning: prosperity in the land is the covenant's primary risk.
 
 ### Chapter 9 — Not for Thy Righteousness: Stiffnecked Israel and the Golden Calf Retold
 
-*status:* draft
+*status:* published
 *themes:* covenant, prophetic-call, holiness
 
 Moses installs Deuteronomy's not-for-thy-righteousness framework — Israel does not inherit the land for its merit but for the wickedness of the nations and the LORD's oath-keeping. The chapter then retells the golden-calf episode (Exod 32) with Moses' intercessory prayer at its heart. The chapter closes the triple stiffnecked-people indictment (9:6, 9:13, 9:27) that Paul's Romans 9-11 grace-tradition picks up.
 
 ### Chapter 10 — Heart-Circumcision: ‘What Doth the LORD Thy God Require of Thee?’
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 After the golden-calf retelling, Moses installs Deuteronomy's most concentrated single covenant-summary at 10:12-13 — to fear, walk, love, and serve the LORD with all the heart and soul — and the heart-circumcision command at 10:16. The chapter closes with the LORD-as-God-of-gods framework, the no-respecter-of-persons declaration, and the love-the-stranger command grounded in Israel's own Egyptian-sojourner memory. Romans 2:28-29 picks up the heart-circumcision framework Christologically.
 
 ### Chapter 11 — Blessing and Curse: Gerizim and Ebal Foreshadowed
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 Moses closes the first-eleven-chapter introduction with the blessing-and-curse choice. The chapter recapitulates the Shema pedagogy framework, installs the if-then-blessings climate- theology that the rains-in-season frame, and foreshadows the Gerizim-and-Ebal ceremony that Joshua 8 will execute. The chapter is the structural hinge: the introduction ends, and Deuteronomy's legal code (Deut 12-26) opens at the next chapter.
 
 ### Chapter 12 — Centralization: ‘The Place Which the LORD Shall Choose’
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 The legal code opens with the cultic-centralization framework. Israel is to destroy the Canaanite high places and offer sacrifice at "the place which the LORD your God shall choose" — the phrase the Deuteronomistic History will read into the Solomonic Temple. The chapter closes with the blood-prohibition framework (12:23 — "the blood is the life") that the OT-NT sanctuary-blood trajectory carries forward to Hebrews 9-10.
 
 ### Chapter 13 — Exclusive Allegiance at All Costs: False Prophet, Family, City
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 The chapter installs the OT's most stringent exclusive-allegiance framework: three cases — false prophet, close family member, and whole city — each calling for the capital sanction against seduction to other gods. The chapter is one of the hardest single pieces of textual material in Deuteronomy. SumBible reports the scholarly and believer-level spectrum on the chapter's contemporary application without arbitration.
 
 ### Chapter 14 — ‘Ye Are the Children of the LORD’: Foods, Tithes, and Holy-People Framing
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 The chapter recapitulates the clean/unclean food laws of Leviticus 11 with Moses' distinctive covenantal framing: Israel as the LORD's holy people and chosen peculiar treasure. The chapter then installs the annual tithe-feast at "the place which the LORD shall choose" and the third-year welfare tithe for Levite, stranger, fatherless, and widow — Deuteronomy's distinctive social-justice innovation atop the prior tithe framework.
 
 ### Chapter 15 — Sabbatical Release: ‘Open Thine Hand Wide unto Thy Brother’
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 The chapter installs Deuteronomy's foundational social-justice legislation: the seventh-year debt release (shmita), the generous-hand command, the Hebrew slave's six-year-service / seventh-year-release framework with the ear-piercing voluntary servitude alternative, and the dedication of firstlings. The framework's eschatological consummation at Isa 61:1-2 / Luke 4:18-19's "acceptable year of the LORD" and the early-church realization at Acts 4:32-35 are the chapter's load-bearing NT reception.
 
 ### Chapter 16 — Three Pilgrimages: Passover, Weeks, Tabernacles — Centralized
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 The chapter installs the three pilgrimage festivals — Passover, Weeks, and Tabernacles — at "the place which the LORD shall choose." The Deuteronomic framing applies the Deut 12 centralization framework to the calendar of Lev 23 / Num 28-29: what had been household-or-tribal observance becomes pilgrimage to the central sanctuary. The chapter closes with the appointment of judges in the gates that anticipates Deut 17's framework.
 
 ### Chapter 17 — Capital Justice and the Kings Law: ‘He Shall Write Him a Copy of This Law’
 
-*status:* draft
+*status:* published
 *themes:* covenant, prophetic-call, holiness
 
 The chapter installs the capital-justice procedure (two-or-three witnesses required for execution) and the framework for difficult cases referred to the central sanctuary. The chapter's load-bearing single contribution is the Kings Law (17:14-20) — the constitutional theology of monarchy under YHWH, with three prohibitions (multiplying horses, wives, silver and gold) the Deuteronomistic History reads forward as Solomon's structural downfall framework at 1 Kgs 10-11.
 
 ### Chapter 18 — ‘A Prophet Like unto Me’: The Mosaic Prophetic Office
 
-*status:* draft
+*status:* published
 *themes:* prophetic-call, covenant, holiness
 
 The chapter installs the OT's clearest single prophetic- identification framework: the LORD will raise up a Prophet like Moses, from the brethren, with the LORD's words in his mouth, whom Israel must hearken unto. The chapter pairs the promise with the prohibitions of divination and necromancy that mark the false alternatives and with the truth-of-fulfillment criterion that distinguishes the true prophet from the false. The framework is read across the canon — Acts 3 + Acts 7 + John 1, 6, 7 + 3 Nephi 20-21 — as the OT-source-text of one continuous prophetic- identification argument.
 
 ### Chapter 19 — Cities of Refuge, Boundary Stones, and Two-or-Three Witnesses
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 The chapter installs Deuteronomy's expanded cities-of-refuge framework with the distinctive "innocent blood" theology, the boundary-stone prohibition guarding inheritance, and the two-or- three-witnesses rule for all matters. The witnesses rule is one of the OT's most-cited legal principles in the NT — Matt 18:16, 2 Cor 13:1, 1 Tim 5:19, and Heb 10:28 all cite the chapter at hand's framework at distinct ecclesial-discipline registers.
 
 ### Chapter 20 — Rules of War: Exemptions, Terms of Peace, and the Herem
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 The chapter installs Deuteronomy's rules-of-war framework. The priest's address, the four exemptions from military service, and the obligation to offer terms of peace to distant cities together constitute the OT's most distinctive humanitarian innovations within an ancient-Near-Eastern warfare framework. The chapter's hardest single material — the herem command against the seven Canaanite nations — is reported as the chapter installs it, with the scholarly spectrum on the herem's contemporary application surveyed in the LangNotes without arbitration.
 
 ### Chapter 21 — Innocent Blood, Captive Bride, Firstborn Right, and Hanged-Accursed
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 Five units of family-and-community legislation. The chapter installs the unsolved-murder heifer ritual, captive-woman marriage protections, polygyny firstborn rights, the rebellious- son framework, and the hanged-accursed passage. The closing two verses (21:22-23) become Paul's source-text for the substitutionary-atonement framework at Galatians 3:13 — Christ "made a curse for us" by hanging on the tree — and shape the early NT preachers' deliberate choice of "tree" language for the cross at Acts 5:30, 10:39, 13:29 and 1 Peter 2:24.
 
 ### Chapter 22 — Miscellaneous Laws: Restoration, Distinction, Protection, Purity
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 The chapter collects a heterogeneous block of family-and-community legislation: lost-property restoration, gender-distinction in dress, the bird-nest protection, parapets for new houses, mixed- kinds prohibitions, the tassels command (echoing Num 15), and an extensive sexual-purity-laws section. The chapter honors the diversity of the material without organizing it more than the text does. The sexual-purity section receives sober handling without contemporary-application arbitration.
 
 ### Chapter 23 — Assembly, Camp, Refuge: Boundaries of the Covenantal Community
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 The chapter installs frameworks for the covenantal community's boundaries: who may enter the assembly (with the eunuch and Ammonite/Moabite exclusions Isa 56:3-5 will eschatologically reverse), the cleanliness of the war camp, the distinctive ANE- outlier protection for the escaped slave who shall not be returned, the prohibition of cult prostitution, the no-interest rule for loans to brethren, the framework for vows, and the eating-from-neighbor's-field allowance.
 
 ### Chapter 24 — Bill of Divorcement, Just Wages, and Individual Responsibility
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 The chapter installs the bill-of-divorcement framework that Matthew 19 and Mark 10 will frame as Mosaic concession to hardness-of-heart, the newly-married-exemption from military service, and an extensive humanitarian-laws block. The chapter's individual-responsibility framework at 24:16 ("every man shall be put to death for his own sin") grounds the OT-prophetic development at Ezekiel 18 and Jeremiah 31 and is cited explicitly in 2 Kings 14:6's Amaziah-narrative.
 
 ### Chapter 25 — Forty Stripes, the Ox, Levirate Marriage, Just Weights, and Amalek
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 The chapter collects six distinct units. Three carry substantial NT-and-OT cross-canon weight: the forty-stripes flogging limit (cited in Paul's "forty stripes save one" experience at 2 Cor 11:24), the muzzle-the-ox rule (cited twice by Paul to ground apostolic material support at 1 Cor 9 and 1 Tim 5), and the levirate marriage framework (executed in the Boaz-Ruth narrative and debated at Matt 22's resurrection question). The chapter closes with the Amalek-remembrance command.
 
 ### Chapter 26 — ‘A Syrian Ready to Perish’: First-Fruits and the Closing of the Legal Code
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 The chapter closes the central legal code (Deut 12-26) with two liturgical-speech-act declarations and a covenant-summary close. The first-fruits declaration ("A Syrian ready to perish was my father") installs Israel's foundational salvation-history confession in first-person liturgical form, with the third-year tithe declaration of righteousness extending the same speech-act form. The closing covenant declaration at 26:16-19 — the LORD-and- Israel mutual avouching — pivots the legal code toward Deut 27's Gerizim-Ebal covenant ceremony.
 
 ### Chapter 27 — Gerizim and Ebal: The Stones, the Altar, and the Twelve Curses
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 Moses commands the covenant-ceremony framework anticipated since Deut 11:29-32: inscribe the law on plastered stones at Mount Ebal, build an altar of unhewn stones, position six tribes on Gerizim for blessing and six on Ebal for cursing, and recite the Twelve Curses antiphonally. The chapter's closing curse — "Cursed be he that confirmeth not all the words of this law to do them" (27:26) — is cited at Galatians 3:10 to install the curse-of-the-law framework that Gal 3:13's reading of Deut 21:22-23 answers.
 
 ### Chapter 28 — Covenant Blessings and Curses: The Sanctions of the Covenant
 
-*status:* draft
+*status:* published
 *themes:* covenant, prophetic-call, holiness
 
 The OT's most extensive single covenant-sanctions text — sixty-eight verses, with fourteen verses of blessings and fifty-four of progressively-intensifying curses ending in dispersion and despair. The chapter is the OT-historical literature's most-cited single source-text: Daniel, Nehemiah, the Deuteronomistic-historian's Samaria-fall narrative, and Jeremiah all read Israel's exile as the chapter's curses fulfilled. The chapter is also Lev 26's more extensive treatment of the same blessing/curse covenant-form.
 
 ### Chapter 29 — ‘Ye Stand This Day’: The Moab Covenant Renewal
 
-*status:* draft
+*status:* published
 *themes:* covenant, holiness, prophetic-call
 
 Moses gathers all Israel — captains, elders, women, children, strangers — for the Moab covenant renewal, distinct from but alongside the Horeb covenant. The chapter installs the covenant in the present tense for the conquest generation, warns against the secret-idolatry "root that beareth gall and wormwood," and closes with the boundary-marker verse on the revealed-and-secret things that has substantial interpretive history across Jewish and Christian traditions.
 
 ### Chapter 30 — Restoration, the Word Is Nigh, and the Choice of Life
 
-*status:* draft
+*status:* published
 *themes:* covenant, prophetic-call, holiness
 
 Moses closes his second speech with three load-bearing frameworks: the restoration-after-exile promise with the LORD's heart- circumcision of His people, the word-is-nigh framework that Paul reads Christologically at Romans 10:6-8 as the word of faith, and the choice-of-life framework — "therefore choose life, that both thou and thy seed may live." The chapter closes the central exposition of the covenant; the final-farewells block opens at Deut 31.
 
 ### Chapter 31 — Final Preparations: Joshua Commissioned, the Law Deposited, the Song Given
 
-*status:* draft
+*status:* published
 *themes:* covenant, prophetic-call, holiness
 
 Moses' final-narrative-block opens: Joshua is publicly commissioned before all Israel and then directly commissioned by the LORD at the tabernacle of meeting — deepening the typology Num 27 first installed. Moses writes the law and commands the Levites to deposit it beside the ark as a witness — the framework the Josianic-reform discovery narrative at 2 Kings 22 reads back through, with the chapter closing on the Song-as-witness commission prepared for Deut 32's recitation.
 
 ### Chapter 32 — The Song of Moses: Rock, Rebellion, Vengeance, and the Gentiles' Rejoicing
 
-*status:* draft
+*status:* published
 *themes:* covenant, prophetic-call, holiness
 
 Moses' Song-as-witness: forty-three verses of Hebrew poetry invoking heaven and earth, naming the LORD the Rock whose work is perfect, recounting Jeshurun's apostasy, declaring vengeance the LORD's prerogative, and closing with the Gentiles' call to rejoice. The Song is one of the OT's most NT-cited single poetic texts: Hebrews 1:6 (LXX-only citation of an angelic worship-clause); Romans 10:19, 12:19, 15:10 (Paul's threefold citation grounding non-retaliation ethics, Gentile-inclusion, and Israel's covenantal-jealousy framework).
 
 ### Chapter 33 — Moses' Tribal Blessings: ‘Underneath Are the Everlasting Arms’
 
-*status:* draft
+*status:* published
 *themes:* covenant, prophetic-call, holiness
 
 Moses' final blessing on the tribes — twelve discrete tribal blessings paralleling Jacob's at Genesis 49, with Simeon omitted and Levi receiving extended priestly recognition. The chapter honors form-as-substance with twelvefold structural- comprehensiveness as covenantal-completeness. The closing benediction ("The eternal God is thy refuge, and underneath are the everlasting arms") gathers the framework's structural- pastoral close.
 
 ### Chapter 34 — Moses' Death: ‘There Arose Not a Prophet Since in Israel Like unto Moses’
 
-*status:* draft
+*status:* published
 *themes:* covenant, prophetic-call, holiness
 
 The Torah's closing chapter. Moses ascends Mount Nebo, the LORD shows him the patriarchal land-promise in prospect, Moses dies and the LORD buries him in an unknown place, Israel mourns thirty days, Joshua's succession completes, and the chapter closes the Torah by declaring Moses' face-to-face uniqueness — the Prophet- like-Moses promise of Deut 18:15 named here as OT-internally unfulfilled, with the NT-canonical trajectory reading the figure as Christologically fulfilled.

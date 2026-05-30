@@ -1,7 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import StatusBadge from '../../components/StatusBadge.astro';
 
 const all = await getCollection('relatedTexts');
 
@@ -73,7 +72,6 @@ for (const arr of byCategory.values()) {
               >
                 <span class="font-medium text-ink">
                   {e.data.name}
-                  <StatusBadge status={e.data.status} />
                 </span>
                 {e.data.approximateDate && (
                   <span class="text-sm text-stone-500">{e.data.approximateDate}</span>

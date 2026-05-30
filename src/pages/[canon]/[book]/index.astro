@@ -3,7 +3,6 @@ import type { GetStaticPaths } from 'astro';
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import SectionDivider from '../../../components/SectionDivider.astro';
-import StatusBadge from '../../../components/StatusBadge.astro';
 import Sources from '../../../components/Sources.astro';
 import LangNote from '../../../components/LangNote.astro';
 import LangNotes from '../../../components/LangNotes.astro';
@@ -60,7 +59,7 @@ const hasBody = Boolean(bookEntry && Content);
   </nav>
 
   <h1 class="mt-3 text-3xl font-bold text-ink">
-    {book.name}{bookEntry && <StatusBadge status={bookEntry.data.status} />}
+    {book.name}
   </h1>
   {bookEntry?.data.subtitle && (
     <p class="mt-1 font-serif text-lg text-stone-600 italic">{bookEntry.data.subtitle}</p>
@@ -115,28 +114,15 @@ const hasBody = Boolean(bookEntry && Content);
       </h2>
       <ul class="mt-3 grid grid-cols-3 gap-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-5">
         {chapterNums.map((num) => {
-          const status = summaries.get(num);
-          const hasSummary = status !== undefined;
-          const dot =
-            status === 'draft'
-              ? 'bg-amber-500'
-              : status === 'review'
-                ? 'bg-blue-500'
-                : null;
+          const hasSummary = summaries.has(num);
           return (
             <li>
               {hasSummary ? (
                 <a
                   href={`/${canon}/${book.slug}/${num}`}
-                  class="relative flex aspect-square items-center justify-center rounded-md border border-stone-300 bg-stone-50 text-lg font-semibold text-ink transition hover:border-accent hover:text-accent"
+                  class="flex aspect-square items-center justify-center rounded-md border border-stone-300 bg-stone-50 text-lg font-semibold text-ink transition hover:border-accent hover:text-accent"
                 >
                   {num}
-                  {dot && (
-                    <span
-                      class:list={['absolute right-1.5 top-1.5 h-2 w-2 rounded-full', dot]}
-                      aria-hidden="true"
-                    />
-                  )}
                 </a>
               ) : (
                 <div
@@ -151,11 +137,7 @@ const hasBody = Boolean(bookEntry && Content);
         })}
       </ul>
       <p class="mt-4 text-xs text-stone-400">
-        Numbered tiles without a link don&rsquo;t have a summary yet. A small
-        <span class="mx-0.5 inline-block h-2 w-2 rounded-full bg-amber-500 align-middle"></span>
-        marks a draft awaiting review;
-        <span class="mx-0.5 inline-block h-2 w-2 rounded-full bg-blue-500 align-middle"></span>
-        marks one in review.
+        Numbered tiles without a link don&rsquo;t have a summary yet.
       </p>
     </section>
 

@@ -21,7 +21,7 @@ Chapters covered: 1 of 16 (all statuses)
 
 ### Chapter 8 — No Condemnation, No Separation
 
-*status:* draft
+*status:* published
 *themes:* atonement, eschatology, discipleship
 
 Romans 8 opens with "no condemnation" and closes with "nothing can separate us from the love of God." Between those two declarations Paul traces the life lived in the Spirit, the groaning of a creation that waits to be set free, and the unbreakable chain of God's purpose — foreknown, called, justified, glorified. The chapter begins as argument and ends in something close to a hymn.
