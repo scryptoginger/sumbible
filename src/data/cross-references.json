@@ -7188,6 +7188,23 @@
       }
     ]
   },
+  "deuteronomy-27-14-26": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "14-26"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 33,
+        "url": "/bible-ot/deuteronomy/33"
+      }
+    ]
+  },
   "deuteronomy-27-17": {
     "target": {
       "book": "Deuteronomy",
@@ -7989,6 +8006,23 @@
       }
     ]
   },
+  "deuteronomy-33-1": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "33",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 33,
+        "url": "/bible-ot/deuteronomy/33"
+      }
+    ]
+  },
   "deuteronomy-33-16": {
     "target": {
       "book": "Deuteronomy",
@@ -8003,6 +8037,23 @@
         "book": "Exodus",
         "chapter": 3,
         "url": "/bible-ot/exodus/3"
+      }
+    ]
+  },
+  "deuteronomy-33-2-5": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "33",
+      "verse": "2-5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 33,
+        "url": "/bible-ot/deuteronomy/33"
       }
     ]
   },
@@ -17183,6 +17234,23 @@
       }
     ]
   },
+  "genesis-49-1-28": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "49",
+      "verse": "1-28"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 33,
+        "url": "/bible-ot/deuteronomy/33"
+      }
+    ]
+  },
   "genesis-49-10": {
     "target": {
       "book": "Genesis",
@@ -17260,6 +17328,12 @@
         "book": "Genesis",
         "chapter": 34,
         "url": "/bible-ot/genesis/34"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 33,
+        "url": "/bible-ot/deuteronomy/33"
       }
     ]
   },
@@ -18234,6 +18308,12 @@
         "book": "Deuteronomy",
         "chapter": 31,
         "url": "/bible-ot/deuteronomy/31"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 33,
+        "url": "/bible-ot/deuteronomy/33"
       }
     ]
   },
@@ -21846,6 +21926,23 @@
         "book": "Genesis",
         "chapter": 49,
         "url": "/bible-ot/genesis/49"
+      }
+    ]
+  },
+  "joshua-19-1-9": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "1-9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 33,
+        "url": "/bible-ot/deuteronomy/33"
       }
     ]
   },
@@ -32372,6 +32469,23 @@
       }
     ]
   },
+  "psalms-46-1": {
+    "target": {
+      "book": "Psalms",
+      "bookSlug": "psalms",
+      "canon": "bible-ot",
+      "chapter": "46",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 33,
+        "url": "/bible-ot/deuteronomy/33"
+      }
+    ]
+  },
   "psalms-50-14": {
     "target": {
       "book": "Psalms",
@@ -32539,6 +32653,40 @@
         "book": "Exodus",
         "chapter": 5,
         "url": "/bible-ot/exodus/5"
+      }
+    ]
+  },
+  "psalms-90-1": {
+    "target": {
+      "book": "Psalms",
+      "bookSlug": "psalms",
+      "canon": "bible-ot",
+      "chapter": "90",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 33,
+        "url": "/bible-ot/deuteronomy/33"
+      }
+    ]
+  },
+  "psalms-91-1": {
+    "target": {
+      "book": "Psalms",
+      "bookSlug": "psalms",
+      "canon": "bible-ot",
+      "chapter": "91",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 33,
+        "url": "/bible-ot/deuteronomy/33"
       }
     ]
   },
@@ -33028,6 +33176,23 @@
         "book": "Leviticus",
         "chapter": 17,
         "url": "/bible-ot/leviticus/17"
+      }
+    ]
+  },
+  "revelation-7-4-8": {
+    "target": {
+      "book": "Revelation",
+      "bookSlug": "revelation",
+      "canon": "bible-nt",
+      "chapter": "7",
+      "verse": "4-8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 33,
+        "url": "/bible-ot/deuteronomy/33"
       }
     ]
   },
