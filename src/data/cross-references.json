@@ -3111,6 +3111,23 @@
       }
     ]
   },
+  "2-samuel-1-18": {
+    "target": {
+      "book": "2 Samuel",
+      "bookSlug": "2-samuel",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 10,
+        "url": "/bible-ot/joshua/10"
+      }
+    ]
+  },
   "2-samuel-11-2-4": {
     "target": {
       "book": "2 Samuel",
@@ -14289,6 +14306,12 @@
         "book": "Joshua",
         "chapter": 8,
         "url": "/bible-ot/joshua/8"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 10,
+        "url": "/bible-ot/joshua/10"
       }
     ]
   },
@@ -18328,6 +18351,23 @@
       }
     ]
   },
+  "habakkuk-3-11": {
+    "target": {
+      "book": "Habakkuk",
+      "bookSlug": "habakkuk",
+      "canon": "bible-ot",
+      "chapter": "3",
+      "verse": "11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 10,
+        "url": "/bible-ot/joshua/10"
+      }
+    ]
+  },
   "habakkuk-3-3-6": {
     "target": {
       "book": "Habakkuk",
@@ -21669,6 +21709,23 @@
       }
     ]
   },
+  "joel-2-30-31": {
+    "target": {
+      "book": "Joel",
+      "bookSlug": "joel",
+      "canon": "bible-ot",
+      "chapter": "2",
+      "verse": "30-31"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 10,
+        "url": "/bible-ot/joshua/10"
+      }
+    ]
+  },
   "john-1-14": {
     "target": {
       "book": "John",
@@ -22775,6 +22832,57 @@
       }
     ]
   },
+  "joshua-10-1-2": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "10",
+      "verse": "1-2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 10,
+        "url": "/bible-ot/joshua/10"
+      }
+    ]
+  },
+  "joshua-10-11": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "10",
+      "verse": "11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 10,
+        "url": "/bible-ot/joshua/10"
+      }
+    ]
+  },
+  "joshua-10-13": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "10",
+      "verse": "13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 10,
+        "url": "/bible-ot/joshua/10"
+      }
+    ]
+  },
   "joshua-10-21": {
     "target": {
       "book": "Joshua",
@@ -22789,6 +22897,57 @@
         "book": "Exodus",
         "chapter": 11,
         "url": "/bible-ot/exodus/11"
+      }
+    ]
+  },
+  "joshua-10-27": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "10",
+      "verse": "27"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 10,
+        "url": "/bible-ot/joshua/10"
+      }
+    ]
+  },
+  "joshua-10-42": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "10",
+      "verse": "42"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 10,
+        "url": "/bible-ot/joshua/10"
+      }
+    ]
+  },
+  "joshua-10-6": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "10",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 10,
+        "url": "/bible-ot/joshua/10"
       }
     ]
   },
@@ -27986,6 +28145,23 @@
       }
     ]
   },
+  "matthew-24-29": {
+    "target": {
+      "book": "Matthew",
+      "bookSlug": "matthew",
+      "canon": "bible-nt",
+      "chapter": "24",
+      "verse": "29"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 10,
+        "url": "/bible-ot/joshua/10"
+      }
+    ]
+  },
   "matthew-24-38-39": {
     "target": {
       "book": "Matthew",
@@ -30768,6 +30944,23 @@
         "book": "Numbers",
         "chapter": 20,
         "url": "/bible-ot/numbers/20"
+      }
+    ]
+  },
+  "numbers-21-14": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 10,
+        "url": "/bible-ot/joshua/10"
       }
     ]
   },
@@ -35000,6 +35193,23 @@
         "book": "Leviticus",
         "chapter": 17,
         "url": "/bible-ot/leviticus/17"
+      }
+    ]
+  },
+  "revelation-6-12-14": {
+    "target": {
+      "book": "Revelation",
+      "bookSlug": "revelation",
+      "canon": "bible-nt",
+      "chapter": "6",
+      "verse": "12-14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 10,
+        "url": "/bible-ot/joshua/10"
       }
     ]
   },
