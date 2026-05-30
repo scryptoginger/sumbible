@@ -22,7 +22,7 @@ Chapters covered: 1 of 21 (all statuses)
 
 ### Chapter 1 — The Word Made Flesh
 
-*status:* draft
+*status:* published
 *themes:* creation, messianic-prophecy, divine-name, incarnation
 
 John opens not with a birth but with eternity: the Word — the Logos — was already there "in the beginning," was with God, and was God, and is the one through whom everything was made. The chapter's hinge is verse 14, where that eternal Word becomes flesh and dwells among us. From there John narrows to witnesses — John the Baptist pointing away from himself, and the first disciples — so the cosmic prologue lands on a plain invitation: "Come and see."
