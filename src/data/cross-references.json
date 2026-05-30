@@ -4204,6 +4204,12 @@
         "book": "Deuteronomy",
         "chapter": 10,
         "url": "/bible-ot/deuteronomy/10"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 30,
+        "url": "/bible-ot/deuteronomy/30"
       }
     ]
   },
@@ -4642,6 +4648,12 @@
         "book": "Deuteronomy",
         "chapter": 10,
         "url": "/bible-ot/deuteronomy/10"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 30,
+        "url": "/bible-ot/deuteronomy/30"
       }
     ]
   },
@@ -6347,6 +6359,12 @@
         "book": "Deuteronomy",
         "chapter": 27,
         "url": "/bible-ot/deuteronomy/27"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 30,
+        "url": "/bible-ot/deuteronomy/30"
       }
     ]
   },
@@ -7435,6 +7453,23 @@
       }
     ]
   },
+  "deuteronomy-30-1-3": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "30",
+      "verse": "1-3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 30,
+        "url": "/bible-ot/deuteronomy/30"
+      }
+    ]
+  },
   "deuteronomy-30-1-4": {
     "target": {
       "book": "Deuteronomy",
@@ -7489,6 +7524,12 @@
         "book": "Deuteronomy",
         "chapter": 10,
         "url": "/bible-ot/deuteronomy/10"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 30,
+        "url": "/bible-ot/deuteronomy/30"
       }
     ]
   },
@@ -19002,6 +19043,23 @@
       }
     ]
   },
+  "isaiah-55-6": {
+    "target": {
+      "book": "Isaiah",
+      "bookSlug": "isaiah",
+      "canon": "bible-ot",
+      "chapter": "55",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 30,
+        "url": "/bible-ot/deuteronomy/30"
+      }
+    ]
+  },
   "isaiah-55-8-9": {
     "target": {
       "book": "Isaiah",
@@ -19857,6 +19915,12 @@
         "book": "Leviticus",
         "chapter": 26,
         "url": "/bible-ot/leviticus/26"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 30,
+        "url": "/bible-ot/deuteronomy/30"
       }
     ]
   },
@@ -19914,6 +19978,12 @@
         "book": "Deuteronomy",
         "chapter": 10,
         "url": "/bible-ot/deuteronomy/10"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 30,
+        "url": "/bible-ot/deuteronomy/30"
       }
     ]
   },
@@ -20005,6 +20075,12 @@
         "book": "Deuteronomy",
         "chapter": 10,
         "url": "/bible-ot/deuteronomy/10"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 30,
+        "url": "/bible-ot/deuteronomy/30"
       }
     ]
   },
@@ -30797,6 +30873,12 @@
         "book": "Deuteronomy",
         "chapter": 10,
         "url": "/bible-ot/deuteronomy/10"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 30,
+        "url": "/bible-ot/deuteronomy/30"
       }
     ]
   },
@@ -30933,6 +31015,23 @@
         "book": "Leviticus",
         "chapter": 20,
         "url": "/bible-ot/leviticus/20"
+      }
+    ]
+  },
+  "proverbs-8-17": {
+    "target": {
+      "book": "Proverbs",
+      "bookSlug": "proverbs",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 30,
+        "url": "/bible-ot/deuteronomy/30"
       }
     ]
   },
@@ -32417,6 +32516,23 @@
       }
     ]
   },
+  "romans-10-6-8": {
+    "target": {
+      "book": "Romans",
+      "bookSlug": "romans",
+      "canon": "bible-nt",
+      "chapter": "10",
+      "verse": "6-8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 30,
+        "url": "/bible-ot/deuteronomy/30"
+      }
+    ]
+  },
   "romans-11-17-24": {
     "target": {
       "book": "Romans",
@@ -32653,6 +32769,12 @@
         "book": "Genesis",
         "chapter": 17,
         "url": "/bible-ot/genesis/17"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Deuteronomy",
+        "chapter": 30,
+        "url": "/bible-ot/deuteronomy/30"
       }
     ]
   },
