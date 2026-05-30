@@ -6744,6 +6744,12 @@
         "book": "Deuteronomy",
         "chapter": 32,
         "url": "/bible-ot/deuteronomy/32"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 8,
+        "url": "/bible-ot/joshua/8"
       }
     ]
   },
@@ -7424,6 +7430,23 @@
       }
     ]
   },
+  "deuteronomy-27-1-8": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "27",
+      "verse": "1-8"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 8,
+        "url": "/bible-ot/joshua/8"
+      }
+    ]
+  },
   "deuteronomy-27-11-26": {
     "target": {
       "book": "Deuteronomy",
@@ -7438,6 +7461,12 @@
         "book": "Deuteronomy",
         "chapter": 11,
         "url": "/bible-ot/deuteronomy/11"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 8,
+        "url": "/bible-ot/joshua/8"
       }
     ]
   },
@@ -8171,6 +8200,23 @@
         "book": "Joshua",
         "chapter": 1,
         "url": "/bible-ot/joshua/1"
+      }
+    ]
+  },
+  "deuteronomy-31-9-13": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "31",
+      "verse": "9-13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 8,
+        "url": "/bible-ot/joshua/8"
       }
     ]
   },
@@ -14186,6 +14232,12 @@
         "book": "Deuteronomy",
         "chapter": 32,
         "url": "/bible-ot/deuteronomy/32"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 8,
+        "url": "/bible-ot/joshua/8"
       }
     ]
   },
@@ -22082,6 +22134,12 @@
         "book": "Deuteronomy",
         "chapter": 27,
         "url": "/bible-ot/deuteronomy/27"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 8,
+        "url": "/bible-ot/joshua/8"
       }
     ]
   },
@@ -23601,6 +23659,40 @@
         "book": "Joshua",
         "chapter": 7,
         "url": "/bible-ot/joshua/7"
+      }
+    ]
+  },
+  "joshua-8-1": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 8,
+        "url": "/bible-ot/joshua/8"
+      }
+    ]
+  },
+  "joshua-8-29": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "29"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 8,
+        "url": "/bible-ot/joshua/8"
       }
     ]
   },
