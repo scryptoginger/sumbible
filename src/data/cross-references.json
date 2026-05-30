@@ -9170,6 +9170,23 @@
       }
     ]
   },
+  "deuteronomy-6-20-25": {
+    "target": {
+      "book": "Deuteronomy",
+      "bookSlug": "deuteronomy",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "20-25"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 4,
+        "url": "/bible-ot/joshua/4"
+      }
+    ]
+  },
   "deuteronomy-6-4": {
     "target": {
       "book": "Deuteronomy",
@@ -22929,6 +22946,12 @@
         "book": "Joshua",
         "chapter": 3,
         "url": "/bible-ot/joshua/3"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 4,
+        "url": "/bible-ot/joshua/4"
       }
     ]
   },
@@ -22946,6 +22969,74 @@
         "book": "Numbers",
         "chapter": 32,
         "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
+  "joshua-4-14": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "4",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 4,
+        "url": "/bible-ot/joshua/4"
+      }
+    ]
+  },
+  "joshua-4-2-3": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "4",
+      "verse": "2-3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 4,
+        "url": "/bible-ot/joshua/4"
+      }
+    ]
+  },
+  "joshua-4-6-7": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "4",
+      "verse": "6-7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 4,
+        "url": "/bible-ot/joshua/4"
+      }
+    ]
+  },
+  "joshua-4-9": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "4",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 4,
+        "url": "/bible-ot/joshua/4"
       }
     ]
   },
