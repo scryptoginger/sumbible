@@ -23968,6 +23968,23 @@
       }
     ]
   },
+  "joshua-19-1": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 19,
+        "url": "/bible-ot/joshua/19"
+      }
+    ]
+  },
   "joshua-19-1--9": {
     "target": {
       "book": "Joshua",
@@ -24005,6 +24022,91 @@
         "book": "Deuteronomy",
         "chapter": 33,
         "url": "/bible-ot/deuteronomy/33"
+      }
+    ]
+  },
+  "joshua-19-40": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "40"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 19,
+        "url": "/bible-ot/joshua/19"
+      }
+    ]
+  },
+  "joshua-19-47": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "47"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 19,
+        "url": "/bible-ot/joshua/19"
+      }
+    ]
+  },
+  "joshua-19-49-50": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "49-50"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 19,
+        "url": "/bible-ot/joshua/19"
+      }
+    ]
+  },
+  "joshua-19-51": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "51"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 19,
+        "url": "/bible-ot/joshua/19"
+      }
+    ]
+  },
+  "joshua-19-9": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 19,
+        "url": "/bible-ot/joshua/19"
       }
     ]
   },
