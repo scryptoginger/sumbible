@@ -23650,6 +23650,159 @@
       }
     ]
   },
+  "joshua-17-1": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 17,
+        "url": "/bible-ot/joshua/17"
+      }
+    ]
+  },
+  "joshua-17-12-13": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "12-13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 17,
+        "url": "/bible-ot/joshua/17"
+      }
+    ]
+  },
+  "joshua-17-14": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 17,
+        "url": "/bible-ot/joshua/17"
+      }
+    ]
+  },
+  "joshua-17-15": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 17,
+        "url": "/bible-ot/joshua/17"
+      }
+    ]
+  },
+  "joshua-17-16": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "16"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 17,
+        "url": "/bible-ot/joshua/17"
+      }
+    ]
+  },
+  "joshua-17-17-18": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "17-18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 17,
+        "url": "/bible-ot/joshua/17"
+      }
+    ]
+  },
+  "joshua-17-2": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 17,
+        "url": "/bible-ot/joshua/17"
+      }
+    ]
+  },
+  "joshua-17-3-4": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "3-4"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 17,
+        "url": "/bible-ot/joshua/17"
+      }
+    ]
+  },
+  "joshua-17-5": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "17",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 17,
+        "url": "/bible-ot/joshua/17"
+      }
+    ]
+  },
   "joshua-18-1": {
     "target": {
       "book": "Joshua",
@@ -32564,6 +32717,12 @@
         "book": "Numbers",
         "chapter": 36,
         "url": "/bible-ot/numbers/36"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 17,
+        "url": "/bible-ot/joshua/17"
       }
     ]
   },
@@ -33537,6 +33696,12 @@
         "book": "Numbers",
         "chapter": 27,
         "url": "/bible-ot/numbers/27"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 17,
+        "url": "/bible-ot/joshua/17"
       }
     ]
   },
