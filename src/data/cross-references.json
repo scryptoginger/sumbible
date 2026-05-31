@@ -1165,6 +1165,23 @@
       }
     ]
   },
+  "1-kings-9-16-17": {
+    "target": {
+      "book": "1 Kings",
+      "bookSlug": "1-kings",
+      "canon": "bible-ot",
+      "chapter": "9",
+      "verse": "16-17"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 16,
+        "url": "/bible-ot/joshua/16"
+      }
+    ]
+  },
   "1-maccabees-2-26": {
     "target": {
       "book": "1-maccabees",
@@ -23550,6 +23567,29 @@
         "book": "Joshua",
         "chapter": 15,
         "url": "/bible-ot/joshua/15"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 16,
+        "url": "/bible-ot/joshua/16"
+      }
+    ]
+  },
+  "joshua-16-1-2": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "16",
+      "verse": "1-2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 16,
+        "url": "/bible-ot/joshua/16"
       }
     ]
   },
@@ -23567,6 +23607,46 @@
         "book": "Deuteronomy",
         "chapter": 20,
         "url": "/bible-ot/deuteronomy/20"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 16,
+        "url": "/bible-ot/joshua/16"
+      }
+    ]
+  },
+  "joshua-16-5": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "16",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 16,
+        "url": "/bible-ot/joshua/16"
+      }
+    ]
+  },
+  "joshua-16-9": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "16",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 16,
+        "url": "/bible-ot/joshua/16"
       }
     ]
   },
@@ -24704,6 +24784,23 @@
         "book": "Numbers",
         "chapter": 34,
         "url": "/bible-ot/numbers/34"
+      }
+    ]
+  },
+  "judges-1-29": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "29"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 16,
+        "url": "/bible-ot/joshua/16"
       }
     ]
   },
