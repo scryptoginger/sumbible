@@ -23573,6 +23573,12 @@
         "book": "Joshua",
         "chapter": 16,
         "url": "/bible-ot/joshua/16"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 18,
+        "url": "/bible-ot/joshua/18"
       }
     ]
   },
@@ -23817,6 +23823,148 @@
         "book": "Genesis",
         "chapter": 49,
         "url": "/bible-ot/genesis/49"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 18,
+        "url": "/bible-ot/joshua/18"
+      }
+    ]
+  },
+  "joshua-18-10": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 18,
+        "url": "/bible-ot/joshua/18"
+      }
+    ]
+  },
+  "joshua-18-11": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 18,
+        "url": "/bible-ot/joshua/18"
+      }
+    ]
+  },
+  "joshua-18-2": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 18,
+        "url": "/bible-ot/joshua/18"
+      }
+    ]
+  },
+  "joshua-18-21-24": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "21-24"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 18,
+        "url": "/bible-ot/joshua/18"
+      }
+    ]
+  },
+  "joshua-18-25-28": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "25-28"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 18,
+        "url": "/bible-ot/joshua/18"
+      }
+    ]
+  },
+  "joshua-18-3": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 18,
+        "url": "/bible-ot/joshua/18"
+      }
+    ]
+  },
+  "joshua-18-4-6": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "4-6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 18,
+        "url": "/bible-ot/joshua/18"
+      }
+    ]
+  },
+  "joshua-18-7": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "18",
+      "verse": "7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 18,
+        "url": "/bible-ot/joshua/18"
       }
     ]
   },
@@ -24903,6 +25051,12 @@
         "book": "Joshua",
         "chapter": 15,
         "url": "/bible-ot/joshua/15"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 18,
+        "url": "/bible-ot/joshua/18"
       }
     ]
   },
