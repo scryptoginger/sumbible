@@ -3264,6 +3264,23 @@
       }
     ]
   },
+  "2-samuel-5-6-9": {
+    "target": {
+      "book": "2 Samuel",
+      "bookSlug": "2-samuel",
+      "canon": "bible-ot",
+      "chapter": "5",
+      "verse": "6-9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 15,
+        "url": "/bible-ot/joshua/15"
+      }
+    ]
+  },
   "2-samuel-6-1-19": {
     "target": {
       "book": "2 Samuel",
@@ -23400,6 +23417,23 @@
       }
     ]
   },
+  "joshua-14-12": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 15,
+        "url": "/bible-ot/joshua/15"
+      }
+    ]
+  },
   "joshua-14-13-15": {
     "target": {
       "book": "Joshua",
@@ -23448,6 +23482,74 @@
         "book": "Numbers",
         "chapter": 26,
         "url": "/bible-ot/numbers/26"
+      }
+    ]
+  },
+  "joshua-15-1": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "15",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 15,
+        "url": "/bible-ot/joshua/15"
+      }
+    ]
+  },
+  "joshua-15-13-14": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "15",
+      "verse": "13-14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 15,
+        "url": "/bible-ot/joshua/15"
+      }
+    ]
+  },
+  "joshua-15-15-19": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "15",
+      "verse": "15-19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 15,
+        "url": "/bible-ot/joshua/15"
+      }
+    ]
+  },
+  "joshua-15-63": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "15",
+      "verse": "63"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 15,
+        "url": "/bible-ot/joshua/15"
       }
     ]
   },
@@ -24520,6 +24622,23 @@
       }
     ]
   },
+  "judges-1-11-15": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "11-15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 15,
+        "url": "/bible-ot/joshua/15"
+      }
+    ]
+  },
   "judges-1-16": {
     "target": {
       "book": "Judges",
@@ -24534,6 +24653,23 @@
         "book": "Numbers",
         "chapter": 10,
         "url": "/bible-ot/numbers/10"
+      }
+    ]
+  },
+  "judges-1-21": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "1",
+      "verse": "21"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 15,
+        "url": "/bible-ot/joshua/15"
       }
     ]
   },
@@ -24670,6 +24806,23 @@
         "book": "Joshua",
         "chapter": 11,
         "url": "/bible-ot/joshua/11"
+      }
+    ]
+  },
+  "judges-3-9-11": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "3",
+      "verse": "9-11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 15,
+        "url": "/bible-ot/joshua/15"
       }
     ]
   },
