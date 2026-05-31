@@ -24445,6 +24445,23 @@
       }
     ]
   },
+  "joshua-22-1-2": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "1-2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 22,
+        "url": "/bible-ot/joshua/22"
+      }
+    ]
+  },
   "joshua-22-1-9": {
     "target": {
       "book": "Joshua",
@@ -24462,6 +24479,23 @@
       }
     ]
   },
+  "joshua-22-10": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 22,
+        "url": "/bible-ot/joshua/22"
+      }
+    ]
+  },
   "joshua-22-10-34": {
     "target": {
       "book": "Joshua",
@@ -24476,6 +24510,176 @@
         "book": "Numbers",
         "chapter": 32,
         "url": "/bible-ot/numbers/32"
+      }
+    ]
+  },
+  "joshua-22-12": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 22,
+        "url": "/bible-ot/joshua/22"
+      }
+    ]
+  },
+  "joshua-22-14": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 22,
+        "url": "/bible-ot/joshua/22"
+      }
+    ]
+  },
+  "joshua-22-16": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "16"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 22,
+        "url": "/bible-ot/joshua/22"
+      }
+    ]
+  },
+  "joshua-22-19": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "19"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 22,
+        "url": "/bible-ot/joshua/22"
+      }
+    ]
+  },
+  "joshua-22-20": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 22,
+        "url": "/bible-ot/joshua/22"
+      }
+    ]
+  },
+  "joshua-22-22": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 22,
+        "url": "/bible-ot/joshua/22"
+      }
+    ]
+  },
+  "joshua-22-24-28": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "24-28"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 22,
+        "url": "/bible-ot/joshua/22"
+      }
+    ]
+  },
+  "joshua-22-30-31": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "30-31"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 22,
+        "url": "/bible-ot/joshua/22"
+      }
+    ]
+  },
+  "joshua-22-34": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "34"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 22,
+        "url": "/bible-ot/joshua/22"
+      }
+    ]
+  },
+  "joshua-22-5": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "22",
+      "verse": "5"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 22,
+        "url": "/bible-ot/joshua/22"
       }
     ]
   },
