@@ -23457,6 +23457,23 @@
       }
     ]
   },
+  "joshua-14-13-14": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "14",
+      "verse": "13-14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 21,
+        "url": "/bible-ot/joshua/21"
+      }
+    ]
+  },
   "joshua-14-13-15": {
     "target": {
       "book": "Joshua",
@@ -24340,6 +24357,91 @@
         "book": "Genesis",
         "chapter": 49,
         "url": "/bible-ot/genesis/49"
+      }
+    ]
+  },
+  "joshua-21-1-2": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "1-2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 21,
+        "url": "/bible-ot/joshua/21"
+      }
+    ]
+  },
+  "joshua-21-12": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 21,
+        "url": "/bible-ot/joshua/21"
+      }
+    ]
+  },
+  "joshua-21-4-7": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "4-7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 21,
+        "url": "/bible-ot/joshua/21"
+      }
+    ]
+  },
+  "joshua-21-41-42": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "41-42"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 21,
+        "url": "/bible-ot/joshua/21"
+      }
+    ]
+  },
+  "joshua-21-43-45": {
+    "target": {
+      "book": "Joshua",
+      "bookSlug": "joshua",
+      "canon": "bible-ot",
+      "chapter": "21",
+      "verse": "43-45"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 21,
+        "url": "/bible-ot/joshua/21"
       }
     ]
   },
@@ -33992,6 +34094,23 @@
         "book": "Numbers",
         "chapter": 35,
         "url": "/bible-ot/numbers/35"
+      }
+    ]
+  },
+  "numbers-35-7": {
+    "target": {
+      "book": "Numbers",
+      "bookSlug": "numbers",
+      "canon": "bible-ot",
+      "chapter": "35",
+      "verse": "7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Joshua",
+        "chapter": 21,
+        "url": "/bible-ot/joshua/21"
       }
     ]
   },
