@@ -18909,6 +18909,23 @@
       }
     ]
   },
+  "hebrews-11-32": {
+    "target": {
+      "book": "Hebrews",
+      "bookSlug": "hebrews",
+      "canon": "bible-nt",
+      "chapter": "11",
+      "verse": "32"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 7,
+        "url": "/bible-ot/judges/7"
+      }
+    ]
+  },
   "hebrews-11-4": {
     "target": {
       "book": "Hebrews",
@@ -26888,6 +26905,125 @@
       }
     ]
   },
+  "judges-6-1": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 6,
+        "url": "/bible-ot/judges/6"
+      }
+    ]
+  },
+  "judges-6-11": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 6,
+        "url": "/bible-ot/judges/6"
+      }
+    ]
+  },
+  "judges-6-12": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "12"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 6,
+        "url": "/bible-ot/judges/6"
+      }
+    ]
+  },
+  "judges-6-13": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 6,
+        "url": "/bible-ot/judges/6"
+      }
+    ]
+  },
+  "judges-6-14": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 6,
+        "url": "/bible-ot/judges/6"
+      }
+    ]
+  },
+  "judges-6-16": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "16"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 6,
+        "url": "/bible-ot/judges/6"
+      }
+    ]
+  },
+  "judges-6-2": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 6,
+        "url": "/bible-ot/judges/6"
+      }
+    ]
+  },
   "judges-6-21": {
     "target": {
       "book": "Judges",
@@ -26905,6 +27041,261 @@
       }
     ]
   },
+  "judges-6-22": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 6,
+        "url": "/bible-ot/judges/6"
+      }
+    ]
+  },
+  "judges-6-23": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "23"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 6,
+        "url": "/bible-ot/judges/6"
+      }
+    ]
+  },
+  "judges-6-31": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "31"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 6,
+        "url": "/bible-ot/judges/6"
+      }
+    ]
+  },
+  "judges-6-32": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "32"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 6,
+        "url": "/bible-ot/judges/6"
+      }
+    ]
+  },
+  "judges-6-34": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "34"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 6,
+        "url": "/bible-ot/judges/6"
+      }
+    ]
+  },
+  "judges-6-36-40": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "36-40"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 6,
+        "url": "/bible-ot/judges/6"
+      }
+    ]
+  },
+  "judges-6-8-10": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "6",
+      "verse": "8-10"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 6,
+        "url": "/bible-ot/judges/6"
+      }
+    ]
+  },
+  "judges-7-1": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 7,
+        "url": "/bible-ot/judges/7"
+      }
+    ]
+  },
+  "judges-7-10-11": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "10-11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 7,
+        "url": "/bible-ot/judges/7"
+      }
+    ]
+  },
+  "judges-7-13-14": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "13-14"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 7,
+        "url": "/bible-ot/judges/7"
+      }
+    ]
+  },
+  "judges-7-15": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 7,
+        "url": "/bible-ot/judges/7"
+      }
+    ]
+  },
+  "judges-7-17-18": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "17-18"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 7,
+        "url": "/bible-ot/judges/7"
+      }
+    ]
+  },
+  "judges-7-2": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "2"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 7,
+        "url": "/bible-ot/judges/7"
+      }
+    ]
+  },
+  "judges-7-20": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 7,
+        "url": "/bible-ot/judges/7"
+      }
+    ]
+  },
+  "judges-7-22": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 7,
+        "url": "/bible-ot/judges/7"
+      }
+    ]
+  },
   "judges-7-3": {
     "target": {
       "book": "Judges",
@@ -26919,6 +27310,182 @@
         "book": "Deuteronomy",
         "chapter": 20,
         "url": "/bible-ot/deuteronomy/20"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 7,
+        "url": "/bible-ot/judges/7"
+      }
+    ]
+  },
+  "judges-7-5-6": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "5-6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 7,
+        "url": "/bible-ot/judges/7"
+      }
+    ]
+  },
+  "judges-7-7": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "7",
+      "verse": "7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 7,
+        "url": "/bible-ot/judges/7"
+      }
+    ]
+  },
+  "judges-8-1": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 8,
+        "url": "/bible-ot/judges/8"
+      }
+    ]
+  },
+  "judges-8-15": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "15"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 8,
+        "url": "/bible-ot/judges/8"
+      }
+    ]
+  },
+  "judges-8-2-3": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "2-3"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 8,
+        "url": "/bible-ot/judges/8"
+      }
+    ]
+  },
+  "judges-8-20": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "20"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 8,
+        "url": "/bible-ot/judges/8"
+      }
+    ]
+  },
+  "judges-8-22": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 8,
+        "url": "/bible-ot/judges/8"
+      }
+    ]
+  },
+  "judges-8-23": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "23"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 8,
+        "url": "/bible-ot/judges/8"
+      }
+    ]
+  },
+  "judges-8-24": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "24"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 8,
+        "url": "/bible-ot/judges/8"
+      }
+    ]
+  },
+  "judges-8-27": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "27"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 8,
+        "url": "/bible-ot/judges/8"
       }
     ]
   },
@@ -26936,6 +27503,80 @@
         "book": "Joshua",
         "chapter": 11,
         "url": "/bible-ot/joshua/11"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 8,
+        "url": "/bible-ot/judges/8"
+      }
+    ]
+  },
+  "judges-8-33-35": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "33-35"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 8,
+        "url": "/bible-ot/judges/8"
+      }
+    ]
+  },
+  "judges-8-6": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "6"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 8,
+        "url": "/bible-ot/judges/8"
+      }
+    ]
+  },
+  "judges-8-7": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 8,
+        "url": "/bible-ot/judges/8"
+      }
+    ]
+  },
+  "judges-8-9": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "8",
+      "verse": "9"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 8,
+        "url": "/bible-ot/judges/8"
       }
     ]
   },
