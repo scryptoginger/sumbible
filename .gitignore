@@ -74,3 +74,10 @@ SESSION_22_PROGRESS.md
 SESSION_22_HALT.md
 SESSION_23_PROGRESS.md
 SESSION_23_HALT.md
+
+# Generic session working-memory pattern (per-session progress/halt/task files
+# are local-only working documents — never committed)
+SESSION_*_PROGRESS.md
+SESSION_*_HALT.md
+SESSION_*_TASK.md
+SESSION_*_PR_BODY.md
