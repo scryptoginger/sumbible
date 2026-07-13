@@ -1559,6 +1559,23 @@
       }
     ]
   },
+  "1-samuel-11-7": {
+    "target": {
+      "book": "1 Samuel",
+      "bookSlug": "1-samuel",
+      "canon": "bible-ot",
+      "chapter": "11",
+      "verse": "7"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 19,
+        "url": "/bible-ot/judges/19"
+      }
+    ]
+  },
   "1-samuel-14-41": {
     "target": {
       "book": "1 Samuel",
@@ -15812,6 +15829,23 @@
       }
     ]
   },
+  "genesis-19-1-11": {
+    "target": {
+      "book": "Genesis",
+      "bookSlug": "genesis",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "1-11"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 19,
+        "url": "/bible-ot/judges/19"
+      }
+    ]
+  },
   "genesis-19-30-38": {
     "target": {
       "book": "Genesis",
@@ -27747,6 +27781,12 @@
         "book": "Judges",
         "chapter": 17,
         "url": "/bible-ot/judges/17"
+      },
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 19,
+        "url": "/bible-ot/judges/19"
       }
     ]
   },
@@ -28005,6 +28045,57 @@
       }
     ]
   },
+  "judges-19-1": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "1"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 19,
+        "url": "/bible-ot/judges/19"
+      }
+    ]
+  },
+  "judges-19-22": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "22"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 19,
+        "url": "/bible-ot/judges/19"
+      }
+    ]
+  },
+  "judges-19-29": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "19",
+      "verse": "29"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 19,
+        "url": "/bible-ot/judges/19"
+      }
+    ]
+  },
   "judges-2-1": {
     "target": {
       "book": "Judges",
@@ -28246,6 +28337,23 @@
         "book": "Judges",
         "chapter": 18,
         "url": "/bible-ot/judges/18"
+      }
+    ]
+  },
+  "judges-20-13": {
+    "target": {
+      "book": "Judges",
+      "bookSlug": "judges",
+      "canon": "bible-ot",
+      "chapter": "20",
+      "verse": "13"
+    },
+    "citedBy": [
+      {
+        "canon": "bible-ot",
+        "book": "Judges",
+        "chapter": 19,
+        "url": "/bible-ot/judges/19"
       }
     ]
   },
