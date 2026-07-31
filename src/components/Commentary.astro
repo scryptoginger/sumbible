@@ -1,0 +1,25 @@
+---
+// Editorial commentary on a related text — SumBible's own summary and
+// orientation, kept visually and structurally distinct from the source text
+// it discusses (see SourceText.astro). Anything inside this component is
+// SumBible editorial voice, not the author being reproduced.
+//
+// The slot accepts markdown/MDX content.
+interface Props {
+  title?: string;
+}
+
+const { title = 'Summary & Commentary' } = Astro.props;
+---
+
+<section class="my-8 rounded-lg border border-stone-300 bg-stone-50/70 p-5 sm:p-6">
+  <h2 class="mt-0 text-sm font-semibold tracking-wider text-stone-600 uppercase">
+    {title}
+  </h2>
+  <p class="mt-1 text-xs text-stone-500">
+    SumBible editorial commentary — not part of the text below.
+  </p>
+  <div class="prose prose-stone mt-4 max-w-none prose-headings:font-serif">
+    <slot />
+  </div>
+</section>

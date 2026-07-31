@@ -1,0 +1,113 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Sources from '../../../components/Sources.astro';
+import Commentary from '../../../components/Commentary.astro';
+import SourceText from '../../../components/SourceText.astro';
+import VerseRef from '../../../components/VerseRef.astro';
+import LangNote from '../../../components/LangNote.astro';
+import LangNotes from '../../../components/LangNotes.astro';
+import TranslationCompare from '../../../components/TranslationCompare.astro';
+import ScriptureBlock from '../../../components/ScriptureBlock.astro';
+
+export const getStaticPaths = (async () => {
+  const [parents, parts] = await Promise.all([
+    getCollection('relatedTexts'),
+    getCollection('relatedTextParts'),
+  ]);
+  const parentBySlug = new Map(parents.map((p) => [p.data.slug, p]));
+
+  return parts.map((entry) => {
+    // Siblings of the same work, in publication order — drives prev/next.
+    const siblings = parts
+      .filter((p) => p.data.parentSlug === entry.data.parentSlug)
+      .sort((a, b) => a.data.part - b.data.part);
+    const idx = siblings.findIndex((p) => p.id === entry.id);
+
+    return {
+      params: { slug: entry.data.parentSlug, part: entry.data.slug },
+      props: {
+        entry,
+        parent: parentBySlug.get(entry.data.parentSlug),
+        prev: idx > 0 ? siblings[idx - 1] : undefined,
+        next: idx < siblings.length - 1 ? siblings[idx + 1] : undefined,
+        total: siblings.length,
+      },
+    };
+  });
+}) satisfies GetStaticPaths;
+
+const { entry, parent, prev, next, total } = Astro.props;
+const { Content } = await render(entry);
+const data = entry.data;
+const mdxComponents = {
+  Commentary,
+  SourceText,
+  LangNote,
+  LangNotes,
+  TranslationCompare,
+  VerseRef,
+  ScriptureBlock,
+};
+
+const parentName = parent?.data.name ?? data.parentSlug;
+const partHref = (p: { data: { parentSlug: string; slug: string } }) =>
+  `/related-texts/${p.data.parentSlug}/${p.data.slug}`;
+---
+
+<BaseLayout
+  title={`${parentName} — Part ${data.part}`}
+  noindex={data.status !== 'published'}
+>
+  <nav class="text-sm text-stone-500" aria-label="Breadcrumb">
+    <a href="/" class="hover:text-accent">Home</a>
+    <span class="mx-1.5 text-stone-400">&rsaquo;</span>
+    <a href="/related-texts" class="hover:text-accent">Related Texts</a>
+    <span class="mx-1.5 text-stone-400">&rsaquo;</span>
+    <a href={`/related-texts/${data.parentSlug}`} class="hover:text-accent">{parentName}</a>
+    <span class="mx-1.5 text-stone-400">&rsaquo;</span>
+    <span class="text-stone-700">Part {data.part}</span>
+  </nav>
+
+  <p class="mt-4 text-sm font-semibold tracking-wider text-stone-500 uppercase">
+    Part {data.part} of {total}
+  </p>
+  <h1 class="mt-1 font-serif text-3xl font-bold text-ink sm:text-4xl">
+    {data.title}
+  </h1>
+  {data.originalPublication && (
+    <p class="mt-2 text-sm text-stone-500">{data.originalPublication}</p>
+  )}
+
+  <article class="max-w-none">
+    <Content components={mdxComponents} />
+  </article>
+
+  {data.sources.length > 0 && <Sources sources={data.sources} />}
+
+  <nav
+    class="mt-12 flex flex-col gap-3 border-t border-stone-300 pt-6 text-sm sm:flex-row sm:justify-between"
+    aria-label="Part navigation"
+  >
+    {prev ? (
+      <a href={partHref(prev)} class="text-stone-600 transition hover:text-accent">
+        &larr; Part {prev.data.part}: {prev.data.title}
+      </a>
+    ) : (
+      <span></span>
+    )}
+    {next ? (
+      <a href={partHref(next)} class="text-stone-600 transition hover:text-accent sm:text-right">
+        Part {next.data.part}: {next.data.title} &rarr;
+      </a>
+    ) : (
+      <a
+        href={`/related-texts/${data.parentSlug}`}
+        class="text-stone-600 transition hover:text-accent sm:text-right"
+      >
+        Back to all parts &rarr;
+      </a>
+    )}
+  </nav>
+</BaseLayout>
