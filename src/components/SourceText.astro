@@ -1,0 +1,49 @@
+---
+// A reproduced source text, presented under its own attribution header so a
+// reader can never mistake it for SumBible's editorial voice. Pair with
+// Commentary.astro, which carries the editorial summary.
+//
+// The slot accepts markdown/MDX content.
+interface Props {
+  author?: string;
+  publication?: string;
+  note?: string;
+}
+
+const { author, publication, note } = Astro.props;
+---
+
+<section class="my-8">
+  <div class="border-l-2 border-accent/40 pl-4">
+    <h2 class="mt-0 text-sm font-semibold tracking-wider text-stone-600 uppercase">
+      The Text
+    </h2>
+    <p class="mt-1 text-xs text-stone-500">
+      {author && <>By {author}. </>}
+      {publication && <>Originally published in {publication}. </>}
+      Reproduced as written; emphasis and citations are the author's own.
+    </p>
+    {note && <p class="mt-1 text-xs text-stone-500">{note}</p>}
+  </div>
+
+  <div class="prose prose-stone mt-6 max-w-none prose-headings:font-serif">
+    <slot />
+  </div>
+</section>
+
+<style>
+  /* Nibley's side-by-side comparison tables are wider than the measure.
+     Let them scroll inside their own box rather than push the page. */
+  .prose :global(table) {
+    display: block;
+    width: max-content;
+    max-width: 100%;
+    overflow-x: auto;
+    font-size: 0.875rem;
+  }
+  .prose :global(td),
+  .prose :global(th) {
+    min-width: 16rem;
+    vertical-align: top;
+  }
+</style>

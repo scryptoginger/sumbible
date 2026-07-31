@@ -4,6 +4,8 @@ import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Sources from '../../components/Sources.astro';
 import SectionDivider from '../../components/SectionDivider.astro';
+import Commentary from '../../components/Commentary.astro';
+import SourceText from '../../components/SourceText.astro';
 import VerseRef from '../../components/VerseRef.astro';
 import LangNote from '../../components/LangNote.astro';
 import LangNotes from '../../components/LangNotes.astro';
@@ -22,7 +24,22 @@ export const getStaticPaths = (async () => {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const data = entry.data;
-const mdxComponents = { LangNote, LangNotes, TranslationCompare, VerseRef, ScriptureBlock };
+const mdxComponents = {
+  Commentary,
+  SourceText,
+  LangNote,
+  LangNotes,
+  TranslationCompare,
+  VerseRef,
+  ScriptureBlock,
+};
+
+// Long-form works split into installments (see relatedTextParts). Empty for
+// ordinary single-page entries, in which case no parts index renders.
+const allParts = await getCollection('relatedTextParts');
+const parts = allParts
+  .filter((p) => p.data.parentSlug === data.slug)
+  .sort((a, b) => a.data.part - b.data.part);
 
 const categoryLabel: Record<string, string> = {
   'ancient-extracanonical': 'Ancient Extracanonical',
@@ -61,6 +78,37 @@ const canonName = (slug: CanonSlug) => canons[slug].name;
   <article class="prose prose-stone max-w-none">
     <Content components={mdxComponents} />
   </article>
+
+  {parts.length > 0 && (
+    <section class="mt-10">
+      <h2 class="text-sm font-semibold tracking-wider text-stone-500 uppercase">
+        Read the full text
+      </h2>
+      <p class="mt-1 text-sm text-stone-500">
+        {parts.length} installments. Each part carries its own summary and
+        commentary, followed by the complete text of that installment.
+      </p>
+      <ol class="mt-4 divide-y divide-stone-200 border-y border-stone-200">
+        {parts.map((p) => (
+          <li>
+            <a
+              href={`/related-texts/${p.data.parentSlug}/${p.data.slug}`}
+              class="flex flex-col gap-1 py-3 transition hover:text-accent sm:flex-row sm:items-baseline sm:justify-between sm:gap-4"
+            >
+              <span class="font-medium text-ink">
+                <span class="text-stone-500">Part {p.data.part}.</span> {p.data.title}
+              </span>
+              {p.data.originalPublication && (
+                <span class="shrink-0 text-sm text-stone-500">
+                  {p.data.originalPublication}
+                </span>
+              )}
+            </a>
+          </li>
+        ))}
+      </ol>
+    </section>
+  )}
 
   {data.canonicalReferences.length > 0 && (
     <section class="mt-8 rounded border border-stone-200 bg-stone-50/40 p-4">

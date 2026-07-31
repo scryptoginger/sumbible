@@ -219,6 +219,35 @@ const relatedTextSchema = z.object({
   reviewedOn: z.string().optional(),
 });
 
+// Related-text parts: for long-form related texts originally published
+// serially (or simply too long to read on one page), each installment gets
+// its own MDX file and its own page nested under the parent entry's URL.
+// The parent entry stays in `relatedTexts` and acts as the table of contents;
+// parts never surface in the /related-texts index on their own.
+const relatedTextPartSchema = z.object({
+  parentSlug: z.string(),                     // relatedTexts slug this part belongs to
+  part: z.number().int().positive(),          // ordinal — drives sequence and prev/next
+  slug: z.string(),                           // url-safe, e.g. "part-01"
+  title: z.string(),                          // display title for this installment
+  originalPublication: z.string().optional(), // e.g. "Ensign, October 1975"
+  highlightSummary: z.string().min(40).max(600),
+
+  themes: z.array(z.string()).default([]),
+
+  sources: z.array(z.object({
+    title: z.string(),
+    author: z.string().optional(),
+    url: z.url().optional(),
+    note: z.string().optional(),
+  })).default([]),
+
+  status: statusEnum.default('draft'),
+  draftedBy: z.string().optional(),
+  draftedOn: z.string().optional(),
+  reviewedBy: z.string().optional(),
+  reviewedOn: z.string().optional(),
+});
+
 export const collections = {
   chapters: defineCollection({
     loader: glob({ pattern: '**/*.mdx', base: './src/content/chapters' }),
@@ -235,5 +264,9 @@ export const collections = {
   relatedTexts: defineCollection({
     loader: glob({ pattern: '*.mdx', base: './src/content/related-texts' }),
     schema: relatedTextSchema,
+  }),
+  relatedTextParts: defineCollection({
+    loader: glob({ pattern: '**/*.mdx', base: './src/content/related-text-parts' }),
+    schema: relatedTextPartSchema,
   }),
 };
